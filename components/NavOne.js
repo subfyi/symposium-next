@@ -93,7 +93,7 @@ class NavOne extends Component {
                                         </div>
                                         <div className="header-btn ml-auto">
                                             <Link href="https://portal.iseser.com">
-                                                <a target="_blank" className="theme-btn">User Area</a>
+                                                <a  className="theme-btn">User Area</a>
                                             </Link>
                                         </div>
                                     </div>
