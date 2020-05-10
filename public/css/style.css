@@ -95,7 +95,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     line-height: 26px;
-    color: #818181;
+    color: #212529;
     font-weight: 400;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -113,6 +113,9 @@ ul {
     margin: 0;
     list-style: none;
 }
+a {
+    color: #a74828;
+}
 a,
 a:hover {
     text-decoration: none;
@@ -123,6 +126,12 @@ a:hover {
 .tg > tbody > tr > td {
     border: 1px solid #ededed;
     padding: 2px 8px;
+}
+.tb-full{
+    width: -webkit-fill-available;
+}
+.important-notice{
+    color: #ff0000;
 }
 /*=============================
     general-style
@@ -178,16 +187,28 @@ a:hover {
 }
 /*=== section-heading ====*/
 .section-heading .section__title {
+    border-color: #a74828;
+    line-height: 1;
+    margin-top: 0;
+    margin-bottom: 26px;
+    border-bottom: 2px solid #222;
     font-size: 50px;
     line-height: 60px;
     font-weight: 700;
 }
 .section-heading .section__meta {
-    color: #863bae;
     font-size: 14px;
+    line-height: 1;
+    margin-top: 0;
+    margin-bottom: 26px;
+    border-bottom: 2px solid #a74828;
+    color: #a74828;
+    width: max-content;
+    margin: 20px;
+
+
+    font-weight: 700;
     text-transform: uppercase;
-    font-weight: 500;
-    margin-top: 8px;
     display: block;
 }
 /*===text__white ====*/
@@ -437,7 +458,7 @@ a:hover {
     position: absolute;
     left: 0;
     top: 120%;
-    min-width: 230px;
+    min-width: 270px;
     background-color: #fff;
     -webkit-border-radius: 0 0 2px 2px;
     -moz-border-radius: 0 0 2px 2px;
@@ -928,7 +949,7 @@ a:hover {
     transform: skew(-12deg,0deg);
 }
 .slider-area .slide-bg1 {
-    background-image: url("../slider/fotograf_21.jpg");
+    background-image: url("../slider/fotograf_23.jpg");
 }
 .slider-area .slide-bg2 {
     background-image: url("../slider/fotograf_22.jpg");
@@ -937,7 +958,7 @@ a:hover {
     background-image: url("../slider/fotograf_20.jpg");
 }
 .slider-area .slide-bg4 {
-    background-image: url("../slider/fotograf_23.jpg");
+    background-image: url("../slider/fotograf_21.jpg");
 }
 .slider-area .slide-bg5 {
     background-image: url("../slider/fotograf_24.jpg");
@@ -1546,8 +1567,8 @@ a:hover {
     width: 100%;
     height: 100%;
     z-index: 1;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 /*=== heart-icon ===*/
 .service-area .heart-icon {
@@ -1974,8 +1995,8 @@ a:hover {
     ABOUT AREA
 =====================================*/
 .about-area {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 25px;
+    padding-bottom: 100px;
 }
 .about-area .about-large-img {
     margin-bottom: 60px;
@@ -1991,6 +2012,20 @@ a:hover {
     line-height: 30px;
     margin-top: 5px;
 }
+
+ .section-heading .section__desc ul {
+    padding-left: 30px;
+}
+
+ .section__desc ul li{
+    list-style: square;
+}
+
+
+.section-heading .section__desc ol {
+    padding-left: 30px;
+}
+
 /*===================================
     FAQ AREA
 =====================================*/
@@ -3344,7 +3379,7 @@ a:hover {
     max-width: 1430px;
 }
 .gallery-area .section-heading .section__meta {
-    color: #bfbfbf;
+    color: #e36955;
 }
 .gallery-area .gallery-wrap {
     margin-top: 51px;
@@ -4557,18 +4592,16 @@ a:hover {
 
 /*==== footer-area ===*/
 .footer-area {
-    background-image: url("../images/footer-bg.jpg");
+    background-color: #333;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     position: relative;
     z-index: 1;
-    padding-top: 120px;
+    padding-top: 50px;
     overflow: hidden;
 }
 .footer-area .footer-top {
-    padding-top: 92px;
-    padding-bottom: 100px;
 }
 .footer-area .footer-widget-wrap .footer-item a,
 .footer-area .footer-widget-wrap .footer-item p,

@@ -6,7 +6,7 @@ const Map = () => {
         <section className="map-area">
             <div id="map">
                 <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4562.753041141002!2d-118.80123790098536!3d34.152323469614075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e82469c2162619%3A0xba03efb7998eef6d!2sCostco+Wholesale!5e0!3m2!1sbn!2sbd!4v1562518641290!5m2!1sbn!2sbd" className="map" allowFullScreen="">
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3117.6863909310614!2d27.378159015341968!3d38.61008787961599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b99cdc6eb147a3%3A0x798a617a9e68f51!2sManisa%20Celal%20Bayar%20%C3%9Cniversitesi%20S%C3%BCleyman%20Demirel%20K%C3%BClt%C3%BCr%20Merkezi!5e0!3m2!1sen!2str!4v1574170108828!5m2!1sen!2str" className="map" allowFullScreen="">
 
                 </iframe>
 

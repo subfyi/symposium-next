@@ -5,6 +5,7 @@ import PageHeader from "../components/PageHeader";
 import Footer from "../components/Footer";
 import Contact from "../components/Contact";
 import Map from "../components/Map";
+import MixerAreaTwo from "../components/MixerAreaTwo";
 
 
 const ContactPage = () => {
@@ -13,7 +14,8 @@ const ContactPage = () => {
             <NavOne />
             <PageHeader title="Contact" />
             <Contact />
-            <Map />
+
+            <MixerAreaTwo/>
             <Footer />
         </Layout>
     );

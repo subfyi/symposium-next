@@ -13,16 +13,19 @@ import Footer from "../components/Footer";
 
 const AboutPage = () => {
     return (
-        <Layout pageTitle="Honorary Committee | ISESER2020">
+        <Layout pageTitle="IMPORTANT DATES
+ | ISESER2020">
             <NavOne/>
-            <PageHeader title="Honorary Committee"/>
+            <PageHeader title="IMPORTANT DATES
+"/>
             <section className="about-area">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="about-heading">
                                 <div className="section-heading">
-                                    <h2 className="section__title">Honorary Committee
+                                    <h2 className="section__title">IMPORTANT DATES
+
                                     </h2>
                                 </div>
                             </div>
@@ -32,24 +35,12 @@ const AboutPage = () => {
                                 <div className="section-heading">
 
                                     <p className="section__desc">
-                                        <table className="tg">
-
-                                            <tbody>
-                                            <tr>
-                                                <td>Prof. Dr. Ahmet Ataç, Manisa Celal Bayar University Rector, Manisa, Turkey</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Prof. Dr. Alush Musaj, University of Mitrovica “Isa Boletini” (UMIB), Mitrovica, Kosovo</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Prof. Dr. Babür Özçelik, Konya Technical University Rector, Konya, Turkey</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Prof. Dr. Mustafa Şahin, Selçuk University Rector, Konya, Turkey</td>
-                                            </tr>
-                                            </tbody>
-
-                                        </table>
+                                        <ul>
+                                            <li>Registration and Abstract Submission Date: 04 June 2020</li>
+                                            <li>Full Text Deadline: 20 July 2020</li>
+                                            <li>Presentation Video Deadline: 25 June 2020</li>
+                                            <li>Symposium Date: 4-5 July 2020</li>
+                                        </ul>
                                     </p>
                                 </div>
                             </div>

@@ -24,7 +24,6 @@ const AboutPage = () => {
                                 <div className="section-heading">
                                     <h2 className="section__title">ORGANIZATION COMMITTEE
                                     </h2>
-                                    <hr/>
                                 </div>
                             </div>
                         </div>

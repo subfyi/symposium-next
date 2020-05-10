@@ -3,17 +3,17 @@ import Layout from "../components/Layout";
 import NavOne from "../components/NavOne";
 import PageHeader from "../components/PageHeader";
 import Footer from "../components/Footer";
-import EventsDetail from "../components/EventsDetail";
+import Volunteer from "../components/Volunteer";
 
-const EventsDetailPage = () => {
+const VolunteerPage = () => {
     return (
-        <Layout pageTitle="Oxpitan | Events Detail">
+        <Layout pageTitle="Register | Volunteer">
             <NavOne />
-            <PageHeader title="Events Detail" />
-            <EventsDetail />
+            <PageHeader title="Register" />
+            <Volunteer />
             <Footer />
         </Layout>
     );
 };
 
-export default EventsDetailPage;
+export default VolunteerPage;
