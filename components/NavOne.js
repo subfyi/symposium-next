@@ -20,7 +20,7 @@ class NavOne extends Component {
 
       if (window.scrollY > 100) {
         this.setState({
-            sticky: true
+            sticky: false
         });
       } else if (window.scrollY < 100) {
         this.setState({
@@ -88,13 +88,13 @@ class NavOne extends Component {
                                         <div className="ostion-logo">
                                             <Link href="/">
                                                 <a>
-                                                    <img src="/images/logo.png" alt="Oxpitan" title="Oxpitan" />
+                                                    <img src="/images/v6_telifsiz-300x72.png" alt="Oxpitan" title="Oxpitan" />
                                                 </a>
                                             </Link>
                                         </div>
                                         <div className="header-btn ml-auto">
-                                            <Link href="/donate">
-                                                <a className="theme-btn">donate now</a>
+                                            <Link href="https://portal.iseser.com">
+                                                <a target="_blank" className="theme-btn">User Area</a>
                                             </Link>
                                         </div>
                                     </div>
@@ -105,33 +105,29 @@ class NavOne extends Component {
                                             <div className="navigation-top">
                                                 <nav className="main-navigation">
                                                     <ul>
-                                                        <li className="active"><Link href="/"><a>Home</a></Link>
+                                                        <li className="active"><Link href="/"><a>home</a></Link>
                                                             <ul className="dropdown-menu-item">
                                                                 <li><Link href="/"><a>Home 1</a></Link></li>
                                                                 <li><Link href="/index2"><a>Home 2</a></Link></li>
                                                             </ul>
                                                         </li>
-                                                        <li><a href="#">causes</a>
+                                                        <li><a href="#">Comittiees</a>
                                                             <ul className="dropdown-menu-item">
                                                                 <li><Link href="/causes"><a>causes</a></Link></li>
                                                                 <li><Link href="/causes-detail"><a>causes detail</a></Link></li>
                                                                 <li><Link href="/donate"><a>donate now</a></Link></li>
                                                             </ul>
                                                         </li>
-                                                        <li><a href="#">events</a>
+                                                        <li><a href="#">General Information</a>
                                                             <ul className="dropdown-menu-item">
                                                                 <li><Link href="/events"><a>events</a></Link></li>
                                                                 <li><Link href="/events-detail"><a>events detail</a></Link></li>
                                                             </ul>
                                                         </li>
-                                                        <li><a href="#">news</a>
+                                                        <li><a href="#">Symposium Fee</a>
                                                             <ul className="dropdown-menu-item">
                                                                 <li><Link href="/news"><a>news</a></Link></li>
                                                                 <li><Link href="/single-news"><a>news detail</a></Link></li>
-                                                            </ul>
-                                                        </li>
-                                                        <li><a href="#">pages</a>
-                                                            <ul className="dropdown-menu-item">
                                                                 <li><Link href="/about"><a>about</a></Link></li>
                                                                 <li><Link href="/gallery"><a>gallery</a></Link></li>
                                                                 <li><Link href="/volunteer"><a>become a volunteer</a></Link></li>
@@ -139,7 +135,7 @@ class NavOne extends Component {
                                                                 <li><Link href="/sponsor"><a>sponsors</a></Link></li>
                                                             </ul>
                                                         </li>
-                                                        <li><Link href="/contact"><a>contact</a></Link></li>
+                                                        <li><Link href="/contact"><a>Contact</a></Link></li>
                                                     </ul>
                                                 </nav>
                                             </div>

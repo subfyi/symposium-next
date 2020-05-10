@@ -117,7 +117,13 @@ a,
 a:hover {
     text-decoration: none;
 }
-
+.tg{
+    width: -webkit-fill-available;
+}
+.tg > tbody > tr > td {
+    border: 1px solid #ededed;
+    padding: 2px 8px;
+}
 /*=============================
     general-style
  =============================*/
@@ -475,7 +481,7 @@ a:hover {
     font-size: 16px;
     font-weight: 500;
     display: block;
-    margin: 0 22px;
+    margin: 0 10px;
     padding-bottom: 17px;
     -webkit-transition: 0.3s ease;
     -moz-transition: 0.3s ease;
@@ -899,7 +905,7 @@ a:hover {
     background-position: center center;
     background-size: cover;
     color: #fff;
-    height: 840px;
+    height: 440px;
     position: relative;
     z-index: 1;
     overflow: hidden;
@@ -908,12 +914,13 @@ a:hover {
     content: "";
     position: absolute;
     display: block;
-    width: 852px;
+    width: 452px;
     height: 100%;
     top: 0;
-    left: -110px;
+    left: -50px;
     z-index: -1;
-    background-color: rgba(134, 59, 174, 0.90);
+    background-color: rgb(167, 72, 40);
+    opacity: 40%;
     -webkit-transform: skew(-12deg,0deg);
     -moz-transform: skew(-12deg,0deg);
     -ms-transform: skew(-12deg,0deg);
@@ -921,19 +928,19 @@ a:hover {
     transform: skew(-12deg,0deg);
 }
 .slider-area .slide-bg1 {
-    background-image: url("../images/slider1.jpg");
+    background-image: url("../slider/fotograf_21.jpg");
 }
 .slider-area .slide-bg2 {
-    background-image: url("../images/slider2.jpg");
+    background-image: url("../slider/fotograf_22.jpg");
 }
 .slider-area .slide-bg3 {
-    background-image: url("../images/slider3.jpg");
+    background-image: url("../slider/fotograf_20.jpg");
 }
 .slider-area .slide-bg4 {
-    background-image: url("../images/slider4.jpg");
+    background-image: url("../slider/fotograf_23.jpg");
 }
 .slider-area .slide-bg5 {
-    background-image: url("../images/slider5.jpg");
+    background-image: url("../slider/fotograf_24.jpg");
 }
 .slider-area .slide-item-table {
     display: table;
@@ -947,10 +954,25 @@ a:hover {
 
 /*=== slider-heading ===*/
 .slider-area .slider-heading .slider__meta {
+    z-index: 5;
+    min-width: 335px;
+    max-width: 335px;
+    white-space: nowrap;
+    font-weight: 400;
+    background-color: rgb(167, 72, 40);
+    visibility: inherit;
+    transition: none 0s ease 0s;
+    text-align: inherit;
+    line-height: 29px;
+    border-width: 0px;
+    margin: 0px;
+    padding: 0px 9px;
+    letter-spacing: 0px;
+    min-height: 30px;
+    max-height: 30px;
     font-size: 20px;
     color: #fff;
     text-transform: uppercase;
-    border-bottom: 1px solid #fff;
     display: inline-block;
     margin-bottom: 12px;
 }
@@ -1256,10 +1278,10 @@ a:hover {
     color: #424242;
 }
 .breadcrumb-area .breadcrumb-content {
-   text-align: center;
+    text-align: center;
     position: relative;
-    padding-top: 110px;
-    padding-bottom: 115px;
+    /* padding-top: 110px; */
+    padding-bottom: 50px;
 }
 .breadcrumb-area .breadcrumb-content .breadcrumb__title {
     font-size: 60px;
@@ -1524,8 +1546,8 @@ a:hover {
     width: 100%;
     height: 100%;
     z-index: 1;
-    padding-top: 90px;
-    padding-bottom: 120px;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 /*=== heart-icon ===*/
 .service-area .heart-icon {
@@ -1696,12 +1718,12 @@ a:hover {
 .mixer-area {
     position: relative;
     z-index: 1;
-    background-image: url("../images/mixer-bg.jpg");
+    background-color: #f2f0ec;
     background-size: cover;
-    background-position: center;
+    background-position: left;
     background-attachment: fixed;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .mixer-area:after {
     position: absolute;
@@ -1856,7 +1878,7 @@ a:hover {
     MIXER AREA 3
 =====================================*/
 .mixer-area3 {
-    background-image: url("../images/mixer-bg2.jpg");
+    background-color: #f2f0ec;
 }
 .mixer-area3:after {
     background-color: rgba(66, 66, 66, 0.80);
@@ -1967,7 +1989,7 @@ a:hover {
 }
 .about-area .about-heading .section-heading .section__desc {
     line-height: 30px;
-    margin-top: 45px;
+    margin-top: 5px;
 }
 /*===================================
     FAQ AREA
