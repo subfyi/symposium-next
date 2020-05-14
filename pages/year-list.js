@@ -63,10 +63,10 @@ const AboutPage = () => {
                                                     1
                                                 </td>
                                                 <td>
-                                                    A new form of network coded cooperative transmission for multiple access channels
+                                                   aaa
                                                 </td>
                                                 <td>
-                                                    Zhiguo Ding ; Kin K. Leung ; Dennis L. Goeckel ; Don Towsley
+                                                  ssss
                                                 </td>
                                                 <td>
                                                     2008, Page(s): 1 - 6
