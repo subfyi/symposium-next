@@ -32,7 +32,7 @@ const AboutPage = () => {
                                 <div className="section-heading">
 
                                     <div className="section__desc">
-                                        <table className="table table-responsive table-striped tb-full">
+                                        <table className="table  table-striped tb-full">
                                             <tbody>
                                             <tr>
                                                 <td><strong><em>Payment Types</em></strong>
