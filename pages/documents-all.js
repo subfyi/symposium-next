@@ -22,7 +22,7 @@ const AboutPage = () => {
                         <div className="col-lg-12">
                             <div className="about-heading">
                                 <div className="section-heading">
-                                    <h2 className="section__title">Old Symposium
+                                    <h2 className="section__title">Old Symposium Documents
                                     </h2>
                                 </div>
                             </div>

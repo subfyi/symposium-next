@@ -13,18 +13,16 @@ import Footer from "../components/Footer";
 
 const AboutPage = () => {
     return (
-        <Layout pageTitle="IMPORTANT DATES
- | ISESER2020">
+        <Layout pageTitle="Important Dates | ISESER2020">
             <NavOne/>
-            <PageHeader title="IMPORTANT DATES
-"/>
+            <PageHeader title="Important Dates"/>
             <section className="about-area">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="about-heading">
                                 <div className="section-heading">
-                                    <h2 className="section__title">IMPORTANT DATES
+                                    <h2 className="section__title">Important Dates
 
                                     </h2>
                                 </div>

@@ -4,7 +4,6 @@ import NavOne from "../components/NavOne";
 import PageHeader from "../components/PageHeader";
 import Footer from "../components/Footer";
 import Contact from "../components/Contact";
-import Map from "../components/Map";
 import MixerAreaTwo from "../components/MixerAreaTwo";
 
 

@@ -2,27 +2,21 @@ import React from 'react';
 import Layout from "../components/Layout";
 import NavOne from "../components/NavOne";
 import PageHeader from "../components/PageHeader";
-import AboutArea from "../components/AboutArea";
 import MixerAreaTwo from "../components/MixerAreaTwo";
-import CallToAction from "../components/CallToAction";
-import TeamArea from "../components/TeamArea";
-import FaqArea from "../components/FaqArea";
-import ServiceArea from "../components/ServiceArea";
-import ClientsLogoTwo from "../components/ClientsLogoTwo";
 import Footer from "../components/Footer";
 
 const AboutPage = () => {
     return (
-        <Layout pageTitle="SPONSORS | ISESER2020">
+        <Layout pageTitle="Sponsors | ISESER2020">
             <NavOne/>
-            <PageHeader title="SPONSORS"/>
+            <PageHeader title="Sponsors"/>
             <section className="about-area">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="about-heading">
                                 <div className="section-heading">
-                                    <h2 className="section__title">SPONSORS
+                                    <h2 className="section__title">Sponsors
                                     </h2>
                                 </div>
                             </div>

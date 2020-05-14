@@ -13,18 +13,16 @@ import Footer from "../components/Footer";
 
 const AboutPage = () => {
     return (
-        <Layout pageTitle="ANNOUNCEMENT
- | ISESER2020">
+        <Layout pageTitle="Announcement | ISESER2020">
             <NavOne/>
-            <PageHeader title="ANNOUNCEMENT
-"/>
+            <PageHeader title="Announcement"/>
             <section className="about-area">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="about-heading">
                                 <div className="section-heading">
-                                    <h2 className="section__title">ANNOUNCEMENT</h2>
+                                    <h2 className="section__title">Announcement</h2>
                                 </div>
                             </div>
                         </div>
