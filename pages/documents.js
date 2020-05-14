@@ -33,19 +33,20 @@ const AboutPage = () => {
 
                                     <p className="section__desc">
                                         <ul className="icon">
-                                            <li className="star"><a href="https://portal.iseser.com/">REGISTRATION (url)</a></li>
+                                            <li className="star"><a href="https://portal.iseser.com/"><i className="fa fa-external-link"
+                                                                                                         aria-hidden="true"></i> REGISTRATION</a></li>
                                             <li className="star"><a href="https://iseser.com/doc/2020/ISESER2020_BANNER.pdf" target="_blank"
-                                                                    rel="noopener noreferrer">BANNER (pdf)</a></li>
+                                                                    rel="noopener noreferrer"><i className="fa  fa-file-pdf-o"></i> BANNER</a></li>
                                             <li className="star"><a href="https://iseser.com/doc/2020/ISESER2020_BROCHURE.pdf" target="_blank"
-                                                                    rel="noopener noreferrer">BROCHURE (pdf)</a></li>
+                                                                    rel="noopener noreferrer"><i className="fa  fa-file-pdf-o"></i> BROCHURE</a></li>
                                             <li className="star"><a href="https://iseser.com/doc/2020/ISESER2020_Abstract_Template.docx"
-                                                                    target="_blank" rel="noopener noreferrer">Abstract Template
-                                                (docx)</a></li>
+                                                                    target="_blank" rel="noopener noreferrer"><i className="fa fa-file-word-o" aria-hidden="true"></i> Abstract Template
+                                                </a></li>
                                             <li className="star"><a href="https://iseser.com/doc/2020/ISESER2020_Full_Paper_Template.docx"
-                                                                    target="_blank" rel="noopener noreferrer">Full Paper Template
-                                                (docx)</a></li>
+                                                                    target="_blank" rel="noopener noreferrer"><i className="fa fa-file-word-o" aria-hidden="true"></i> Full Paper Template
+                                                </a></li>
                                             <li className="star"><a href="../doc/2020/ISESER2020_POSTER-PREPARATION.pptm" target="_blank"
-                                                                    rel="noopener noreferrer">Poster Template (pptm)</a>
+                                                                    rel="noopener noreferrer"><i className="fa fa-file-powerpoint-o" aria-hidden="true"></i> Poster Template</a>
                                             </li>
 
 

@@ -10,7 +10,7 @@ import MixerAreaTwo from "../components/MixerAreaTwo";
 
 const ContactPage = () => {
     return (
-        <Layout pageTitle="Oxpitan | Contact">
+        <Layout pageTitle="Contact | ISESER2020">
             <NavOne />
             <PageHeader title="Contact" />
             <Contact />
