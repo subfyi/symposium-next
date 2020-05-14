@@ -186,6 +186,14 @@ a:hover {
     color: #fff;
 }
 /*=== section-heading ====*/
+.section-heading-p{
+    align-items: center;
+    vertical-align: center;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 49px;
+    color: white;
+}
 .section-heading .section__title {
     border-color: #a74828;
     line-height: 1;
