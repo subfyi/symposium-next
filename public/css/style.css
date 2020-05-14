@@ -2273,8 +2273,8 @@ a:hover {
    CAUSES DETAIL AREA
  =============================*/
 .causes-detail-area {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .causes-detail-area .blog-content-wrap .blog-content .blog-item .blog-img img {
     width: 100%;
