@@ -27,40 +27,38 @@ const AboutPage = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-12">
+                        <div className="col-lg-6">
                             <div className="about-heading">
                                 <div className="section-heading">
 
                                     <p className="section__meta">2019 SYMPOSIUM</p>
                                     <p className="section__desc">
                                         <ul className="icon">
-                                            <li className="star"><a href="https://iseser.com/doc/2019/ISESER2019_BANNER.pdf" target="_blank"
+                                            <li className="star"><a href="../../doc/2019/ISESER2019_BANNER.pdf" target="_blank"
                                                                     rel="noopener noreferrer"><i className="fa  fa-file-pdf-o"></i> BANNER </a></li>
-                                            <li className="star"><a href="https://iseser.com/doc/2019/ISESER2019_BROCHURE.pdf" target="_blank"
+                                            <li className="star"><a href="../../doc/2019/ISESER2019_BROCHURE.pdf" target="_blank"
                                                                     rel="noopener noreferrer"><i className="fa  fa-file-pdf-o"></i> BROCHURE </a>
                                             </li>
-                                            <li className="star"><a href="https://iseser.com/doc/2019/ISESER2019-FINAL-PROGRAM.pdf?e10"
+                                            <li className="star"><a href="../../doc/2019/ISESER2019-FINAL-PROGRAM.pdf?e10"
                                                                     target="_blank" rel="noopener noreferrer"><i
-                                                className="fa  fa-file-pdf-o"></i> SYMPOSIUM FINAL PROGRAM </a></li>
-                                            <li className="star"><a href="https://iseser.com/doc/2019/ISESER2019-ABSTRACT-BOOK.pdf?e10"
+                                                className="fa  fa-file-pdf-o"></i> FINAL PROGRAM </a></li>
+                                            <li className="star"><a href="../../doc/2019/ISESER2019-ABSTRACT-BOOK.pdf?e10"
                                                                     target="_blank" rel="noopener noreferrer"><i
-                                                className="fa  fa-file-pdf-o"></i> SYMPOSIUM ABSTRACT BOOK </a></li>
-                                            <li className="star"><a href="https://iseser.com/doc/2019/ISESER2019-PROCEEDING-BOOK.pdf?e10"
+                                                className="fa  fa-file-pdf-o"></i> ABSTRACT BOOK </a></li>
+                                            <li className="star"><a href="../../doc/2019/ISESER2019-PROCEEDING-BOOK.pdf?e10"
                                                                     target="_blank" rel="noopener noreferrer">
-                                                <i className="fa  fa-file-pdf-o"></i> SYMPOSIUM PROCEEDING BOOK </a></li>
+                                                <i className="fa  fa-file-pdf-o"></i> PROCEEDING BOOK </a></li>
                                             <li className="star"><a href="https://photos.app.goo.gl/H5feZQmP2oVDWyHSA"
                                                                     target="_blank" rel="noopener noreferrer"><i className="fa fa-external-link"
-                                                                                                                 aria-hidden="true"></i> Conference
-                                                Photos </a></li>
-
-
+                                                                                                                 aria-hidden="true"></i> PHOTOS </a>
+                                            </li>
                                         </ul>
                                     </p>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="col-lg-12">
+                        <div className="col-lg-6">
                             <div className="about-heading">
                                 <div className="section-heading">
 
@@ -70,15 +68,11 @@ const AboutPage = () => {
                                             <li className="star"><a href="../../doc/2018/ISESER2018-banner.png" target="_blank" rel="noopener">
                                                 <i className="fa fa-file-image-o" aria-hidden="true"></i> BANNER
                                             </a></li>
-                                            <li className="star"><a href="../../doc/2018/ISESER2018_FULL_PAPER_WRITING_RULES.docx" target="_blank"
-                                                                    rel="noopener"><i className="fa fa-file-word-o" aria-hidden="true"></i> FULL
-                                                TEXT PREPARATION </a></li>
                                             <li className="star"><a href="../../doc/2018/ISESER2018_Brochure.pdf" target="_blank" rel="noopener">
                                                 <i className="fa  fa-file-pdf-o"></i> BROCHURE</a>
                                             </li>
                                             <li className="star"><a href="../../doc/2018/ISESER2018-FINAL-PROGRAM.pdf" target="_blank" rel="noopener">
-                                                <i className="fa  fa-file-pdf-o"></i> SYMPOSIUM
-                                                PROGRAM</a></li>
+                                                <i className="fa  fa-file-pdf-o"></i> FINAL PROGRAM</a></li>
                                             <li className="star"><a href="../../doc/2018/ISESER2018-ABSTRACT-BOOK.pdf" target="_blank" rel="noopener">
                                                 <i className="fa  fa-file-pdf-o"></i> ABSTRACT BOOK</a></li>
                                         </ul>
@@ -87,66 +81,52 @@ const AboutPage = () => {
                             </div>
                         </div>
 
-                        <div className="col-lg-12">
+                        <div className="col-lg-6">
                             <div className="about-heading">
                                 <div className="section-heading">
 
                                     <p className="section__meta">2017 SYMPOSIUM</p>
                                     <p className="section__desc">
                                         <ul className="icon">
-                                            <li className="star"><a href="../../doc/2017/Duyuru-Konya1-5.pdf" target="_blank" rel="noopener"><i className="fa  fa-file-pdf-o"></i> ANNOUNCEMENT
-                                               </a>
+                                            <li className="star"><a href="../../doc/2017/2nd-UCMOS.jpg" target="_blank" rel="noopener"><i
+                                                className="fa fa-file-image-o" aria-hidden="true"></i> BANNER
+                                            </a></li>
+                                            <li className="star"><a href="../../doc/2017/Duyuru-Konya1-5.pdf" target="_blank" rel="noopener"><i
+                                                className="fa  fa-file-pdf-o"></i> ANNOUNCEMENT
+                                            </a>
                                             </li>
-                                            <li className="star"><a href="../../doc/2017/2nd-UCMOS.jpg" target="_blank" rel="noopener"><i className="fa fa-file-image-o" aria-hidden="true"></i> BANNER
-                                                </a></li>
-                                            <li className="star"><a href="../../doc/2017/UCMOS_2017_TAM_MET%c4%b0N_YAZIM_KURALLARI-2.docx"
-                                                                    target="_blank" rel="noopener"><i className="fa fa-file-word-o" aria-hidden="true"></i> FULL TEXT PREPARATION </a></li>
-                                            <li className="star"><a href="../../doc/2017/UCMOS_KONGRE_PROGRAMI.docx" target="_blank" rel="noopener"><i className="fa fa-file-word-o" aria-hidden="true"></i> CONGRESS
-                                                PROGRAM
-                                                </a></li>
-                                            <li className="star"><a href="../../doc/2017/UCMOS_Ozet_Formati.docx" target="_blank" rel="noopener"><i className="fa fa-file-word-o" aria-hidden="true"></i> SUMMARY
-                                                FORMAT
-                                                </a></li>
-                                            <li className="star"><a href="../../doc/2017/UCMOS_Poster_Formati.pptx" target="_blank" rel="noopener">
-                                                <i className="fa fa-file-powerpoint-o" aria-hidden="true"></i> POSTER
-                                                FORMAT
-                                                </a></li>
-                                            <li className="star"><a href="../../doc/2017/ucmos_kayit__ve_bildiri_yukleme_rehberi.pdf" target="_blank"
-                                                                    rel="noopener"><i className="fa  fa-file-pdf-o"></i> REGISTRATION
-                                                AND PUBLISHING GUIDE </a></li>
+                                            <li className="star"><a href="../../doc/2017/UCMOS_KONGRE_PROGRAMI.docx" target="_blank" rel="noopener"><i
+                                                className="fa fa-file-word-o" aria-hidden="true"></i> FINAL PROGRAM
+                                            </a></li>
                                         </ul>
                                     </p>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="col-lg-12">
+                        <div className="col-lg-6">
                             <div className="about-heading">
                                 <div className="section-heading">
 
                                     <p className="section__meta">2016 SYMPOSIUM</p>
                                     <p className="section__desc">
                                         <ul className="icon">
-                                            <li className="star"><a href="../../doc/2016/Duyuru-Konya.pdf" target="_blank" rel="noopener"><i className="fa  fa-file-pdf-o"></i> ANNOUNCEMENT
-                                                </a>
+                                            <li className="star"><a href="../../doc/2016/afis4.jpg" target="_blank" rel="noopener"><i
+                                                className="fa fa-file-image-o" aria-hidden="true"></i> BANNER </a>
                                             </li>
-                                            <li className="star"><a href="../../doc/2016/afis4.jpg" target="_blank" rel="noopener"><i className="fa fa-file-image-o" aria-hidden="true"></i> BANNER </a>
+                                            <li className="star"><a href="../../doc/2016/Duyuru-Konya.pdf" target="_blank" rel="noopener"><i
+                                                className="fa  fa-file-pdf-o"></i> ANNOUNCEMENT
+                                            </a>
                                             </li>
-                                            <li className="star"><a href="../../doc/2016/TamMetin-FORMAT.docx" target="_blank" rel="noopener"><i className="fa fa-file-word-o" aria-hidden="true"></i> FULL
-                                                TEXT
-                                                PREPARATION
-                                                </a></li>
-                                            <li className="star"><a href="../../doc/2016/Kayit-Formu.docx" target="_blank" rel="noopener"><i className="fa fa-file-word-o" aria-hidden="true"></i> PARTICIPATION
-                                                DOCUMENT
-                                                </a></li>
-                                            <li className="star"><a href="../../doc/2016/poster-programi-son.docx" target="_blank" rel="noopener"><i className="fa fa-file-word-o" aria-hidden="true"></i> POSTER
+                                            <li className="star"><a href="../../doc/2016/poster-programi-son.docx" target="_blank" rel="noopener"><i
+                                                className="fa fa-file-word-o" aria-hidden="true"></i> POSTER PRESENTATION
                                                 PROGRAM
-                                                </a></li>
+                                            </a></li>
                                             <li className="star"><a href="../../doc/2016/sozlu-sunum-programi-son.doc" target="_blank" rel="noopener">
                                                 <i className="fa fa-file-word-o" aria-hidden="true"></i> ORAL
                                                 PRESENTATION PROGRAM </a></li>
-                                            <li className="star"><a href="../../doc/2016/sempozyum-kitabi-1.pdf" target="_blank" rel="noopener"><i className="fa  fa-file-pdf-o"></i> SYMPOSIUM
-                                                BOOK</a></li>
+                                            <li className="star"><a href="../../doc/2016/sempozyum-kitabi-1.pdf" target="_blank" rel="noopener"><i
+                                                className="fa  fa-file-pdf-o"></i> PROCEEDING BOOK</a></li>
                                         </ul>
                                     </p>
                                 </div>

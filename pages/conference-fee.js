@@ -78,7 +78,7 @@ const AboutPage = () => {
                             <div className="about-heading">
                                 <div className="section-heading">
                                     <div className="section__desc">
-
+<hr />
                                         <p>Please send the required fee to IBAN address given below and please write the "iseser2020" in the
                                             description field.
                                             (<span ><strong>There is no fee refund.</strong></span>)</p>
@@ -100,6 +100,7 @@ const AboutPage = () => {
                                             <strong>Bank Swift Code(BIC):</strong> TCZBTR2A<br/>
                                             <strong>Description field (required):</strong> iseser 2020<br/>
                                         </p>
+                                        <hr />
                                     </div>
                                 </div>
                             </div>
