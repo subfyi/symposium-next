@@ -34,17 +34,10 @@ const AboutPage = () => {
                                     <p className="section__meta">2019 SYMPOSIUM</p>
                                     <p className="section__desc">
                                         <ul className="icon">
-                                            <li className="star"><a href="https://portal.iseser.com/">REGISTRATION (url)</a></li>
                                             <li className="star"><a href="https://iseser.com/doc/2019/ISESER2019_BANNER.pdf" target="_blank"
                                                                     rel="noopener noreferrer">BANNER (pdf)</a></li>
                                             <li className="star"><a href="https://iseser.com/doc/2019/ISESER2019_BROCHURE.pdf" target="_blank"
                                                                     rel="noopener noreferrer">BROCHURE (pdf)</a></li>
-                                            <li className="star"><a href="https://iseser.com/doc/2019/ISESER2019_FULL_PAPER_WRITING_RULES.docx"
-                                                                    target="_blank" rel="noopener noreferrer">FULL TEXT TEMPLATE
-                                                (docx)</a></li>
-                                            <li className="star"><a href="../doc/2019/ISESER2019_POSTER-PREPARATION.pptm" target="_blank"
-                                                                    rel="noopener noreferrer">POSTER TEMPLATE (pptm)</a>
-                                            </li>
                                             <li className="star"><a href="https://iseser.com/doc/2019/ISESER2019-FINAL-PROGRAM.pdf?e10"
                                                                     target="_blank" rel="noopener noreferrer">SYMPOSIUM FINAL PROGRAM </a></li>
                                             <li className="star"><a href="https://iseser.com/doc/2019/ISESER2019-ABSTRACT-BOOK.pdf?e10"
@@ -73,9 +66,6 @@ const AboutPage = () => {
                                             <li className="star"><a href="../../doc/2018/ISESER2018_FULL_PAPER_WRITING_RULES.docx" target="_blank"
                                                                     rel="noopener">FULL
                                                 TEXT PREPARATION (docx)</a></li>
-                                            <li className="star"><a href="../../doc/2018/ISESER2018_Registration_Form.docx" target="_blank"
-                                                                    rel="noopener">REGISTRATION
-                                                FORM (docx)</a></li>
                                             <li className="star"><a href="../../doc/2018/ISESER2018_Brochure.pdf" target="_blank" rel="noopener">BROCHURE
                                                 (pdf)</a>
                                             </li>
