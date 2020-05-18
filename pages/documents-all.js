@@ -31,6 +31,23 @@ const AboutPage = () => {
                             <div className="about-heading">
                                 <div className="section-heading">
 
+                                    <p className="section__meta">2020 SYMPOSIUM</p>
+                                    <p className="section__desc">
+                                        <ul className="icon">
+                                            <li className="star"><a href="../../doc/2020/ISESER2020_BANNER.pdf" target="_blank"
+                                                                    rel="noopener noreferrer"><i className="fa  fa-file-pdf-o"></i> BANNER </a></li>
+                                            <li className="star"><a href="../../doc/2020/ISESER2020_BROCHURE.pdf" target="_blank"
+                                                                    rel="noopener noreferrer"><i className="fa  fa-file-pdf-o"></i> BROCHURE </a>
+                                            </li>
+                                        </ul>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-6">
+                            <div className="about-heading">
+                                <div className="section-heading">
+
                                     <p className="section__meta">2019 SYMPOSIUM</p>
                                     <p className="section__desc">
                                         <ul className="icon">

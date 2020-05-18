@@ -35,9 +35,9 @@ const AboutPage = () => {
                                         <ul className="icon">
                                             <li className="star"><a href="https://portal.iseser.com/"><i className="fa fa-external-link"
                                                                                                          aria-hidden="true"></i> REGISTRATION</a></li>
-                                            <li className="star"><a href="https://iseser.com/doc/2020/ISESER2020_BANNER.pdf" target="_blank"
+                                            <li className="star"><a href="https://iseser.com/doc/2020/ISESER2020_BANNER.pdf?2" target="_blank"
                                                                     rel="noopener noreferrer"><i className="fa  fa-file-pdf-o"></i> BANNER</a></li>
-                                            <li className="star"><a href="https://iseser.com/doc/2020/ISESER2020_BROCHURE.pdf" target="_blank"
+                                            <li className="star"><a href="https://iseser.com/doc/2020/ISESER2020_BROCHURE.pdf?2" target="_blank"
                                                                     rel="noopener noreferrer"><i className="fa  fa-file-pdf-o"></i> BROCHURE</a></li>
                                             <li className="star"><a href="https://iseser.com/doc/2020/ISESER2020_Abstract_Template.docx"
                                                                     target="_blank" rel="noopener noreferrer"><i className="fa fa-file-word-o" aria-hidden="true"></i> Abstract Template
