@@ -98,6 +98,8 @@ const AboutPage = () => {
                                             <li className="star"><a href="../../doc/2017/UCMOS_KONGRE_PROGRAMI.docx" target="_blank" rel="noopener"><i
                                                 className="fa fa-file-word-o" aria-hidden="true"></i> FINAL PROGRAM
                                             </a></li>
+                                            <li className="star"><a href="../../doc/2017/ISESER2017-PROCEEDING-BOOK.pdf" target="_blank" rel="noopener"><i
+                                                className="fa  fa-file-pdf-o"></i> PROCEEDING BOOK</a></li>
                                         </ul>
                                     </p>
                                 </div>
