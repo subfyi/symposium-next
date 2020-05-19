@@ -96,7 +96,7 @@ const AboutPage = () => {
 
                                     <div className="section__desc">
                                         <div className="form-group">
-                                            <p>Full paper submission is now open in <a href="https://portal.iseser.com/submission/create">user
+                                            <p>Full paper submission is now open in <a href="//portal.iseser.com/submission/create">user
                                                 area</a>. There are three choices for paper submission.
 
                                             </p>
