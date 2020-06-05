@@ -273,6 +273,11 @@ const AboutPage = () => {
                                                 </td>
                                             </tr>
                                             <tr>
+                                                <td className="tg-0lax">Noor Zaitun Yahaya, Faculty of  Ocean Eng. Technology and Informatics, University Malaysia Terengganu, Malaysia
+
+                                                </td>
+                                            </tr>
+                                            <tr>
                                                 <td className="tg-0lax">Nurten Deva, University of Mitrovica “Isa Boletini” (UMIB), Mitrovica, Kosovo
                                                 </td>
                                             </tr>
