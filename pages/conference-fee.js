@@ -60,7 +60,10 @@ const AboutPage = () => {
                             <div className="about-heading">
                                 <div className="section-heading">
                                     <div className="section__desc">
-<hr />
+                                        <hr/>
+
+                                        <p>Please wait for payment details. (<span ><strong>There is no fee refund.</strong></span>)</p>
+                                        {/*
                                         <p>Please send the required fee to IBAN address given below and please write the "iseser2020" in the
                                             description field.
                                             (<span ><strong>There is no fee refund.</strong></span>)</p>
@@ -82,7 +85,8 @@ const AboutPage = () => {
                                             <strong>Bank Swift Code(BIC):</strong> TCZBTR2A<br/>
                                             <strong>Description field (required):</strong> iseser 2020<br/>
                                         </p>
-                                        <hr />
+                                        */}
+                                        <hr/>
                                     </div>
                                 </div>
                             </div>
@@ -94,7 +98,7 @@ const AboutPage = () => {
             <MixerAreaTwo/>
             <Footer/>
         </Layout>
-);
+    );
 };
 
 export default AboutPage;

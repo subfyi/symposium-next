@@ -49,6 +49,13 @@ const AboutPage = () => {
                                                 </td>
                                             </tr>
                                             <tr>
+                                                <td className="tg-0pky"> Alaa Motar Shayia Tor, Atmospheric Sciences Dept.,
+                                                    College of Science,
+                                                    Mustansiryiah University,
+                                                    Baghdad, Iraq
+                                                </td>
+                                            </tr>
+                                            <tr>
                                                 <td className="tg-0pky">Amjad Shraım, Chemistry &amp; Earth Sciences Department, Qatar
                                                     University, Qatar
                                                 </td>
@@ -175,6 +182,14 @@ const AboutPage = () => {
                                                 </td>
                                             </tr>
                                             <tr>
+                                                <td className="tg-0pky">Juliana Jalaludin, Department Environmental and Occupational Health
+                                                    Faculty of Medicine and Health Sciences
+                                                    Universiti Putra Malaysia, Serdang, Malaysia
+                                                </td>
+                                            </tr>
+
+
+                                            <tr>
                                                 <td className="tg-0pky">Leah Moore, Applied Science Faculty, Canberra University, Australia</td>
                                             </tr>
                                             <tr>
@@ -273,7 +288,7 @@ const AboutPage = () => {
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td className="tg-0lax">Noor Zaitun Yahaya, Faculty of  Ocean Eng. Technology and Informatics, University Malaysia Terengganu, Malaysia
+                                                <td className="tg-0lax">Noor Zaitun Yahaya, Faculty of Ocean Eng. Technology and Informatics, University Malaysia Terengganu, Malaysia
 
                                                 </td>
                                             </tr>
