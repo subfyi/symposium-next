@@ -240,6 +240,10 @@ const AboutPage = () => {
                                                 </td>
                                             </tr>
                                             <tr>
+                                                <td className="tg-0lax">Mohammed Faraj Shather Al Marjani, Department of Biology/ College of Science , Mustansiriyah University. Iraq
+                                                </td>
+                                            </tr>
+                                            <tr>
                                                 <td className="tg-0lax">Mohammad Shahriari, Product &amp; Production Development Department,
                                                     Chalmers University Of Thechnology, Sweden
                                                 </td>
