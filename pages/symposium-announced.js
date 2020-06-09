@@ -113,7 +113,7 @@ const AboutPage = () => {
                                                 </li>
                                             </ul>
                                             <p><b>It is forbidden to publish same full paper both in the proceeding book and the journal.*</b> Our
-                                                Sponsor journal list in <a href="/sponsors/">Sponsors</a> page. </p>
+                                                Sponsor journal list in <a href="/sponsors">Sponsors</a> page. </p>
                                             <p>If you have question, send mail to&nbsp;<a
                                                 href="mailto:iseser@iseser.com"><span>iseser@iseser.com</span></a>.
                                             </p>
@@ -132,7 +132,7 @@ const AboutPage = () => {
 
 
                                             <p>Important Dates were announced in link below:</p>
-                                            <p><a href="../important-dates/">https://iseser.com/important-dates/</a></p>
+                                            <p><a href="../important-dates">https://iseser.com/important-dates</a></p>
 
                                         </div>
                                     </div>
