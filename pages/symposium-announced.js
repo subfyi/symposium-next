@@ -34,7 +34,7 @@ const AboutPage = () => {
                                 <div className="section-heading">
 
                                     <div className="section__desc">
-                           <h3>2020 Symposium date was updated as 4-5 July 2020 and the last abstract submission date was delayed to 4 June 2020.
+                           <h3>2020 Symposium date was updated as 4-5 July 2020 and the last abstract submission date was delayed to 20 June 2020.
                            </h3>
                                     </div>
                                 </div>

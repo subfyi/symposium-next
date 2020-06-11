@@ -28,11 +28,7 @@ const AboutPage = () => {
                                     <p className="section__desc">
 
 
-                                            <p >As an organizing commitee, we are honored to invite you
-                                                to
-                                                attend the International Symposium for Environmental Science and Engineering
-                                                Research
-                                                2020 which will be held on 4-5 July 2020 in, Manisa.
+                                            <p >As an organizing commitee, we are honored to invite you to attend the International Symposium for Environmental Science and Engineering Research 2020 which will be held on 4-5 July 2020 online.
                                                 This event will be a useful for
                                                 researchers, engineers, students, academics and anyone interested in environmental
                                                 engineering and science. Through the conference, it will be possible to establish

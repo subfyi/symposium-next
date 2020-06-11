@@ -49,7 +49,7 @@ class Footer extends Component {
                                     <h3 className="widget__title"> ABOUT US</h3>
                                     <ul className="foot__links">
                                         <li>International Symposium for Environmental Science and Engineering Research (ISESER2020)</li>
-                                        <li>ISESER2020 which will be held on 4-5 July 2020 in, Manisa.</li>
+                                        <li>ISESER2020 which will be held on 4-5 July 2020 on, Web.</li>
                                         <li>Contact us: <a href="mailto:iseser@iseser.com">iseser@iseser.com</a></li>
                                         <li>Şükrü Dursun (whatsapp) <a href="tel:+905365954591">: +905365954591</a></li>
                                         <li>Nilgün Yenil Harmancı (whatsapp) <a href="tel:+905333449728">: +905333449728</a></li>
