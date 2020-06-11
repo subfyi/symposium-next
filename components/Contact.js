@@ -28,10 +28,7 @@ const Contact = () => {
                                             <strong>Opening Ceremony</strong>: 4th May, Saturday
                                         </li>
                                         <li>
-                                            <strong>Presentations</strong>: 4-5 July 2020
-                                        </li>
-                                        <li>
-                                            <strong>Video Presentations will be available </strong>: 4-5 July 2020
+                                            <strong>Video and Poster Presentations will be available </strong>: 4-5 July 2020
                                         </li>
                                     </ul>
 
