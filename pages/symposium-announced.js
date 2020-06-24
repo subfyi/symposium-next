@@ -65,8 +65,7 @@ const AboutPage = () => {
                                                     computer or phones may be used for the preparation of your videos. The presentation language must
                                                     be in English.
                                                 </li>
-                                                <li> The prepared presentations will be sent to our email address (iseser@iseser.com). Please check
-                                                    your presentation before sending.
+                                                <li> The prepared presentations will be uploaded to the system.  Please check your presentation before sending.
                                                 </li>
                                                 <li> The last date for sending a presentation video is 25 June 2020.
                                                 </li>
