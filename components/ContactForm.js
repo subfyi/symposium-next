@@ -44,113 +44,108 @@ export default class ContactForm extends React.Component {
             this.setState({loading: false})
         }
     }
-
-
     render() {
-
         return <>
-                <div className="container mb-5">
-            <div className="col-lg-12">
-                <div className="section-heading">
+            <div className="container mb-5">
+                <div className="col-lg-12">
+                    <div className="section-heading">
+                        <p className="section__meta">Simply Send Mail</p>
+                        <p className="section__desc">
+                            <div>
+                                <Row>
+                                    <Col md="6">
+                                        <FormGroup>
+                                            <Label>Name</Label>
+                                            <Validator validator={this.validator} name="Name" value={this.state.data.name} type="required">
+                                                <Input
+                                                    type="text"
+                                                    disabled={!!this.state.loading}
+                                                    value={this.state.data.name || ''}
+                                                    onChange={a => this.setState({
+                                                        data: {
+                                                            ...this.state.data,
+                                                            name: a.currentTarget.value
+                                                        }
+                                                    })}
+                                                />
+                                            </Validator>
+                                        </FormGroup>
+                                    </Col>
+                                    <Col md="6">
+                                        <FormGroup>
+                                            <Label>E-Mail Adress</Label>
+                                            <Validator validator={this.validator} name="E-Mail " value={this.state.data.email}
+                                                       type="required|email">
+                                                <Input
+                                                    type="text"
+                                                    disabled={!!this.state.loading}
+                                                    value={this.state.data.email || ''}
+                                                    onChange={a => this.setState({
+                                                        data: {
+                                                            ...this.state.data,
+                                                            email: a.currentTarget.value
+                                                        }
+                                                    })}
+                                                />
+                                            </Validator>
+                                        </FormGroup>
+                                    </Col>
+                                </Row>
+                                <FormGroup>
+                                    <Label>Subject</Label>
+                                    <Validator validator={this.validator} name="Subject" value={this.state.data.title} type="required">
+                                        <Input
+                                            type="text"
+                                            disabled={!!this.state.loading}
+                                            value={this.state.data.title || ''}
+                                            onChange={a => this.setState({
+                                                data: {
+                                                    ...this.state.data,
+                                                    title: a.currentTarget.value
+                                                }
+                                            })}
+                                        />
+                                    </Validator>
+                                </FormGroup>
+                                <FormGroup>
+                                    <Label>Message to us</Label>
+                                    <Validator validator={this.validator} name="Message to us" value={this.state.data.message} type="required">
+                                        <Input
+                                            type="textarea"
+                                            disabled={!!this.state.loading}
+                                            rows={5}
+                                            value={this.state.data.message || ''}
+                                            onChange={a => this.setState({
+                                                data: {
+                                                    ...this.state.data,
+                                                    message: a.currentTarget.value
+                                                }
+                                            })}
+                                        />
+                                    </Validator>
+                                </FormGroup>
 
-                    <p className="section__meta">Conference Venue</p>
-                    <p className="section__desc">
-                        <div>
+                                <Button
+                                    className="mt-3 btn-block"
+                                    color="primary"
+                                    disabled={!!this.state.loading}
+                                    onClick={this.handleSubmit.bind(this)}
+                                >
+                                    Send Message
+                                </Button>
 
-                            <Row>
-                                <Col md="6">
-                                    <FormGroup>
-                                        <Label>Name</Label>
-                                        <Validator validator={this.validator} name="Name" value={this.state.data.name} type="required">
-                                            <Input
-                                                type="text"
-                                                disabled={!!this.state.loading}
-                                                value={this.state.data.name || ''}
-                                                onChange={a => this.setState({
-                                                    data: {
-                                                        ...this.state.data,
-                                                        name: a.currentTarget.value
-                                                    }
-                                                })}
-                                            />
-                                        </Validator>
-                                    </FormGroup>
-                                </Col>
-                                <Col md="6">
-                                    <FormGroup>
-                                        <Label>E-Mail Adress</Label>
-                                        <Validator validator={this.validator} name="E-Mail " value={this.state.data.email}
-                                                   type="required|email">
-                                            <Input
-                                                type="text"
-                                                disabled={!!this.state.loading}
-                                                value={this.state.data.email || ''}
-                                                onChange={a => this.setState({
-                                                    data: {
-                                                        ...this.state.data,
-                                                        email: a.currentTarget.value
-                                                    }
-                                                })}
-                                            />
-                                        </Validator>
-                                    </FormGroup>
-                                </Col>
-                            </Row>
-                            <FormGroup>
-                                <Label>Subject</Label>
-                                <Validator validator={this.validator} name="Subject" value={this.state.data.title} type="required">
-                                    <Input
-                                        type="text"
-                                        disabled={!!this.state.loading}
-                                        value={this.state.data.title || ''}
-                                        onChange={a => this.setState({
-                                            data: {
-                                                ...this.state.data,
-                                                title: a.currentTarget.value
-                                            }
-                                        })}
-                                    />
-                                </Validator>
-                            </FormGroup>
-                            <FormGroup>
-                                <Label>Message to us</Label>
-                                <Validator validator={this.validator} name="Message to us" value={this.state.data.message} type="required">
-                                    <Input
-                                        type="textarea"
-                                        disabled={!!this.state.loading}
-                                        rows={5}
-                                        value={this.state.data.message || ''}
-                                        onChange={a => this.setState({
-                                            data: {
-                                                ...this.state.data,
-                                                message: a.currentTarget.value
-                                            }
-                                        })}
-                                    />
-                                </Validator>
-                            </FormGroup>
-
-                            <Button
-                                className="mt-3 btn-block"
-                                color="primary"
-                                disabled={!!this.state.loading}
-                                onClick={this.handleSubmit.bind(this)}
-                            >
-                                Send Message
-                            </Button>
-
-                            {(this.state.error && <Alert color="danger" className="mt-2">
-                                <i className="fa fa-exclamation-circle" aria-hidden="true"/>{this.state.error}
-                            </Alert>) || (this.state.success && <Alert color="success" className="mt-2">
-                                <i className="fa fa-check" aria-hidden="true"/> Thanks for your message!
-                            </Alert>) || (this.state.loading && <Alert color="warning" className="mt-2">
-                                <i className="fa fa-spinner fa-spin" aria-hidden="true"/> Please wait.
-                            </Alert>)}
-                        </div>
-                    </p>
+                                {(this.state.error && <Alert color="danger" className="mt-2">
+                                    <i className="fa fa-exclamation-circle" aria-hidden="true"/>{this.state.error}
+                                </Alert>) || (this.state.success && <Alert color="success" className="mt-2">
+                                    <i className="fa fa-check" aria-hidden="true"/> Thanks for your message!
+                                </Alert>) || (this.state.loading && <Alert color="warning" className="mt-2">
+                                    <i className="fa fa-spinner fa-spin" aria-hidden="true"/> Please wait.
+                                </Alert>)}
+                            </div>
+                        </p>
+                    </div>
                 </div>
             </div>
-                </div>
         </>;
     }
 }
