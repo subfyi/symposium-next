@@ -6,6 +6,7 @@ import MixerAreaTwo from "../../../components/MixerAreaTwo";
 import Footer from "../../../components/Footer";
 import SimpleReactValidator from 'simple-react-validator'
 import api from '../../../api'
+import PageHeaderEvent from "../../../components/PageHeaderEvent";
 
 export default class YearList extends React.Component {
     state = {}
@@ -32,7 +33,12 @@ export default class YearList extends React.Component {
         return (
             <Layout pageTitle={year + "SYMPOSIUM ABSTRACTS (ONLINE)"}>
                 <NavOne/>
-                <PageHeader title="INVITATION"/>
+                <PageHeaderEvent
+                    title={"All Symposium"}
+                    titlehref="/documents-all"
+                    title2={"Symposium " + year}
+                    titlehref2={year}
+                />
                 <section className="about-area">
                     <div className="container">
                         <div className="row">

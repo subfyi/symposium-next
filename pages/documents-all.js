@@ -10,6 +10,7 @@ import FaqArea from "../components/FaqArea";
 import ServiceArea from "../components/ServiceArea";
 import ClientsLogoTwo from "../components/ClientsLogoTwo";
 import Footer from "../components/Footer";
+import Link from "next/link";
 
 const AboutPage = () => {
     return (
@@ -31,7 +32,7 @@ const AboutPage = () => {
                             <div className="about-heading">
                                 <div className="section-heading">
 
-                                    <p className="section__meta">2020 SYMPOSIUM</p>
+                                    <p className="section__meta"><Link href="/year/2020"><a>2020 SYMPOSIUM</a></Link></p>
                                     <p className="section__desc">
                                         <ul className="icon">
                                             <li className="star"><a href="../../doc/2020/ISESER2020_BANNER.pdf" target="_blank"
@@ -39,6 +40,10 @@ const AboutPage = () => {
                                             <li className="star"><a href="../../doc/2020/ISESER2020_BROCHURE.pdf" target="_blank"
                                                                     rel="noopener noreferrer"><i className="fa  fa-file-pdf-o"></i> BROCHURE </a>
                                             </li>
+                                            <li className="star"><a href="../doc/2020/ISESER2020_PRELIMINARY-PROGRAM.pdf?e2" target="_blank"><i className="fa  fa-file-pdf-o"></i> PRELIMINARY PROGRAM
+                                            </a></li>
+                                            <li className="star"><a href="../year/2020" ><i className="fa  fa-file-pdf-o"></i> PRELIMINARY ABSTRACTS (ONLINE)
+                                            </a></li>
                                         </ul>
                                     </p>
                                 </div>

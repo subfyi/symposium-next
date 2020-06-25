@@ -31,8 +31,12 @@ export default class YearList extends React.Component {
         return (
             <Layout pageTitle={datas.pap_title}>
                 <NavOne/>
-                <PageHeaderEvent title={"Symposium " + year}
-                                 titlehref={year}/>
+                <PageHeaderEvent
+                    title={"All Symposium"}
+                    titlehref="/documents-all"
+                    title2={"Symposium " + year}
+                    titlehref2={year}
+                />
                 <section className="causes-detail-area news-detail-area">
                     <div className="container">
                         <div className="row blog-content-wrap">
