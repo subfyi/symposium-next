@@ -51,16 +51,14 @@ export default class YearList extends React.Component {
                                         <div className="blog-inner-content">
                                             <div className="inner-causes-box">
 
-                                                <ul className="blog__list">
-                                                    <li><a href="#">Author(s):</a></li>
-                                                    {datas.authors.map((author, index) =>
-                                                        <li>{index + 1}. {author.name} {author.surname}{" "}
-                                                            {!!author.correspond && <span>(Correspond)</span>}
-                                                            {!!author.presenter && <span>(Presenter)</span>},
-                                                        </li>
+
+                                                <span className=""><a href="#">Author(s):{" "}</a></span>
+
+                                                {datas.authors.map((author, index) =>
+                                                        <span className="">{author.name} {author.surname}<sup>{index + 1}</sup>,{" "}
+                                                        </span>
                                                     )}
 
-                                                </ul>
                                                 <br/>
                                                 <ul className="small">
                                                     {datas.authors.map((author, index) =>
