@@ -66,7 +66,7 @@ export default class YearList extends React.Component {
                                                 <tbody>
                                                 {datas.data.map((row, i) => i == 0 ? null : <>
                                                     <tr key={row.id} className={this.props.trstyle && this.props.trstyle(row)}>
-                                                        <td>{i + 1}</td>
+                                                        <td>{i}</td>
                                                         <td><a href={"/year/" + year + "/paper/" + (row.id)}> {row.pap_title}</a></td>
                                                     </tr>
                                                     <tr>
