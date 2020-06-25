@@ -2,13 +2,7 @@ import React from 'react';
 import Layout from "../components/Layout";
 import NavOne from "../components/NavOne";
 import PageHeader from "../components/PageHeader";
-import AboutArea from "../components/AboutArea";
 import MixerAreaTwo from "../components/MixerAreaTwo";
-import CallToAction from "../components/CallToAction";
-import TeamArea from "../components/TeamArea";
-import FaqArea from "../components/FaqArea";
-import ServiceArea from "../components/ServiceArea";
-import ClientsLogoTwo from "../components/ClientsLogoTwo";
 import Footer from "../components/Footer";
 
 const AboutPage = () => {
@@ -33,29 +27,24 @@ const AboutPage = () => {
 
                                     <p className="section__desc">
                                         <ul className="icon">
-                                            <li className="star"><a href="//portal.iseser.com/"><i className="fa fa-external-link"
-                                                                                                         aria-hidden="true"></i> REGISTRATION</a></li>
-                                            <li className="star"><a href="../doc/2020/ISESER2020_BANNER.pdf?2" target="_blank"
-                                                                    rel="noopener noreferrer"><i className="fa  fa-file-pdf-o"></i> BANNER</a></li>
-                                            <li className="star"><a href="../doc/2020/ISESER2020_BROCHURE.pdf?2" target="_blank"
-                                                                    rel="noopener noreferrer"><i className="fa  fa-file-pdf-o"></i> BROCHURE</a></li>
-                                            <li className="star"><a href="../doc/2020/ISESER2020_Abstract_Template.docx"
-                                                                    target="_blank" rel="noopener noreferrer"><i className="fa fa-file-word-o" aria-hidden="true"></i> Abstract Template
-                                                </a></li>
-                                            <li className="star"><a href="../doc/2020/ISESER2020_Full_Paper_Template.docx"
-                                                                    target="_blank" rel="noopener noreferrer"><i className="fa fa-file-word-o" aria-hidden="true"></i> Full Paper Template
-                                                </a></li>
-                                            <li className="star"><a href="../doc/2020/ISESER2020_POSTER-PREPARATION.pptm" target="_blank"
-                                                                    rel="noopener noreferrer"><i className="fa fa-file-powerpoint-o" aria-hidden="true"></i> Poster Template</a>
-                                            </li>
-
-
+                                            <li className="star"><a href="https://portal.iseser.com/"><i className="fa fa-external-link"></i> REGISTRATION</a></li>
+                                            <li className="star"><a href="../doc/2020/ISESER2020_BANNER.pdf?2" target="_blank"><i className="fa  fa-file-pdf-o"></i> BANNER</a></li>
+                                            <li className="star"><a href="../doc/2020/ISESER2020_BROCHURE.pdf?2" target="_blank"><i className="fa  fa-file-pdf-o"></i> BROCHURE</a></li>
+                                            <li className="star"><a href="../doc/2020/ISESER2020_PRELIMINARY-PROGRAM.pdf?e1" target="_blank"><i className="fa  fa-file-pdf-o"></i> PRELIMINARY PROGRAM
+                                            </a></li>
                                         </ul>
-
+                                        <hr/>
                                         <ul>
+                                            <li className="star"><a href="../doc/2020/ISESER2020_Abstract_Template.docx" target="_blank"><i className="fa fa-file-word-o"></i> Abstract Template</a>
+                                            </li>
+                                            <li className="star"><a href="../doc/2020/ISESER2020_Full_Paper_Template.docx" target="_blank"><i className="fa fa-file-word-o"></i> Full Paper Template</a>
+                                            </li>
+                                            <li className="star"><a href="../doc/2020/ISESER2020_POSTER-PREPARATION.pptm" target="_blank"><i className="fa fa-file-powerpoint-o"></i> Poster
+                                                Template</a></li>
+
                                             <li><span className="important-notice">“THE POSTER NEED TO BE 70X90 CM TO BE SEEN IN THE TEMPLATE.”</span>
                                             </li>
-                                            <li><span className="important-notice" >“MAXIMUM PAGE NUMBER WHICH WILL BE USED IN ABSTRACT TEXTS SHOULD NOT BE EXCEEDED 1.”</span>
+                                            <li><span className="important-notice">“MAXIMUM PAGE NUMBER WHICH WILL BE USED IN ABSTRACT TEXTS SHOULD NOT BE EXCEEDED 1.”</span>
                                             </li>
                                         </ul>
                                     </p>
