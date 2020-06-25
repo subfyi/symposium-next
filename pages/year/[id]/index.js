@@ -17,7 +17,7 @@ export default class YearList extends React.Component {
     }
 
     static async getInitialProps({query}) {
-        var datas = await api("/api/submission?page=1&itemPerPage=-1&query=&sort=id&desc=true&year=" + query.id);
+        var datas = await api("/api/submission?page=1&itemPerPage=-1&query=&sort=id&desc=false&year=" + query.id);
         return {
             datas,
             year: query.id
@@ -64,7 +64,7 @@ export default class YearList extends React.Component {
                                                 </th>
                                                 </thead>
                                                 <tbody>
-                                                {datas.data.map((row, i) => <>
+                                                {datas.data.map((row, i) => i == 0 ? null : <>
                                                     <tr key={row.id} className={this.props.trstyle && this.props.trstyle(row)}>
                                                         <td>{i + 1}</td>
                                                         <td><a href={"/year/" + year + "/paper/" + (row.id)}> {row.pap_title}</a></td>
