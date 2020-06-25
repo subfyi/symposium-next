@@ -61,8 +61,8 @@ export default class YearList extends React.Component {
                                                     )}
 
                                                 </ul>
-                                                <ul className="blog__list">
-
+                                                <br/>
+                                                <ul className="small">
                                                     {datas.authors.map((author, index) =>
                                                         <li>{index + 1}. {author.adress} ,
                                                         </li>

@@ -30,7 +30,7 @@ export default class YearList extends React.Component {
         const {orals, posters, year} = this.props;
 
         return (
-            <Layout pageTitle={year + "SYMPOSIUM ABSTRACTS (WEB)"}>
+            <Layout pageTitle={year + "SYMPOSIUM ABSTRACTS (ONLINE)"}>
                 <NavOne/>
                 <PageHeader title="INVITATION"/>
                 <section className="about-area">
@@ -39,7 +39,7 @@ export default class YearList extends React.Component {
                             <div className="col-lg-12">
                                 <div className="about-heading">
                                     <div className="section-heading">
-                                        <h2 className="section__title">{year} SYMPOSIUM ABSTRACT BOOK (WEB)
+                                        <h2 className="section__title">{year} SYMPOSIUM PRELIMINARY ABSTRACTS (ONLINE)
                                         </h2>
                                     </div>
                                 </div>
