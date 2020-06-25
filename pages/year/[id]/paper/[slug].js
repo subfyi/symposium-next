@@ -26,7 +26,7 @@ export default class YearList extends React.Component {
 
 
     render() {
-        const {datas,year, paper} = this.props;
+        const {datas, year, paper} = this.props;
 
         return (
             <Layout pageTitle={datas.pap_title}>
@@ -107,14 +107,13 @@ export default class YearList extends React.Component {
                                     </div>
 
                                     {datas.paper_page &&
-
                                     <>
                                         {datas.paper_page >= 0 ? <div className="side-widget">
                                             <h4 className="widget__title">Published Paper</h4>
                                             <div className="author-box recent-donate-item">
                                                 <a className="reply__btn theme-btn"
                                                    target="_blank"
-                                                   href={"https://iseser.com/doc/2019/ISESER2019-PROCEEDING-BOOK.pdf#page=" + (+(datas.paper_page || "").split('-')[0] +  splitpage[year] )}>
+                                                   href={"https://iseser.com/doc/2019/ISESER2019-PROCEEDING-BOOK.pdf#page=" + (+(datas.paper_page || "").split('-')[0] + splitpage[year])}>
                                                     Full Paper: PDF</a>
                                             </div>
                                         </div> : <div className="side-widget">
@@ -126,11 +125,8 @@ export default class YearList extends React.Component {
                                                     Full Paper: PDF</a>
                                             </div>
                                         </div>}
-
-
                                     </>
                                     }
-
                                     {datas.paper_abst_page &&
                                     <div className="side-widget">
                                         <h4 className="widget__title">Published Abstract</h4>
@@ -142,27 +138,27 @@ export default class YearList extends React.Component {
                                         </div>
                                     </div>
                                     }
-
                                 </div>
                             </div>
-                            <div className="col-lg-12">
-                                <hr />
-                                <div className="sidebar-shared">
-                                {datas.paper_page &&
-                                <div className="side-widget">
-                                    <h4 className="widget__title">Cite This Paper (Format: APA)
-                                    </h4>
-                                    <div className="side-cats">
 
-                                        {datas.authors
-                                            .map(a => a.surname + ", " + a.name.split(' ').map(a => a[0]).join('. ')+".")
-                                            .join(" & ")
-                                        }. ({year}, {smonths[year]}). {datas.pap_title}. International Symposium for Environmental Science and Engineering Research (ISESER{year}), pp. {datas.paper_page}, Turkey.
+                            {datas.paper_page &&
+                            <div className="col-lg-12">
+                                <hr/>
+                                <div className="sidebar-shared">
+                                    <div className="side-widget">
+                                        <h4 className="widget__title">Cite This Paper (Format: APA)
+                                        </h4>
+                                        <div className="side-cats">
+                                            {datas.authors
+                                                .map(a => a.surname + ", " + a.name.split(' ').map(a => a[0]).join('. ') + ".")
+                                                .join(" & ")
+                                            }. ({year}, {smonths[year]}). {datas.pap_title}. International Symposium for Environmental Science and Engineering Research (ISESER{year}),
+                                            pp. {datas.paper_page}, Turkey.
+                                        </div>
                                     </div>
                                 </div>
-                                }
-                                </div>
                             </div>
+                            }
                         </div>
                     </div>
                 </section>
@@ -170,5 +166,5 @@ export default class YearList extends React.Component {
             </Layout>);
     }
 }
-var smonths = { '2019': 'May', '2020': 'July' };
+var smonths = {'2019': 'May', '2020': 'July'};
 var splitpage = {'2019': 15, '2020': 10};

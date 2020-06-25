@@ -28,7 +28,7 @@ export default class YearList extends React.Component {
         const {datas, year} = this.props;
 
         return (
-            <Layout pageTitle="INVITATION | ISESER2020">
+            <Layout pageTitle={year + "SYMPOSIUM ABSTRACT BOOK (WEB)"}>
                 <NavOne/>
                 <PageHeader title="INVITATION"/>
                 <section className="about-area">
