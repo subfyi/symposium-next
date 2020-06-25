@@ -30,7 +30,7 @@ export default class YearList extends React.Component {
         const {orals, posters, year} = this.props;
 
         return (
-            <Layout pageTitle={year + "SYMPOSIUM ABSTRACT BOOK (WEB)"}>
+            <Layout pageTitle={year + "SYMPOSIUM ABSTRACTS (WEB)"}>
                 <NavOne/>
                 <PageHeader title="INVITATION"/>
                 <section className="about-area">
@@ -73,9 +73,11 @@ export default class YearList extends React.Component {
                                                         <td><a href={"/year/" + year + "/paper/" + (row.id)}> {row.pap_title}</a></td>
                                                     </tr>
                                                     <tr>
-                                                        <td colSpan="2">{row.authors.map((author, index) => <>
-                                                            {author.name} {author.surname},{" "}
-                                                        </>)}</td>
+                                                        <td colSpan="2">
+                                                            {row.authors
+                                                                .map(a => a.name + " " + a.surname)
+                                                                .join(", ")
+                                                            }</td>
                                                     </tr>
                                                 </>)}
                                                 </tbody>
@@ -116,9 +118,11 @@ export default class YearList extends React.Component {
                                                         <td><a href={"/year/" + year + "/paper/" + (row.id)}> {row.pap_title}</a></td>
                                                     </tr>
                                                     <tr>
-                                                        <td colSpan="2">{row.authors.map((author, index) => <>
-                                                            {author.name} {author.surname},{" "}
-                                                        </>)}</td>
+                                                        <td colSpan="2">
+                                                            {row.authors
+                                                                .map(a => a.name + " " + a.surname)
+                                                                .join(", ")
+                                                            }</td>
                                                     </tr>
                                                 </>)}
                                                 </tbody>
