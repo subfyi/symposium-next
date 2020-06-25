@@ -2352,6 +2352,7 @@ a:hover {
 .causes-detail-area .blog-content-wrap .blog-content .blog-item .blog-inner-content-2 .causes__text {
     line-height: 30px;
     margin-bottom: 34px;
+    text-align: justify;
 }
 .causes-detail-area .blog-content-wrap .blog-content .blog-item .blog-inner-content-2 .inner-causes-img-box {
     margin-top: 50px;
