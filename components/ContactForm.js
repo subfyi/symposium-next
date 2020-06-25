@@ -44,9 +44,11 @@ export default class ContactForm extends React.Component {
             this.setState({loading: false})
         }
     }
+
     render() {
         return <>
             <div className="container mb-5">
+                <hr/>
                 <div className="col-lg-12">
                     <div className="section-heading">
                         <p className="section__meta">Simply Send Mail</p>

@@ -75,7 +75,6 @@ export default class YearList extends React.Component {
                                                         </>)}</td>
                                                     </tr>
                                                 </>)}
-
                                                 </tbody>
                                             </table>
                                         </p>

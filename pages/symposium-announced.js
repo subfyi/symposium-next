@@ -67,7 +67,7 @@ const AboutPage = () => {
                                                 </li>
                                                 <li> The prepared presentations will be uploaded to the system.  Please check your presentation before sending.
                                                 </li>
-                                                <li> The last date for sending a presentation video is 25 June 2020.
+                                                <li> The last date for sending a presentation video is 30 June 2020.
                                                 </li>
                                                 <li> After this step, the sent presentations will be uploaded to the user area system under the
                                                     presentations tab.

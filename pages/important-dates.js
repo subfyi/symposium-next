@@ -36,7 +36,7 @@ const AboutPage = () => {
                                         <ul>
                                             <li>Registration and Abstract Submission Date: 20 June 2020</li>
                                             <li>Full Text Deadline: 20 July 2020</li>
-                                            <li>Presentation Video Deadline: 25 June 2020</li>
+                                            <li>Presentation Video Deadline: 30 June 2020</li>
                                             <li>Symposium Date: 4-5 July 2020</li>
                                         </ul>
                                     </p>
