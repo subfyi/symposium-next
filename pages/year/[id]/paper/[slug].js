@@ -66,7 +66,7 @@ export default class YearList extends React.Component {
                                                 <br/>
                                                 <ul className="small">
                                                     {datas.authors.map((author, index) =>
-                                                        <li>{index + 1}. {author.adress} ,
+                                                        <li><sup>{index + 1}.</sup> {author.adress} ,
                                                         </li>
                                                     )}
 
@@ -95,10 +95,8 @@ export default class YearList extends React.Component {
                             </div>
                             <div className="col-lg-4">
                                 <div className="sidebar-shared">
-
-
                                     <div className="side-widget">
-                                        <h4 className="widget__title">PRELIMINARY ABSTRACTS (ONLINE)</h4>
+                                        <h5 className="widget__title">PRELIMINARY ABSTRACT (ONLINE)</h5>
                                         <div className="author-box recent-donate-item">
                                         </div>
                                     </div>
