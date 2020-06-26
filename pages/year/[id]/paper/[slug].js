@@ -85,7 +85,7 @@ export default class YearList extends React.Component {
                                                 <div className="news-tag-item-left">
                                     <span className="news-meta-tags">
                                         <span className="news-meta-title">Keywords:</span>
-                                        <a href="#">{(datas.pap_keyword || "").split('|').toString()} </a>
+                                        {(datas.pap_keyword || "").split('|').map(a => <a>{a}</a>)}
                                     </span>
                                                 </div>
                                             </div>
