@@ -2,13 +2,7 @@ import React from 'react';
 import Layout from "../components/Layout";
 import NavOne from "../components/NavOne";
 import PageHeader from "../components/PageHeader";
-import AboutArea from "../components/AboutArea";
 import MixerAreaTwo from "../components/MixerAreaTwo";
-import CallToAction from "../components/CallToAction";
-import TeamArea from "../components/TeamArea";
-import FaqArea from "../components/FaqArea";
-import ServiceArea from "../components/ServiceArea";
-import ClientsLogoTwo from "../components/ClientsLogoTwo";
 import Footer from "../components/Footer";
 import Link from "next/link";
 
@@ -40,9 +34,12 @@ const AboutPage = () => {
                                             <li className="star"><a href="../../doc/2020/ISESER2020_BROCHURE.pdf" target="_blank"
                                                                     rel="noopener noreferrer"><i className="fa  fa-file-pdf-o"></i> BROCHURE </a>
                                             </li>
-                                            <li className="star"><a href="../doc/2020/ISESER2020_PRELIMINARY-PROGRAM.pdf?e4" target="_blank"><i className="fa  fa-file-pdf-o"></i> PRELIMINARY PROGRAM
+                                            <li className="star"><a href="../../doc/2020/ISESER2020-FINAL-PROGRAM.pdf?e1"
+                                                                    target="_blank" rel="noopener noreferrer"><i
+                                                className="fa  fa-file-pdf-o"></i> FINAL PROGRAM </a></li>
+                                            <li className="star"><a href="../year/2020" ><i className="fa fa-file-code-o"></i> ABSTRACTS BOOK
                                             </a></li>
-                                            <li className="star"><a href="../year/2020" ><i className="fa  fa-file-pdf-o"></i> PRELIMINARY ABSTRACTS (ONLINE)
+                                            <li className="star"><a href="../year/2020" ><i className="fa fa-file-code-o"></i> ABSTRACT WEB (ONLINE)
                                             </a></li>
                                         </ul>
                                     </p>

@@ -30,10 +30,9 @@ const AboutPage = () => {
                                             <li className="star"><a href="https://portal.iseser.com/"><i className="fa fa-external-link"></i> REGISTRATION</a></li>
                                             <li className="star"><a href="../doc/2020/ISESER2020_BANNER.pdf?2" target="_blank"><i className="fa  fa-file-pdf-o"></i> BANNER</a></li>
                                             <li className="star"><a href="../doc/2020/ISESER2020_BROCHURE.pdf?2" target="_blank"><i className="fa  fa-file-pdf-o"></i> BROCHURE</a></li>
-                                            <li className="star"><a href="../doc/2020/ISESER2020_PRELIMINARY-PROGRAM.pdf?e4" target="_blank"><i className="fa  fa-file-pdf-o"></i> PRELIMINARY PROGRAM
-                                            </a></li>
-                                            <li className="star"><a href="../year/2020" ><i className="fa  fa-file-pdf-o"></i> PRELIMINARY ABSTRACTS (ONLINE)
-                                            </a></li>
+                                            <li className="star"><a href="../doc/2020/ISESER2020-FINAL-PROGRAM.pdf?e1" target="_blank" rel="noopener noreferrer">
+                                                <i className="fa  fa-file-pdf-o"></i> FINAL PROGRAM </a></li>
+                                            <li className="star"><a href="../year/2020"><i className="fa fa-file-code-o"></i> ABSTRACTS WEB (ONLINE)</a></li>
                                         </ul>
                                         <hr/>
                                         <ul>
@@ -43,7 +42,6 @@ const AboutPage = () => {
                                             </li>
                                             <li className="star"><a href="../doc/2020/ISESER2020_POSTER-PREPARATION.pptm" target="_blank"><i className="fa fa-file-powerpoint-o"></i> Poster
                                                 Template</a></li>
-
                                             <li><span className="important-notice">“THE POSTER NEED TO BE 70X90 CM TO BE SEEN IN THE TEMPLATE.”</span>
                                             </li>
                                             <li><span className="important-notice">“MAXIMUM PAGE NUMBER WHICH WILL BE USED IN ABSTRACT TEXTS SHOULD NOT BE EXCEEDED 1.”</span>

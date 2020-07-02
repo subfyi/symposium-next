@@ -96,7 +96,7 @@ export default class YearList extends React.Component {
                             <div className="col-lg-4">
                                 <div className="sidebar-shared">
                                     <div className="side-widget">
-                                        <h5 className="widget__title">PRELIMINARY ABSTRACT (ONLINE)</h5>
+                                        <h5 className="widget__title">ABSTRACTS (ONLINE)</h5>
                                         <div className="author-box recent-donate-item">
                                         </div>
                                     </div>

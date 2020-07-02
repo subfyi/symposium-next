@@ -1,7 +1,6 @@
 import React from 'react';
 import Layout from "../../../components/Layout";
 import NavOne from "../../../components/NavOne";
-import PageHeader from "../../../components/PageHeader";
 import MixerAreaTwo from "../../../components/MixerAreaTwo";
 import Footer from "../../../components/Footer";
 import SimpleReactValidator from 'simple-react-validator'
@@ -31,7 +30,7 @@ export default class YearList extends React.Component {
         const {orals, posters, year} = this.props;
 
         return (
-            <Layout pageTitle={year + "SYMPOSIUM ABSTRACTS (ONLINE)"}>
+            <Layout pageTitle={"ISESER" + year + " SYMPOSIUM ABSTRACTS (ONLINE)"}>
                 <NavOne/>
                 <PageHeaderEvent
                     title={"All Symposium"}
@@ -45,7 +44,7 @@ export default class YearList extends React.Component {
                             <div className="col-lg-12">
                                 <div className="about-heading">
                                     <div className="section-heading">
-                                        <h2 className="section__title">{year} SYMPOSIUM PRELIMINARY ABSTRACTS (ONLINE)
+                                        <h2 className="section__title">ISESER{year} SYMPOSIUM ABSTRACTS (ONLINE)
                                         </h2>
                                     </div>
                                 </div>
