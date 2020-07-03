@@ -28,59 +28,16 @@ const AboutPage = () => {
                                 <div className="section-heading">
 
                                     <div className="section__desc">
-                           <h3>2020 Symposium date was updated as 4-5 July 2020 and the last abstract submission date was delayed to 20 June 2020.
-                           </h3>
+                                        Welcome to ISESER 2020. All presentations can be watched online from the <b><a href="https://portal.iseser.com/"><i className="fa fa-external-link"></i> user area</a></b> after you login (If you do not have an account, please create a new account).
+                                        You can make
+                                        your comments under any presentation in "Questions & Answers" section by clicking "Add New" button.
+
                                     </div>
                                 </div>
                             </div>
                         </div>
 
 
-
-                        <div className="col-lg-12">
-                            <div className="about-heading">
-                                <div className="section-heading"><p className="section__meta">About Online Presentation</p>
-
-                                    <div className="section__desc">
-                                        <div className="form-group">
-                                            <p>
-                                                Because of the effects of COVİD-19 Pandemic, it may not be possible to make the symposium with normal
-                                                procedure. Therefore, as an organizing committee we offer an asynchronous online presentation chance
-                                                to our participants.
-                                                The steps of online presentation are explained here:
-
-                                            </p>
-
-                                            <ol>
-                                                <li> All participants must be affiliated to our user area and have their own account.
-                                                </li>
-                                                <li> The corresponding authors (presenters) will prepare their presentation in mp4 video format with
-                                                    their own live images and voices. Any program creating mp4 format videos available in your
-                                                    computer or phones may be used for the preparation of your videos. The presentation language must
-                                                    be in English.
-                                                </li>
-                                                <li> The prepared presentations will be uploaded to the system.  Please check your presentation before sending.
-                                                </li>
-                                                <li> The last date for sending a presentation video is 30 June 2020.
-                                                </li>
-                                                <li> After this step, the sent presentations will be uploaded to the user area system under the
-                                                    presentations tab.
-                                                </li>
-                                                <li> All uploaded presentations will stay open in online during the symposium and any participant
-                                                    (author or not) will watch the video and make comment under the video.
-                                                </li>
-                                                <li> The presenters have to check the comments under their video during the symposium duration in
-                                                    order to give an answer to comments.
-
-                                                </li>
-                                            </ol>
-
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
 
 
                         <div className="col-lg-12">
