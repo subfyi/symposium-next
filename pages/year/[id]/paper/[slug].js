@@ -102,7 +102,7 @@ export default class YearList extends React.Component {
                                             <a className="reply__btn theme-btn"
                                                target="_blank"
                                                href={"https://iseser.com/doc/"+ year + "/ISESER"+ year + "-ABSTRACT-BOOK.pdf#page=" + (+(datas.paper_abst_page || "").split('-')[0] + splitpage[year])}>
-                                                Abstract Book Page: PDF</a>
+                                                <i className="fa  fa-file-pdf-o"></i> Abstract Book Page</a>
                                         </div>
                                         }
                                     </div>
