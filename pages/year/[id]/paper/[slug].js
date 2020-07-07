@@ -121,7 +121,7 @@ export default class YearList extends React.Component {
                                             <div className="author-box recent-donate-item">
                                                 <a className="reply__btn theme-btn"
                                                    target="_blank"
-                                                   href={"https://iseser.com/doc/2019/ISESER2019-PROCEEDING-BOOK.pdf#page=" + (+(datas.paper_page || "").split('-')[0] + splitpage[year])}>
+                                                   href={"https://iseser.com/doc/"+ year + "/ISESER"+ year + "-PROCEEDING-BOOK.pdf#page=" + (+(datas.paper_page || "").split('-')[0] + splitpage[year])}>
                                                     Full Paper: PDF</a>
                                             </div>
                                         </div> : <div className="side-widget">
@@ -141,7 +141,7 @@ export default class YearList extends React.Component {
                                         <div className="author-box recent-donate-item">
                                             <a className="reply__btn theme-btn"
                                                target="_blank"
-                                               href={"https://iseser.com/doc/2019/ISESER2019-PROCEEDING-BOOK.pdf#page=" + (+(datas.paper_abst_page || "").split('-')[0] + splitpage[year])}>
+                                               href={"https://iseser.com/doc/"+ year + "/ISESER"+ year + "-ABSTRACT-BOOK.pdf#page=" + (+(datas.paper_abst_page || "").split('-')[0] + splitpage[year])}>
                                                 Full Paper: PDF</a>
                                         </div>
                                     </div>

@@ -13,16 +13,11 @@ const HomePage = () => {
             <CallToAction/>
             <section className="service-area text-center">
                 <div className="container">
-
                     <div className="row service-wrap">
                         <div className="col">
-                           Welcome to ISESER 2020. All presentations can be watched online from the <b><a href="https://portal.iseser.com/"><i className="fa fa-external-link"></i> user area</a></b> after you login (If you do not have an account, please create a new account).
-                                You can make
-                                your comments under any presentation in "Questions & Answers" section by clicking "Add New" button.
-
+                            Deadline for Full Texts is 20 July 2020. Please upload full texts to <b><a href="https://portal.iseser.com/"><i className="fa fa-external-link"></i> user area</a></b>.
                         </div>
                     </div>
-
                 </div>
             </section>
             <SliderOne/>
