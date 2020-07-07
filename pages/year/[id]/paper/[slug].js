@@ -96,7 +96,7 @@ export default class YearList extends React.Component {
                             <div className="col-lg-4">
                                 <div className="sidebar-shared">
                                     <div className="side-widget">
-                                        <h5 className="widget__title">ABSTRACT (ONLINE)</h5>
+                                        <h5 className="widget__title">Abstract (ONLINE)</h5>
                                         {datas.paper_abst_page &&
                                         <div className="author-box recent-donate-item">
                                             <a className="reply__btn theme-btn"
@@ -106,20 +106,6 @@ export default class YearList extends React.Component {
                                         </div>
                                         }
                                     </div>
-
-                                    <div className="side-widget">
-                                        <h4 className="widget__title">Presentation Topic</h4>
-                                        <div className="author-box recent-donate-item">
-                                            {(datas.topic && datas.topic.value)}
-                                        </div>
-                                    </div>
-                                    <div className="side-widget">
-                                        <h4 className="widget__title">Presentation Type</h4>
-                                        <div className="author-box recent-donate-item">
-                                            {(datas.parampre && datas.parampre.value)}
-                                        </div>
-                                    </div>
-
                                     {datas.paper_page &&
                                     <>
                                         {datas.paper_page >= 0 ? <div className="side-widget">
@@ -141,6 +127,20 @@ export default class YearList extends React.Component {
                                         </div>}
                                     </>
                                     }
+                                    <div className="side-widget">
+                                        <h4 className="widget__title">Presentation Topic</h4>
+                                        <div className="author-box recent-donate-item">
+                                            {(datas.topic && datas.topic.value)}
+                                        </div>
+                                    </div>
+                                    <div className="side-widget">
+                                        <h4 className="widget__title">Presentation Type</h4>
+                                        <div className="author-box recent-donate-item">
+                                            {(datas.parampre && datas.parampre.value)}
+                                        </div>
+                                    </div>
+
+
 
                                 </div>
                             </div>
