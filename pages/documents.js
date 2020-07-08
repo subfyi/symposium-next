@@ -32,7 +32,7 @@ const AboutPage = () => {
                                             <li className="star"><a href="../doc/2020/ISESER2020_BROCHURE.pdf?2" target="_blank"><i className="fa  fa-file-pdf-o"></i> BROCHURE</a></li>
                                             <li className="star"><a href="../doc/2020/ISESER2020-FINAL-PROGRAM.pdf?e1" target="_blank" rel="noopener noreferrer">
                                                 <i className="fa  fa-file-pdf-o"></i> FINAL PROGRAM </a></li>
-                                            <li className="star"><a href="../doc/2020/ISESER2020-ABSTRACT-BOOK.pdf?e1" target="_blank" rel="noopener noreferrer"><i
+                                            <li className="star"><a href="../doc/2020/ISESER2020-ABSTRACT-BOOK.pdf?e2" target="_blank" rel="noopener noreferrer"><i
                                                 className="fa  fa-file-pdf-o"></i> ABSTRACT BOOK </a></li>
                                             <li className="star"><a href="../year/2020"><i className="fa fa-file-code-o"></i> ABSTRACTS WEB (ONLINE)</a></li>
                                         </ul>
