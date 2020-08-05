@@ -44,7 +44,7 @@ export default class YearList extends React.Component {
                             <div className="col-lg-12">
                                 <div className="about-heading">
                                     <div className="section-heading">
-                                        <h2 className="section__title">ISESER{year} SYMPOSIUM ABSTRACTS (ONLINE)
+                                        <h2 className="section__title">ISESER{year} SYMPOSIUM  WEB VERSION (ONLINE VIEW)
                                         </h2>
                                     </div>
                                 </div>

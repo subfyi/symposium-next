@@ -59,9 +59,9 @@ export default class YearList extends React.Component {
                                                 <span className=""><a href="#">Author(s):{" "}</a></span>
 
                                                 {datas.authors.map((author, index) =>
-                                                        <span className="">{author.name} {author.surname}<sup>{index + 1}</sup>,{" "}
+                                                    <span className="">{author.name} {author.surname}<sup>{index + 1}</sup>,{" "}
                                                         </span>
-                                                    )}
+                                                )}
 
                                                 <br/>
                                                 <ul className="small">
@@ -96,15 +96,22 @@ export default class YearList extends React.Component {
                             <div className="col-lg-4">
                                 <div className="sidebar-shared">
                                     <div className="side-widget">
-                                        <h5 className="widget__title">Abstract (ONLINE)</h5>
+                                        <h5 className="widget__title">Abstract Book:
+                                        </h5>
                                         {datas.paper_abst_page &&
                                         <div className="author-box recent-donate-item">
-                                            <a className="reply__btn theme-btn"
+                                            <a className="reply__btn btn btn-dark"
                                                target="_blank"
-                                               href={"https://iseser.com/doc/"+ year + "/ISESER"+ year + "-ABSTRACT-BOOK.pdf#page=" + (+(datas.paper_abst_page || "").split('-')[0] + splitpage[year])}>
+                                               href={"https://iseser.com/doc/" + year + "/ISESER" + year + "-ABSTRACT-BOOK.pdf#page=" + (+(datas.paper_abst_page || "").split('-')[0] + splitpage[year])}>
                                                 <i className="fa  fa-file-pdf-o"></i> Abstract Book Page</a>
                                         </div>
-                                        }
+                                        }<div>
+                                        <b>Page: </b>
+                                        <span>
+                                            {datas.paper_abst_page}</span></div>
+                                        <b>ISBN: </b>
+                                        <span>
+                                            {splitAISBN[year]}</span>
                                     </div>
                                     {datas.paper_page &&
                                     <>
@@ -113,7 +120,7 @@ export default class YearList extends React.Component {
                                             <div className="author-box recent-donate-item">
                                                 <a className="reply__btn theme-btn"
                                                    target="_blank"
-                                                   href={"https://iseser.com/doc/"+ year + "/ISESER"+ year + "-PROCEEDING-BOOK.pdf#page=" + (+(datas.paper_page || "").split('-')[0] + splitpage[year])}>
+                                                   href={"https://iseser.com/doc/" + year + "/ISESER" + year + "-PROCEEDING-BOOK.pdf#page=" + (+(datas.paper_page || "").split('-')[0] + splitpage[year])}>
                                                     Full Paper: PDF</a>
                                             </div>
                                         </div> : <div className="side-widget">
@@ -139,7 +146,6 @@ export default class YearList extends React.Component {
                                             {(datas.parampre && datas.parampre.value)}
                                         </div>
                                     </div>
-
 
 
                                 </div>
@@ -172,3 +178,5 @@ export default class YearList extends React.Component {
 }
 var smonths = {'2019': 'May', '2020': 'July'};
 var splitpage = {'2019': 15, '2020': 10};
+var splitAISBN = {'2019': "978-605-184-173-1", '2020': "978-605-69996-1-1"};
+var splitPISBN = {'2019': "978-605-184-173-1", '2020': "978-605-83522-2-3"};

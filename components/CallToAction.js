@@ -9,12 +9,12 @@ const CallToAction = () => {
                     <div className="col-lg-2"></div>
                     <div className="col-lg-2">
                         <div className="section-heading mixer-heading">
-                            <a href="/symposium-announced" className="theme-btn">ANNOUNCEMENT</a>
+                            <a href="/documents" className="theme-btn">Documents</a>
                         </div>
                     </div>
                     <div className="col-lg-8">
                         <div className="section-heading mixer-heading">
-                            <p className="section-heading-p">ISESER2020 which will be held on 4-5 July 2020, on WEB.</p>
+                            <p className="section-heading-p">Proceeding Book of ISESER 2020 was published.</p>
                         </div>
                     </div>
                 </div>
