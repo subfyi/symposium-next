@@ -102,27 +102,30 @@ export default class YearList extends React.Component {
                                         <div className="author-box recent-donate-item">
                                             <a className="reply__btn btn btn-dark"
                                                target="_blank"
-                                               href={"https://iseser.com/doc/" + year + "/ISESER" + year + "-ABSTRACT-BOOK.pdf#page=" + (+(datas.paper_abst_page || "").split('-')[0] + splitpage[year])}>
+                                               href={"https://iseser.com/doc/" + year + "/ISESER" + year + "-ABSTRACT-BOOK.pdf#page=" + (+(datas.paper_abst_page || "").split('-')[0] + splitApage[year])}>
                                                 <i className="fa  fa-file-pdf-o"></i> Abstract Book Page</a>
                                         </div>
-                                        }<div>
-                                        <b>Page: </b>
-                                        <span>
-                                            {datas.paper_abst_page}</span></div>
-                                        <b>ISBN: </b>
-                                        <span>
-                                            {splitAISBN[year]}</span>
+                                        }
+                                        <div><b>Page: </b>
+                                            <span>{datas.paper_abst_page}</span></div>
+                                        <div><b>ISBN: </b>
+                                            <span>{splitAISBN[year]}</span></div>
                                     </div>
                                     {datas.paper_page &&
                                     <>
                                         {datas.paper_page >= 0 ? <div className="side-widget">
                                             <h4 className="widget__title">Published Paper</h4>
                                             <div className="author-box recent-donate-item">
-                                                <a className="reply__btn theme-btn"
+                                                <a className="reply__btn btn btn-dark"
                                                    target="_blank"
-                                                   href={"https://iseser.com/doc/" + year + "/ISESER" + year + "-PROCEEDING-BOOK.pdf#page=" + (+(datas.paper_page || "").split('-')[0] + splitpage[year])}>
+                                                   href={"https://iseser.com/doc/" + year + "/ISESER" + year + "-PROCEEDING-BOOK-PREVIEW.pdf#page=" + (+(datas.paper_page || "").split('-')[0] + splitPpage[year])}>
                                                     Full Paper: PDF</a>
                                             </div>
+                                            <div><b>Page: </b>
+                                                <span>{datas.paper_abst_page}</span></div>
+                                            <div><b>ISBN: </b>
+                                                <span>{splitPISBN[year]}</span></div>
+
                                         </div> : <div className="side-widget">
                                             <h4 className="widget__title">Published Paper</h4>
                                             <div className="author-box recent-donate-item">
@@ -177,6 +180,7 @@ export default class YearList extends React.Component {
     }
 }
 var smonths = {'2019': 'May', '2020': 'July'};
-var splitpage = {'2019': 15, '2020': 10};
+var splitApage = {'2019': 15, '2020': 10};
+var splitPpage = {'2019': 15, '2020': 9};
 var splitAISBN = {'2019': "978-605-184-173-1", '2020': "978-605-69996-1-1"};
 var splitPISBN = {'2019': "978-605-184-173-1", '2020': "978-605-83522-2-3"};
