@@ -35,10 +35,9 @@ const AboutPage = () => {
                                             <li>International Journal of Environmental Pollution and Environmental Modelling (IJEPEM), <a target="_blank" href="https://ijepem.com">ijepem.com</a>
                                             </li>
 
-                                            <li>Journal of Landscape Ecology, <a target="_blank" href="http://www.journaloflandscapeecology.cz/index.php?page=home">journaloflandscapeecology.cz</a>
+                                            <li>Journal of Landscape Ecology, <a target="_blank" href="https://content.sciendo.com/configurable/contentpage/journals$002fjlecol$002fjlecol-overview.xml?tab_body=overview">content.sciendo.com/configurable/contentpage/journals$002fjlecol$002fjlecol-overview.xml?tab_body=overview</a>
                                             </li>
-                                            <li>International Journal of Environment and Health
-                                                , <a target="_blank" href="https://www.inderscience.com/jhome.php?jcode=ijenvh">inderscience.com</a>
+                                            <li>International Journal of Environment and Health, <a target="_blank" href="https://www.inderscience.com/jhome.php?jcode=ijenvh">inderscience.com/jhome.php?jcode=ijenvh</a>
                                             </li>
 
 
