@@ -54,33 +54,24 @@ export default class YearList extends React.Component {
                                     <div className="blog-item">
                                         <div className="blog-inner-content">
                                             <div className="inner-causes-box">
-
-
                                                 <span className=""><a href="#">Author(s):{" "}</a></span>
-
                                                 {datas.authors.map((author, index) =>
                                                     <span className="">{author.name} {author.surname}<sup>{index + 1}</sup>,{" "}
                                                         </span>
                                                 )}
-
                                                 <br/>
                                                 <ul className="small">
                                                     {datas.authors.map((author, index) =>
                                                         <li><sup>{index + 1}.</sup> {author.adress} ,
                                                         </li>
                                                     )}
-
                                                 </ul>
                                             </div>
                                         </div>
                                         <div className="blog-inner-content-2">
                                             <p className="causes__text">
-                                                <strong>
-                                                    Abstract:
-                                                </strong> {datas.pap_abstract}
-
+                                                <strong>Abstract:</strong> {datas.pap_abstract}
                                             </p>
-
                                             <div className="news-tags">
                                                 <div className="news-tag-item-left">
                                     <span className="news-meta-tags">
@@ -103,10 +94,9 @@ export default class YearList extends React.Component {
                                                 <a className="reply__btn btn btn-dark"
                                                    target="_blank"
                                                    href={"https://iseser.com/doc/" + year + "/ISESER" + year + "-PROCEEDING-BOOK-PREVIEW.pdf#page=" + (+(datas.paper_page || "").split('-')[0] + splitPpage[year])}>
-                                                    Proceeding Book: PDF</a>
+                                                    <i className="fa  fa-file-pdf-o"></i> Proceeding Book Page</a>
                                             </div>
-                                            <div><b>Page: </b>
-                                                <span>{datas.paper_page}-{datas.paper_page_end}</span></div>
+
                                             <div><b>ISBN: </b>
                                                 <span>{splitPISBN[year]}</span></div>
 
@@ -116,7 +106,7 @@ export default class YearList extends React.Component {
                                                 <a className="reply__btn theme-btn"
                                                    target="_blank"
                                                    href={datas.paper_external}>
-                                                    Full Paper: PDF</a>
+                                                    Published Full Paper: PDF</a>
                                             </div>
                                         </div>}
                                     </>
@@ -151,11 +141,8 @@ export default class YearList extends React.Component {
                                             {(datas.parampre && datas.parampre.value)}
                                         </div>
                                     </div>
-
-
                                 </div>
                             </div>
-
                             {datas.paper_page &&
                             <div className="col-lg-12">
                                 <hr/>
@@ -181,8 +168,11 @@ export default class YearList extends React.Component {
             </Layout>);
     }
 }
-var smonths = {'2019': 'May', '2020': 'July'};
-var splitApage = {'2019': 15, '2020': 10};
-var splitPpage = {'2019': 15, '2020': 9};
-var splitAISBN = {'2019': "978-605-184-173-1", '2020': "978-605-69996-1-1"};
-var splitPISBN = {'2019': "978-605-184-173-1", '2020': "978-605-83522-2-3"};
+
+var smonths = {'2016': "May", '2017': "May", '2018': "May", '2019': 'May', '2020': 'July'};
+
+var splitApage = {'2016': "NULL", '2017': "NULL", '2018': 11, '2019': 15, '2020': 10};
+var splitAISBN = {'2016': "NULL", '2017': "NULL", '2018': "978-605-83522-1-6", '2019': "NULL", '2020': "978-605-69996-1-1"};
+
+var splitPpage = {'2016': 9, '2017': 9, '2018': "NULL", '2019': 15, '2020': 9};
+var splitPISBN = {'2016': "978-605-83522-0-9", '2017': "978-605-88368-4-6", '2018': "NULL", '2019': "978-605-184-173-1", '2020': "978-605-83522-2-3"};
