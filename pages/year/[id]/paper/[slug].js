@@ -96,7 +96,8 @@ export default class YearList extends React.Component {
                                                    href={"https://iseser.com/doc/" + year + "/ISESER" + year + "-PROCEEDING-BOOK-PREVIEW.pdf#page=" + (+(datas.paper_page || "").split('-')[0] + splitPpage[year])}>
                                                     <i className="fa  fa-file-pdf-o"></i> Proceeding Book Page</a>
                                             </div>
-
+                                            <div><b>Page: </b>
+                                                <span>{datas.paper_page}-{datas.paper_page_end}</span></div>
                                             <div><b>ISBN: </b>
                                                 <span>{splitPISBN[year]}</span></div>
 

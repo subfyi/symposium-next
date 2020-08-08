@@ -41,7 +41,7 @@ const AboutPage = () => {
                                                                     target="_blank" rel="noopener noreferrer"><i
                                                 className="fa  fa-file-pdf-o"></i> ABSTRACT BOOK </a></li>
                                             <li className="star"><a href="../../doc/2020/ISESER2020-PROCEEDING-BOOK.pdf?e1" target="_blank" rel="noopener noreferrer">
-                                                <i className="fa  fa-file-pdf-o"></i> PROCEEDING BOOK Preview</a> <small>( Page number can be change)</small>
+                                                <i className="fa  fa-file-pdf-o"></i> PROCEEDING BOOK </a>
                                             </li>
                                             <li className="star"><a href="../year/2020"><i className="fa fa-file-code-o"></i> WEB VERSION (ONLINE VIEW)</a></li>
                                         </ul>
