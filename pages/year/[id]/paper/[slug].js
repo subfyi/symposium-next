@@ -93,7 +93,7 @@ export default class YearList extends React.Component {
                                             <div className="author-box recent-donate-item">
                                                 <a className="reply__btn btn btn-dark"
                                                    target="_blank"
-                                                   href={"https://iseser.com/doc/" + year + "/ISESER" + year + "-PROCEEDING-BOOK-PREVIEW.pdf#page=" + (+(datas.paper_page || "").split('-')[0] + splitPpage[year])}>
+                                                   href={"https://iseser.com/doc/" + year + "/ISESER" + year + "-PROCEEDING-BOOK.pdf#page=" + (+(datas.paper_page || "").split('-')[0] + splitPpage[year])}>
                                                     <i className="fa  fa-file-pdf-o"></i> Proceeding Book Page</a>
                                             </div>
                                             <div><b>Page: </b>
@@ -175,5 +175,5 @@ var smonths = {'2016': "May", '2017': "May", '2018': "May", '2019': 'May', '2020
 var splitApage = {'2016': "NULL", '2017': "NULL", '2018': 11, '2019': 15, '2020': 10};
 var splitAISBN = {'2016': "NULL", '2017': "NULL", '2018': "978-605-83522-1-6", '2019': "NULL", '2020': "978-605-69996-1-1"};
 
-var splitPpage = {'2016': 9, '2017': 9, '2018': "NULL", '2019': 15, '2020': 9};
+var splitPpage = {'2016': 9, '2017': 9, '2018': "NULL", '2019': 15, '2020': 10};
 var splitPISBN = {'2016': "978-605-83522-0-9", '2017': "978-605-88368-4-6", '2018': "NULL", '2019': "978-605-184-173-1", '2020': "978-605-83522-2-3"};
