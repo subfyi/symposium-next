@@ -97,7 +97,7 @@ export default class YearList extends React.Component {
                                                     <i className="fa  fa-file-pdf-o"></i> Proceeding Book Page</a>
                                             </div>
                                             <div><b>Page: </b>
-                                                <span>{datas.paper_page}-{datas.paper_page_end}</span></div>
+                                                <span>{datas.paper_page}{datas.paper_page_end && "-" + datas.paper_page_end}</span></div>
                                             <div><b>ISBN: </b>
                                                 <span>{splitPISBN[year]}</span></div>
 
@@ -156,7 +156,7 @@ export default class YearList extends React.Component {
                                                 .map(a => a.surname + ", " + a.name.split(' ').map(a => a[0]).join('. ') + ".")
                                                 .join(" & ")
                                             }. ({year}, {smonths[year]}). {datas.pap_title}. International Symposium for Environmental Science and Engineering Research (ISESER{year}),
-                                            pp. {datas.paper_page}-{datas.paper_page_end}, Manisa, Turkey.
+                                            pp. {datas.paper_page}{datas.paper_page_end && "-" + datas.paper_page_end}, Manisa, Turkey.
                                         </div>
                                     </div>
                                 </div>
