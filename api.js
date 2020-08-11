@@ -1,10 +1,11 @@
+
 export default async (url, params) => {
     var task;
 
     var newParams = params && { ...params, headers: { 'Accept': 'application/json', ...(params.headers || {}) } };
 
     if (url.startsWith('/')) {
-        task = fetch("https://api.iseser.com" + url, newParams);
+        task = fetch(process.env.ENDPOINT + url, newParams);
     } else {
         task = fetch(url, newParams);
     }
