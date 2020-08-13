@@ -29,7 +29,7 @@ export default class YearList extends React.Component {
         const {datas, year, paper} = this.props;
 
         return (
-            <Layout pageTitle={datas.pap_title}>
+            <Layout pageTitle={datas.en_title}>
                 <NavOne/>
                 <PageHeaderEvent
                     title={"All Symposium"}
@@ -41,7 +41,7 @@ export default class YearList extends React.Component {
                     <div className="container">
                         <div className="row blog-content-wrap">
                             <div className="col-lg-12">
-                                <h3 className="blog__title"><a href={paper}>{datas.pap_title}</a>
+                                <h3 className="blog__title"><a href={paper}>{datas.en_title}</a>
                                 </h3>
                             </div>
                             <div className="col-lg-12">
@@ -70,7 +70,7 @@ export default class YearList extends React.Component {
                                         </div>
                                         <div className="blog-inner-content-2">
                                             <p className="causes__text">
-                                                <strong>Abstract:</strong> {datas.pap_abstract}
+                                                <strong>Abstract:</strong> {datas.en_abstract}
                                             </p>
                                             <div className="news-tags">
                                                 <div className="news-tag-item-left">
@@ -155,7 +155,7 @@ export default class YearList extends React.Component {
                                             {datas.authors
                                                 .map(a => a.surname + ", " + a.name.split(' ').map(a => a[0]).join('. ') + ".")
                                                 .join(" & ")
-                                            }. ({year}, {smonths[year]}). {datas.pap_title}. International Symposium for Environmental Science and Engineering Research (ISESER{year}),
+                                            }. ({year}, {smonths[year]}). {datas.en_title}. International Symposium for Environmental Science and Engineering Research (ISESER{year}),
                                             pp. {datas.paper_page}{datas.paper_page_end && "-" + datas.paper_page_end}, Manisa, Turkey.
                                         </div>
                                     </div>

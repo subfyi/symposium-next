@@ -75,7 +75,7 @@ export default class YearList extends React.Component {
                                                 {orals.data.map((row, i) => <>
                                                     <tr key={row.id} className={this.props.trstyle && this.props.trstyle(row)}>
                                                         <td><b>O{i+1}</b></td>
-                                                        <td><a href={"/year/" + year + "/paper/" + (row.id)}> {row.pap_title}</a></td>
+                                                        <td><a href={"/year/" + year + "/paper/" + (row.id)}> {row.en_title}</a></td>
                                                     </tr>
                                                     <tr>
                                                         <td colSpan="2">
@@ -120,7 +120,7 @@ export default class YearList extends React.Component {
                                                 {posters.data.map((row, i) => <>
                                                     <tr key={row.id} className={this.props.trstyle && this.props.trstyle(row)}>
                                                         <td><b>P{i + 1}</b></td>
-                                                        <td><a href={"/year/" + year + "/paper/" + (row.id)}> {row.pap_title}</a></td>
+                                                        <td><a href={"/year/" + year + "/paper/" + (row.id)}> {row.en_title}</a></td>
                                                     </tr>
                                                     <tr>
                                                         <td colSpan="2">
