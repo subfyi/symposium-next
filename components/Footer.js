@@ -48,8 +48,8 @@ class Footer extends Component {
                                 <div className="col footer-item footer-item2">
                                     <h3 className="widget__title"> ABOUT US</h3>
                                     <ul className="foot__links">
-                                        <li>International Symposium for Environmental Science and Engineering Research (ISESER2020)</li>
-                                        <li>ISESER2020 which will be held on 4-5 July 2020 on, Web.</li>
+                                        <li>International Symposium for Environmental Science and Engineering Research (ISESER2021)</li>
+                                        <li>ISESER2021 which will be held on 4-5 July 2021 on, Web.</li>
                                         <li>Contact us: <a href="mailto:iseser@iseser.com">iseser@iseser.com</a></li>
                                         <li>Şükrü Dursun (whatsapp) <a href="tel:+905365954591">: +905365954591</a></li>
                                         <li>Nilgün Yenil Harmancı (whatsapp) <a href="tel:+905333449728">: +905333449728</a></li>
@@ -64,7 +64,7 @@ class Footer extends Component {
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="copyright-desc">
-                                        <p>© Copyright 2020 by <a target="_blank" href="https://sub.fyi/">Sub.fyi</a></p>
+                                        <p>© Copyright 2021 by <a target="_blank" href="https://sub.fyi/">Sub.fyi</a></p>
                                     </div>
                                 </div>
                             </div>

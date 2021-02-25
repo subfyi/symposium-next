@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 
 const AboutPage = () => {
     return (
-        <Layout pageTitle="Announcement | ISESER2020">
+        <Layout pageTitle="Announcement | ISESER2021">
             <NavOne/>
             <PageHeader title="Announcement"/>
             <section className="about-area">
@@ -28,7 +28,7 @@ const AboutPage = () => {
                                 <div className="section-heading">
 
                                     <div className="section__desc">
-                                        Welcome to ISESER 2020. All presentations can be watched online from the <b><a href="https://portal.iseser.com/"><i className="fa fa-external-link"></i> user area</a></b> after you login (If you do not have an account, please create a new account).
+                                        Welcome to ISESER 2021. All presentations can be watched online from the <b><a href="https://portal.iseser.com/"><i className="fa fa-external-link"></i> user area</a></b> after you login (If you do not have an account, please create a new account).
                                         You can make
                                         your comments under any presentation in "Questions & Answers" section by clicking "Add New" button.
 

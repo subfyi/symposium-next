@@ -33,7 +33,7 @@ const SliderOne = () => {
                                                 </p>  <p className="slider__meta">
                                                 ENVIRONMENTAL SCIENCE AND
                                             </p>  <p className="slider__meta">
-                                                ENGINEERING RESEARCH 2020</p>
+                                                ENGINEERING RESEARCH 2021</p>
                                             </div>
                                         </div>
                                     </div>
@@ -53,7 +53,7 @@ const SliderOne = () => {
                                                 </p>  <p className="slider__meta">
                                                 ENVIRONMENTAL SCIENCE AND
                                             </p>  <p className="slider__meta">
-                                                ENGINEERING RESEARCH 2020</p>
+                                                ENGINEERING RESEARCH 2021</p>
                                             </div>
                                         </div>
                                     </div>
@@ -73,7 +73,7 @@ const SliderOne = () => {
                                                 </p>  <p className="slider__meta">
                                                 ENVIRONMENTAL SCIENCE AND
                                             </p>  <p className="slider__meta">
-                                                ENGINEERING RESEARCH 2020</p>
+                                                ENGINEERING RESEARCH 2021</p>
                                             </div>
                                         </div>
                                     </div>
@@ -93,7 +93,7 @@ const SliderOne = () => {
                                                 </p>  <p className="slider__meta">
                                                 ENVIRONMENTAL SCIENCE AND
                                             </p>  <p className="slider__meta">
-                                                ENGINEERING RESEARCH 2020</p>
+                                                ENGINEERING RESEARCH 2021</p>
                                             </div>
                                         </div>
                                     </div>
@@ -113,7 +113,7 @@ const SliderOne = () => {
                                                 </p>  <p className="slider__meta">
                                                 ENVIRONMENTAL SCIENCE AND
                                             </p>  <p className="slider__meta">
-                                                ENGINEERING RESEARCH 2020</p>
+                                                ENGINEERING RESEARCH 2021</p>
                                             </div>
                                         </div>
                                     </div>

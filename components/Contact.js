@@ -17,7 +17,7 @@ const Contact = () => {
                             <p className="section__meta">Conference Venue</p>
                             <p className="section__desc">
 
-                                    <p>ISESER2020 which will be held on 4-5 July 2020 in, <a href="https://goo.gl/maps/n7i6pPyJEsJsyphd9"
+                                    <p>ISESER2021 which will be held on 4-5 July 2021 in, <a href="https://goo.gl/maps/n7i6pPyJEsJsyphd9"
                                                                                              target="_blank"> <b>Suleyman Demirel
                                         Cultural Center, Uncubozköy Campus</b></a>, Manisa. </p>
                                     <ul>
@@ -28,7 +28,7 @@ const Contact = () => {
                                             <strong>Opening Ceremony</strong>: 4th May, Saturday
                                         </li>
                                         <li>
-                                            <strong>Video and Poster Presentations will be available </strong>: 4-5 July 2020
+                                            <strong>Video and Poster Presentations will be available </strong>: 4-5 July 2021
                                         </li>
                                     </ul>
 
