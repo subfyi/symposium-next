@@ -16,8 +16,7 @@ const AboutPage = () => {
                         <div className="col-lg-12">
                             <div className="about-heading">
                                 <div className="section-heading">
-                                    <h2 className="section__title">Honorary Committee
-                                    </h2>
+                                    <h2 className="section__title">Honorary Committee</h2>
                                 </div>
                             </div>
                         </div>
@@ -30,16 +29,7 @@ const AboutPage = () => {
 
                                             <tbody>
                                             <tr>
-                                                <td>Prof. Dr. Ahmet Ataç, Manisa Celal Bayar University Rector, Manisa, Turkey</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Prof. Dr. Alush Musaj, University of Mitrovica “Isa Boletini” (UMIB), Mitrovica, Kosovo</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Prof. Dr. Babür Özçelik, Konya Technical University Rector, Konya, Turkey</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Prof. Dr. Mustafa Şahin, Selçuk University Rector, Konya, Turkey</td>
+                                                <td>Prof. Dr. Kaliopi Naska, Rector of Albanian University, Tirana, Albania</td>
                                             </tr>
                                             </tbody>
 

@@ -16,22 +16,19 @@ const AboutPage = () => {
                         <div className="col-lg-12">
                             <div className="about-heading">
                                 <div className="section-heading">
-                                    <h2 className="section__title">Important Dates
-
-                                    </h2>
+                                    <h2 className="section__title">Important Dates</h2>
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-12">
                             <div className="about-heading">
                                 <div className="section-heading">
-
                                     <p className="section__desc">
                                         <ul>
-                                            <li>Registration and Abstract Submission Date: 20 June 2020</li>
-                                            <li>Full Text Deadline: 20 July 2020</li>
-                                            <li>Presentation Video Deadline: 30 June 2020</li>
-                                            <li>Symposium Date: 4-5 July 2020</li>
+                                            <li>Registration and Abstract Submission Date: 1 May 2021</li>
+                                            <li>Full Text Deadline: 20 May 2021</li>
+                                            <li>Presentation Video Deadline: 1 June 2020</li>
+                                            <li>Symposium Date: 11-13 June 2021</li>
                                         </ul>
                                     </p>
                                 </div>

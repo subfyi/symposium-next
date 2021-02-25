@@ -30,6 +30,7 @@ const AboutPage = () => {
                                         <ul>
                                             <li>Air Pollution</li>
                                             <li>Anaysis of toxic materials</li>
+                                            <li>Art Design</li>
                                             <li>Artificial Intelligence</li>
                                             <li>Biotechnology</li>
                                             <li>Ecology</li>

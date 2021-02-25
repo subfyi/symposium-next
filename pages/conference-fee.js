@@ -40,14 +40,14 @@ const AboutPage = () => {
                                             </tr>
                                             <tr>
                                                 <td><strong>Video Presentation</strong></td>
-                                                <td>40 € (₺ for equal price)</td>
-                                                <td>20 € (₺ for equal price)</td>
+                                                <td>50 € (Leke for equal price)</td>
+                                                <td>20 € (Leke for equal price)</td>
                                                 <td>Free</td>
                                             </tr>
                                             <tr>
                                                 <td><strong>Poster Presentation</strong></td>
-                                                <td>40 € (₺ for equal price)</td>
-                                                <td>20 € (₺ for equal price)</td>
+                                                <td>50 € (Leke for equal price)</td>
+                                                <td>20 € (Leke for equal price)</td>
                                                 <td>Free</td>
                                             </tr>
                                             </tbody>

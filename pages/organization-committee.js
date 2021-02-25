@@ -30,14 +30,13 @@ const AboutPage = () => {
                                         <table className="tg">
                                             <tbody>
                                             <tr>
-                                                <td className="tg-0lax">Şükrü Dursun, Engineering and Natural Sciences Faculty, Konya
-                                                    Technical University, Konya,
-                                                    Turkey
+                                                <td className="tg-0lax">
+                                                    Şükrü Dursun, Engineering and Natural Sciences Faculty, Konya Technical University, Konya, Turkey
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td className="tg-0pky">Nilgün Yenil Harmancı, Sciences and Arts Faculty, Celal Bayar University,
-                                                    Manisa, Turkey
+                                                <td className="tg-0pky">
+                                                    Laura Shumka, Department of Art Design, Albanian University, Tirana, Albania
                                                 </td>
                                             </tr>
                                             </tbody>
@@ -55,39 +54,32 @@ const AboutPage = () => {
                                         <table className="tg">
                                             <tbody>
                                             <tr>
-                                                <td className="tg-0lax"> Arzu Ege, Celal Bayar University, Sciences and Arts Faculty,
-                                                    Manisa,
-                                                    Turkey
+                                                <td className="tg-0lax">
+                                                    Çiğdem Çiftçi, Faculty of Engineering and Architecture, Necmettin Erbakan University, Konya
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td className="tg-0pky">
+                                                    Kimete Tataveshi, Albanian University, Tirana, Albania
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td className="tg-0lax">Bahriye Gülgün, Agriculture Faculty, Ege University, İzmir,
-                                                    Turkey
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td className="tg-0pky">Bircan Dindar, Solar Energy Institute, Ege University, Izmir, Turkey
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td className="tg-0lax">Çiğdem Çiftçi, Faculty Of Engineering and Architecture, Necmettin
-                                                    Erbakan University, Konya,
-                                                    Turkey
+                                                <td className="tg-0lax">
+                                                    Nilgün Yenil Harmancı, Celal Bayar University, Manisa, Turkey
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td className="tg-0lax">Emre Dalkılıç, Engineering and Natural Sciences Faculty, Konya
-                                                    Technical University, Konya,
-                                                    Turkey
+                                                    Technical University, Konya, Turkey
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td className="tg-0pky">Ertuğrul Esmeray, Karabük University, Engineering Faculty, Karabuk,
-                                                    Turkey
+                                                <td className="tg-0pky">Ertuğrul Esmeray, Karabük University, Engineering Faculty, Karabuk, Turkey
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td className="tg-0pky">Fadim Yemiş, Sciences and Arts Faculty, Celal Bayar University, Manisa, Turkey
+                                                <td className="tg-0lax">Kübra Yazıcı, Bozok University, Landscape Architecture Department, Yozgat, Turkey
                                                 </td>
                                             </tr>
                                             <tr>
@@ -101,48 +93,18 @@ const AboutPage = () => {
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td className="tg-0pky">Israfil Şabikoğlu, Sciences and Arts Faculty, Celal Bayar University, Manisa,
-                                                    Turkey
-                                                </td>
-                                            </tr>
-                                            <tr>
                                                 <td className="tg-0pky">Lyudmyla Symochko, Faculty of Biology, Uzhhorod National University, Uzhhorod,
                                                     Ukraine
                                                 </td>
                                             </tr>
-
                                             <tr>
                                                 <td className="tg-0lax">Muhammed Kamil Öden, Vocational School, Selcuk University, Konya,
                                                     Turkey
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td className="tg-0pky">Şerife Yurdagül Kumcu, Engineering and Architecture Faculty,
-                                                    Necmettin Erbakan University, Konya,
-                                                    Turkey
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td className="tg-0lax">Tanju Kahraman, Celal Bayar University, Sciences and Arts Faculty,
-                                                    Manisa,
-                                                    Turkey
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td className="tg-0lax">Tülin Aydemir, Celal Bayar University, Sciences and Arts Faculty,
-                                                    Manisa,
-                                                    Turkey
-                                                </td>
-                                            </tr>
-                                            <tr>
                                                 <td className="tg-0lax">Yasin Akın Ayturan, Engineering Faculty, KTO Karatay University,
                                                     Konya, Turkey
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td className="tg-0lax">Yüksel Abalı, Celal Bayar University, Sciences and Arts Faculty,
-                                                    Manisa,
-                                                    Turkey
                                                 </td>
                                             </tr>
                                             <tr>

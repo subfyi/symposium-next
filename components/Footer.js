@@ -39,7 +39,8 @@ class Footer extends Component {
                         <div className="container">
                             <div className="row footer-widget-wrap">
                                 <div className="col footer-item footer-item1  col-md-4">
-                                    <aside><a href="/"><img className="td-retina-data td-retina-version"
+                                    <aside><a href="/">
+                                        <img className="td-retina-data td-retina-version"
                                                             src="https://iseser.com/doc/logo/v_5_telif-300x300.png"
                                                            alt="iseser"
                                                             title="iseser" width="" /></a>
@@ -49,10 +50,9 @@ class Footer extends Component {
                                     <h3 className="widget__title"> ABOUT US</h3>
                                     <ul className="foot__links">
                                         <li>International Symposium for Environmental Science and Engineering Research (ISESER2021)</li>
-                                        <li>ISESER2021 which will be held on 4-5 July 2021 on, Web.</li>
+                                        <li>ISESER2021 which will be held on 11-13 June 2021 on, Web.</li>
                                         <li>Contact us: <a href="mailto:iseser@iseser.com">iseser@iseser.com</a></li>
                                         <li>Şükrü Dursun (whatsapp) <a href="tel:+905365954591">: +905365954591</a></li>
-                                        <li>Nilgün Yenil Harmancı (whatsapp) <a href="tel:+905333449728">: +905333449728</a></li>
                                     </ul>
                                 </div>
 

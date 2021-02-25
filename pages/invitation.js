@@ -28,7 +28,7 @@ const AboutPage = () => {
                                     <p className="section__desc">
 
 
-                                            <p >As an organizing commitee, we are honored to invite you to attend the International Symposium for Environmental Science and Engineering Research 2021 which will be held on 4-5 July 2021 online.
+                                            <p >As an organizing commitee, we are honored to invite you to attend the International Symposium for Environmental Science and Engineering Research 2021 which will be held on 11-13 June 2021 online.
                                                 This event will be a useful for
                                                 researchers, engineers, students, academics and anyone interested in environmental
                                                 engineering and science. Through the conference, it will be possible to establish
@@ -79,16 +79,12 @@ const AboutPage = () => {
                                             </tr>
                                             <tr>
                                                 <td className="tg-0lax">Mohamed Abdelmalek Khemgani, Department of Agricultural Sciences, Kasdi Merbah
-                                                    University,
-                                                    Algeria
+                                                    University, Algeria
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td className="tg-0pky">Marcelo Enrique Conti, Rome sapienza University, Italy
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td className="tg-0lax">Petr Madera, Mendel University, Czech Republic
+                                                <td className="tg-0pky">
+                                                    Spase Shumka, Biotechnology & Food Faculty, Tirana Agriculture University, Albania
                                                 </td>
                                             </tr>
                                             <tr>

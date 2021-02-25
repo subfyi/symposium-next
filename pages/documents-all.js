@@ -22,11 +22,11 @@ const AboutPage = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-md-6 mt-3">
                             <div className="about-heading">
                                 <div className="section-heading">
 
-                                    <p className="section__meta"><Link href="/year/2020"><a>2020 SYMPOSIUM</a></Link></p>
+                                    <p className="section__meta"><Link href="/year/2020"><a>2021 SYMPOSIUM</a></Link></p>
                                     <p className="section__desc">
                                         <ul className="icon">
                                             <li className="star"><a href="../../doc/2021/ISESER2021_BANNER.pdf?v1" target="_blank"><i className="fa  fa-file-pdf-o"></i> BANNER</a></li>
@@ -37,7 +37,7 @@ const AboutPage = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-md-6 mt-3">
                             <div className="about-heading">
                                 <div className="section-heading">
 
@@ -64,7 +64,7 @@ const AboutPage = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-md-6 mt-3">
                             <div className="about-heading">
                                 <div className="section-heading">
 
@@ -94,8 +94,7 @@ const AboutPage = () => {
                                 </div>
                             </div>
                         </div>
-
-                        <div className="col-lg-6 mt-3">
+                        <div className="col-md-6 mt-3">
                             <div className="about-heading">
                                 <div className="section-heading">
 
@@ -118,7 +117,7 @@ const AboutPage = () => {
                             </div>
                         </div>
 
-                        <div className="col-lg-6 mt-3">
+                        <div className="col-md-6 mt-3">
                             <div className="about-heading">
                                 <div className="section-heading">
 
@@ -143,7 +142,7 @@ const AboutPage = () => {
                             </div>
                         </div>
 
-                        <div className="col-lg-6 mt-3">
+                        <div className="col-md-6 mt-3">
                             <div className="about-heading">
                                 <div className="section-heading">
 

@@ -7,7 +7,7 @@ const ServiceArea = () => {
 
                 <div className="row service-wrap">
                     <div className="col">
-                    <p>As an organizing commitee, we are honored to invite you to attend the International Symposium for Environmental Science and Engineering Research 2021 which will be held on 4-5 July 2021 online.
+                    <p>As an organizing commitee, we are honored to invite you to attend the International Symposium for Environmental Science and Engineering Research 2021 which will be held on 11-13 June 2021 online.
                          This event will be a useful for
                         researchers, engineers, students, academics and anyone interested in environmental engineering and science. Through
                         the conference, it will be possible to establish new partnerships, to share knowledge and experiences.
