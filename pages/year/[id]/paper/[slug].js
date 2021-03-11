@@ -56,7 +56,7 @@ export default class YearList extends React.Component {
                                             <div className="inner-causes-box">
                                                 <span className=""><a href="#">Author(s):{" "}</a></span>
                                                 {datas.authors.map((author, index) =>
-                                                    <span className="">{author.name} {author.surname}<sup>{index + 1}</sup>,{" "}
+                                                    <span className="">{author.first_name} {author.last_name}<sup>{index + 1}</sup>,{" "}
                                                         </span>
                                                 )}
                                                 <br/>
@@ -153,7 +153,7 @@ export default class YearList extends React.Component {
                                         </h4>
                                         <div className="side-cats">
                                             {datas.authors
-                                                .map(a => a.surname + ", " + a.name.split(' ').map(a => a[0]).join('. ') + ".")
+                                                .map(a => a.last_name + ", " + a.first_name.split(' ').map(a => a[0]).join('. ') + ".")
                                                 .join(" & ")
                                             }. ({year}, {smonths[year]}). {datas.en_title}. International Symposium for Environmental Science and Engineering Research (ISESER{year}),
                                             pp. {datas.paper_page}{datas.paper_page_end && "-" + datas.paper_page_end}, Manisa, Turkey.
@@ -170,10 +170,46 @@ export default class YearList extends React.Component {
     }
 }
 
-var smonths = {'2016': "May", '2017': "May", '2018': "May", '2019': 'May', '2020': 'July'};
+var smonths = {
+    '2016': "May",
+    '2017': "May",
+    '2018': "May",
+    '2019': 'May',
+    '2020': 'July',
+    '2021': 'June'
+};
 
-var splitApage = {'2016': "NULL", '2017': "NULL", '2018': 11, '2019': 15, '2020': 10};
-var splitAISBN = {'2016': "NULL", '2017': "NULL", '2018': "978-605-83522-1-6", '2019': "NULL", '2020': "978-605-69996-1-1"};
+var splitApage = {
+    '2016': "NULL",
+    '2017': "NULL",
+    '2018': 11,
+    '2019': 15,
+    '2020': 10,
+    '2021': 10
+};
 
-var splitPpage = {'2016': 9, '2017': 9, '2018': "NULL", '2019': 15, '2020': 10};
-var splitPISBN = {'2016': "978-605-83522-0-9", '2017': "978-605-88368-4-6", '2018': "NULL", '2019': "978-605-184-173-1", '2020': "978-605-83522-2-3"};
+var splitAISBN = {
+    '2016': "NULL",
+    '2017': "NULL",
+    '2018': "978-605-83522-1-6",
+    '2019': "NULL",
+    '2020': "978-605-69996-1-1",
+    '2021': "NULL"
+};
+
+var splitPpage = {
+    '2016': 9,
+    '2017': 9,
+    '2018': "NULL",
+    '2019': 15,
+    '2020': 10,
+    '2021': "NULL"
+};
+var splitPISBN = {
+    '2016': "978-605-83522-0-9",
+    '2017': "978-605-88368-4-6",
+    '2018': "NULL",
+    '2019': "978-605-184-173-1",
+    '2020': "978-605-83522-2-3",
+    '2021': "NULL"
+};

@@ -80,7 +80,7 @@ export default class YearList extends React.Component {
                                                     <tr>
                                                         <td colSpan="2">
                                                             {row.authors
-                                                                .map(a => a.name + " " + a.surname)
+                                                                .map(a => a.first_name + " " + a.last_name)
                                                                 .join(", ")
                                                             }</td>
                                                     </tr>
@@ -125,7 +125,7 @@ export default class YearList extends React.Component {
                                                     <tr>
                                                         <td colSpan="2">
                                                             {row.authors
-                                                                .map(a => a.name + " " + a.surname)
+                                                                .map(a => a.first_name + " " + a.last_name)
                                                                 .join(", ")
                                                             }</td>
                                                     </tr>
