@@ -40,14 +40,14 @@ const AboutPage = () => {
                                             </tr>
                                             <tr>
                                                 <td><strong>Video Presentation</strong></td>
-                                                <td>50 € (Leke for equal price)</td>
-                                                <td>20 € (Leke for equal price)</td>
+                                                <td>50 €</td>
+                                                <td>20 €</td>
                                                 <td>Free</td>
                                             </tr>
                                             <tr>
                                                 <td><strong>Poster Presentation</strong></td>
-                                                <td>50 € (Leke for equal price)</td>
-                                                <td>20 € (Leke for equal price)</td>
+                                                <td>50 €</td>
+                                                <td>20 €</td>
                                                 <td>Free</td>
                                             </tr>
                                             </tbody>
@@ -62,7 +62,7 @@ const AboutPage = () => {
                                     <div className="section__desc">
                                         <hr/>
 
-                                        <p>Please wait for payment details. (<span ><strong>There is no fee refund.</strong></span>)</p>
+                                        <p>Please wait for payment details. (<span><strong>There is no fee refund.</strong></span>)</p>
                                         {/*
                                         <p>Please send the required fee to IBAN address given below and please write the "iseser2020" in the
                                             description field.

@@ -87,11 +87,6 @@ const AboutPage = () => {
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td className="tg-0pky">Lyudmyla Symochko, Faculty of Biology, Uzhhorod National University, Uzhhorod,
-                                                    Ukraine
-                                                </td>
-                                            </tr>
-                                            <tr>
                                                 <td className="tg-0pky">
                                                     Kimete Tataveshi, Albanian University, Tirana, Albania
                                                 </td>
@@ -107,8 +102,8 @@ const AboutPage = () => {
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td className="tg-0pky">
-                                                    Lyudmyla Symochko, Uzhhorod National University, Uzhhorod, Ukraine
+                                                <td className="tg-0pky">Lyudmyla Symochko, Faculty of Biology, Uzhhorod National University, Uzhhorod,
+                                                    Ukraine
                                                 </td>
                                             </tr>
                                             <tr>

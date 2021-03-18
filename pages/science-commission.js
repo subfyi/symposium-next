@@ -195,6 +195,11 @@ const AboutPage = () => {
                                                 </td>
                                             </tr>
                                             <tr>
+                                                <td className="tg-0pky">
+                                                    Mine Ulusoy, Konya Technical University, Konya, Turkey. Sicientific Board a ekleyebilirmiyiz
+                                                </td>
+                                            </tr>
+                                            <tr>
                                                 <td className="tg-0lax">Mohammed Faraj Shather Al Marjani, Department of Biology/ College of Science , Mustansiriyah University. Iraq
                                                 </td>
                                             </tr>
