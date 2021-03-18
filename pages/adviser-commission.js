@@ -29,28 +29,9 @@ const AboutPage = () => {
                                     <p className="section__desc">
                                         <table className="tg">
                                             <tbody>
-                                            <tr>
-                                                <td className="tg-0pky">Ali Rıza Kul, Science Faculty, Van Yüzüncü Yıl University, Aksaray,
-                                                    Turkey
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td className="tg-0pky">Ayşe Erkuş, Engineering and Architecture Faculty, Van Yüzüncü Yıl
-                                                    University, Aksaray, Turkey
-                                                </td>
-                                            </tr>
+
                                             <tr>
                                                 <td className="tg-0pky">Blerina Vrenozi, Natural Science Faculty, Tirana University, Albania
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td className="tg-0pky">Deniz Demir Atlı, Sciences and Arts Faculty, Celal Bayar University, Manisa,
-                                                    Turkey
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td className="tg-0pky">Eda Güneş, Tourism Faculty, Necmettin Erbakan University, Konya,
-                                                    Turkey
                                                 </td>
                                             </tr>
                                             <tr>
@@ -59,65 +40,13 @@ const AboutPage = () => {
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td className="tg-0pky">Feray Koçan, Sciences and Arts Faculty, Celal Bayar University, Manisa,
-                                                    Turkey
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td className="tg-0pky">Flora Merko, Business Faculty, Aleksander Moisiu Durres University,
-                                                    Albania
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td className="tg-0pky">Gülden Gök, Engineering Faculty, Aksaray University, Aksaray, Turkey
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td className="tg-0pky">Gülnihal Kara, Engineering and Natural Sciences Faculty, Konya
-                                                    Technical University, Konya, Turkey
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td className="tg-0pky">Hasan Koçyiğit, Engineering Faculty, Aksaray University, Aksaray,
-                                                    Turkey
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td className="tg-0pky">İsmail Şimşek, Engineering Faculty, Aksaray University, Aksaray,
-                                                    Turkey
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td className="tg-0pky">Kübra Yazıcı, Agriculture Faculty, Gaziosmanpaşa University, Tokat,
-                                                    Turkey
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td className="tg-0pky">Laura Shumka, Architecture Faculty, Albanian University, Tirana</td>
-                                            </tr>
-                                            <tr>
-                                                <td className="tg-0pky">Merve Soğancıoğlu, Engineering and Natural Sciences Faculty, Konya
-                                                    Technical University, Konya, Turkey
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td className="tg-0pky">Özlem Güllü, Engineering Faculty, Aksaray University, Aksaray,
-                                                    Turkey
+                                                <td className="tg-0pky">
+                                                    Mirela Alushllari, Institute of Applied Nuclear Physics, University of Tirana, Tirana, Albania
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td className="tg-0pky">Prithwiraj Jha, Raiganj Surendranath College, University of Gour
                                                     Banga, India
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td className="tg-0pky">Selim Doğan, Engineering and Natural Sciences Faculty, Konya
-                                                    Technical University, Konya, Turkey
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td className="tg-0pky">Sermin Çam Kaynar, Sciences and Arts Faculty, Celal Bayar University, Manisa,
-                                                    Turkey
                                                 </td>
                                             </tr>
                                             <tr>
@@ -127,21 +56,6 @@ const AboutPage = () => {
                                             <tr>
                                                 <td className="tg-0pky">Sezen Küçükçongar, Engineering and Natural Sciences Faculty, Konya
                                                     Technical University, Konya, Turkey
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td className="tg-0pky">Umit Kaynar, Engineering and Architecture Faculty, Bakirçay University, İzmir,
-                                                    Turkey
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td className="tg-0lax">Yağmur Uysal, Engineering &amp; Architecture Faculty, Mersin University,
-                                                    Mersin, Turkey
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td className="tg-0lax">Yasemin Tuncer, Sciences and Arts Faculty, Celal Bayar University, Manisa,
-                                                    Turkey
                                                 </td>
                                             </tr>
                                             <tr>

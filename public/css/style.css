@@ -957,19 +957,19 @@ a:hover {
     transform: skew(-12deg,0deg);
 }
 .slider-area .slide-bg1 {
-    background-image: url("../slider/fotograf_23.jpg");
+    background-image: url("../slider/2021-3.jpg");
 }
 .slider-area .slide-bg2 {
-    background-image: url("../slider/fotograf_22.jpg");
+    background-image: url("../slider/2021-1.jpg");
 }
 .slider-area .slide-bg3 {
-    background-image: url("../slider/fotograf_20.jpg");
+    background-image: url("../slider/2021-4.jpg");
 }
 .slider-area .slide-bg4 {
-    background-image: url("../slider/fotograf_21.jpg");
+    background-image: url("../slider/2021-2.png");
 }
 .slider-area .slide-bg5 {
-    background-image: url("../slider/fotograf_24.jpg");
+    background-image: url("../slider/2021-2.png");
 }
 .slider-area .slide-item-table {
     display: table;

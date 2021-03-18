@@ -26,13 +26,17 @@ const AboutPage = () => {
 
                                     <p className="section__desc">
                                         <table className="tg">
-
                                             <tbody>
                                             <tr>
                                                 <td>Prof. Dr. Kaliopi Naska, Rector of Albanian University, Tirana, Albania</td>
                                             </tr>
+                                            <tr>
+                                                <td>Prof. Dr. Genti GUXHO, Dean of Mechanical Engineering Faculty, Polytechnic University of Tirana, Albania</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Prof. Dr. Osman METALLA, Dean of Professional Study Faculty, University “Aleksander Moisiu” Durres, Albania</td>
+                                            </tr>
                                             </tbody>
-
                                         </table>
                                     </p>
                                 </div>

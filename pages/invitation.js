@@ -78,16 +78,6 @@ const AboutPage = () => {
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td className="tg-0lax">Mohamed Abdelmalek Khemgani, Department of Agricultural Sciences, Kasdi Merbah
-                                                    University, Algeria
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td className="tg-0pky">
-                                                    Spase Shumka, Biotechnology & Food Faculty, Tirana Agriculture University, Albania
-                                                </td>
-                                            </tr>
-                                            <tr>
                                                 <td className="tg-0lax">Shahabuddin Memon, Sindh University, National Centre of Excellence,
                                                     Analytical Chemistry Director, Jamshoro, Pakistan
                                                 </td>

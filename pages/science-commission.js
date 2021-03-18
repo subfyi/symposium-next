@@ -44,6 +44,10 @@ const AboutPage = () => {
                                                 </td>
                                             </tr>
                                             <tr>
+                                                <td className="tg-0pky">Altin Dorri, Polytechnic University of Tirana, Albania
+                                                </td>
+                                            </tr>
+                                            <tr>
                                                 <td className="tg-0pky"> Alaa Motar Shayia Tor, Atmospheric Sciences Dept., College of Science, Mustansiryiah University, Baghdad, Iraq
                                                 </td>
                                             </tr>
@@ -80,19 +84,8 @@ const AboutPage = () => {
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td className="tg-0pky">Dilek Erdirençelebi, Engineering and Natural Sciences Faculty, Konya Technical University, Konya
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td className="tg-0pky">Durmuş Kaya, Technology Faculty, Kocaeli University, Kocaeli
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td className="tg-0pky">Elif Akpınar Külekçi, Department of Landscape Architecture, Atatürk University, Erzurum, Turkey.
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td className="tg-0pky">Esra Yel, Engineering and Natural Sciences Faculty, Konya Technical University, Konya
+                                                <td className="tg-0pky">
+                                                    Drakuli Lumi, Polytechnic University of Tirana, Albania
                                                 </td>
                                             </tr>
                                             <tr>
@@ -100,19 +93,7 @@ const AboutPage = () => {
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td className="tg-0pky">Filiz Nuran Acar, Engineering Faculty, Atatürk University, Erzurum, Turkey
-                                                </td>
-                                            </tr>
-                                            <tr>
                                                 <td className="tg-0pky">Genta Rexha, Albanian University, Tirana, Albania
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td className="tg-0pky">Gürdal Tuncel, Engineering Faculty, Middle East Technical University, Ankara
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td className="tg-0lax">H. Selçuk HALKACI, Engineering and Natural Sciences Faculty, Konya Technical University, Konya, Turkey
                                                 </td>
                                             </tr>
                                             <tr>
@@ -121,10 +102,6 @@ const AboutPage = () => {
                                             </tr>
                                             <tr>
                                                 <td className="tg-0pky">Hamiyet Şahin Kol, Faculty Of Engineering, Karabuk University, Karabuk, Turkey
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td className="tg-0pky">Hasan Arman, Environment &amp; Engineering Faculty, United Arab Emirates University, United Arab Emirates
                                                 </td>
                                             </tr>
                                             <tr>
@@ -156,16 +133,17 @@ const AboutPage = () => {
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td className="tg-0pky">Işık Sezen, Department of Landscape Architecture, Atatürk University, Erzurum, Turkey.
-                                                </td>
-                                            </tr>
-                                            <tr>
                                                 <td className="tg-0pky">Jacek D. Czerwinski, Environmental Protection Engineering Institute, Lublin Technology University, Polland
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td className="tg-0pky">Juliana Jalaludin, Department Environmental and Occupational Health Faculty of Medicine and Health Sciences Universiti Putra
                                                     Malaysia, Serdang, Malaysia
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td className="tg-0pky">
+                                                    Klodian Dhoska, Polytechnic University of Tirana, Albania
                                                 </td>
                                             </tr>
                                             <tr>
@@ -177,11 +155,7 @@ const AboutPage = () => {
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td className="tg-0pky">Leah Moore, Applied Science Faculty, Canberra University, Australia
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td className="tg-0lax">Levent ALTAŞ, Engineering Faculty, Aksaray University, Aksaray
+                                                <td className="tg-0lax">Lirika Kupe, Agricultural University of Tirana, Albania
                                                 </td>
                                             </tr>
                                             <tr>
@@ -189,11 +163,15 @@ const AboutPage = () => {
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td className="tg-0pky">Marcelo Enrique Conti, Rome sapienza University, Italy
+                                                <td className="tg-0pky">Majlinda Alcani, Polytechnic University of Tirana, Albania
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td className="tg-0pky">Maris Klavıns, Environmental Science Department, University Of Latvia, Latvia
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td className="tg-0pky">Marsela Alikaj, Agricultural University of Tirana, Albania
                                                 </td>
                                             </tr>
                                             <tr>
@@ -217,10 +195,6 @@ const AboutPage = () => {
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td className="tg-0lax">Mohamed Abdelmalek Khemgani, Department of Agricultural Sciences, Kasdi Merbah University, Algeria
-                                                </td>
-                                            </tr>
-                                            <tr>
                                                 <td className="tg-0lax">Mohammed Faraj Shather Al Marjani, Department of Biology/ College of Science , Mustansiriyah University. Iraq
                                                 </td>
                                             </tr>
@@ -233,7 +207,11 @@ const AboutPage = () => {
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td className="tg-0lax">Mustafa Tabakcı, Engineering and Natural Sciences Faculty, Konya Technical University, Konya, Turkey
+                                                <td className="tg-0lax">Mustafa Karatas, Engineering Faculty, Aksaray University, Aksaray, Turkey
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td className="tg-0lax">Mustafa Sagdic, Yildiz Technical University, Istanbul, Turkey
                                                 </td>
                                             </tr>
                                             <tr>
@@ -249,7 +227,13 @@ const AboutPage = () => {
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td className="tg-0lax">Nevim Genç, Engineering Faculty, Kocaeli University, Kocaeli, Turkey
+                                                <td className="tg-0lax">
+                                                    Nahida Hameed Hamza Alqaysi, Engineering Faculty, Diyala Univerity, Iraq
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td className="tg-0lax">
+                                                    Najma Memon, University of Sindh, Jamshoro, Pakistan
                                                 </td>
                                             </tr>
                                             <tr>
@@ -273,6 +257,10 @@ const AboutPage = () => {
                                                 </td>
                                             </tr>
                                             <tr>
+                                                <td className="tg-0lax">Odhisea Koça, Polytechnic University of Tirana, Albania
+                                                </td>
+                                            </tr>
+                                            <tr>
                                                 <td className="tg-0lax">Petr Madera, Mendel University, Czech Republic
                                                 </td>
                                             </tr>
@@ -282,10 +270,6 @@ const AboutPage = () => {
                                             </tr>
                                             <tr>
                                                 <td className="tg-0lax">Scott S. Knıght, Usda-Ars National Sedimentation Laboratory, Oxford University, USA
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td className="tg-0lax">Senar Aydın, Engineering and Architecture Faculty, Necmettin Erbakan University, Konya, Turkey
                                                 </td>
                                             </tr>
                                             <tr>
@@ -309,11 +293,8 @@ const AboutPage = () => {
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td className="tg-0lax">Tay Joo Hwa, Environmental &amp; Water Resources Engineering, Nanyang University of Technology, Singapore
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td className="tg-0lax">Tülin Aydemir, Manisa Celal Bayar University, Sciences and Arts Faculty, Manisa, Turkey
+                                                <td className="tg-0lax">
+                                                    Tay Joo Hwa, Nanyang University of Technology, Singapore
                                                 </td>
                                             </tr>
                                             <tr>
@@ -322,14 +303,6 @@ const AboutPage = () => {
                                             </tr>
                                             <tr>
                                                 <td className="tg-0lax">Victor A.Dryban, Rock Pressure Department, National Academy Of Sciences Of Ukraine, Ukraine
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td className="tg-0lax">Yağmur Uysal, Engineering and Architecture Faculty, Kahramanmaraş Sütçü İmam University, Kahramanmaraş
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td className="tg-0lax">Yüksel Abalı, Manisa Celal Bayar University, Sciences and Arts Faculty, Manisa, Turkey
                                                 </td>
                                             </tr>
                                             </tbody>

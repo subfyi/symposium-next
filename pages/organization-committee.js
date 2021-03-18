@@ -31,12 +31,17 @@ const AboutPage = () => {
                                             <tbody>
                                             <tr>
                                                 <td className="tg-0lax">
-                                                    Şükrü Dursun, Engineering and Natural Sciences Faculty, Konya Technical University, Konya, Turkey
+                                                    Altin Dorri, Polytechnic University of Tirana, Tirana, Albania
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td className="tg-0pky">
-                                                    Laura Shumka, Department of Art Design, Albanian University, Tirana, Albania
+                                                    Hüsyin Toros, Istanbul Thechical University, Istanbul, Turkey
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td className="tg-0pky">
+                                                    Sukru Dursun, Konya Technical University, Konya, Turkey
                                                 </td>
                                             </tr>
                                             </tbody>
@@ -58,17 +63,6 @@ const AboutPage = () => {
                                                     Çiğdem Çiftçi, Faculty of Engineering and Architecture, Necmettin Erbakan University, Konya
                                                 </td>
                                             </tr>
-
-                                            <tr>
-                                                <td className="tg-0pky">
-                                                    Kimete Tataveshi, Albanian University, Tirana, Albania
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td className="tg-0lax">
-                                                    Nilgün Yenil Harmancı, Celal Bayar University, Manisa, Turkey
-                                                </td>
-                                            </tr>
                                             <tr>
                                                 <td className="tg-0lax">Emre Dalkılıç, Engineering and Natural Sciences Faculty, Konya
                                                     Technical University, Konya, Turkey
@@ -79,12 +73,12 @@ const AboutPage = () => {
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td className="tg-0lax">Kübra Yazıcı, Bozok University, Landscape Architecture Department, Yozgat, Turkey
+                                                <td className="tg-0lax">Fatma Kunt, Engineering and Architecture Faculty, Necmettin Erbakan
+                                                    University, Konya, Turkey
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td className="tg-0lax">Fatma Kunt, Engineering and Architecture Faculty, Necmettin Erbakan
-                                                    University, Konya, Turkey
+                                                <td className="tg-0lax">Flora Merko, Aleksander Moisiu Durres University, Albania
                                                 </td>
                                             </tr>
                                             <tr>
@@ -98,7 +92,28 @@ const AboutPage = () => {
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td className="tg-0lax">Muhammed Kamil Öden, Vocational School, Selcuk University, Konya,
+                                                <td className="tg-0pky">
+                                                    Kimete Tataveshi, Albanian University, Tirana, Albania
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td className="tg-0pky">
+                                                    Kübra Yazıcı, Bozok University, Landscape Architecture Department, Yozgat, Turkey
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td className="tg-0pky">
+                                                    Lirika Kupe, Agricultural University of Tirana, Albania
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td className="tg-0pky">
+                                                    Lyudmyla Symochko, Uzhhorod National University, Uzhhorod, Ukraine
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td className="tg-0lax">
+                                                    Muhammed Kamil Öden, Vocational School, Selcuk University, Konya,
                                                     Turkey
                                                 </td>
                                             </tr>
@@ -109,8 +124,7 @@ const AboutPage = () => {
                                             </tr>
                                             <tr>
                                                 <td className="tg-0lax">Zeynep Cansu Ayturan, Engineering and Natural Sciences Faculty,
-                                                    Konya Technical University, Konya,
-                                                    Turkey
+                                                    Konya Technical University, Konya, Turkey
                                                 </td>
                                             </tr>
                                             </tbody>
