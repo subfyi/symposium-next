@@ -53,6 +53,7 @@ class Footer extends Component {
                                         <li>ISESER2021 which will be held on 11-13 June 2021 on, Web.</li>
                                         <li>Contact us: <a href="mailto:iseser@iseser.com">iseser@iseser.com</a></li>
                                         <li>Şükrü Dursun (whatsapp) <a href="tel:+905365954591">: +905365954591</a></li>
+                                        <li>Altin Dorri (whatsapp) <a href="tel:+905365954591">: +355695866003</a></li>
                                     </ul>
                                 </div>
 
