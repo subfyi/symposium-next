@@ -68,7 +68,7 @@ class NavOne extends Component {
                                     <div className="top-action-content info-action-content">
                                         <div className="info-box info-box-2 d-flex align-items-center justify-content-end">
                                             <ul className="top-action-list d-flex align-items-center">
-                                                <li className="action__text"><a href="/documents-all">All Symposium</a></li>
+                                                <li className="action__text"><a href="/documents-all">Archives</a></li>
                                                 <li className="action__text"><a href="//portal.iseser.com/auth/login">login</a></li>
                                                 <li className="action__text"><a href="//portal.iseser.com/auth/registration">register</a></li>
                                                 <li><a target="_blank" href="//www.facebook.com/isesercom/"><i className="fa fa-facebook"></i></a></li>
@@ -169,13 +169,16 @@ class NavOne extends Component {
                                 <li className="sidenav__item"><Link href="/contact"><a>contact</a></Link></li>
                             </ul>
                             <ul className="side-social">
-                                <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i className="fa fa-youtube-play"></i></a></li>
-                                <li><a href="#"><i className="fa fa-google-plus"></i></a></li>
+
+                                <li className="action__text"><a href="/documents-all">Archives</a></li>
+                                <li className="action__text"><a href="//portal.iseser.com/auth/login">login</a></li>
+                                <li className="action__text"><a href="//portal.iseser.com/auth/registration">register</a></li>
+                                <li><a target="_blank" href="//www.facebook.com/isesercom/"><i className="fa fa-facebook"></i></a></li>
+
+
                             </ul>
                             <div className="side-btn">
-                                <Link href="/donate"><a className="theme-btn">donate now</a></Link>
+                                <Link href="/documents"><a className="theme-btn">Documents</a></Link>
                             </div>
                         </div>
                     </div>
