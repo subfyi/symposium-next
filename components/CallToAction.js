@@ -14,7 +14,8 @@ const CallToAction = () => {
                     </div>
                     <div className="col-lg-8">
                         <div className="section-heading mixer-heading">
-                            <p className="section-heading-p"></p>
+                            <p className="section-heading-p">
+                                <a href="/documents" className="theme-btn">Click for 2021 Banner</a></p>
                         </div>
                     </div>
                 </div>
