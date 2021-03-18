@@ -15,7 +15,7 @@ const CallToAction = () => {
                     <div className="col-lg-8">
                         <div className="section-heading mixer-heading">
                             <p className="section-heading-p">
-                                <a href="/documents" className="theme-btn">Click for 2021 Banner</a></p>
+                                <a target="_blank" href="/doc/2021/ISESER2021_BANNER.pdf?v1" className="theme-btn">Click for 2021 Banner</a></p>
                         </div>
                     </div>
                 </div>
