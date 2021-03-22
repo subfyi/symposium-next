@@ -69,8 +69,8 @@ class NavOne extends Component {
                                         <div className="info-box info-box-2 d-flex align-items-center justify-content-end">
                                             <ul className="top-action-list d-flex align-items-center">
                                                 <li className="action__text"><a href="/documents-all">Archives</a></li>
-                                                <li className="action__text"><a href="//portal.iseser.com/auth/login">login</a></li>
-                                                <li className="action__text"><a href="//portal.iseser.com/auth/registration">register</a></li>
+                                                <li className="action__text"><a href="//portal.iseser.com/login">login</a></li>
+                                                <li className="action__text"><a href="//portal.iseser.com/register">register</a></li>
                                                 <li><a target="_blank" href="//www.facebook.com/isesercom/"><i className="fa fa-facebook"></i></a></li>
                                             </ul>
                                         </div>
