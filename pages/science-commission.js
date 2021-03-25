@@ -286,6 +286,10 @@ const AboutPage = () => {
                                                 </td>
                                             </tr>
                                             <tr>
+                                                <td className="tg-0pky">Shpend Bengu, Albanian University, Tirana, Albania
+                                                </td>
+                                            </tr>
+                                            <tr>
                                                 <td className="tg-0lax">Spase Shumka, Biotechnology &amp; Food Faculty, Tirana Agriculture University, Albania
                                                 </td>
                                             </tr>
