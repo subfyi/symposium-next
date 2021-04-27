@@ -163,6 +163,11 @@ const AboutPage = () => {
                                                 </td>
                                             </tr>
                                             <tr>
+                                                <td className="tg-0pky">
+                                                    Mahirah Binti Kamaludin, University Malaysia Terengganu, Malaysia
+                                                </td>
+                                            </tr>
+                                            <tr>
                                                 <td className="tg-0pky">Majlinda Alcani, Polytechnic University of Tirana, Albania
                                                 </td>
                                             </tr>
@@ -194,6 +199,13 @@ const AboutPage = () => {
                                                 <td className="tg-0pky">Mirela Llika (Çekani), Faculty of Natural Sciences, University of Tirana, Tirana
                                                 </td>
                                             </tr>
+                                            <tr>
+                                                <td className="tg-0pky">
+                                                    Mohamed Shahrir Mohamed Zahari, University Malaysia Terengganu, Malaysia
+                                                </td>
+                                            </tr>
+
+
                                             <tr>
                                                 <td className="tg-0pky">
                                                     Mine Ulusoy, Konya Technical University, Konya, Turkey. Sicientific Board a ekleyebilirmiyiz
@@ -262,11 +274,21 @@ const AboutPage = () => {
                                                 </td>
                                             </tr>
                                             <tr>
+                                                <td className="tg-0lax">
+                                                    Nurul Adyani Ghazali, University Malaysia Terengganu, Malaysia
+                                                </td>
+                                            </tr>
+                                            <tr>
                                                 <td className="tg-0lax">Odhisea Koça, Polytechnic University of Tirana, Albania
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td className="tg-0lax">Petr Madera, Mendel University, Czech Republic
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td className="tg-0lax">
+                                                    Razifah Mohd Razali, University Malaysia Terengganu, Malaysia
                                                 </td>
                                             </tr>
                                             <tr>

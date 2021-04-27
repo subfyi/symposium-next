@@ -45,8 +45,34 @@ const AboutPage = () => {
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td className="tg-0pky">Prithwiraj Jha, Raiganj Surendranath College, University of Gour
+                                                <td className="tg-0pky">
+                                                    Mohamed Shahrir Mohamed Zahari, University Malaysia Terengganu, Malaysia
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td className="tg-0pky">
+                                                    Noor Zaitun Zakaria, University Malaysia Terengganu, Malaysia
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td className="tg-0pky">
+                                                    Noorlin Mohamed, University Malaysia Terengganu, Malaysia
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td className="tg-0pky">
+                                                    Nurul Adyani Ghazali, University Malaysia Terengganu, Malaysia
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td className="tg-0pky">
+                                                    Prithwiraj Jha, Raiganj Surendranath College, University of Gour
                                                     Banga, India
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td className="tg-0pky">
+                                                    Razifah Mohd Razali, University Malaysia Terengganu, Malaysia
                                                 </td>
                                             </tr>
                                             <tr>
@@ -56,6 +82,11 @@ const AboutPage = () => {
                                             <tr>
                                                 <td className="tg-0pky">Sezen Küçükçongar, Engineering and Natural Sciences Faculty, Konya
                                                     Technical University, Konya, Turkey
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td className="tg-0pky">
+                                                    Wan Nurdiyana Wan Mansur, University Malaysia Terengganu, Malaysia
                                                 </td>
                                             </tr>
                                             <tr>

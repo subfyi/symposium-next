@@ -78,6 +78,16 @@ const AboutPage = () => {
                                                 </td>
                                             </tr>
                                             <tr>
+                                                <td className="tg-0lax">
+                                                    Mohd Zamri Bin Ibrahim, University Malaysia Terengganu, Malaysia
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td className="tg-0lax">
+                                                    Noor Zaitun Zakaria, University Malaysia Terengganu, Malaysia
+                                                </td>
+                                            </tr>
+                                            <tr>
                                                 <td className="tg-0lax">Shahabuddin Memon, Sindh University, National Centre of Excellence,
                                                     Analytical Chemistry Director, Jamshoro, Pakistan
                                                 </td>

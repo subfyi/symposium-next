@@ -41,6 +41,11 @@ const AboutPage = () => {
                                             </tr>
                                             <tr>
                                                 <td className="tg-0pky">
+                                                    Noor Zaitun Yahaya, University Malaysia Terengganu, Malaysia
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td className="tg-0pky">
                                                     Sukru Dursun, Konya Technical University, Konya, Turkey
                                                 </td>
                                             </tr>
@@ -110,6 +115,16 @@ const AboutPage = () => {
                                                 <td className="tg-0lax">
                                                     Muhammed Kamil Öden, Vocational School, Selcuk University, Konya,
                                                     Turkey
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td className="tg-0lax">
+                                                    Nurul Asyraf bt Razali, University Malaysia Terengganu, Malaysia
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td className="tg-0lax">
+                                                    Samsuri Abdullah, University Malaysia Terengganu, Malaysia
                                                 </td>
                                             </tr>
                                             <tr>

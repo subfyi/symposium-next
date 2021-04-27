@@ -17,24 +17,23 @@ const Contact = () => {
 
                             <p className="section__meta">Conference Venue</p>
                             <p className="section__desc">
-
                                     ISESER2021 which will be held on 11-13 June 2021 in,
                                     {" "}<a href="https://goo.gl/maps/iUzRUwxDfU3bUDzV8" target="_blank">
                                     <b>Department of Energy Polytechnic University of Tirana</b></a>, Tirana, ALBANIA. or ONLINE
 
                                 <ul>
                                     <li>
-                                        <strong>Registration</strong>: 1st May, between 09:00-12:00
+                                        <strong>Registration</strong>: 11th July, Friday between 09:00-12:00
                                     </li>
                                     <li>
                                         <strong>Opening Ceremony</strong>: 11th June
                                     </li>
                                     <li>
-                                        <strong>Video and Poster Presentations will be available </strong>: 11-13 June 2021
+                                        <strong>Presentation and Poster Presentations will be available</strong>: 11-13 June 2021
                                     </li>
                                 </ul>
                                 <p>
-                                    <strong>Adress:</strong> Department of Energy Polytechnic University of Tirana, Tirana, ALBANIA.
+                                    <strong>Adress:</strong> Altin Dorri, Department of Energy Polytechnic University of Tirana, Sheshi “Nene Tereza”, Nr. 4, Tirana, Albania.
                                 </p>
 
                                 <p>If you have any question please send an e-mail to{" "}<a
@@ -48,6 +47,7 @@ const Contact = () => {
                                     <li>Şükrü Dursun (whatsapp): <a href="tel:+905365954591">+905365954591</a></li>
                                     <li>Şükrü Dursun (Office): <a href="tel:+905365954591">+903322051559</a></li>
                                     <li>Altin Dorri (whatsapp): <a href="tel:+905365954591">+355695866003</a></li>
+                                    <li>Noor Zaitun Yahaya (WhatsApp): <a href="tel:+60179884115">+60179884115</a></li>
                                 </ul>
                                 <p>For technical issues. </p>
                                 <ul>

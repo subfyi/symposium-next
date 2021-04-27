@@ -36,6 +36,10 @@ const AboutPage = () => {
                                             <tr>
                                                 <td>Prof. Dr. Osman METALLA, Dean of Professional Study Faculty, University “Aleksander Moisiu” Durres, Albania</td>
                                             </tr>
+
+                                            <tr>
+                                                <td>Prof. Ts. Dr. Che Mohd Ruzaidi Bin Ghazali, Dean Faculty of Ocean Engineering Technology, University Malaysia Terengganu, Terengganu, Malaysia</td>
+                                            </tr>
                                             </tbody>
                                         </table>
                                     </p>
