@@ -34,6 +34,8 @@ const AboutPage = () => {
                                             </li>
                                             <li>International Journal of Environmental Pollution and Environmental Modelling (IJEPEM), <a target="_blank" href="https://ijepem.com">ijepem.com</a>
                                             </li>
+                                            <li>Gnosi: An Interdisciplinary Journal of Human Theory and Praxis, <a target="_blank" href="https://gnosijournal.com">gnosijournal.com</a>
+                                            </li>
                                         </ul>
                                     </p>
                                 </div>
