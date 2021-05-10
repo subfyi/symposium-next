@@ -26,7 +26,7 @@ const AboutPage = () => {
                                     <p className="section__desc">
                                         <ul>
                                             <li>Registration and Abstract Submission Date: 15 May 2021</li>
-                                            <li>Full Text Deadline: 20 May 2021</li>
+                                            <li>Full Text Deadline: 25 May 2021</li>
                                             <li>Symposium Date: 11-13 June 2021</li>
 
                                         </ul>
