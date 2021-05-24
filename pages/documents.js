@@ -27,22 +27,16 @@ const AboutPage = () => {
 
                                     <p className="section__desc">
                                         <ul className="icon">
-                                            {/*
-                                             <li className="star"><a href="https://portal.iseser.com/"><i className="fa fa-external-link"></i> REGISTRATION</a></li>
-                                             */}
-
-                                             <li className="star"><a href="../doc/2021/ISESER2021_BANNER.pdf?v1" target="_blank"><i className="fa  fa-file-pdf-o"></i> BANNER</a></li>
+                                            <li className="star"><a href="https://portal.iseser.com/"><i className="fa fa-external-link"></i> REGISTRATION</a></li>
+                                            <li className="star"><a href="../doc/2021/ISESER2021_BANNER.pdf?v1" target="_blank"><i className="fa  fa-file-pdf-o"></i> BANNER</a></li>
                                             <li className="star"><a href="../doc/2021/ISESER2021_BROCHURE.pdf?v1" target="_blank"><i className="fa  fa-file-pdf-o"></i> BROCHURE</a></li>
+                                            <li className="star"><a href="../doc/2021/ISESER2021-FINAL-PROGRAM.pdf?e1" target="_blank" rel="noopener noreferrer"><i className="fa  fa-file-pdf-o"></i> FINAL PROGRAM </a></li>
 
                                             {/*
-                                            <li className="star"><a href="../doc/2021/ISESER2021-FINAL-PROGRAM.pdf?e1" target="_blank" rel="noopener noreferrer">
-                                                <i className="fa  fa-file-pdf-o"></i> FINAL PROGRAM </a></li>
-                                                <li className="star"><a href="../doc/2021/ISESER2021-ABSTRACT-BOOK.pdf?e2" target="_blank" rel="noopener noreferrer"><i
-                                                className="fa  fa-file-pdf-o"></i> ABSTRACT BOOK </a></li>
-                                                <li className="star"><a href="../doc/2021/ISESER2021-PROCEEDING-BOOK.pdf?e2" target="_blank" rel="noopener noreferrer">
-                                                <i className="fa  fa-file-pdf-o"></i> PROCEEDING BOOK</a></li>
-                                                <li className="star"><a href="../year/2021"><i className="fa fa-file-code-o"></i> WEB VERSION (ONLINE VIEW)</a></li>
-                                                */}
+                                              <li className="star"><a href="../doc/2021/ISESER2021-ABSTRACT-BOOK.pdf?e2" target="_blank" rel="noopener noreferrer"><i className="fa  fa-file-pdf-o"></i> ABSTRACT BOOK </a></li>
+                                              <li className="star"><a href="../doc/2021/ISESER2021-PROCEEDING-BOOK.pdf?e2" target="_blank" rel="noopener noreferrer"><i className="fa  fa-file-pdf-o"></i> PROCEEDING BOOK</a></li>
+                                              <li className="star"><a href="../year/2021"><i className="fa fa-file-code-o"></i> WEB VERSION (ONLINE VIEW)</a></li>
+                                            */}
                                         </ul>
                                         <hr/>
                                         <ul>
