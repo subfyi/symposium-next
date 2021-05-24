@@ -30,7 +30,7 @@ const AboutPage = () => {
                                             <li className="star"><a href="https://portal.iseser.com/"><i className="fa fa-external-link"></i> REGISTRATION</a></li>
                                             <li className="star"><a href="../doc/2021/ISESER2021_BANNER.pdf?v1" target="_blank"><i className="fa  fa-file-pdf-o"></i> BANNER</a></li>
                                             <li className="star"><a href="../doc/2021/ISESER2021_BROCHURE.pdf?v1" target="_blank"><i className="fa  fa-file-pdf-o"></i> BROCHURE</a></li>
-                                            <li className="star"><a href="../doc/2021/ISESER2021-FINAL-PROGRAM.pdf?e1" target="_blank" rel="noopener noreferrer"><i className="fa  fa-file-pdf-o"></i> FINAL PROGRAM </a></li>
+                                            <li className="star"><a href="../doc/2021/ISESER2021-PRELIMINARY-PROGRAM.pdf?e1" target="_blank" rel="noopener noreferrer"><i className="fa  fa-file-pdf-o"></i> PRELIMINARY PROGRAM </a></li>
 
                                             {/*
                                               <li className="star"><a href="../doc/2021/ISESER2021-ABSTRACT-BOOK.pdf?e2" target="_blank" rel="noopener noreferrer"><i className="fa  fa-file-pdf-o"></i> ABSTRACT BOOK </a></li>
