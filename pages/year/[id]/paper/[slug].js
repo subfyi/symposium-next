@@ -20,7 +20,7 @@ export default class YearList extends React.Component {
         return {
             datas,
             paper: query.slug,
-            year: "2020"
+            year: query.id
         };
     }
 
@@ -114,7 +114,7 @@ export default class YearList extends React.Component {
                                     }
 
 
-                                    <div className="side-widget">
+                                    {datas.paper_abst_page && <div className="side-widget">
                                         <h5 className="widget__title">Abstract Book:
                                         </h5>
                                         {datas.paper_abst_page &&
@@ -125,11 +125,11 @@ export default class YearList extends React.Component {
                                                 <i className="fa  fa-file-pdf-o"></i> Abstract Book Page</a>
                                         </div>
                                         }
-                                        <div><b>Page: </b>
-                                            <span>{datas.paper_abst_page}</span></div>
-                                        <div><b>ISBN: </b>
-                                            <span>{splitAISBN[year]}</span></div>
-                                    </div>
+                                        {datas.paper_abst_page && <div><b>Page: </b>
+                                            <span>{datas.paper_abst_page}</span></div>}
+                                        {splitAISBN[year] && <div><b>ISBN: </b>
+                                            <span>{splitAISBN[year]}</span></div>}
+                                    </div>}
                                     <div className="side-widget">
                                         <h4 className="widget__title">Presentation Topic</h4>
                                         <div className="author-box recent-donate-item">
@@ -194,7 +194,7 @@ var splitAISBN = {
     '2018': "978-605-83522-1-6",
     '2019': "NULL",
     '2020': "978-605-69996-1-1",
-    '2021': "NULL"
+    '2021': ""
 };
 
 var splitPpage = {
@@ -203,7 +203,7 @@ var splitPpage = {
     '2018': "NULL",
     '2019': 15,
     '2020': 10,
-    '2021': "NULL"
+    '2021': ""
 };
 var splitPISBN = {
     '2016': "978-605-83522-0-9",
@@ -211,5 +211,5 @@ var splitPISBN = {
     '2018': "NULL",
     '2019': "978-605-184-173-1",
     '2020': "978-605-83522-2-3",
-    '2021': "NULL"
+    '2021': ""
 };
