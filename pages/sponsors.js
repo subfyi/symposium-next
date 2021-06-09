@@ -36,6 +36,8 @@ const AboutPage = () => {
                                             <li>
                                                 Journal of Research in Atmospheric Science (JRAS), <a target="_blank" href="https://resatmsci.com">resatmsci.com</a>
                                             </li>
+                                            <li>Journal of International Environmental Application &amp; Science (JIEAS), <a target="_blank" href="http://www.jieas.com">jieas.com</a>
+                                            </li>
                                             <li>
                                                 International Journal of Environmental Pollution and Environmental Modelling (IJEPEM), <a target="_blank" href="https://ijepem.com">ijepem.com</a>
                                             </li>
