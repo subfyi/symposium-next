@@ -34,6 +34,7 @@ const AboutPage = () => {
                             </div>
                         </div>
 
+
                         <div className="col-lg-12">
                             <div className="about-heading">
                                 <div className="section-heading"><p className="section__meta">About Online Presentation</p>
@@ -77,6 +78,7 @@ const AboutPage = () => {
                                 </div>
                             </div>
                         </div>
+
                         <div className="col-lg-12">
                             <div className="about-heading">
                                 <div className="section-heading"><p className="section__meta">Full paper submission</p>

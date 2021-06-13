@@ -16,7 +16,7 @@ module.exports = phase => {
     }
 
     config.env.ENDPOINT = phase === PHASE_DEVELOPMENT_SERVER ?
-        'http://localhost:8000' :
+        'https://api.iseser.com':
         'https://api.iseser.com';
 
     config.env.DOMAIN = phase === PHASE_DEVELOPMENT_SERVER ?

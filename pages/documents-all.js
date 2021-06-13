@@ -26,12 +26,13 @@ const AboutPage = () => {
                             <div className="about-heading">
                                 <div className="section-heading">
 
-                                    <p className="section__meta"><Link href="/year/2020"><a>2021 SYMPOSIUM</a></Link></p>
+                                    <p className="section__meta"><Link href="/year/2021"><a>2021 SYMPOSIUM</a></Link></p>
                                     <p className="section__desc">
                                         <ul className="icon">
                                             <li className="star"><a href="../../doc/2021/ISESER2021_BANNER.pdf?v1" target="_blank"><i className="fa  fa-file-pdf-o"></i> BANNER</a></li>
                                             <li className="star"><a href="../../doc/2021/ISESER2021_BROCHURE.pdf?v1" target="_blank"><i className="fa  fa-file-pdf-o"></i> BROCHURE</a></li>
                                             <li className="star"><a href="../doc/2021/ISESER2021-FINAL-PROGRAM.pdf?e4" target="_blank" rel="noopener noreferrer"><i className="fa  fa-file-pdf-o"></i> FINAL PROGRAM </a></li>
+                                            <li className="star"><a href="../doc/2021/ISESER2021-ABSTRACT-BOOK.pdf?e1" target="_blank" rel="noopener noreferrer"><i className="fa  fa-file-pdf-o"></i> ABSTRACT BOOK </a></li>
                                             <li className="star"><a href="../year/2021"><i className="fa fa-file-code-o"></i> WEB VERSION (ONLINE VIEW)</a></li>
                                         </ul>
                                     </p>
