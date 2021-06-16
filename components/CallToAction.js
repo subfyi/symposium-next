@@ -24,7 +24,7 @@ const CallToAction = () => {
                     </div>
                     <div className="col-lg-8 mt-3">
                         <div className="section-heading mixer-heading">
-                            <a target="_blank" href="/doc/2021/ISESER2021-ABSTRACT-BOOK.pdf?e1" className="theme-btn">Abstract Book of ISESER 2021 was published. </a>
+                            <a target="_blank" href="/doc/2021/ISESER2021-ABSTRACT-BOOK.pdf?e2" className="theme-btn">Abstract Book of ISESER 2021 was published. </a>
                         </div>
                     </div>
                 </div>
