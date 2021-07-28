@@ -12,7 +12,10 @@ const CallToAction = () => {
                     </div>
                     <div className="col-lg-8">
                         <div className="section-heading mixer-heading">
-                            <a target="_blank" href="/doc/2021/ISESER2021-FINAL-PROGRAM.pdf?e4" className="theme-btn">Final program was announced </a>
+                            <a target="_blank" href="/doc/2021/ISESER2021-ABSTRACT-BOOK.pdf?e2" className="theme-btn">Abstract Book of ISESER 2021 was published. </a>
+                            {/*
+                                <a target="_blank" href="/doc/2021/ISESER2021-FINAL-PROGRAM.pdf?e4" className="theme-btn">Final program was announced </a>
+                            */}
                         </div>
                     </div>
 
@@ -24,7 +27,7 @@ const CallToAction = () => {
                     </div>
                     <div className="col-lg-8 mt-3">
                         <div className="section-heading mixer-heading">
-                            <a target="_blank" href="/doc/2021/ISESER2021-ABSTRACT-BOOK.pdf?e2" className="theme-btn">Abstract Book of ISESER 2021 was published. </a>
+                            <a target="_blank" href="/doc/2021/ISESER2021-ABSTRACT-BOOK.pdf?e2" className="theme-btn">PROCEEDING BOOK (preliminary) of ISESER 2021 was published. </a>
                         </div>
                     </div>
                 </div>
