@@ -28,3 +28,11 @@ You can check out [the Next.js GitHub repository](https://github.com/zeit/next.j
 The easiest way to deploy your Next.js app is to use the [ZEIT Now Platform](https://zeit.co/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+---
+
+
+SELECT id, en_title,paper_abst_page, paper_page, paper_page_end FROM `articles` WHERE pap_status != "3" AND title_year = "2021" AND pre_type = "97" ORDER BY `articles`.`id` ASC
+
+
+SELECT id, en_title,paper_abst_page, paper_page, paper_page_end FROM `articles` WHERE pap_status != "3" AND title_year = "2021" AND pre_type = "98" ORDER BY `articles`.`id` ASC
