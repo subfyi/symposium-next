@@ -156,7 +156,7 @@ export default class YearList extends React.Component {
                                                 .map(a => a.last_name + ", " + a.first_name.split(' ').map(a => a[0]).join('. ') + ".")
                                                 .join(" & ")
                                             }. ({year}, {smonths[year]}). {datas.en_title}. International Symposium for Environmental Science and Engineering Research (ISESER{year}),
-                                            pp. {datas.paper_page}{datas.paper_page_end && "-" + datas.paper_page_end}, Manisa, Turkey.
+                                            pp. {datas.paper_page}{ "-" + datas.paper_page-1}, splitPlace[year].
                                         </div>
                                     </div>
                                 </div>
@@ -212,4 +212,13 @@ var splitPISBN = {
     '2019': "978-605-184-173-1",
     '2020': "978-605-83522-2-3",
     '2021': ""
+};
+
+var splitPlace = {
+    '2016': "Konya, Turkey",
+    '2017': "Konya, Turkey",
+    '2018': "Konya, Turkey",
+    '2019': "Konya, Turkey",
+    '2020': "Manisa, Turkey",
+    '2021': "Tirana, Albania"
 };
