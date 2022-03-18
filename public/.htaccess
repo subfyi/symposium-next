@@ -1,5 +1,4 @@
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 #RewriteCond %{REQUEST_FILENAME} !-d
-Redirect 301 /ISESER2020-PROCEEDING-BOOK-PREVIEW.pdf /ISESER2020-PROCEEDING-BOOK.pdf
 RewriteRule (.*) http://127.0.0.1:7423/$1 [p]
