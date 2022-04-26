@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 
 const AboutPage = () => {
     return (
-        <Layout pageTitle="Announcement | ISESER2021">
+        <Layout pageTitle="Announcement | ISESER2022">
             <NavOne/>
             <PageHeader title="Announcement"/>
             <section className="about-area">

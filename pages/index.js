@@ -8,7 +8,7 @@ import CallToAction from "../components/CallToAction";
 
 const HomePage = () => {
     return (
-        <Layout pageTitle="ISESER2021 - International Symposium for Environmental Science and Engineering Research">
+        <Layout pageTitle="ISESER2022 - International Symposium for Environmental Science and Engineering Research">
             <NavOne/>
             <CallToAction/>
             <SliderOne/>

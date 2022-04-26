@@ -26,6 +26,24 @@ const AboutPage = () => {
                             <div className="about-heading">
                                 <div className="section-heading">
 
+                                    <p className="section__meta"><Link href="/year/2021"><a>2022 SYMPOSIUM</a></Link></p>
+                                    <p className="section__desc">
+                                        <ul className="icon">
+                                            <li className="star"><a href="../../doc/2022/ISESER2022_BANNER.pdf?v1" target="_blank"><i className="fa  fa-file-pdf-o"></i> BANNER</a></li>
+                                            <li className="star"><a href="../../doc/2022/ISESER2022_BROCHURE.pdf?v1" target="_blank"><i className="fa  fa-file-pdf-o"></i> BROCHURE</a></li>
+                                            <li className="star"><a href="../doc/2022/ISESER2022-FINAL-PROGRAM.pdf?e4" target="_blank" rel="noopener noreferrer"><i className="fa  fa-file-pdf-o"></i> FINAL PROGRAM </a></li>
+                                            <li className="star"><a href="../doc/2022/ISESER2022-ABSTRACT-BOOK.pdf?e2" target="_blank" rel="noopener noreferrer"><i className="fa  fa-file-pdf-o"></i> ABSTRACT BOOK </a></li>
+                                            <li className="star"><a href="../../doc/2022/ISESER2022-PROCEEDING-BOOK.pdf?e3" target="_blank" rel="noopener noreferrer"><i className="fa  fa-file-pdf-o"></i> PROCEEDING BOOK </a></li>
+                                            <li className="star"><a href="../year/2022"><i className="fa fa-file-code-o"></i> WEB VERSION (ONLINE VIEW)</a></li>
+                                        </ul>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-6 mt-3">
+                            <div className="about-heading">
+                                <div className="section-heading">
+
                                     <p className="section__meta"><Link href="/year/2021"><a>2021 SYMPOSIUM</a></Link></p>
                                     <p className="section__desc">
                                         <ul className="icon">
