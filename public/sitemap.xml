@@ -4,7 +4,6 @@
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
     <url>
         <loc>https://iseser.com/</loc>
     </url>
@@ -402,6 +401,9 @@
         <loc>https://iseser.com/doc/2017/UCMOS_KONGRE_PROGRAMI.pdf</loc>
     </url>
     <url>
+        <loc>https://iseser.com/doc/2017/ISESER2017-PROCEEDING-BOOK.pdf</loc>
+    </url>
+    <url>
         <loc>https://iseser.com/doc/2018/ISESER2018_Brochure.pdf</loc>
     </url>
     <url>
@@ -409,15 +411,6 @@
     </url>
     <url>
         <loc>https://iseser.com/doc/2018/ISESER2018-ABSTRACT-BOOK.pdf</loc>
-    </url>
-    <url>
-        <loc>https://iseser.com/doc/2017/ISESER2017-PROCEEDING-BOOK.pdf</loc>
-    </url>
-    <url>
-        <loc>https://iseser.com/doc/2020/ISESER2020-PROCEEDING-BOOK.pdf</loc>
-    </url>
-    <url>
-        <loc>https://iseser.com/doc/2020/ISESER2020-ABSTRACT-BOOK.pdf</loc>
     </url>
     <url>
         <loc>https://iseser.com/doc/2019/ISESER2019_BANNER.pdf</loc>
@@ -433,6 +426,12 @@
     </url>
     <url>
         <loc>https://iseser.com/doc/2019/ISESER2019-PROCEEDING-BOOK.pdf</loc>
+    </url>
+    <url>
+        <loc>https://iseser.com/doc/2020/ISESER2020-PROCEEDING-BOOK.pdf</loc>
+    </url>
+    <url>
+        <loc>https://iseser.com/doc/2020/ISESER2020-ABSTRACT-BOOK.pdf</loc>
     </url>
     <url>
         <loc>https://iseser.com/doc/2020/ISESER2020_BANNER.pdf</loc>
