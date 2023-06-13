@@ -12,7 +12,7 @@ const CallToAction = () => {
                     </div>
                     <div className="col-lg-8">
                         <div className="section-heading mixer-heading">
-                            <a target="_blank" href="/symposium-announced" className="theme-btn">2022 Announcement</a>
+                            <a target="_blank" href="/symposium-announced" className="theme-btn">2023 Announcement</a>
                         </div>
                     </div>
 

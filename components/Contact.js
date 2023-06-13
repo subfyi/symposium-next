@@ -17,7 +17,7 @@ const Contact = () => {
 
                             <p className="section__meta">Conference Venue</p>
                             <p className="section__desc">
-                                    ISESER2021 which will be held on 11-13 June 2021 in,
+                                    ISESER2021 which will be held on 18-21 October 2021 in,
                                     {" "}<a href="https://goo.gl/maps/iUzRUwxDfU3bUDzV8" target="_blank">
                                     <b>Department of Energy Polytechnic University of Tirana</b></a>, Tirana, ALBANIA or ONLINE
 
@@ -29,7 +29,7 @@ const Contact = () => {
                                         <strong>Opening Ceremony</strong>: 11th June
                                     </li>
                                     <li>
-                                        <strong>Presentation and Poster Presentations will be available</strong>: 11-13 June 2021
+                                        <strong>Presentation and Poster Presentations will be available</strong>: 18-21 October 2021
                                     </li>
                                 </ul>
                                 <p>

@@ -1,4 +1,3 @@
-import '../node_modules/react-modal-video/scss/modal-video.scss';
 import 'swiper/css/swiper.css';
 
 // This default export is required in a new `pages/_app.js` file.
