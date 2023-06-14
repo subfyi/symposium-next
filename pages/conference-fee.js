@@ -39,7 +39,7 @@ const AboutPage = () => {
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td><strong>Video Presentation</strong></td>
+                                                <td><strong>Oral Presentation</strong></td>
                                                 <td>50 €</td>
                                                 <td>20 €</td>
                                                 <td>Free</td>
