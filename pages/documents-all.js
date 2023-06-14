@@ -26,8 +26,8 @@ const AboutPage = () => {
                             <div className="about-heading">
                                 <div className="section-heading">
 
-                                    <p className="section__meta"><Link href="/year/2021"><a>2021 SYMPOSIUM</a></Link></p>
-                                    <p className="section__desc">
+                                    <p className="section__meta"><Link href="/year/2021">2021 SYMPOSIUM</Link></p>
+                                    <div className="section__desc">
                                         <ul className="icon">
                                             <li className="star"><a href="../../doc/2021/ISESER2021_BANNER.pdf?v1" target="_blank"><i className="fa  fa-file-pdf-o"></i> BANNER</a></li>
                                             <li className="star"><a href="../../doc/2021/ISESER2021_BROCHURE.pdf?v1" target="_blank"><i className="fa  fa-file-pdf-o"></i> BROCHURE</a></li>
@@ -36,7 +36,7 @@ const AboutPage = () => {
                                             <li className="star"><a href="../../doc/2021/ISESER2021-PROCEEDING-BOOK.pdf?e3" target="_blank" rel="noopener noreferrer"><i className="fa  fa-file-pdf-o"></i> PROCEEDING BOOK </a></li>
                                             <li className="star"><a href="../year/2021"><i className="fa fa-file-code-o"></i> WEB VERSION (ONLINE VIEW)</a></li>
                                         </ul>
-                                    </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -44,8 +44,8 @@ const AboutPage = () => {
                             <div className="about-heading">
                                 <div className="section-heading">
 
-                                    <p className="section__meta"><Link href="/year/2020"><a>2020 SYMPOSIUM</a></Link></p>
-                                    <p className="section__desc">
+                                    <p className="section__meta"><Link href="/year/2020">2020 SYMPOSIUM</Link></p>
+                                    <div className="section__desc">
                                         <ul className="icon">
                                             <li className="star"><a href="../../doc/2020/ISESER2020_BANNER.pdf" target="_blank"
                                                                     rel="noopener noreferrer"><i className="fa  fa-file-pdf-o"></i> BANNER </a></li>
@@ -63,7 +63,7 @@ const AboutPage = () => {
                                             </li>
                                             <li className="star"><a href="../year/2020"><i className="fa fa-file-code-o"></i> WEB VERSION (ONLINE VIEW)</a></li>
                                         </ul>
-                                    </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -72,7 +72,7 @@ const AboutPage = () => {
                                 <div className="section-heading">
 
                                     <p className="section__meta">2019 SYMPOSIUM</p>
-                                    <p className="section__desc">
+                                    <div className="section__desc">
                                         <ul className="icon">
                                             <li className="star"><a href="../../doc/2019/ISESER2019_BANNER.pdf" target="_blank"
                                                                     rel="noopener noreferrer"><i className="fa  fa-file-pdf-o"></i> BANNER </a></li>
@@ -93,7 +93,7 @@ const AboutPage = () => {
                                                                                                                  aria-hidden="true"></i> PHOTOS </a>
                                             </li>
                                         </ul>
-                                    </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -102,7 +102,7 @@ const AboutPage = () => {
                                 <div className="section-heading">
 
                                     <p className="section__meta">2018 SYMPOSIUM</p>
-                                    <p className="section__desc">
+                                    <div className="section__desc">
                                         <ul className="icon">
                                             <li className="star"><a href="../../doc/2018/ISESER2018-banner.png" target="_blank" >
                                                 <i className="fa fa-file-image-o" aria-hidden="true"></i> BANNER
@@ -115,7 +115,7 @@ const AboutPage = () => {
                                             <li className="star"><a href="../../doc/2018/ISESER2018-ABSTRACT-BOOK.pdf" target="_blank" >
                                                 <i className="fa  fa-file-pdf-o"></i> ABSTRACT BOOK</a></li>
                                         </ul>
-                                    </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -125,7 +125,7 @@ const AboutPage = () => {
                                 <div className="section-heading">
 
                                     <p className="section__meta">2017 SYMPOSIUM</p>
-                                    <p className="section__desc">
+                                    <div className="section__desc">
                                         <ul className="icon">
                                             <li className="star"><a href="../../doc/2017/2nd-UCMOS.jpg" target="_blank" ><i
                                                 className="fa fa-file-image-o" aria-hidden="true"></i> BANNER
@@ -140,7 +140,7 @@ const AboutPage = () => {
                                             <li className="star"><a href="../../doc/2017/ISESER2017-PROCEEDING-BOOK.pdf" target="_blank" ><i
                                                 className="fa  fa-file-pdf-o"></i> PROCEEDING BOOK</a></li>
                                         </ul>
-                                    </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -150,7 +150,7 @@ const AboutPage = () => {
                                 <div className="section-heading">
 
                                     <p className="section__meta">2016 SYMPOSIUM</p>
-                                    <p className="section__desc">
+                                    <div className="section__desc">
                                         <ul className="icon">
                                             <li className="star"><a href="../../doc/2016/afis4.jpg" target="_blank" ><i
                                                 className="fa fa-file-image-o" aria-hidden="true"></i> BANNER </a>
@@ -169,7 +169,7 @@ const AboutPage = () => {
                                             <li className="star"><a href="../../doc/2016/ISESER2016-PROCEEDING-BOOK.pdf" target="_blank" ><i
                                                 className="fa fa-file-pdf-o"></i> PROCEEDING BOOK</a></li>
                                         </ul>
-                                    </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>

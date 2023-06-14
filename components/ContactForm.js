@@ -1,5 +1,5 @@
 import React from 'react';
-import {Alert, Button, Col, CustomInput, FormGroup, Input, Label, Row} from "reactstrap";
+import {Alert, Button, Col, FormGroup, Input, Label, Row} from "reactstrap";
 import Validator from "./Common/Validator";
 import SimpleReactValidator from 'simple-react-validator';
 import api from "../api";

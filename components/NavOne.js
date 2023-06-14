@@ -86,14 +86,12 @@ class NavOne extends Component {
                                     <div className="logo-action d-flex align-items-center">
                                         <div className="ostion-logo">
                                             <Link href="/">
-                                                <a>
                                                     <img src="/images/v6_telifsiz-300x72.png" alt="Oxpitan" title="Oxpitan"/>
-                                                </a>
                                             </Link>
                                         </div>
                                         <div className="header-btn ml-auto">
-                                            <Link href="//portal.iseser.com">
-                                                <a  className="theme-btn">User Area</a>
+                                            <Link className="theme-btn" href="//portal.iseser.com">
+                                                User Area
                                             </Link>
                                         </div>
                                     </div>
@@ -104,27 +102,27 @@ class NavOne extends Component {
                                             <div className="navigation-top">
                                                 <nav className="main-navigation">
                                                     <ul>
-                                                        <li className="active"><Link href="/"><a>Home</a></Link>
+                                                        <li className="active"><Link href="/">Home</Link>
                                                         </li>
                                                         <li><a href="#">Comittiees</a>
                                                             <ul className="dropdown-menu-item">
-                                                                <li><Link href="/honorary-committee"><a>Honorary Committee</a></Link></li>
-                                                                <li><Link href="/organization-committee"><a>Organization Committee</a></Link></li>
-                                                                <li><Link href="/science-commission"><a>Scientific Board</a></Link></li>
-                                                                <li><Link href="/adviser-commission"><a>Advisory Board</a></Link></li>
+                                                                <li><Link href="/honorary-committee">Honorary Committee</Link></li>
+                                                                <li><Link href="/organization-committee">Organization Committee</Link></li>
+                                                                <li><Link href="/science-commission">Scientific Board</Link></li>
+                                                                <li><Link href="/adviser-commission">Advisory Board</Link></li>
                                                             </ul>
                                                         </li>
                                                         <li><a href="#">General Information</a>
                                                             <ul className="dropdown-menu-item">
-                                                                <li><Link href="/invitation"><a>Invitation</a></Link></li>
-                                                                <li><Link href="/threads"><a>Topics</a></Link></li>
-                                                                <li><Link href="/important-dates"><a>Important Dates</a></Link></li>
-                                                                <li><Link href="/documents"><a>Documents</a></Link></li>
-                                                                <li><Link href="/sponsors"><a>Sponsors</a></Link></li>
+                                                                <li><Link href="/invitation">Invitation</Link></li>
+                                                                <li><Link href="/threads">Topics</Link></li>
+                                                                <li><Link href="/important-dates">Important Dates</Link></li>
+                                                                <li><Link href="/documents">Documents</Link></li>
+                                                                <li><Link href="/sponsors">Sponsors</Link></li>
                                                             </ul>
                                                         </li>
                                                         <li><a href="/conference-fee">Symposium Fee</a></li>
-                                                        <li><Link href="/contact"><a>Contact</a></Link></li>
+                                                        <li><Link href="/contact">Contact</Link></li>
                                                     </ul>
                                                 </nav>
                                             </div>
@@ -148,25 +146,25 @@ class NavOne extends Component {
                                 <li className="sidenav__item"><a href="#">Comittiees</a>
                                     <span className="menu-plus-icon"></span>
                                     <ul className="side-sub-menu">
-                                        <li><Link href="/honorary-committee"><a>Honorary Committee</a></Link></li>
-                                        <li><Link href="/organization-committee"><a>Organization Committee</a></Link></li>
-                                        <li><Link href="/science-commission"><a>Scientific Board</a></Link></li>
-                                        <li><Link href="/adviser-commission"><a>Advisory Board</a></Link></li>
+                                        <li><Link href="/honorary-committee">Honorary Committee</Link></li>
+                                        <li><Link href="/organization-committee">Organization Committee</Link></li>
+                                        <li><Link href="/science-commission">Scientific Board</Link></li>
+                                        <li><Link href="/adviser-commission">Advisory Board</Link></li>
                                     </ul>
                                 </li>
                                 <li className="sidenav__item"><a href="#">General Information</a>
                                     <span className="menu-plus-icon"></span>
                                     <ul className="side-sub-menu">
-                                        <li><Link href="/invitation"><a>Invitation</a></Link></li>
-                                        <li><Link href="/threads"><a>Topics</a></Link></li>
-                                        <li><Link href="/important-dates"><a>Important Dates</a></Link></li>
-                                        <li><Link href="/documents"><a>Documents</a></Link></li>
-                                        <li><Link href="/sponsors"><a>Sponsors</a></Link></li>
+                                        <li><Link href="/invitation">Invitation</Link></li>
+                                        <li><Link href="/threads">Topics</Link></li>
+                                        <li><Link href="/important-dates">Important Dates</Link></li>
+                                        <li><Link href="/documents">Documents</Link></li>
+                                        <li><Link href="/sponsors">Sponsors</Link></li>
                                     </ul>
                                 </li>
                                 <li className="sidenav__item"><a href="/conference-fee">Symposium Fee</a>
                                 </li>
-                                <li className="sidenav__item"><Link href="/contact"><a>contact</a></Link></li>
+                                <li className="sidenav__item"><Link href="/contact">contact</Link></li>
                             </ul>
                             <ul className="side-social">
 
@@ -178,7 +176,7 @@ class NavOne extends Component {
 
                             </ul>
                             <div className="side-btn">
-                                <Link href="/documents"><a className="theme-btn">Documents</a></Link>
+                                <Link  className="theme-btn" href="/documents">Documents</Link>
                             </div>
                         </div>
                     </div>

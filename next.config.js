@@ -1,32 +1,8 @@
-const withPlugins = require('next-compose-plugins');
-const optimizedImages = require('next-optimized-images');
-const { PHASE_DEVELOPMENT_SERVER } = require('next/constants');
-const { withSentryConfig } = require("@sentry/nextjs");
-
-module.exports = phase => {
-    var config = withSentryConfig(withPlugins([
-        [
-            optimizedImages, {
-            /* config for next-optimized-images */
-        }
-        ]
-    ]).apply(this, arguments), {});
-
-    if(!config.env) {
-        config.env = {};
-    }
-
-    config.env.ENDPOINT = phase === PHASE_DEVELOPMENT_SERVER ?
-        'https://api.iseser.com':
-        'https://api.iseser.com';
-
-    config.env.DOMAIN = phase === PHASE_DEVELOPMENT_SERVER ?
-        'http://localhost:3000' :
-        'https://iseser.com';
-
-    config.env.DEV = phase === PHASE_DEVELOPMENT_SERVER ? true : false;
-
-    config.trailingSlash = true;
-
-    return config;
-};
+const withOptimizedImages = require("next-optimized-images");
+module.exports = withOptimizedImages({
+    env: {
+        ENDPOINT: 'https://api.iseser.com',
+        DOMAIN: 'https://iseser.com',
+    },
+    trailingSlash: true,
+});
