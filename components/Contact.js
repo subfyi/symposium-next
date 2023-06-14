@@ -19,7 +19,7 @@ const Contact = () => {
                             <p className="section__desc">
                                     ISESER2021 which will be held on 18-21 October 2021 in,
                                     {" "}<a href="https://goo.gl/maps/iUzRUwxDfU3bUDzV8" target="_blank">
-                                    <b>Department of Energy Polytechnic University of Tirana</b></a>, Tirana, ALBANIA or ONLINE
+                                    <b>Department of Energy Polytechnic University of Tirana</b></a>, Konya, Turkey
 
                                 <ul>
                                     <li>

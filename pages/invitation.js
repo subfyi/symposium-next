@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 
 const AboutPage = () => {
     return (
-        <Layout pageTitle="INVITATION | ISESER2022">
+        <Layout pageTitle="INVITATION | ISESER2023">
             <NavOne/>
             <PageHeader title="INVITATION"/>
             <section className="about-area">
@@ -28,7 +28,7 @@ const AboutPage = () => {
                                     <p className="section__desc">
 
 
-                                            <p >As an organizing commitee, we are honored to invite you to attend the International Symposium for Environmental Science and Engineering Research 2021 which will be held on 11-13 June 2021 online.
+                                            <p >As an organizing commitee, we are honored to invite you to attend the International Symposium for Environmental Science and Engineering Research 2022 which will be held on 11-13 June 2022 online.
                                                 This event will be a useful for
                                                 researchers, engineers, students, academics and anyone interested in environmental
                                                 engineering and science. Through the conference, it will be possible to establish

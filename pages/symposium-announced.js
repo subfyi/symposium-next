@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 
 const AboutPage = () => {
     return (
-        <Layout pageTitle="Announcement | ISESER2022">
+        <Layout pageTitle="Announcement | ISESER2023">
             <NavOne/>
             <PageHeader title="Announcement"/>
             <section className="about-area">
@@ -26,7 +26,7 @@ const AboutPage = () => {
                                 <div className="section-heading">
 
                                     <div className="section__desc">
-                                        Welcome to ISESER 2021. All presentations can be watched online from the <b><a href="https://portal.iseser.com/"><i className="fa fa-external-link"></i> user area</a></b>{" "}
+                                        Welcome to ISESER 2022. All presentations can be watched online from the <b><a href="https://portal.iseser.com/"><i className="fa fa-external-link"></i> user area</a></b>{" "}
                                         after you login (If you do not have an account, please create a new account).
                                         You can make your comments under any presentation in "Questions & Answers" section by clicking "Add New" button.
                                     </div>
@@ -59,7 +59,7 @@ const AboutPage = () => {
                                                 </li>
                                                 <li> The prepared presentations will be uploaded to the system.  Please check your presentation before sending.
                                                 </li>
-                                                <li> The last date for sending a presentation video is 10 June 2021.
+                                                <li> The last date for sending a presentation video is 10 June 2022.
                                                 </li>
                                                 <li> After this step, the sent presentations will be uploaded to the user area system under the
                                                     presentations tab.

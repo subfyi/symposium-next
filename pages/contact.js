@@ -12,7 +12,7 @@ export default class extends React.Component {
     render() {
 
         return (
-            <Layout pageTitle="Contact | ISESER2022">
+            <Layout pageTitle="Contact | ISESER2023">
                 <NavOne/>
                 <PageHeader title="Contact"/>
                 <Contact/>

@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 
 const AboutPage = () => {
     return (
-        <Layout pageTitle="Important Dates | ISESER2022">
+        <Layout pageTitle="Important Dates | ISESER2023">
             <NavOne/>
             <PageHeader title="Important Dates"/>
             <section className="about-area">
@@ -25,16 +25,16 @@ const AboutPage = () => {
                                 <div className="section-heading">
                                     <p className="section__desc">
                                         <ul>
-                                            <li>Registration and Abstract Submission Date: 15 May 2021</li>
-                                            <li>Full Text Deadline: 25 May 2021</li>
-                                            <li>Symposium Date: 11-13 June 2021</li>
+                                            <li>Registration and Abstract Submission Date: 15 May 2022</li>
+                                            <li>Full Text Deadline: 25 May 2022</li>
+                                            <li>Symposium Date: 11-13 June 2022</li>
 
                                         </ul>
                                     </p>
                                     <hr/>
                                     <p className="section__desc">
                                         <ul>
-                                            <li>Presentation and Poster Presentations will be available: 11-13 June 2021</li>
+                                            <li>Presentation and Poster Presentations will be available: 11-13 June 2022</li>
                                         </ul>
                                     </p>
                                 </div>
