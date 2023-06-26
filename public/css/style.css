@@ -114,7 +114,7 @@ ul {
     list-style: none;
 }
 a {
-    color: #7f72af;
+    color: #ff6600;
 }
 a,
 a:hover {
@@ -140,7 +140,7 @@ a:hover {
 .theme-btn {
     font-size: 12px;
     text-transform: uppercase;
-    background: #554c79;
+    background: #c07600;
     color: #fff;
     font-weight: 600;
     letter-spacing: 1px;
@@ -166,7 +166,7 @@ a:hover {
     top: 0;
     left: 1px;
     z-index: -1;
-    background: #554c79;
+    background: #c07600;
     -webkit-transform-origin: bottom left;
     transform-origin: bottom left;
     -webkit-transform: skew(-12deg,0deg);
@@ -182,7 +182,7 @@ a:hover {
 }
 .theme-btn:hover,
 .theme-btn:hover:after {
-    background-color: #41317d;
+    background-color: #ff6600;
     color: #fff;
 }
 /*=== section-heading ====*/
@@ -195,7 +195,7 @@ a:hover {
     color: white;
 }
 .section-heading .section__title {
-    border-color: #7f72af;
+    border-color: #ff6600;
     line-height: 1;
     margin-top: 0;
     margin-bottom: 26px;
@@ -209,8 +209,8 @@ a:hover {
     line-height: 1;
     margin-top: 0;
     margin-bottom: 26px;
-    border-bottom: 2px solid #7f72af;
-    color: #7f72af;
+    border-bottom: 2px solid #ff6600;
+    color: #ff6600;
     width: max-content;
     margin: 20px;
 
@@ -355,7 +355,7 @@ a:hover {
 }
 .header-area .header-top-action .top-action-content .info-box ul li a:hover,
 .header-area .header-top-action .top-action-content .info-box ul li a i {
-    color: #554c79;
+    color: #c07600;
 }
 .header-area .header-top-action .top-action-content .info-box ul li a i {
     margin-right: 5px;
@@ -370,7 +370,7 @@ a:hover {
 }
 .header-area .header-top-action .top-action-content .info-box ul.top-action-list li a:hover,
 .header-area .header-top-action .top-action-content .info-box ul.top-action-list li a i:hover {
-    color: #41317d;
+    color: #ff6600;
 }
 .header-area .header-top-action .top-action-content .info-box ul.top-action-list li a i {
     color: #818181;
@@ -400,11 +400,11 @@ a:hover {
 }
 .header-area .header-top .ostion-top-wrap .header-btn .theme-btn,
 .header-area .header-top .ostion-top-wrap .header-btn .theme-btn:after {
-    background-color: #41317d;
+    background-color: #ff6600;
 }
 .header-area .header-top .ostion-top-wrap .header-btn .theme-btn:hover,
 .header-area .header-top .ostion-top-wrap .header-btn .theme-btn:hover:after {
-    background-color: #554c79;
+    background-color: #c07600;
 }
 .header-area .header-top .ostion-top-wrap .ostion-menu {
     height: 120px;
@@ -834,11 +834,11 @@ a:hover {
 .header-area .side-nav-container .side-menu-wrap .side-social li:nth-child(2) a:after,
 .header-area .side-nav-container .side-menu-wrap .side-btn .theme-btn,
 .header-area .side-nav-container .side-menu-wrap .side-btn .theme-btn:after {
-    background-color: #41317d;
+    background-color: #ff6600;
 }
 .header-area .side-nav-container .side-menu-wrap .side-social li:nth-child(3) a,
 .header-area .side-nav-container .side-menu-wrap .side-social li:nth-child(3) a:after {
-    background-color: #554c79;
+    background-color: #c07600;
 }
 .header-area .side-nav-container .side-menu-wrap .side-social li:nth-child(4) a,
 .header-area .side-nav-container .side-menu-wrap .side-social li:nth-child(4) a:after {
@@ -899,7 +899,7 @@ a:hover {
 }
 .header-area2 .header-top-action .top-action-content .info-box ul.top-action-list li a:hover,
 .header-area2 .header-top-action .top-action-content .info-box ul.top-action-list li a i:hover {
-    color: #554c79;
+    color: #c07600;
 }
 
 .header-area2 .header-top .ostion-top-wrap .ostion-menu .ostion-menu-content .navigation-top .main-navigation ul li a,
@@ -909,10 +909,10 @@ a:hover {
 .header-area2 .header-top .ostion-top-wrap .ostion-menu .ostion-menu-content .navigation-top .main-navigation ul li a:hover,
 .header-area2 .header-top .ostion-top-wrap .ostion-menu .ostion-menu-content .navigation-top .main-navigation ul li.active> a:hover,
 .header-area2 .header-top .ostion-top-wrap .ostion-menu .ostion-menu-content .navigation-top .main-navigation ul li .dropdown-menu-item li a:hover{
-    color: #554c79;
+    color: #c07600;
 }
 .header-area2 .header-top .ostion-top-wrap .ostion-menu .ostion-menu-content .navigation-top .main-navigation ul li a:after {
-    background-color: #554c79;
+    background-color: #c07600;
 }
 .header-area2 .header-top .ostion-top-wrap .ostion-menu .ostion-menu-content .navigation-top .main-navigation ul li .dropdown-menu-item {
     -webkit-border-radius: 2px;
@@ -957,19 +957,19 @@ a:hover {
     transform: skew(-12deg,0deg);
 }
 .slider-area .slide-bg1 {
-    background-image: url("../slider/2021-3.jpg");
+    background-image: url("../slider/indir.jpg");
 }
 .slider-area .slide-bg2 {
-    background-image: url("../slider/2021-1.jpg");
+    background-image: url("../slider/nu.jpg");
 }
 .slider-area .slide-bg3 {
-    background-image: url("../slider/2021-4.jpg");
+    background-image: url("../slider/1491_s.jpg");
 }
 .slider-area .slide-bg4 {
-    background-image: url("../slider/2021-3.jpg");
+    background-image: url("../slider/konya1.jpg");
 }
 .slider-area .slide-bg5 {
-    background-image: url("../slider/2021-4.jpg");
+    background-image: url("../slider/fotograf_22.jpg");
 }
 .slider-area .slide-item-table {
     display: table;
@@ -988,7 +988,7 @@ a:hover {
     max-width: 335px;
     white-space: nowrap;
     font-weight: 400;
-    background-color: #41317d;
+    background-color: #ff6600;
     visibility: inherit;
     transition: none 0s ease 0s;
     text-align: inherit;
@@ -1108,7 +1108,7 @@ a:hover {
     padding-left: 0;
 }
 .give-area .give-title-box {
-    background-color: #554c79;
+    background-color: #c07600;
     padding: 105px 0 109px 115px;
     position: relative;
     z-index: 1;
@@ -1122,7 +1122,7 @@ a:hover {
     top: 0;
     left: 0;
     z-index: -1;
-    background-color: #554c79;
+    background-color: #c07600;
     -webkit-transform-origin: bottom left;
     -webkit-transform: skew(-12deg,0deg);
     -moz-transform: skew(-12deg,0deg);
@@ -1131,7 +1131,7 @@ a:hover {
     transform: skew(-12deg,0deg);
 }
 .give-area .give-progress-box {
-    background-color: #41317d;
+    background-color: #ff6600;
     height: 394px;
     position: relative;
     display: flex;
@@ -1160,7 +1160,7 @@ a:hover {
 }
 .skill-area .skills .skill .progress_bar {
     height: 10px;
-    background-color: #554c79;
+    background-color: #c07600;
     position: relative;
 }
 .skill-area .skills .skill .skill-meta ul {
@@ -1213,10 +1213,10 @@ a:hover {
     transform: skew(-20deg,0deg);
 }
 .make-world-area .world-static-wrap .world-item .world-img-bg2:after {
-    background-color: #41317d;
+    background-color: #ff6600;
 }
 .make-world-area .world-static-wrap .world-item .world-img-bg3:after {
-    background-color: #554c79;
+    background-color: #c07600;
 }
 .make-world-area .world-static-wrap2 {
     padding-top: 53px;
@@ -1227,7 +1227,7 @@ a:hover {
     font-weight: 400;
 }
 .make-world-area .world-static-wrap2 .world-content .world__title strong {
-    color: #41317d;
+    color: #ff6600;
 }
 .make-world-area .world-static-wrap2 .world-content .world__desc {
     line-height: 30px;
@@ -1324,7 +1324,7 @@ a:hover {
     position: absolute;
     bottom: 0;
     left: 0;
-    background-color: #41317d;
+    background-color: #ff6600;
     padding: 0 30px 0 35px;
     line-height: 49px;
 }
@@ -1337,7 +1337,7 @@ a:hover {
     top: 0;
     left: 1px;
     z-index: -1;
-    background: #41317d;
+    background: #ff6600;
     -webkit-transform-origin: bottom left;
     transform-origin: bottom left;
     -webkit-transform: skew(-12deg,0deg);
@@ -1382,7 +1382,7 @@ a:hover {
     transition: 0.3s ease;
 }
 .breadcrumb-area .breadcrumb-content .breadcrumb__list li a:hover {
-    color: #554c79;
+    color: #c07600;
 }
 
 /*===================================
@@ -1431,7 +1431,7 @@ a:hover {
 .entry-area .entry-static-wrap .entry-static-box .entry-video-img .video-play-btn {
     font-size: 13px;
     cursor: pointer;
-    background: #554c79;
+    background: #c07600;
     color: #fff;
     font-weight: 600;
     width: 45px;
@@ -1463,7 +1463,7 @@ a:hover {
     top: 0;
     left: 0;
     z-index: -1;
-    background: #554c79;
+    background: #c07600;
     -webkit-transform-origin: bottom left;
     transform-origin: bottom left;
     -webkit-transform: skew(-12deg,0deg);
@@ -1479,7 +1479,7 @@ a:hover {
 }
 .entry-area .entry-static-wrap .entry-static-box .entry-video-img .video-play-btn:hover,
 .entry-area .entry-static-wrap .entry-static-box .entry-video-img .video-play-btn:hover:after {
-    background-color: #41317d;
+    background-color: #ff6600;
 }
 
 /*=== entry-static-box2 ===*/
@@ -1527,14 +1527,14 @@ a:hover {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #554c79;
+    background-color: #c07600;
     opacity: .8;
 }
 .hiw-area .hiw-item .hiw-item-img-box.hiw-bg1:after {
     background-color: #50bac3;
 }
 .hiw-area .hiw-item .hiw-item-img-box.hiw-bg2:after {
-    background-color: #41317d;
+    background-color: #ff6600;
 }
 .hiw-area .hiw-item .hiw-item-img-box .hiw-title {
     text-align: center;
@@ -1565,7 +1565,7 @@ a:hover {
 }
 .hiw-area .hiw-item .hiw-item-img-box:hover .hiw-btn-box .theme-btn,
 .hiw-area .hiw-item .hiw-item-img-box:hover .hiw-btn-box .theme-btn:after {
-    background-color: #41317d;
+    background-color: #ff6600;
 }
 /*===================================
     SERVICE AREA
@@ -1693,11 +1693,11 @@ a:hover {
 }
 .service-area .button-shared .theme-btn,
 .service-area .button-shared .theme-btn:after {
-    background-color: #41317d;
+    background-color: #ff6600;
 }
 .service-area .button-shared .theme-btn:hover,
 .service-area .button-shared .theme-btn:hover:after {
-    background-color: #554c79;
+    background-color: #c07600;
 }
 
 /* Heartbeat frame*/
@@ -1786,7 +1786,7 @@ a:hover {
     right: 0;
     width: 413px;
     height: 698px;
-    background-color: #41317d;
+    background-color: #ff6600;
     z-index: -1;
 }
 .fun-content-wrap .fun-content .fun-item {
@@ -1815,12 +1815,12 @@ a:hover {
     margin-bottom: 13px;
 }
 .fun-content-wrap .fun-content .fun-item p {
-    color: #41317d;
+    color: #ff6600;
 }
 
 /*=== fun-content-slide ===*/
 .mixer-area2 .fun-content-slide {
-    background-color: #41317d;
+    background-color: #ff6600;
     margin-top: -344px;
     padding: 115px 0 100px 118px;
     position: relative;
@@ -1924,7 +1924,7 @@ a:hover {
     padding-left: 0;
 }
 .mixer-area4 .section-heading .section__meta {
-    color: #554c79;
+    color: #c07600;
 }
 .mixer-area4 .section-heading .section__desc {
     line-height: 30px;
@@ -1933,11 +1933,11 @@ a:hover {
 }
 .mixer-area4 .section-heading .theme-btn,
 .mixer-area4 .section-heading .theme-btn:after {
-    background-color: #41317d;
+    background-color: #ff6600;
 }
 .mixer-area4 .section-heading .theme-btn:hover,
 .mixer-area4 .section-heading .theme-btn:hover:after {
-    background-color: #554c79;
+    background-color: #c07600;
 }
 .mixer-area4 .mixer-video-content {
     position: relative;
@@ -1947,7 +1947,7 @@ a:hover {
 }
 .mixer-area4 .mixer-video-content .video-play-btn {
     font-size: 12px;
-    background-color: #554c79;
+    background-color: #c07600;
     color: #fff;
     font-weight: 600;
     width: 50px;
@@ -1981,7 +1981,7 @@ a:hover {
     top: 0;
     left: 0;
     z-index: -1;
-    background-color: #554c79;
+    background-color: #c07600;
     -webkit-transform-origin: bottom left;
     transform-origin: bottom left;
     -webkit-transform: skew(-12deg,0deg);
@@ -1997,7 +1997,7 @@ a:hover {
 }
 .mixer-area4 .mixer-video-content .video-play-btn:hover,
 .mixer-area4 .mixer-video-content .video-play-btn:hover:after {
-    background-color: #41317d;
+    background-color: #ff6600;
 }
 /*===================================
     ABOUT AREA
@@ -2098,7 +2098,7 @@ a:hover {
     transform: translateY(-50%);
 }
 .accordion__title-text {
-    background-color: #41317d;
+    background-color: #ff6600;
     color: #fff;
 }
  .single__accordion .accordion-panel .accordion__title .accordion__title-text:after,
@@ -2192,7 +2192,7 @@ a:hover {
     transition: 0.3s ease-in;
 }
 .causes-area .blog-content-wrap .blog-content .blog-item .blog-inner-content .blog__title a:hover {
-    color: #554c79;
+    color: #c07600;
 }
 .causes-area .blog-content-wrap .blog-content .blog-item .blog-inner-content .blog__desc {
     line-height: 29px;
@@ -2220,7 +2220,7 @@ a:hover {
     font-size: 20px;
 }
 .causes-area .blog-content-wrap .blog-content .blog-item .blog-inner-content .blog__list li span {
-    color: #41317d;
+    color: #ff6600;
 }
 
 .causes-area .blog-content-wrap .blog-content .blog-item1 .blog-inner-content .theme-btn,
@@ -2239,10 +2239,10 @@ a:hover {
 .causes-area .blog-content-wrap .blog-content .blog-item2 .barfiller .fill:after,
 .causes-area .blog-content-wrap .blog-content .blog-item2 .barfiller .tip,
 .causes-area .blog-content-wrap .blog-content .blog-item2 .barfiller .tip:before {
-    background-color: #41317d;
+    background-color: #ff6600;
 }
 .causes-area .blog-content-wrap .blog-content .blog-item2 .barfiller .tip:after {
-    border-top-color: #41317d;
+    border-top-color: #ff6600;
 }
 .causes-area .blog-content-wrap .blog-content .blog-item4 .blog-inner-content .theme-btn,
 .causes-area .blog-content-wrap .blog-content .blog-item4 .blog-inner-content .theme-btn:after,
@@ -2269,7 +2269,7 @@ a:hover {
     color: #50bac3;
 }
 .causes-area .blog-content-wrap .blog-content .blog-item2 .blog-inner-content .blog__title a:hover {
-    color: #41317d;
+    color: #ff6600;
 }
 /*=============================
    CAUSES AREA 2
@@ -2328,7 +2328,7 @@ a:hover {
     padding-left: 0;
 }
 .causes-detail-area .blog-content-wrap .blog-content .blog-item .blog-inner-content .inner-causes-box .blog__list li span {
-    color: #41317d;
+    color: #ff6600;
 }
 .causes-detail-area .blog-content-wrap .blog-content .blog-item .blog-inner-content .inner-causes-box .blog__list li i {
     font-size: 22px;
@@ -2375,7 +2375,7 @@ a:hover {
     font-weight: 600;
 }
 .causes-detail-area .blog-content-wrap .blog-content .blog-item .blog-inner-content-2 .presentation-block h3 i {
-    color: #41317d;
+    color: #ff6600;
     margin-right: 12px;
     font-size: 24px;
 }
@@ -2384,7 +2384,7 @@ a:hover {
 }
 .causes-detail-area .blog-content-wrap .blog-content .blog-item .blog-inner-content-2 .presentation-block .theme-btn,
 .causes-detail-area .blog-content-wrap .blog-content .blog-item .blog-inner-content-2 .presentation-block .theme-btn:after {
-    background-color: #41317d;
+    background-color: #ff6600;
 }
 .causes-detail-area .blog-content-wrap .blog-content .blog-item .blog-inner-content-2 .presentation-block .theme-btn:hover,
 .causes-detail-area .blog-content-wrap .blog-content .blog-item .blog-inner-content-2 .presentation-block .theme-btn:hover:after {
@@ -2445,7 +2445,7 @@ a:hover {
     font-weight: 600;
 }
 .causes-detail-area .blog-content-wrap .blog-content .blog-item .single-comment .comments-list .comment .comment-body .meta-data .comment__author .comment__date {
-    color: #41317d;
+    color: #ff6600;
     font-size: 12px;
     font-family: "Poppins", sans-serif;
     text-transform: uppercase;
@@ -2548,17 +2548,17 @@ a:hover {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 12px;
-    color: #41317d;
+    color: #ff6600;
     margin-left: 5px;
 }
 .sidebar-shared .side-widget .author-box .author__detail .author__title a {
-    color: #41317d;
+    color: #ff6600;
 }
 .sidebar-shared .side-widget .author-box .author__detail .author__list li {
     margin-bottom: 4px;
 }
 .sidebar-shared .side-widget .author-box .author__detail .author__list li i {
-    color: #554c79;
+    color: #c07600;
     font-size: 15px;
     margin-right: 7px;
 }
@@ -2648,7 +2648,7 @@ a:hover {
 }
 .sidebar-shared .side-widget .side-tags ul li a:hover,
 .sidebar-shared .side-widget .side-tags ul li a:hover:after {
-    background-color: #554c79;
+    background-color: #c07600;
     color: #fff;
 }
 
@@ -2688,11 +2688,11 @@ a:hover {
 }
 .sidebar-shared .side-widget .side-share-profile ul li:nth-child(2) a,
 .sidebar-shared .side-widget .side-share-profile ul li:nth-child(2) a:after {
-    background-color: #41317d;
+    background-color: #ff6600;
 }
 .sidebar-shared .side-widget .side-share-profile ul li:nth-child(3) a,
 .sidebar-shared .side-widget .side-share-profile ul li:nth-child(3) a:after {
-    background-color: #554c79;
+    background-color: #c07600;
 }
 .sidebar-shared .side-widget .side-share-profile ul li:nth-child(4) a,
 .sidebar-shared .side-widget .side-share-profile ul li:nth-child(4) a:after {
@@ -2714,11 +2714,11 @@ a:hover {
 }
 .upcoming-event-area .blog-content-wrap .blog-content .blog-item .blog-img .blog__tag2,
 .upcoming-event-area .blog-content-wrap .blog-content .blog-item .blog-img .blog__tag2:after {
-    background-color: #41317d;
+    background-color: #ff6600;
 }
 .upcoming-event-area .blog-content-wrap .blog-content .blog-item .blog-img .blog__tag3,
 .upcoming-event-area .blog-content-wrap .blog-content .blog-item .blog-img .blog__tag3:after {
-    background-color: #554c79;
+    background-color: #c07600;
 }
 .upcoming-event-area .blog-content-wrap .blog-content .blog-item .blog-img .blog__tag4,
 .upcoming-event-area .blog-content-wrap .blog-content .blog-item .blog-img .blog__tag4:after {
@@ -2772,10 +2772,10 @@ a:hover {
 }
 
 .upcoming-event-area .blog-content-wrap .blog-content .blog-item2 .blog-inner-content .blog__list li {
-    color: #41317d;
+    color: #ff6600;
 }
 .upcoming-event-area .blog-content-wrap .blog-content .blog-item3 .blog-inner-content .blog__list li {
-    color: #554c79;
+    color: #c07600;
 }
 .upcoming-event-area .blog-content-wrap .blog-content .blog-item4 .blog-inner-content .blog__list li {
     color: #863bae;
@@ -2814,7 +2814,7 @@ a:hover {
     left: 0;
     font-size: 11px;
     text-transform: uppercase;
-    background-color: #41317d;
+    background-color: #ff6600;
     color: #fff;
     font-weight: 600;
     letter-spacing: 1px;
@@ -2832,7 +2832,7 @@ a:hover {
     top: 0;
     left: 1px;
     z-index: -1;
-    background-color: #41317d;
+    background-color: #ff6600;
     -webkit-transform-origin: bottom left;
     transform-origin: bottom left;
     -webkit-transform: skew(-12deg,0deg);
@@ -2916,7 +2916,7 @@ a:hover {
     margin-top: 30px;
 }
 .event-detail-area .event-detail-sidebar .event-detail-item .event__list li {
-    color: #41317d;
+    color: #ff6600;
     font-weight: 500;
     font-size: 14px;
     position: relative;
@@ -2995,7 +2995,7 @@ a:hover {
     padding: 0 10px;
 }
 .news-detail-area .blog-content-wrap .blog-content .blog-item .blog-inner-content .inner-causes-box .blog__list li a {
-    color: #41317d;
+    color: #ff6600;
 }
 .news-detail-area .blog-content-wrap .blog-content .blog-item .blog-inner-content .inner-causes-box .blog__list li:first-child {
     padding-left: 0;
@@ -3009,7 +3009,7 @@ a:hover {
     top: -2px;
     right: -3px;
     font-size: 16px;
-    color: #41317d;
+    color: #ff6600;
 }
 /*== blog-inner-content2 ===*/
 .news-detail-area .blog-content-wrap .blog-content .blog-item .blog-inner-content-2 .news-tags {
@@ -3036,7 +3036,7 @@ a:hover {
 .news-detail-area .blog-content-wrap .blog-content .blog-item .blog-inner-content-2 .news-tag-item-left a {
     font-size: 12px;
     text-transform: uppercase;
-    background: #554c79;
+    background: #c07600;
     color: #fff;
     font-weight: 600;
     letter-spacing: 1px;
@@ -3061,7 +3061,7 @@ a:hover {
     top: 0;
     left: 1px;
     z-index: -1;
-    background: #554c79;
+    background: #c07600;
     -webkit-transform-origin: bottom left;
     transform-origin: bottom left;
     -webkit-transform: skew(-12deg,0deg);
@@ -3119,11 +3119,11 @@ a:hover {
 }
 .news-detail-area .blog-content-wrap .blog-content .blog-item .blog-inner-content-2 .news-tag-item-right .news-share li:nth-child(2) a,
 .news-detail-area .blog-content-wrap .blog-content .blog-item .blog-inner-content-2 .news-tag-item-right .news-share li:nth-child(2) a:after {
-    background-color: #41317d;
+    background-color: #ff6600;
 }
 .news-detail-area .blog-content-wrap .blog-content .blog-item .blog-inner-content-2 .news-tag-item-right .news-share li:nth-child(3) a,
 .news-detail-area .blog-content-wrap .blog-content .blog-item .blog-inner-content-2 .news-tag-item-right .news-share li:nth-child(3) a:after {
-    background-color: #554c79;
+    background-color: #c07600;
 }
 .news-detail-area .blog-content-wrap .blog-content .blog-item .blog-inner-content-2 .news-tag-item-right .news-share li:nth-child(4) a,
 .news-detail-area .blog-content-wrap .blog-content .blog-item .blog-inner-content-2 .news-tag-item-right .news-share li:nth-child(4) a:after {
@@ -3145,7 +3145,7 @@ a:hover {
     display: block;
 }
 .news-detail-area .blog-content-wrap .sidebar-shared .side-widget .author-box .author__detail .author__title a:hover {
-    color: #41317d;
+    color: #ff6600;
 }
 /*===================================
     CLIENTLOGO AREA
@@ -3244,11 +3244,11 @@ a:hover {
 }
 .helping-area .helping-item .helping-box2,
 .helping-area .helping-item .helping-box2:after{
-    background-color: #41317d;
+    background-color: #ff6600;
 }
 .helping-area .helping-item .helping-box3,
 .helping-area .helping-item .helping-box3:after{
-    background-color: #554c79;
+    background-color: #c07600;
 }
 .helping-area .helping-item .helping-box4,
 .helping-area .helping-item .helping-box4:after {
@@ -3357,7 +3357,7 @@ a:hover {
     transition: 0.3s ease;
 }
 .cat-area .helping-item .helping-cat-item h4 a:hover {
-    color: #554c79;
+    color: #c07600;
 }
 /*=============================
    GALLERY AREA
@@ -3388,7 +3388,7 @@ a:hover {
     max-width: 1430px;
 }
 .gallery-area .section-heading .section__meta {
-    color: #41317d;
+    color: #ff6600;
 }
 .gallery-area .gallery-wrap {
     margin-top: 51px;
@@ -3626,7 +3626,7 @@ a:hover {
 .package-area .package-price-wrap .package-item .package-top .package__price li .year__text {
     font-size: 12px;
     text-transform: uppercase;
-    color: #41317d;
+    color: #ff6600;
     font-weight: 600;
 }
 .package-area .package-price-wrap .package-item .package-bottom .package__list {
@@ -3692,7 +3692,7 @@ a:hover {
     margin: 0 10px;
 }
 .team-area .team-content-wrap .team-item .team__img .team__img-links ul li a:hover {
-    color: #554c79;
+    color: #c07600;
 }
 .team-area .team-content-wrap .team-item .team__title {
     position: relative;
@@ -3740,11 +3740,11 @@ a:hover {
 }
 .team-area .team-content-wrap .team-item2 .team__title:before,
 .team-area .team-content-wrap .team-item2 .team__title:after {
-    background-color: #41317d;
+    background-color: #ff6600;
 }
 .team-area .team-content-wrap .team-item3 .team__title:before,
 .team-area .team-content-wrap .team-item3 .team__title:after {
-    background-color: #554c79;
+    background-color: #c07600;
 }
 .team-area .team-content-wrap .team-item4 .team__title:before,
 .team-area .team-content-wrap .team-item4 .team__title:after {
@@ -3803,11 +3803,11 @@ a:hover {
 }
 .sponsor-area .sponsor-wrap .logo-item2,
 .sponsor-area .sponsor-wrap .logo-item2:after {
-    background-color: #41317d;
+    background-color: #ff6600;
 }
 .sponsor-area .sponsor-wrap .logo-item3,
 .sponsor-area .sponsor-wrap .logo-item3:after {
-    background-color: #554c79;
+    background-color: #c07600;
 }
 .sponsor-area .sponsor-wrap .logo-item4,
 .sponsor-area .sponsor-wrap .logo-item4:after {
@@ -3828,7 +3828,7 @@ a:hover {
 }
 .sponsor-area .sponsor-wrap .sponsor-item .sponsor__meta {
     font-size: 14px;
-    color: #41317d;
+    color: #ff6600;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 500;
@@ -3891,11 +3891,11 @@ a:hover {
 }
 .blog-area .recent-post-wrap .recent-item .recent__img .meta__date-date2,
 .blog-area .recent-post-wrap .recent-item .recent__img .meta__date-date2:after {
-    background-color: #41317d;
+    background-color: #ff6600;
 }
 .blog-area .recent-post-wrap .recent-item .recent__img .meta__date-date3,
 .blog-area .recent-post-wrap .recent-item .recent__img .meta__date-date3:after {
-    background-color: #554c79;
+    background-color: #c07600;
 }
 .blog-area .recent-post-wrap .recent-item .recent__img .meta__date-date4,
 .blog-area .recent-post-wrap .recent-item .recent__img .meta__date-date4:after {
@@ -3919,7 +3919,7 @@ a:hover {
     transition: 0.3s ease-in;
 }
 .blog-area .recent-post-wrap .recent-item .news__content .news__content-title a:hover {
-    color: #554c79;
+    color: #c07600;
 }
 .blog-area .recent-post-wrap .recent-item .news__content .news__content-list {
     margin-bottom: 30px;
@@ -3944,10 +3944,10 @@ a:hover {
     top: -2px;
     right: -5px;
     font-size: 16px;
-    color: #41317d;
+    color: #ff6600;
 }
 .blog-area .recent-post-wrap .recent-item .news__content .news__content-list li a {
-    color: #41317d;
+    color: #ff6600;
 }
 .blog-area .recent-post-wrap .recent-item .news__content .news__content-text {
     line-height: 30px;
@@ -3977,7 +3977,7 @@ a:hover {
     font-size: 12px;
     font-weight: 600;
     text-transform: uppercase;
-    color: #41317d;
+    color: #ff6600;
 }
 .blog-area .recent-post-wrap .third-recent-box .third-recent-item li .recent__content h4 {
     font-size: 22px;
@@ -3994,7 +3994,7 @@ a:hover {
     transition: 0.3s ease-in;
 }
 .blog-area .recent-post-wrap .third-recent-box .third-recent-item li .recent__content h4 a:hover {
-    color: #41317d;
+    color: #ff6600;
 }
 /*===================================
     BLOG AREA
@@ -4057,7 +4057,7 @@ a:hover {
 .cta-area2 {
     padding-top: 110px;
     padding-bottom: 120px;
-    background-color: #554c79;
+    background-color: #c07600;
     position: relative;
     z-index: 1;
     overflow: inherit;
@@ -4101,7 +4101,7 @@ a:hover {
 }
 .cta-area2 .cta-item .theme-btn:hover,
 .cta-area2 .cta-item .theme-btn:hover:after {
-    background-color: #41317d;
+    background-color: #ff6600;
 }
 /*=============================
    contact-area
@@ -4153,11 +4153,11 @@ a:hover {
 }
 .contact-area .section__list li:nth-child(2) a,
 .contact-area .section__list li:nth-child(2) a:after {
-    background-color: #41317d;
+    background-color: #ff6600;
 }
 .contact-area .section__list li:nth-child(3) a,
 .contact-area .section__list li:nth-child(3) a:after {
-    background-color: #554c79;
+    background-color: #c07600;
 }
 .contact-area .section__list li:nth-child(4) a,
 .contact-area .section__list li:nth-child(4) a:after {
@@ -4195,11 +4195,11 @@ a:hover {
 }
 .contact-area .contact-detail-action .contact-item2,
 .contact-area .contact-detail-action .contact-item2:after {
-    background-color: #41317d;
+    background-color: #ff6600;
 }
 .contact-area .contact-detail-action .contact-item3,
 .contact-area .contact-detail-action .contact-item3:after {
-    background-color: #554c79;
+    background-color: #c07600;
 }
 .contact-area .contact-detail-action .contact-item .contact__title {
     color: #fff;
@@ -4332,7 +4332,7 @@ a:hover {
     margin-bottom: 17px;
 }
 .contact-form-area .form-shared-wrap .form-shared-content .form-content .form__list li i {
-    color: #41317d;
+    color: #ff6600;
     font-size: 14px;
     margin-right: 4px;
 }
@@ -4355,7 +4355,7 @@ a:hover {
     margin-bottom: 8px;
 }
 .contact-form-area .form-shared-wrap .form-shared-content .form-content .contact-us-box .contact__item a {
-    color: #41317d;
+    color: #ff6600;
     font-size: 18px;
 }
 .contact-form-area .form-shared-wrap .form-shared-content .form-content .contact-us-box .contact__item2 {
@@ -4385,7 +4385,7 @@ a:hover {
     position: relative;
 }
 .donate-area2 .donate-content-wrap .donate-item .form-shared form .yellow-form .form-control {
-    background-color: #554c79;
+    background-color: #c07600;
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 80px;
@@ -4432,10 +4432,10 @@ a:hover {
 .donate-area2 .donate-content-wrap .sidebar-shared .side-widget.blog-content .blog-item .barfiller .tip,
 .donate-area2 .donate-content-wrap .sidebar-shared .side-widget.blog-content .blog-item .barfiller .tip:before,
 .donate-area2 .donate-content-wrap .sidebar-shared .side-widget.blog-content .blog-item .barfiller .fill:after {
-    background: #41317d;
+    background: #ff6600;
 }
 .donate-area2 .donate-content-wrap .sidebar-shared .side-widget.blog-content .blog-item .barfiller .tip:after {
-    border-top-color: #41317d;
+    border-top-color: #ff6600;
 }
 .donate-area2 .donate-content-wrap .sidebar-shared .side-widget.blog-content .blog-item .blog-inner-content {
     padding: 44px 60px 54px 60px;
@@ -4466,7 +4466,7 @@ a:hover {
     font-size: 18px;
 }
 .donate-area2 .donate-content-wrap .sidebar-shared .side-widget.blog-content .blog-item .blog-inner-content .blog__list li span {
-    color: #41317d;
+    color: #ff6600;
 }
 .donate-area2 .donate-content-wrap .sidebar-shared .side-widget.blog-content .blog-item .blog-inner-content .blog__desc {
    margin-top: 27px;
@@ -4503,7 +4503,7 @@ a:hover {
     top: 0;
     left: 1px;
     z-index: -1;
-    background: #554c79;
+    background: #c07600;
     -webkit-transform-origin: bottom left;
     transform-origin: bottom left;
     -webkit-transform: skew(-8deg,0deg);
@@ -4529,13 +4529,13 @@ a:hover {
     left: 0;
     position: absolute;
     z-index: 2;
-    background-color: #554c79;
+    background-color: #c07600;
     font-weight: 600;
 }
 .barfiller .tip:after {
     content: "";
     border: 6px solid transparent;
-    border-top-color: #554c79;
+    border-top-color: #c07600;
     position: absolute;
     top: 100%;
     left: 0;
@@ -4553,7 +4553,7 @@ a:hover {
     top: 0;
     left: 1px;
     z-index: -1;
-    background: #554c79;
+    background: #c07600;
     -webkit-transform-origin: bottom left;
     transform-origin: bottom left;
     -webkit-transform: skew(-8deg,0deg);
@@ -4573,7 +4573,7 @@ a:hover {
 =====================================*/
 /*==== newsletter-area ===*/
 .newsletter-area .section-heading .section__meta {
-    color: #554c79;
+    color: #c07600;
 }
 .newsletter-area .newsletter-form {
     margin-top: 51px;
@@ -4592,11 +4592,11 @@ a:hover {
 .newsletter-area .newsletter-form .form-shared form .submit__btn,
 .newsletter-area .newsletter-form .form-shared form .submit__btn:after {
     margin-top: 0;
-    background-color: #41317d;
+    background-color: #ff6600;
 }
 .newsletter-area .newsletter-form .form-shared form .submit__btn:hover,
 .newsletter-area .newsletter-form .form-shared form .submit__btn:hover:after {
-    background-color: #554c79;
+    background-color: #c07600;
 }
 
 /*==== footer-area ===*/
@@ -4631,7 +4631,7 @@ a:hover {
     right: 0;
     width: 0;
     height: 1px;
-    background-color: #554c79;
+    background-color: #c07600;
     -webkit-transition: 0.3s ease;
     -moz-transition: 0.3s ease;
     -ms-transition: 0.3s ease;
@@ -4651,7 +4651,7 @@ a:hover {
     transition: 0.3s ease;
 }
 .footer-area .footer-widget-wrap .footer-item a:hover {
-    color: #554c79;
+    color: #c07600;
 }
 .footer-area .footer-widget-wrap .footer-item {
     position: relative;
@@ -4705,11 +4705,11 @@ a:hover {
 
 .footer-area .footer-widget-wrap .footer-item .footer__social ul li:nth-child(2) a,
 .footer-area .footer-widget-wrap .footer-item .footer__social ul li:nth-child(2) a:after {
-    background-color: #41317d;
+    background-color: #ff6600;
 }
 .footer-area .footer-widget-wrap .footer-item .footer__social ul li:nth-child(3) a,
 .footer-area .footer-widget-wrap .footer-item .footer__social ul li:nth-child(3) a:after {
-    background-color: #554c79;
+    background-color: #c07600;
 }
 .footer-area .footer-widget-wrap .footer-item .footer__social ul li:nth-child(4) a,
 .footer-area .footer-widget-wrap .footer-item .footer__social ul li:nth-child(4) a:after {
@@ -4738,7 +4738,7 @@ a:hover {
     right: 0;
     width: 0;
     height: 1px;
-    background-color: #554c79;
+    background-color: #c07600;
     -webkit-transition: 0.3s ease;
     -moz-transition: 0.3s ease;
     -ms-transition: 0.3s ease;
@@ -4746,7 +4746,7 @@ a:hover {
     transition: 0.3s ease;
 }
 .footer-area .footer-copyright .copyright-desc a:hover {
-    color: #554c79;
+    color: #c07600;
 }
 .footer-area .footer-copyright .copyright-desc a:hover:after {
     width: 100%;
@@ -4783,9 +4783,9 @@ a:hover {
     border: 1px solid #ddd;
 }
 #back-to-top:hover {
-    background-color: #554c79;
+    background-color: #c07600;
     color: #fff;
-    border-color: #554c79;
+    border-color: #c07600;
 }
 #back-to-top.back-btn-shown {
     right: 30px;
@@ -4823,7 +4823,7 @@ html {
     line-height: 30px;
 }
 .accordion-container .is-active > h2 {
-	background: #41317d !important;
+	background: #ff6600 !important;
     color: #ffffff;
 }
 
