@@ -17,37 +17,35 @@ const Contact = () => {
 
                             <p className="section__meta">Conference Venue</p>
                             <p className="section__desc">
-                                    ISESER2021 which will be held on 18-21 October 2021 in,
-                                    {" "}<a href="https://goo.gl/maps/iUzRUwxDfU3bUDzV8" target="_blank">
-                                    <b>Department of Energy Polytechnic University of Tirana</b></a>, Konya, Turkey
-
+                                ISESER2023 which will be held on 18-21 October 2023,
+                                {" "}<a href="https://goo.gl/maps/6EQn8jKhP6jBHHp49" target="_blank">
+                                <b>Engineering Faculty, Necmettin Erbakan University</b></a>, Konya, Turkey.
                                 <ul>
                                     <li>
-                                        <strong>Registration</strong>: 11th July, Friday between 09:00-12:00
+                                        <strong>Registration</strong>: 18th October, Wednesday.
                                     </li>
                                     <li>
-                                        <strong>Opening Ceremony</strong>: 11th June
+                                        <strong>Opening Ceremony</strong>: 19th October, Thursday 10:00
                                     </li>
                                     <li>
-                                        <strong>Presentation and Poster Presentations will be available</strong>: 18-21 October 2021
+                                        <strong>Presentation and Poster Presentations will be available</strong>: 19-21 October 2023
                                     </li>
                                 </ul>
                                 <p>
-                                    <strong>Adress:</strong> Altin Dorri, Department of Energy Polytechnic University of Tirana, Sheshi “Nene Tereza”, Nr. 4, Tirana, Albania.
+                                    <strong>Adress:</strong> Engineering Faculty, Necmettin Erbakan University, Konya Turkey.
                                 </p>
 
                                 <p>If you have any question please send an e-mail to{" "}<a
                                     href="mailto:iseser@iseser.com"><span>iseser@iseser.com</span></a>; <a
                                     href="mailto:sdursun@ktun.edu.tr"><span>sdursun@ktun.edu.tr</span></a>; <a
-                                    href="mailto:adorri@fim.edu.al"><span>adorri@fim.edu.al</span></a>
+                                    href="mailto:fkunt@konya.edu.tr"><span>fkunt@konya.edu.tr</span></a>
 
                                 </p>
                                 <p>You can contact us by phone number for emergencies. </p>
                                 <ul>
                                     <li>Şükrü Dursun (whatsapp): <a href="tel:+905365954591">+905365954591</a></li>
                                     <li>Şükrü Dursun (Office): <a href="tel:+905365954591">+903322051559</a></li>
-                                    <li>Altin Dorri (whatsapp): <a href="tel:+905365954591">+355695866003</a></li>
-                                    <li>Noor Zaitun Yahaya (WhatsApp): <a href="tel:+60179884115">+60179884115</a></li>
+                                    <li>Fatma Kunt (whatsapp): <a href="tel:+905412481558">+905412481558</a></li>
                                 </ul>
                                 <p>For technical issues. </p>
                                 <ul>
@@ -59,8 +57,8 @@ const Contact = () => {
                     <div className="col-lg-4">
 
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2996.6367185254503!2d19.819361415423543!3d41.31676597927071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135030e2870cc581%3A0x6c539e3ffce9fa68!2sTiran%20Politeknik%20%C3%9Cniversitesi!5e0!3m2!1str!2str!4v1616084725643!5m2!1str!2str"
-                            className="map" allowFullScreen>
+                          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50395.87651685187!2d32.34300514863279!3d37.86632019999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d086c1ed0d8dbf%3A0xfca395272489a499!2sNecmettin%20Erbakan%20%C3%9Cniversitesi%20M%C3%BChendislik%20Ve%20Mimarl%C4%B1k%20Fak%C3%BCltesi%2C%20Deme%C3%A7%20Sokak%2C%20Meram%2FKonya%2C%20Turkey!5e0!3m2!1str!2str!4v1687774090900!5m2!1str!2str"
+                          className="map" allowFullScreen>
                         </iframe>
                     </div>
                     <style jsx>{`

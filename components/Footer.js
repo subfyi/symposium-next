@@ -50,9 +50,10 @@ class Footer extends Component {
                                     <h3 className="widget__title"> ABOUT US</h3>
                                     <ul className="foot__links">
                                         <li>International Symposium for Environmental Science and Engineering Research (ISESER2023)</li>
-                                        <li>ISESER2023 which will be held on 18-21 October 2021 on, Web.</li>
+                                        <li>ISESER2023 which will be held on 18-21 October 2023 on, Web.</li>
                                         <li>Contact us: <a href="mailto:iseser@iseser.com">iseser@iseser.com</a></li>
                                         <li>Şükrü Dursun (whatsapp) <a href="tel:+905365954591">: +905365954591</a></li>
+                                        <li>Fatma Kunt (whatsapp) <a href="tel:+905412481558">: +905412481558</a></li>
                                     </ul>
                                 </div>
 

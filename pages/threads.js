@@ -40,6 +40,9 @@ const AboutPage = () => {
                                             <li>Environmental Landscape</li>
                                             <li>Environmental Modeling</li>
                                             <li>Environmental chemistry</li>
+                                            <li>Environmental Engineering</li>
+                                            <li>Environmental Management</li>
+                                            <li>Environmental  Economics</li>
                                             <li>Fuzzy Logic</li>
                                             <li>Geographical Information</li>
                                             <li>Heavy metal pollution</li>

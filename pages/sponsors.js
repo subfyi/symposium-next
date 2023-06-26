@@ -31,19 +31,10 @@ const AboutPage = () => {
                                         <ul>
 
                                             <li>
-                                                Journal of International Environmental Application &amp; Science (JIEAS), <a target="_blank" href="http://www.jieas.com">jieas.com</a>
+                                                Journal of International Environmental Application &amp; Science (JIEAS), <a target="_blank" href="https://dergipark.org.tr/en/pub/jieas">jieas.com</a>
                                             </li>
                                             <li>
-                                                Journal of Research in Atmospheric Science (JRAS), <a target="_blank" href="https://resatmsci.com">resatmsci.com</a>
-                                            </li>
-                                            <li>
-                                                Journal of International Environmental Application &amp; Science (JIEAS), <a target="_blank" href="http://www.jieas.com">jieas.com</a>
-                                            </li>
-                                            <li>
-                                                International Journal of Environmental Pollution and Environmental Modelling (IJEPEM), <a target="_blank" href="https://ijepem.com">ijepem.com</a>
-                                            </li>
-                                            <li>
-                                                Gnosi: An Interdisciplinary Journal of Human Theory and Praxis, <a target="_blank" href="https://gnosijournal.com">gnosijournal.com</a>
+                                                International Journal of Environmental Pollution and Environmental Modelling (IJEPEM), <a target="_blank" href="https://dergipark.org.tr/en/pub/ijepem">ijepem.com</a>
                                             </li>
                                         </ul>
                                     </p>
@@ -57,7 +48,7 @@ const AboutPage = () => {
                                     </p>
                                     <p className="section__desc">
                                         <ul>
-                                            <li>Ulusal Çevre Bilimleri Araştırma Dergisi (UCBAD), <a target="_blank" href="https://ucbad.com">ucbad.com</a></li>
+                                            <li>Ulusal Çevre Bilimleri Araştırma Dergisi (UCBAD), <a target="_blank" href="https://dergipark.org.tr/tr/pub/ucbad">ucbad.com</a></li>
                                         </ul>
                                     </p>
                                 </div>

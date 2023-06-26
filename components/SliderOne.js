@@ -53,7 +53,7 @@ const SliderOne = () => {
                                                 </p>  <p className="slider__meta">
                                                 ENVIRONMENTAL SCIENCE AND
                                             </p>  <p className="slider__meta">
-                                                ENGINEERING RESEARCH 2021</p>
+                                                ENGINEERING RESEARCH 2023</p>
                                             </div>
                                         </div>
                                     </div>
@@ -73,7 +73,7 @@ const SliderOne = () => {
                                                 </p>  <p className="slider__meta">
                                                 ENVIRONMENTAL SCIENCE AND
                                             </p>  <p className="slider__meta">
-                                                ENGINEERING RESEARCH 2021</p>
+                                                ENGINEERING RESEARCH 2023</p>
                                             </div>
                                         </div>
                                     </div>
@@ -93,7 +93,7 @@ const SliderOne = () => {
                                                 </p>  <p className="slider__meta">
                                                 ENVIRONMENTAL SCIENCE AND
                                             </p>  <p className="slider__meta">
-                                                ENGINEERING RESEARCH 2021</p>
+                                                ENGINEERING RESEARCH 2023</p>
                                             </div>
                                         </div>
                                     </div>
@@ -113,7 +113,7 @@ const SliderOne = () => {
                                                 </p>  <p className="slider__meta">
                                                 ENVIRONMENTAL SCIENCE AND
                                             </p>  <p className="slider__meta">
-                                                ENGINEERING RESEARCH 2021</p>
+                                                ENGINEERING RESEARCH 2023</p>
                                             </div>
                                         </div>
                                     </div>
@@ -122,10 +122,6 @@ const SliderOne = () => {
                         </div>
                     </div>
                 </Swiper>
-                <div className="owl-dots">
-                    <div onClick={goPrev} className="owl-dot"><span></span></div>
-                    <div onClick={goNext} className="owl-dot"><span></span></div>
-                </div>
             </div>
         </section>
     );
