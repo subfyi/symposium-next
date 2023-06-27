@@ -26,7 +26,7 @@ const AboutPage = () => {
               <div className='about-heading'>
                 <div className='section-heading'>
 
-                  <p className='section__meta'><Link href='/year/2021'>2023 SYMPOSIUM</Link></p>
+                  <p className='section__meta'><Link href='#'>2023 SYMPOSIUM</Link></p>
                   <div className='section__desc'>
                     <ul className='icon'>
                       <li className='star'><a href='../../doc/2023/ISESER2023_BANNER.pdf?v1' target='_blank'><i

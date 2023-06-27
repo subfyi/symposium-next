@@ -74,7 +74,7 @@ class Footer extends Component {
                 </section>
 
                 <div onClick={this.scrollTop} id="back-to-top" className={this.state.scrollBtn ? 'back-btn-shown' : ''}>
-                    <i className="fa fa-angle-up" title="Go top"></i>
+                    <i className="fa fa-arrow-up" title="Go top"></i>
                 </div>
 
             </div>

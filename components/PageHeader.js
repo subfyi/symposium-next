@@ -9,7 +9,7 @@ const PageHeader = (props) => {
                     <div className="col-lg-12">
                         <div className="breadcrumb-content">
                             <ul className="breadcrumb__list">
-                                <li className="active__list-item"><Link href="/">home</Link></li>
+                                <li className="active__list-item"><Link href="/">Home</Link></li>
                                 <li>{ props.title }</li>
                             </ul>
                         </div>
