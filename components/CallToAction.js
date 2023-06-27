@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link'
 
 const CallToAction = () => {
     return (
@@ -7,12 +8,12 @@ const CallToAction = () => {
                 <div className="row">
                     <div className="col-lg-4">
                         <div className="section-heading mixer-heading">
-                            <a href="/documents-all" className="theme-btn">Documents</a>
+                            <Link href="/documents-all" className="theme-btn">Documents</Link>
                         </div>
                     </div>
                     <div className="col-lg-8">
                         <div className="section-heading mixer-heading">
-                            <a target="_blank" href="/symposium-announced" className="theme-btn">2023 Announcement</a>
+                            <Link href="/symposium-announced" className="theme-btn">2023 Announcement</Link>
                         </div>
                     </div>
 
