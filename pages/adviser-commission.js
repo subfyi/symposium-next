@@ -31,66 +31,68 @@ const AboutPage = () => {
                       <tbody>
 
                       <tr>
-                        <td className='tg-0pky'>Blerina Vrenozi, Natural Science Faculty, Tirana University, Albania
+                        <td className='tg-0pky'><b>Blerina Vrenozi</b>, Natural Science Faculty, Tirana University, Albania
                         </td>
                       </tr>
                       <tr>
-                        <td className='tg-0pky'>Fatma Didem Tunçez, Economics and Administrative Sciences Faculty,
+                        <td className='tg-0pky'><b>Fatma Didem Tunçez</b>, Economics and Administrative Sciences Faculty,
                           KTO Karatay University, Konya, Türkiye
                         </td>
                       </tr>
                       <tr>
-                        <td className='tg-0pky'>
-                          Mirela Alushllari, Institute of Applied Nuclear Physics, University of Tirana, Tirana, Albania
+                        <td className='tg-0pky'><b>
+                          Mirela Alushllari</b>, Institute of Applied Nuclear Physics, University of Tirana, Tirana, Albania
                         </td>
                       </tr>
                       <tr>
-                        <td className='tg-0pky'>
-                          Mohamed Shahrir Mohamed Zahari, University Malaysia Terengganu, Malaysia
+                        <td className='tg-0pky'><b>
+                          Mohamed Shahrir Mohamed Zahari</b>, University Malaysia Terengganu, Malaysia
                         </td>
                       </tr>
                       <tr>
-                        <td className='tg-0pky'>
-                          Noor Zaitun Zakaria, University Malaysia Terengganu, Malaysia
+                        <td className='tg-0pky'><b>
+                          Noor Zaitun Zakaria</b>, University Malaysia Terengganu, Malaysia
                         </td>
                       </tr>
                       <tr>
-                        <td className='tg-0pky'>
-                          Noorlin Mohamed, University Malaysia Terengganu, Malaysia
+                        <td className='tg-0pky'><b>
+                          Noorlin Mohamed</b>, University Malaysia Terengganu, Malaysia
                         </td>
                       </tr>
                       <tr>
-                        <td className='tg-0pky'>
-                          Nurul Adyani Ghazali, University Malaysia Terengganu, Malaysia
+                        <td className='tg-0pky'><b>
+                          Nurul Adyani Ghazali</b>, University Malaysia Terengganu, Malaysia
                         </td>
                       </tr>
                       <tr>
-                        <td className='tg-0pky'>
-                          Prithwiraj Jha, Raiganj Surendranath College, University of Gour
+                        <td className='tg-0pky'><b>
+                          Prithwiraj Jha</b>, Raiganj Surendranath College, University of Gour
                           Banga, India
                         </td>
                       </tr>
                       <tr>
-                        <td className='tg-0pky'>
-                          Razifah Mohd Razali, University Malaysia Terengganu, Malaysia
+                        <td className='tg-0pky'><b>
+                          Razifah Mohd Razali</b>, University Malaysia Terengganu, Malaysia
                         </td>
                       </tr>
                       <tr>
-                        <td className='tg-0pky'>Sevda Ocak, Engineering Faculty, Giresun University, Giresun, Türkiye
+                        <td className='tg-0pky'><b>Sevda Ocak</b>, Engineering Faculty, Giresun University, Giresun, Türkiye
                         </td>
                       </tr>
                       <tr>
-                        <td className='tg-0pky'>Sezen Küçükçongar, Engineering and Natural Sciences Faculty, Konya
+                        <td className='tg-0pky'><b>Sezen Küçükçongar</b>, Engineering and Natural Sciences Faculty, Konya
                           Technical University, Konya, Türkiye
                         </td>
                       </tr>
                       <tr>
-                        <td className='tg-0pky'>
-                          Wan Nurdiyana Wan Mansur, University Malaysia Terengganu, Malaysia
+                        <td className='tg-0pky'><b>
+                          Wan Nurdiyana Wan Mansur</b>, University Malaysia Terengganu, Malaysia
                         </td>
                       </tr>
                       <tr>
-                        <td className='tg-0lax'>Zehra Gök, Vocational School, Selçuk University, Konya, Türkiye</td>
+                        <td className='tg-0pky'><b>
+                          Zehra Gök</b>, Vocational School, Selçuk University, Konya, Türkiye
+                        </td>
                       </tr>
                       </tbody>
                     </table>

@@ -28,15 +28,14 @@ const AboutPage = () => {
                     <table className='tg'>
                       <tbody>
                       <tr>
-                        <td>Prof. Dr. Cem Zorlu, Rector of the Necmettin Erbakan University, Konya, Türkiye</td>
+                        <td><b>Prof. Dr. Cem Zorlu</b>, Rector of the Necmettin Erbakan University, Konya, Türkiye</td>
                       </tr>
                       <tr>
-                        <td>Prof. Dr. Semih Ekercin, Dean of Engineering Faculty, Necmettin Erbakan University, Konya
-                          Türkiye
+                        <td><b>Prof. Dr. Semih Ekercin</b>, Dean of Engineering Faculty, Necmettin Erbakan University, Konya, Türkiye
                         </td>
                       </tr>
                       <tr>
-                        <td>Professor Ts. Dr. Che Mohd Ruzaidi Bin Ghazali, Dean Faculty of Ocean Engineering
+                        <td><b>Professor Ts. Dr. Che Mohd Ruzaidi Bin Ghazali</b>, Dean Faculty of Ocean Engineering
                           Technology, University Malaysia Terengganu, Terengganu, MALAYSIA
                         </td>
                       </tr>

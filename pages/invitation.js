@@ -62,47 +62,47 @@ const AboutPage = () => {
                       <tbody>
                       <tr>
                         <td className='tg-0lax'>
-                          Cezar Kongoli, National Oceanic & Atmospheric Administration, Maryland University, USA
+                          <b>Cezar Kongoli</b>, National Oceanic & Atmospheric Administration, Maryland University, USA
                         </td>
                       </tr>
                       <tr>
                         <td className='tg-0lax'>
-                          Hysen Mankolli, Editor of IJEES, Health and Environment Association, Illinois, USA
+                          <b>Hysen Mankolli</b>, Editor of IJEES, Health and Environment Association, Illinois, USA
                         </td>
                       </tr>
                       <tr>
                         <td className='tg-0lax'>
-                          Lyudmyla Symochko, Uzhhorod National University, Ukraine
+                          <b>Lyudmyla Symochko</b>, Uzhhorod National University, Ukraine
                         </td>
                       </tr>
                       <tr>
                         <td className='tg-0lax'>
-                          Massimo Zucchettı, Dipartimento Di Energetica, Torino Polytechnic University, Italy
+                          <b>Massimo Zucchettı</b>, Dipartimento Di Energetica, Torino Polytechnic University, Italy
                         </td>
                       </tr>
                       <tr>
                         <td className='tg-0lax'>
-                          Mohd Zamri Bin Ibrahim, University Malaysia Terengganu, Malaysia
+                          <b>Mohd Zamri Bin Ibrahim</b>, University Malaysia Terengganu, Malaysia
                         </td>
                       </tr>
                       <tr>
                         <td className='tg-0lax'>
-                          Noor Zaitun Zakaria, University Malaysia Terengganu, Malaysia
+                          <b>Noor Zaitun Zakaria</b>, University Malaysia Terengganu, Malaysia
                         </td>
                       </tr>
                       <tr>
                         <td className='tg-0lax'>
-                          Shahabuddin Memon, Sindh University, National Centre of Excellence, Jamshoro, Pakistan
+                          <b>Shahabuddin Memon</b>, Sindh University, National Centre of Excellence, Jamshoro, Pakistan
                         </td>
                       </tr>
                       <tr>
                         <td className='tg-0lax'>
-                          Suzana (Kuci) Golemi, University of Shkodra “Luigj Gurakuqi”, Albania
+                          <b>Suzana (Kuci) Golemi</b>, University of Shkodra “Luigj Gurakuqi”, Albania
                         </td>
                       </tr>
                       <tr>
                         <td className='tg-0lax'>
-                          Zoran Sapuric, American University, Macedonia
+                          <b>Zoran Sapuric</b>, American University, Macedonia
                         </td>
                       </tr>
                       </tbody>

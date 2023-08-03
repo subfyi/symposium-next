@@ -31,21 +31,22 @@ const AboutPage = () => {
                       <tbody>
                       <tr>
                         <td className='tg-0lax'>
-                          Sukru Dursun, Engineering and Natural Sciences Faculty, Konya Technical University, Konya, Türkiye
+                          <b>Sukru Dursun</b>, Engineering and Natural Sciences Faculty, Konya Technical University, Konya, Türkiye
                         </td>
                       </tr>
                       <tr>
                         <td className='tg-0pky'>
-                          Noor Zaitun Yahaya, Faculty of Ocean Engineering Technology and Informatics, University Malaysia Terengganu, Malaysia
+                          <b>Noor Zaitun Yahaya</b>, Faculty of Ocean Engineering Technology and Informatics, University Malaysia Terengganu, Malaysia
                         </td>
                       </tr>
                       <tr>
                         <td className='tg-0pky'>
-                          Hüseyin Toros,Engineering Faculty,  Istanbul Technical University, Istanbul, Türkiye
+                          <b>Hüseyin Toros</b>,Engineering Faculty, Istanbul Technical University, Istanbul, Türkiye
                         </td>
                       </tr>
                       <tr>
-                        <td className='tg-0lax'>Fatma Kunt, Engineering Faculty, Necmettin Erbakan
+                        <td className='tg-0lax'>
+                          <b>Fatma Kunt</b>, Engineering Faculty, Necmettin Erbakan
                           University, Konya, Türkiye
                         </td>
                       </tr>
@@ -64,60 +65,62 @@ const AboutPage = () => {
                       <tbody>
                       <tr>
                         <td className='tg-0lax'>
-                          Çiğdem Çiftçi, Faculty of Engineering and Architecture, Necmettin Erbakan University, Konya, Türkiye
+                          <b>Çiğdem Çiftçi</b>, Faculty of Engineering and Architecture, Necmettin Erbakan University, Konya, Türkiye
                         </td>
                       </tr>
                       <tr>
                         <td className='tg-0pky'>
-                          Ertuğrul Esmeray, Karabük University, Engineering Faculty, Karabuk, Türkiye
-                        </td>
-                      </tr>
-                      <tr>
-                        <td className='tg-0lax'>Flora Merko, Aleksander Moisiu Durres University, Albania
-                        </td>
-                      </tr>
-                      <tr>
-                        <td className='tg-0lax'>Hysen Mankolli, Editor of IJEES, Health and Environment Association, Illinois, USA
-                        </td>
-                      </tr>
-                      <tr>
-                        <td className='tg-0pky'>
-                          Lyudmyla Symochko, Uzhhorod National University, Uzhhorod, Ukraine
-                        </td>
-                      </tr>
-                      <tr>
-                        <td className='tg-0pky'>
-                          Nurul Asyraf bt Razali, University Malaysia Terengganu, Malaysia
-                        </td>
-                      </tr>
-                      <tr>
-                        <td className='tg-0pky'>
-                          Samsuri Abdullah, University Malaysia Terengganu, Malaysia
+                          <b>Ertuğrul Esmeray</b>, Karabük University, Engineering Faculty, Karabuk, Türkiye
                         </td>
                       </tr>
                       <tr>
                         <td className='tg-0lax'>
-                          Şerife Yurdagül Kumcu, Necmettin Erbakan University, Konya, Türkiye
+                          <b>Flora Merko</b>, Aleksander Moisiu Durres University, Albania
                         </td>
                       </tr>
                       <tr>
                         <td className='tg-0lax'>
-                          Zeynep Cansu Ayturan, Engineering and Natural Sciences Faculty, Konya Technical University, Konya, Türkiye
+                          <b>Hysen Mankolli</b>, Editor of IJEES, Health and Environment Association, Illinois, USA
                         </td>
                       </tr>
                       <tr>
                         <td className='tg-0pky'>
-                          Busenur Köpüklü, Necmettin Erbakan University, Konya, Türkiye
+                          <b> Lyudmyla Symochko</b>, Uzhhorod National University, Uzhhorod, Ukraine
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className='tg-0pky'>
+                          <b>Nurul Asyraf bt Razali</b>, University Malaysia Terengganu, Malaysia
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className='tg-0pky'>
+                          <b>Samsuri Abdullah</b>, University Malaysia Terengganu, Malaysia
                         </td>
                       </tr>
                       <tr>
                         <td className='tg-0lax'>
-                          Emre Dalkılıç, Engineering and Natural Sciences Faculty, Konya Technical University, Konya, Türkiye
+                          <b>Şerife Yurdagül Kumcu</b>, Necmettin Erbakan University, Konya, Türkiye
                         </td>
                       </tr>
                       <tr>
                         <td className='tg-0lax'>
-                          Yasin Akın Ayturan, Engineering Faculty, KTO Karatay University, Konya, Türkiye
+                          <b>Zeynep Cansu Ayturan</b>, Engineering and Natural Sciences Faculty, Konya Technical University, Konya, Türkiye
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className='tg-0pky'>
+                          <b>Busenur Köpüklü</b>, Necmettin Erbakan University, Konya, Türkiye
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className='tg-0lax'>
+                          <b>Emre Dalkılıç</b>, Engineering and Natural Sciences Faculty, Konya Technical University, Konya, Türkiye
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className='tg-0lax'>
+                          <b>Yasin Akın Ayturan</b>, Engineering Faculty, KTO Karatay University, Konya, Türkiye
                         </td>
                       </tr>
                       </tbody>

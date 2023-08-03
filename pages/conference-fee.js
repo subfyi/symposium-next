@@ -52,8 +52,6 @@ const AboutPage = () => {
                       </tr>
                       </tbody>
                     </table>
-                    <p>Please be careful. (<span><strong>There is no fee refund.</strong></span>)</p>
-
                     <p>Please send the required fee to IBAN address given below and please don't forget to fill the
                       description field.
                       (<span ><strong>There is no fee refund.</strong></span>)</p>
