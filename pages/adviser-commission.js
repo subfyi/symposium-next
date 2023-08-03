@@ -36,7 +36,7 @@ const AboutPage = () => {
                       </tr>
                       <tr>
                         <td className='tg-0pky'>Fatma Didem Tunçez, Economics and Administrative Sciences Faculty,
-                          KTO Karatay University, Konya, Turkey
+                          KTO Karatay University, Konya, Türkiye
                         </td>
                       </tr>
                       <tr>
@@ -76,12 +76,12 @@ const AboutPage = () => {
                         </td>
                       </tr>
                       <tr>
-                        <td className='tg-0pky'>Sevda Ocak, Engineering Faculty, Giresun University, Giresun, Turkey
+                        <td className='tg-0pky'>Sevda Ocak, Engineering Faculty, Giresun University, Giresun, Türkiye
                         </td>
                       </tr>
                       <tr>
                         <td className='tg-0pky'>Sezen Küçükçongar, Engineering and Natural Sciences Faculty, Konya
-                          Technical University, Konya, Turkey
+                          Technical University, Konya, Türkiye
                         </td>
                       </tr>
                       <tr>
@@ -90,7 +90,7 @@ const AboutPage = () => {
                         </td>
                       </tr>
                       <tr>
-                        <td className='tg-0lax'>Zehra Gök, Vocational School, Selçuk University, Konya, Turkey</td>
+                        <td className='tg-0lax'>Zehra Gök, Vocational School, Selçuk University, Konya, Türkiye</td>
                       </tr>
                       </tbody>
                     </table>

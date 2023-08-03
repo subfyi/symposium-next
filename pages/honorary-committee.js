@@ -28,11 +28,11 @@ const AboutPage = () => {
                     <table className='tg'>
                       <tbody>
                       <tr>
-                        <td>Prof. Dr. Cem Zorlu, Rector of the Necmettin Erbakan University, Konya, Turkey</td>
+                        <td>Prof. Dr. Cem Zorlu, Rector of the Necmettin Erbakan University, Konya, Türkiye</td>
                       </tr>
                       <tr>
                         <td>Prof. Dr. Semih Ekercin, Dean of Engineering Faculty, Necmettin Erbakan University, Konya
-                          Turkey
+                          Türkiye
                         </td>
                       </tr>
                       <tr>

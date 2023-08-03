@@ -231,11 +231,11 @@ var splitPISBN = {
 };
 
 var splitPlace = {
-    '2016': "Konya, Turkey",
-    '2017': "Konya, Turkey",
-    '2018': "Konya, Turkey",
-    '2019': "Konya, Turkey",
-    '2020': "Manisa, Turkey",
+    '2016': "Konya, Türkiye",
+    '2017': "Konya, Türkiye",
+    '2018': "Konya, Türkiye",
+    '2019': "Konya, Türkiye",
+    '2020': "Manisa, Türkiye",
     '2021': "Tirana, Albania",
-    '2023': "Konya, Turkey",
+    '2023': "Konya, Türkiye",
 };

@@ -49,7 +49,7 @@ const AboutPage = () => {
                       </tr>
                       <tr>
                         <td className='tg-0pky'>Ali Tor, Engineering and Architecture Faculty, Necmettin Erbakan
-                          University, Konya, Turkey
+                          University, Konya, Türkiye
                         </td>
                       </tr>
                       <tr>
@@ -85,7 +85,7 @@ const AboutPage = () => {
                       </tr>
                       <tr>
                         <td className='tg-0pky'>Çiğdem Çiftçi, Engineering and Architecture Faculty, Necmettin Erbakan
-                          University, Konya, Turkey
+                          University, Konya, Türkiye
                         </td>
                       </tr>
                       <tr>
@@ -105,7 +105,7 @@ const AboutPage = () => {
                       </tr>
                       <tr>
                         <td className='tg-0pky'>Hamiyet Şahin Kol, Faculty Of Engineering, Karabuk University, Karabuk,
-                          Turkey
+                          Türkiye
                         </td>
                       </tr>
                       <tr>
@@ -117,7 +117,7 @@ const AboutPage = () => {
                         </td>
                       </tr>
                       <tr>
-                        <td className='tg-0pky'>Hüseyin Toros, İstanbul Teknik University, Istanbul, Turkey
+                        <td className='tg-0pky'>Hüseyin Toros, İstanbul Teknik University, Istanbul, Türkiye
                         </td>
                       </tr>
                       <tr>
@@ -154,6 +154,11 @@ const AboutPage = () => {
                         <td className='tg-0pky'>Lyudmyla Symochko, Uzhhorod National University, Uzhhorod, Ukraine</td>
                       </tr>
                       <tr>
+                        <td className='tg-0pky'>
+                          Lütfi Saltuk Demir, Faculty Of Medicine, Necmettin Erbakan University, Konya, Türkiye
+                        </td>
+                      </tr>
+                      <tr>
                         <td className='tg-0pky'>Mahirah Binti Kamaludin, University Malaysia Terengganu, Malaysia</td>
                       </tr>
                       <tr>
@@ -175,7 +180,7 @@ const AboutPage = () => {
                         </td>
                       </tr>
                       <tr>
-                        <td className='tg-0pky'>Mehmet Emin Argun, Konya Technical University, Konya, Turkey</td>
+                        <td className='tg-0pky'>Mehmet Emin Argun, Konya Technical University, Konya, Türkiye</td>
                       </tr>
                       <tr>
                         <td className='tg-0pky'>Mehmet Kılıç, Engineering Faculty, Süleyman Demirel University,
@@ -201,16 +206,16 @@ const AboutPage = () => {
                         </td>
                       </tr>
                       <tr>
-                        <td className='tg-0pky'>Mustafa Işık, Engineering Faculty, Aksaray University, Aksaray, Turkey
+                        <td className='tg-0pky'>Mustafa Işık, Engineering Faculty, Aksaray University, Aksaray, Türkiye
                         </td>
                       </tr>
                       <tr>
                         <td className='tg-0pky'>Mustafa Karatas, Engineering Faculty, Aksaray University, Aksaray,
-                          Turkey
+                          Türkiye
                         </td>
                       </tr>
                       <tr>
-                        <td className='tg-0pky'>Mustafa Sagdic, Yildiz Technical University, Istanbul, Turkey</td>
+                        <td className='tg-0pky'>Mustafa Sagdic, Yildiz Technical University, Istanbul, Türkiye</td>
                       </tr>
                       <tr>
                         <td className='tg-0pky'>Mustapha Hasnaoui, University of Sultan Moulay Slimane, Morocco</td>
@@ -236,11 +241,11 @@ const AboutPage = () => {
                       </tr>
                       <tr>
                         <td className='tg-0pky'>Nilgün Balkaya, Engineering Faculty, İstanbul University, Istanbul,
-                          Turkey
+                          Türkiye
                         </td>
                       </tr>
                       <tr>
-                        <td className='tg-0pky'>Nilgün Yenil Harmancı, Manisa Celal Bayar University, Manisa, Turkey
+                        <td className='tg-0pky'>Nilgün Yenil Harmancı, Manisa Celal Bayar University, Manisa, Türkiye
                         </td>
                       </tr>
                       <tr>
@@ -262,6 +267,11 @@ const AboutPage = () => {
                       </tr>
                       <tr>
                         <td className='tg-0pky'>Rüdiger Anlauf, Applied Sciences, Osnabrueck University, Germany</td>
+                      </tr>
+                      <tr>
+                        <td className='tg-0pky'>
+                          Senar Aydın, Engineering Faculty, Necmettin Erbakan University, Konya, Türkiye
+                        </td>
                       </tr>
                       <tr>
                         <td className='tg-0pky'>Scott S. Knıght, Usda-Ars National Sedimentation Laboratory, Oxford
@@ -293,6 +303,11 @@ const AboutPage = () => {
                         </td>
                       </tr>
                       <tr>
+                        <td className='tg-0pky'>
+                          Tahir Kemal Şahin, Faculty Of Medicine, Necmettin Erbakan University, Konya, Türkiye
+                        </td>
+                      </tr>
+                      <tr>
                         <td className='tg-0pky'>Tarit Roychowdhury, School Of Environmental Studies, Jadavpur
                           University, India
                         </td>
@@ -307,6 +322,11 @@ const AboutPage = () => {
                       </tr>
                       <tr>
                         <td className='tg-0pky'>Victor A. Dryban, National Academy of Sciences of Ukraine, Ukraine
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className='tg-0pky'>
+                          Yasemin Durduran, Faculty Of Medicine, Necmettin Erbakan University, Konya, Türkiye
                         </td>
                       </tr>
                       </tbody>

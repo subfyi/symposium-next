@@ -31,22 +31,23 @@ const AboutPage = () => {
                       <tbody>
                       <tr>
                         <td className='tg-0lax'>
-                          Sukru Dursun, Konya Technical University, Konya, Türkiye
+                          Sukru Dursun, Engineering and Natural Sciences Faculty, Konya Technical University,
+                          Konya, Türkiye
                         </td>
                       </tr>
                       <tr>
                         <td className='tg-0pky'>
-                          Noor Zaitun Yahaya, University Malaysia Terengganu, Malaysia
+                          Noor Zaitun Yahaya, Faculty of Ocean Engineering Technology and Informatics, University Malaysia Terengganu, Malaysia
                         </td>
                       </tr>
                       <tr>
                         <td className='tg-0pky'>
-                          Hüseyin Toros, Istanbul Technical University, Istanbul, Türkiye
+                          Hüseyin Toros,Engineering Faculty,  Istanbul Technical University, Istanbul, Türkiye
                         </td>
                       </tr>
                       <tr>
-                        <td className='tg-0pky'>
-                          Fatma Kunt, Necmettin Erbakan University, Konya, Türkiye
+                        <td className='tg-0lax'>Fatma Kunt, Engineering Faculty, Necmettin Erbakan
+                          University, Konya, Türkiye
                         </td>
                       </tr>
                       </tbody>
@@ -69,14 +70,8 @@ const AboutPage = () => {
                         </td>
                       </tr>
                       <tr>
-                        <td className='tg-0lax'>
-                          Emre Dalkılıç, Engineering and Natural Sciences Faculty, Konya
-                          Technical University, Konya, Turkey
-                        </td>
-                      </tr>
-                      <tr>
-                        <td className='tg-0pky'>Ertuğrul Esmeray, Karabük University, Engineering Faculty, Karabuk,
-                          Turkey
+                        <td className='tg-0pky'>
+                          Ertuğrul Esmeray, Karabük University, Engineering Faculty, Karabuk, Türkiye
                         </td>
                       </tr>
                       <tr>
@@ -94,16 +89,6 @@ const AboutPage = () => {
                         </td>
                       </tr>
                       <tr>
-                        <td className='tg-0lax'>Fatma Kunt, Engineering and Architecture Faculty, Necmettin Erbakan
-                          University, Konya, Turkey
-                        </td>
-                      </tr>
-                      <tr>
-                        <td className='tg-0pky'>
-                          Noor Zaitun Yahaya, University Malaysia Terengganu, Malaysia
-                        </td>
-                      </tr>
-                      <tr>
                         <td className='tg-0pky'>
                           Nurul Asyraf bt Razali, University Malaysia Terengganu, Malaysia
                         </td>
@@ -115,23 +100,28 @@ const AboutPage = () => {
                       </tr>
                       <tr>
                         <td className='tg-0lax'>
-                          Şerife Yurdagül Kumcu, Necmettin Erbakan University, Konya, Turkey
+                          Şerife Yurdagül Kumcu, Necmettin Erbakan University, Konya, Türkiye
                         </td>
                       </tr>
                       <tr>
                         <td className='tg-0lax'>
                           Zeynep Cansu Ayturan, Engineering and Natural Sciences Faculty, Konya Technical University,
-                          Konya, Turkey
+                          Konya, Türkiye
                         </td>
                       </tr>
                       <tr>
                         <td className='tg-0pky'>
-                          Busenur Köpüklü, Necmettin Erbakan University, Konya, Turkey
+                          Busenur Köpüklü, Necmettin Erbakan University, Konya, Türkiye
                         </td>
                       </tr>
                       <tr>
                         <td className='tg-0lax'>
-                          Yasin Akın Ayturan, Engineering Faculty, KTO Karatay University, Konya, Turkey
+                          Emre Dalkılıç, Engineering and Natural Sciences Faculty, Konya Technical University, Konya, Türkiye
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className='tg-0lax'>
+                          Yasin Akın Ayturan, Engineering Faculty, KTO Karatay University, Konya, Türkiye
                         </td>
                       </tr>
                       </tbody>
