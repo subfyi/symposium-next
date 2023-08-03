@@ -54,6 +54,19 @@ const AboutPage = () => {
                                 </div>
                             </div>
                         </div>
+                        <div className="col-lg-12">
+                            <div className="about-heading">
+                                <div className="section-heading">
+                                    <p className="section__meta">Supporter
+                                    </p>
+                                    <p className="section__desc">
+                                        <ul>
+                                            <li>Kurukahveci Mehmet Efendi , <a target="_blank" href="https://www.mehmetefendi.com/eng">mehmetefendi.com</a></li>
+                                        </ul>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>

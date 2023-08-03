@@ -19,7 +19,7 @@ const Contact = () => {
                             <p className="section__desc">
                                 ISESER2023 which will be held on 18-21 October 2023,
                                 {" "}<a href="https://goo.gl/maps/6EQn8jKhP6jBHHp49" target="_blank">
-                                <b>Engineering Faculty, Necmettin Erbakan University</b></a>, Konya, Turkey.
+                                <b>Engineering Faculty, Necmettin Erbakan University</b></a>, Konya, Türkiye.
                                 <ul>
                                     <li>
                                         <strong>Registration</strong>: 18th October, Wednesday.
@@ -32,7 +32,7 @@ const Contact = () => {
                                     </li>
                                 </ul>
                                 <p>
-                                    <strong>Adress:</strong> Engineering Faculty, Necmettin Erbakan University, Konya Turkey.
+                                    <strong>Adress:</strong> Engineering Faculty, Necmettin Erbakan University, Konya, Türkiye.
                                 </p>
 
                                 <p>If you have any question please send an e-mail to{" "}<a

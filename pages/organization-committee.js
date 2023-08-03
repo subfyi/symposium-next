@@ -31,8 +31,7 @@ const AboutPage = () => {
                       <tbody>
                       <tr>
                         <td className='tg-0lax'>
-                          Sukru Dursun, Engineering and Natural Sciences Faculty, Konya Technical University,
-                          Konya, Türkiye
+                          Sukru Dursun, Engineering and Natural Sciences Faculty, Konya Technical University, Konya, Türkiye
                         </td>
                       </tr>
                       <tr>
@@ -59,14 +58,13 @@ const AboutPage = () => {
             <div className='col-lg-12'>
               <div className='about-heading'>
                 <div className='section-heading'>
-
                   <p className='section__meta'>ORGANIZATION COMMITTEE</p>
                   <p className='section__desc'>
                     <table className='tg'>
                       <tbody>
                       <tr>
                         <td className='tg-0lax'>
-                          Çiğdem Çiftçi, Faculty of Engineering and Architecture, Necmettin Erbakan University, Konya
+                          Çiğdem Çiftçi, Faculty of Engineering and Architecture, Necmettin Erbakan University, Konya, Türkiye
                         </td>
                       </tr>
                       <tr>
@@ -79,8 +77,7 @@ const AboutPage = () => {
                         </td>
                       </tr>
                       <tr>
-                        <td className='tg-0lax'>Hysen Mankolli, Editor of IJEES, Health and Environment Association,
-                          Illinois, USA
+                        <td className='tg-0lax'>Hysen Mankolli, Editor of IJEES, Health and Environment Association, Illinois, USA
                         </td>
                       </tr>
                       <tr>
@@ -105,8 +102,7 @@ const AboutPage = () => {
                       </tr>
                       <tr>
                         <td className='tg-0lax'>
-                          Zeynep Cansu Ayturan, Engineering and Natural Sciences Faculty, Konya Technical University,
-                          Konya, Türkiye
+                          Zeynep Cansu Ayturan, Engineering and Natural Sciences Faculty, Konya Technical University, Konya, Türkiye
                         </td>
                       </tr>
                       <tr>
