@@ -84,6 +84,9 @@ const AboutPage = () => {
                         </td>
                       </tr>
                       <tr>
+                        <td className='tg-0pky'><b>Laura Shumka</b>, Albanian University, Tirana, Albania</td>
+                      </tr>
+                      <tr>
                         <td className='tg-0pky'>
                           <b> Lyudmyla Symochko</b>, Uzhhorod National University, Uzhhorod, Ukraine
                         </td>

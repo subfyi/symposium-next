@@ -38,7 +38,7 @@ const Contact = () => {
                                 <p>If you have any question please send an e-mail to{" "}<a
                                     href="mailto:iseser@iseser.com"><span>iseser@iseser.com</span></a>; <a
                                     href="mailto:sdursun@ktun.edu.tr"><span>sdursun@ktun.edu.tr</span></a>; <a
-                                    href="mailto:fkunt@konya.edu.tr"><span>fkunt@konya.edu.tr</span></a>
+                                    href="mailto:fkunt@erbakan.edu.tr"><span>fkunt@erbakan.edu.tr</span></a>
 
                                 </p>
                                 <p>You can contact us by phone number for emergencies. </p>

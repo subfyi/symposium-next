@@ -41,7 +41,7 @@ const AboutPage = () => {
                         </td>
                       </tr>
                       <tr>
-                        <td><strong> Oral & Poster Presentation	</strong></td>
+                        <td><strong> Oral & Poster Presentation </strong></td>
                         <td>500TL</td>
                         <td>800TL</td>
                       </tr>
@@ -54,16 +54,16 @@ const AboutPage = () => {
                     </table>
                     <p>Please send the required fee to IBAN address given below and please don't forget to fill the
                       description field.
-                      (<span ><strong>There is no fee refund.</strong></span>)</p>
+                      (<span><strong>There is no fee refund.</strong></span>)</p>
                     <p>
-                      <strong>Account Type (Only):</strong> TRY // The bank make exchange from the daily exchange rate.<br/>
-                      <strong>Account Holder:</strong> Necmettin Erbakan Üniversitesi Strateji Geliştirme Daire Başkanlığı<br/>
-                      <strong>Account IBAN:</strong> TR610001500158007298635901<br/>
-                      <strong>Bank Name:</strong> Vakıflar Bankası<br/>
-                      <strong>Description field (required):</strong> ISESER2023 - [Corresponder Name]<br/>
+                      <strong>Account Type (Only):</strong> TRY // The bank make exchange from the daily exchange rate.<br />
+                      <strong>Account Holder:</strong> Necmettin Erbakan Üniversitesi Strateji Geliştirme Daire Başkanlığı<br />
+                      <strong>Account IBAN:</strong> TR61 0001 5001 5800 7298 6359 01<br />
+                      <strong>Bank Name:</strong> Vakıflar Bankası<br />
+                      <strong>Description field (required):</strong> ISESER2023 - [Corresponder Name]<br />
 
                     </p>
-<hr />
+                    <hr />
 
                     <table className='table  table-striped tb-full'>
                       <tbody>
@@ -80,7 +80,7 @@ const AboutPage = () => {
                         </td>
                       </tr>
                       <tr>
-                        <td><strong> Oral & Poster Presentation	</strong></td>
+                        <td><strong> Oral & Poster Presentation </strong></td>
                         <td>30€</td>
                         <td>50€</td>
                       </tr>
@@ -99,21 +99,18 @@ const AboutPage = () => {
               <div className='about-heading'>
                 <div className='section-heading'>
                   <div className='section__desc'>
-                    <hr />
                     <p>Please wait for payment details. (<span><strong>There is no fee refund.</strong></span>)</p>
 
-                    {/*
-                    <hr/>
-                                        <p>
-                                            <strong>Account Type:</strong> EUR <br/>
-                                            <strong>Account Holder:</strong> Cbü Strateji Geliş.dai Bşk<br/>
-                                            <strong>Account IBAN:</strong> TR680001000188401982925417<br/>
-                                            <strong>Bank Name:</strong> Ziraat Bank<br/>
-                                            <strong>Bank Swift Code(BIC):</strong> TCZBTR2A<br/>
-                                            <strong>Description field (required):</strong> iseser 2020<br/>
-                                        </p>
+                    <p>
+                      <strong>Account Type:</strong> EUR <br />
+                      <strong>Account Holder:</strong> NECMETTİN ERBAKAN ÜNİVERSİTESİ STRATEJİ GELİŞTİRME DAİRE BAŞKANLIĞI,<br />
+                      <strong>Account IBAN (EUR):</strong> TR50 0001 5001 5804 8015 5858 92<br />
+                      <strong>Account IBAN (USD):</strong> TR48 0001 5001 5804 8014 2967 01<br />
+                      <strong>Bank Name:</strong> Vakıflar Bank<br />
+                      <strong>Bank Swift Code(BIC):</strong> TVBATR2A<br />
+                      <strong>Description field (required):</strong> ISESER2023 - [Corresponder Name]<br />
+                    </p>
 
-                    */}
                     <hr />
                   </div>
                 </div>

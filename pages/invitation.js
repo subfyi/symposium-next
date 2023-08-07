@@ -4,6 +4,7 @@ import NavOne from '../components/NavOne'
 import PageHeader from '../components/PageHeader'
 import MixerAreaTwo from '../components/MixerAreaTwo'
 import Footer from '../components/Footer'
+import ServiceArea from '../components/ServiceArea'
 
 const AboutPage = () => {
   return (
@@ -21,36 +22,9 @@ const AboutPage = () => {
                 </div>
               </div>
             </div>
-            <div className='col-lg-12'>
-              <div className='about-heading'>
-                <div className='section-heading'>
-
-                  <p className='section__desc'>
-
-
-                    <p>As an organizing commitee, we are honored to invite you to attend the International Symposium for
-                      Environmental Science and Engineering Research 2023 which will be held on 18-21 October, Konya.
-                      This event will be a useful for
-                      researchers, engineers, students, academics and anyone interested in environmental
-                      engineering and science. Through the conference, it will be possible to establish
-                      new
-                      partnerships, to share knowledge and experiences.</p>
-                    <p>The purpose of the symposium is to give information
-                      about
-                      the environmental sciences and engineering to participants. In this symposium all
-                      participants will take advantage about environmental topics with the help of foreign
-                      participants and several poster and oral presentations. Also, this symposium aims to
-                      provide connections for students and to provide opportunities for experts to share
-                      and
-                      discuss their experiences.</p>
-                    <p>Received papers will be accepted after peer review and all accepted
-                      articles will be
-                      printed in the proceeding book.</p>
-
-                  </p>
-                </div>
-              </div>
-            </div>
+            <section className={' text-justify'}>
+              <ServiceArea />
+            </section>
             <div className='col-lg-12'>
               <div className='about-heading'>
                 <div className='section-heading'>
