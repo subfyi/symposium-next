@@ -42,7 +42,7 @@ const AboutPage = () => {
             <div className='col-lg-12'>
               <div className='about-heading'>
                 <div className='section-heading'>
-                  <p className='section__meta'>Scientific Supporters
+                  <p className='section__meta'>Collaborative Institutions
                   </p>
                   <p className='section__desc'>
                     <ul>
@@ -57,16 +57,12 @@ const AboutPage = () => {
                 </div>
               </div>
             </div>
-
             <div className='col-lg-12'>
               <div className='about-heading'>
                 <div className='section-heading'>
-
-                  <p className='section__meta'>JOURNAL SPONSORS (EN)
-                  </p>
+                  <p className='section__meta'>JOURNAL SPONSORS (EN)</p>
                   <p className='section__desc'>
                     <ul>
-
                       <li>
                         Journal of International Environmental Application &amp; Science (JIEAS), <a target='_blank' href='https://dergipark.org.tr/en/pub/jieas'>jieas.com</a>
                       </li>
