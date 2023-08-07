@@ -25,6 +25,7 @@ const AboutPage = () => {
               <div className='about-heading'>
                 <div className='section-heading'>
 
+                  <p className="section__meta">Turkish participants</p>
                   <div className='section__desc'>
                     <table className='table  table-striped tb-full'>
                       <tbody>
@@ -64,6 +65,7 @@ const AboutPage = () => {
 
                     </p>
                     <hr />
+                    <p className="section__meta">Foreign participants</p>
 
                     <table className='table  table-striped tb-full'>
                       <tbody>
@@ -99,7 +101,9 @@ const AboutPage = () => {
               <div className='about-heading'>
                 <div className='section-heading'>
                   <div className='section__desc'>
-                    <p>Please wait for payment details. (<span><strong>There is no fee refund.</strong></span>)</p>
+                    <p>Please send the required fee to IBAN address given below and please don't forget to fill the
+                      description field.
+                      (<span><strong>There is no fee refund.</strong></span>)</p>
 
                     <p>
                       <strong>Account Type:</strong> EUR <br />
