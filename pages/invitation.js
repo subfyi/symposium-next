@@ -26,63 +26,61 @@ const AboutPage = () => {
               <ServiceArea />
             </section>
             <div className='col-lg-12'>
-              <div className='about-heading'>
-                <div className='section-heading'>
+              <div className='section-heading'>
 
-                  <p className='section__meta'>Invited Speaker
-                  </p>
-                  <p className='section__desc'>
-                    <table className='tg'>
-                      <tbody>
-                      <tr>
-                        <td className='tg-0lax'>
-                          <b>Cezar Kongoli</b>, National Oceanic & Atmospheric Administration, Maryland University, USA
-                        </td>
-                      </tr>
-                      <tr>
-                        <td className='tg-0lax'>
-                          <b>Hysen Mankolli</b>, Editor of IJEES, Health and Environment Association, Illinois, USA
-                        </td>
-                      </tr>
-                      <tr>
-                        <td className='tg-0lax'>
-                          <b>Lyudmyla Symochko</b>, Uzhhorod National University, Ukraine
-                        </td>
-                      </tr>
-                      <tr>
-                        <td className='tg-0lax'>
-                          <b>Massimo Zucchettı</b>, Dipartimento Di Energetica, Torino Polytechnic University, Italy
-                        </td>
-                      </tr>
-                      <tr>
-                        <td className='tg-0lax'>
-                          <b>Mohd Zamri Bin Ibrahim</b>, University Malaysia Terengganu, Malaysia
-                        </td>
-                      </tr>
-                      <tr>
-                        <td className='tg-0lax'>
-                          <b>Noor Zaitun Zakaria</b>, University Malaysia Terengganu, Malaysia
-                        </td>
-                      </tr>
-                      <tr>
-                        <td className='tg-0lax'>
-                          <b>Shahabuddin Memon</b>, Sindh University, National Centre of Excellence, Jamshoro, Pakistan
-                        </td>
-                      </tr>
-                      <tr>
-                        <td className='tg-0lax'>
-                          <b>Suzana (Kuci) Golemi</b>, University of Shkodra “Luigj Gurakuqi”, Albania
-                        </td>
-                      </tr>
-                      <tr>
-                        <td className='tg-0lax'>
-                          <b>Zoran Sapuric</b>, American University, Macedonia
-                        </td>
-                      </tr>
-                      </tbody>
-                    </table>
-                  </p>
-                </div>
+                <p className='section__meta'>Invited Speaker
+                </p>
+                <p className='section__desc'>
+                  <table className='tg'>
+                    <tbody>
+                    <tr>
+                      <td className='tg-0lax'>
+                        <b>Cezar Kongoli</b>, National Oceanic & Atmospheric Administration, Maryland University, USA
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className='tg-0lax'>
+                        <b>Hysen Mankolli</b>, Editor of IJEES, Health and Environment Association, Illinois, USA
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className='tg-0lax'>
+                        <b>Lyudmyla Symochko</b>, Uzhhorod National University, Ukraine
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className='tg-0lax'>
+                        <b>Massimo Zucchettı</b>, Dipartimento Di Energetica, Torino Polytechnic University, Italy
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className='tg-0lax'>
+                        <b>Mohd Zamri Bin Ibrahim</b>, University Malaysia Terengganu, Malaysia
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className='tg-0lax'>
+                        <b>Noor Zaitun Zakaria</b>, University Malaysia Terengganu, Malaysia
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className='tg-0lax'>
+                        <b>Shahabuddin Memon</b>, Sindh University, National Centre of Excellence, Jamshoro, Pakistan
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className='tg-0lax'>
+                        <b>Suzana (Kuci) Golemi</b>, University of Shkodra “Luigj Gurakuqi”, Albania
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className='tg-0lax'>
+                        <b>Zoran Sapuric</b>, American University, Macedonia
+                      </td>
+                    </tr>
+                    </tbody>
+                  </table>
+                </p>
               </div>
             </div>
           </div>

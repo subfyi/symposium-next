@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 
-const MixerAreaTwo = () => {
+function MixerAreaTwo() {
   return (
     <section className='mixer-area mixer-area3'>
       <div className='container'>

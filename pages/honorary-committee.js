@@ -35,7 +35,7 @@ const AboutPage = () => {
                         </td>
                       </tr>
                       <tr>
-                        <td><b>Professor Ts. Dr. Che Mohd Ruzaidi Bin Ghazali</b>, Dean Faculty of Ocean Engineering
+                        <td><b>Prof. Ts. Dr. Che Mohd Ruzaidi Bin Ghazali</b>, Dean Faculty of Ocean Engineering
                           Technology, University Malaysia Terengganu, Terengganu, MALAYSIA
                         </td>
                       </tr>
