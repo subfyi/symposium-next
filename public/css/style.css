@@ -934,7 +934,7 @@ a:hover {
     background-position: center center;
     background-size: cover;
     color: #fff;
-    height: 440px;
+    height: 640px;
     position: relative;
     z-index: 1;
     overflow: hidden;
@@ -4830,4 +4830,8 @@ html {
 .swiper-pagination {
     position: relative !important;
 	margin-top: 30px;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    color: #ff6600 !important;
 }

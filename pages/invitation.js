@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from '../components/Layout'
 import NavOne from '../components/NavOne'
 import PageHeader from '../components/PageHeader'
-import MixerAreaTwo from '../components/MixerAreaTwo'
+import Announcement from '../components/Announcement'
 import Footer from '../components/Footer'
 import ServiceArea from '../components/ServiceArea'
 
@@ -86,7 +86,7 @@ export default function Invitation() {
           </div>
         </div>
       </section>
-      <MixerAreaTwo />
+      <Announcement />
       <Footer />
     </Layout>
   )

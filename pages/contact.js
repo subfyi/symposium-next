@@ -4,7 +4,7 @@ import NavOne from '../components/NavOne'
 import PageHeader from '../components/PageHeader'
 import Footer from '../components/Footer'
 import Contact from '../components/Contact'
-import MixerAreaTwo from '../components/MixerAreaTwo'
+import Announcement from '../components/Announcement'
 
 export default function ContactPage() {
 
@@ -14,7 +14,7 @@ export default function ContactPage() {
       <PageHeader title='Contact' />
       <Contact />
 
-      <MixerAreaTwo />
+      <Announcement />
 
       <Footer />
     </Layout>

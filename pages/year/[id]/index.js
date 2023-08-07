@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from '../../../components/Layout'
 import NavOne from '../../../components/NavOne'
-import MixerAreaTwo from '../../../components/MixerAreaTwo'
+import Announcement from '../../../components/Announcement'
 import Footer from '../../../components/Footer'
 import SimpleReactValidator from 'simple-react-validator'
 import api from '../../../api'
@@ -141,7 +141,7 @@ export default class YearList extends React.Component {
             </div>
           </div>
         </section>
-        <MixerAreaTwo />
+        <Announcement />
         <Footer />
       </Layout>)
   }
