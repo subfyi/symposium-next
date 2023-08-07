@@ -7,6 +7,7 @@ import Footer from '../components/Footer'
 import Image from 'next/image'
 
 import mehmetefendi from '../assets/sponsor/mehmetefendi.svg'
+import mizan from '../assets/sponsor/mizan.svg'
 import umt from '../assets/sponsor/umt.svg'
 
 export default function Sponsors() {
@@ -37,6 +38,12 @@ export default function Sponsors() {
                           <Image className='mr-3' src={mehmetefendi} alt={'mehmetefendi'} width='100' height='100' />
                         </a>
                         Kurukahveci Mehmet Efendi, <a target='_blank' href='https://www.mehmetefendi.com/eng'>mehmetefendi.com</a>
+                      </li>
+                      <li>
+                        <a target='_blank' href='https://www.mehmetefendi.com/eng'>
+                          <Image className='mr-3' src={mizan} alt={'mizan'} width='100' height='100' />
+                        </a>
+                        Mizan Şekerleme, <a target='_blank' href='https://www.mizansekerleme.com/'>mizansekerleme.com</a>
                       </li>
                     </ul>
                   </p>

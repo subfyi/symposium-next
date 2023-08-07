@@ -62,10 +62,6 @@ export default function ScienceCommission() {
                         </td>
                       </tr>
                       <tr>
-                        <td className='tg-0pky'><b>Arta Sakja</b>, Albanian University, Tirana, Albania
-                        </td>
-                      </tr>
-                      <tr>
                         <td className='tg-0pky'><b>Bahriye Gülgün</b>, Agriculture Faculty, Ege University, İzmir
                         </td>
                       </tr>
@@ -97,7 +93,10 @@ export default function ScienceCommission() {
                           Portugal
                         </td>
                       </tr>
-
+                      <tr>
+                        <td className='tg-0pky'><b>Genta Rexha</b>, Albanian University, Tirana, Albania
+                        </td>
+                      </tr>
                       <tr>
                         <td className='tg-0pky'><b>Hab. Boguslaw Buszewsk</b>, Nicolaus Copernicus University, Chemistry
                           Faculty, Poland

@@ -71,7 +71,7 @@ class NavOne extends Component {
                         <li className='action__text'><Link href='/documents-all'>Archives</Link></li>
                         <li className='action__text'><a href='https://portal.iseser.com/login'>login</a></li>
                         <li className='action__text'><a href='https://portal.iseser.com/register'>register</a></li>
-                        <li><a target='_blank' href='https://www.facebook.com/isesercom/'><i className='fa fa-facebook'></i></a></li>
+                        <li><a target='_blank' href='https://www.facebook.com/iseser/'><i className='fa fa-facebook'></i></a></li>
                       </ul>
                     </div>
                   </div>
@@ -171,7 +171,7 @@ class NavOne extends Component {
                 <li className='action__text'><Link href='/documents-all'>Archives</Link></li>
                 <li className='action__text'><a href='https://portal.iseser.com/auth/login'>login</a></li>
                 <li className='action__text'><a href='https://portal.iseser.com/auth/registration'>register</a></li>
-                <li><a target='_blank' href='https://www.facebook.com/isesercom/'><i className='fa fa-facebook'></i></a></li>
+                <li><a target='_blank' href='https://www.facebook.com/iseser/'><i className='fa fa-facebook'></i></a></li>
 
               </ul>
               <div className='side-btn'>
