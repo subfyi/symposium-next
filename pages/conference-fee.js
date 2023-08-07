@@ -57,7 +57,7 @@ const AboutPage = () => {
                       (<span><strong>There is no fee refund.</strong></span>)</p>
                     <p>
                       <strong>Account Type (Only):</strong> TRY // The bank make exchange from the daily exchange rate.<br />
-                      <strong>Account Holder:</strong> Necmettin Erbakan Üniversitesi Strateji Geliştirme Daire Başkanlığı<br />
+                      <strong>Account Holder:</strong> NECMETTİN ERBAKAN ÜNİVERSİTESİ STRATEJİ GELİŞTİRME DAİRE BAŞKANLIĞI<br />
                       <strong>Account IBAN:</strong> TR61 0001 5001 5800 7298 6359 01<br />
                       <strong>Bank Name:</strong> Vakıflar Bankası<br />
                       <strong>Description field (required):</strong> ISESER2023 - [Corresponder Name]<br />
@@ -103,7 +103,7 @@ const AboutPage = () => {
 
                     <p>
                       <strong>Account Type:</strong> EUR <br />
-                      <strong>Account Holder:</strong> NECMETTİN ERBAKAN ÜNİVERSİTESİ STRATEJİ GELİŞTİRME DAİRE BAŞKANLIĞI,<br />
+                      <strong>Account Holder:</strong> NECMETTİN ERBAKAN ÜNİVERSİTESİ STRATEJİ GELİŞTİRME DAİRE BAŞKANLIĞI<br />
                       <strong>Account IBAN (EUR):</strong> TR50 0001 5001 5804 8015 5858 92<br />
                       <strong>Account IBAN (USD):</strong> TR48 0001 5001 5804 8014 2967 01<br />
                       <strong>Bank Name:</strong> Vakıflar Bank<br />
