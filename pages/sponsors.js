@@ -40,7 +40,7 @@ export default function Sponsors() {
                         Kurukahveci Mehmet Efendi, <a target='_blank' href='https://www.mehmetefendi.com/eng'>mehmetefendi.com</a>
                       </li>
                       <li>
-                        <a target='_blank' href='https://www.mehmetefendi.com/eng'>
+                        <a target='_blank' href='https://www.mizansekerleme.com/'>
                           <Image className='mr-3' src={mizan} alt={'mizan'} width='100' height='100' />
                         </a>
                         Mizan Şekerleme, <a target='_blank' href='https://www.mizansekerleme.com/'>mizansekerleme.com</a>
