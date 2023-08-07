@@ -5,8 +5,9 @@ import PageHeader from '../components/PageHeader'
 import MixerAreaTwo from '../components/MixerAreaTwo'
 import Footer from '../components/Footer'
 import Image from 'next/image'
-import mehmetefendi from '../assets/sponsor/mehmetefendi.svg'
 
+import mehmetefendi from '../assets/sponsor/mehmetefendi.svg'
+import umt from '../assets/sponsor/umt.svg'
 const AboutPage = () => {
   return (
     <Layout pageTitle='Sponsors | ISESER2023'>
@@ -31,7 +32,7 @@ const AboutPage = () => {
                   <p className='section__desc'>
                     <ul>
                       <li>
-                        <Image className='mr-3' src={mehmetefendi} alt={mehmetefendi} width='100' height='100' />
+                        <Image className='mr-3' src={mehmetefendi} alt={"mehmetefendi"} width='100' height='100' />
                         Kurukahveci Mehmet Efendi, <a target='_blank' href='https://www.mehmetefendi.com/eng'>mehmetefendi.com</a>
                       </li>
                     </ul>
@@ -46,12 +47,26 @@ const AboutPage = () => {
                   </p>
                   <p className='section__desc'>
                     <ul>
-                      <li>Albania Universty, <a target='_blank' href='https://albanianuniversity.edu.al/en/home/'>albanianuniversity.edu.al</a></li>
-                      <li>Konya Technical University, <a target='_blank' href='https://www.ktun.edu.tr/en/Universite/AnaSayfa'>ktun.edu.tr</a></li>
-                      <li>The University of Maryland, <a target='_blank' href='https://umd.edu/'>umd.edu</a></li>
-                      <li>Necmettin Erbakan University, <a target='_blank' href='https://www.erbakan.edu.tr/en/'>erbakan.edu.tr</a></li>
-                      <li>Universiteti Bujqësor i Tiranës: UBT, <a target='_blank' href='https://www.ubt.edu.al/'>ubt.edu.al</a></li>
-                      <li>Universiteti "Aleksandër Xhuvani" Elbasan, <a target='_blank' href='https://www.uniel.edu.al/'>uniel.edu.al</a></li>
+                      <li>
+                        <img className='mr-3 mt-3' src={'https://api.iseser.com/doc/sponsor/albanianuniversity.png'} alt={"albanianuniversity"} width='100' height='100' />
+                        Albania Universty, <a target='_blank' href='https://albanianuniversity.edu.al/en/home/'>albanianuniversity.edu.al</a>
+                      </li>
+                      <li>
+                        <img className='mr-3 mt-3' src={'https://api.iseser.com/doc/sponsor/ktun.png'} alt={"ktun"} width='100' height='100' />
+                        Konya Technical University, <a target='_blank' href='https://www.ktun.edu.tr/en/Universite/AnaSayfa'>ktun.edu.tr</a>
+                      </li>
+                      <li>
+                        <img className='mr-3 mt-3' src={'https://api.iseser.com/doc/sponsor/umd.png'} alt={"umd"} width='100' height='100' />
+                        Maryland University, <a target='_blank' href='https://umd.edu/'>umd.edu</a>
+                      </li>
+                      <li>
+                        <img className='mr-3 mt-3' src={'https://api.iseser.com/doc/sponsor/erbakan.png'} alt={"erbakan"} width='100' height='100' />
+                        Necmettin Erbakan University, <a target='_blank' href='https://www.erbakan.edu.tr/en/'>erbakan.edu.tr</a>
+                      </li>
+                      <li>
+                        <Image className='mr-3 mt-3' src={umt} alt={"umt"} width='100' height='100' />
+                        UMT (Universiti Malaysia Terengganu), <a target='_blank' href='https://www.umt.edu.my/'>https://www.umt.edu.my/</a>
+                      </li>
                     </ul>
                   </p>
                 </div>
