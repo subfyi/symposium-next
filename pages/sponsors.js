@@ -8,6 +8,7 @@ import Image from 'next/image'
 
 import mehmetefendi from '../assets/sponsor/mehmetefendi.svg'
 import umt from '../assets/sponsor/umt.svg'
+
 const AboutPage = () => {
   return (
     <Layout pageTitle='Sponsors | ISESER2023'>
@@ -32,7 +33,7 @@ const AboutPage = () => {
                   <p className='section__desc'>
                     <ul>
                       <li>
-                        <Image className='mr-3' src={mehmetefendi} alt={"mehmetefendi"} width='100' height='100' />
+                        <Image className='mr-3' src={mehmetefendi} alt={'mehmetefendi'} width='100' height='100' />
                         Kurukahveci Mehmet Efendi, <a target='_blank' href='https://www.mehmetefendi.com/eng'>mehmetefendi.com</a>
                       </li>
                     </ul>
@@ -48,23 +49,23 @@ const AboutPage = () => {
                   <p className='section__desc'>
                     <ul>
                       <li>
-                        <img className='mr-3 mt-3' src={'https://api.iseser.com/doc/sponsor/albanianuniversity.png'} alt={"albanianuniversity"} width='100' height='100' />
+                        <img className='mr-3 mt-3' src={'https://api.iseser.com/doc/sponsor/albanianuniversity.png'} alt={'albanianuniversity'} width='100' height='100' />
                         Albania Universty, <a target='_blank' href='https://albanianuniversity.edu.al/en/home/'>albanianuniversity.edu.al</a>
                       </li>
                       <li>
-                        <img className='mr-3 mt-3' src={'https://api.iseser.com/doc/sponsor/ktun.png'} alt={"ktun"} width='100' height='100' />
+                        <img className='mr-3 mt-3' src={'https://api.iseser.com/doc/sponsor/ktun.png?v1'} alt={'ktun'} width='100' height='100' />
                         Konya Technical University, <a target='_blank' href='https://www.ktun.edu.tr/en/Universite/AnaSayfa'>ktun.edu.tr</a>
                       </li>
                       <li>
-                        <img className='mr-3 mt-3' src={'https://api.iseser.com/doc/sponsor/umd.png'} alt={"umd"} width='100' height='100' />
+                        <img className='mr-3 mt-3' src={'https://api.iseser.com/doc/sponsor/umd.png'} alt={'umd'} width='100' height='100' />
                         Maryland University, <a target='_blank' href='https://umd.edu/'>umd.edu</a>
                       </li>
                       <li>
-                        <img className='mr-3 mt-3' src={'https://api.iseser.com/doc/sponsor/erbakan.png'} alt={"erbakan"} width='100' height='100' />
+                        <img className='mr-3 mt-3' src={'https://api.iseser.com/doc/sponsor/erbakan.png'} alt={'erbakan'} width='100' height='100' />
                         Necmettin Erbakan University, <a target='_blank' href='https://www.erbakan.edu.tr/en/'>erbakan.edu.tr</a>
                       </li>
                       <li>
-                        <Image className='mr-3 mt-3' src={umt} alt={"umt"} width='100' height='100' />
+                        <Image className='mr-3 mt-3' src={umt} alt={'umt'} width='100' height='100' />
                         UMT (Universiti Malaysia Terengganu), <a target='_blank' href='https://www.umt.edu.my/'>https://www.umt.edu.my/</a>
                       </li>
                     </ul>
@@ -79,10 +80,12 @@ const AboutPage = () => {
                   <p className='section__desc'>
                     <ul>
                       <li>
-                        Journal of International Environmental Application &amp; Science (JIEAS), <a target='_blank' href='https://dergipark.org.tr/en/pub/jieas'>jieas.com</a>
+                        <img className='mr-3 mt-3' src={'https://api.iseser.com/doc/sponsor/ijepem.png?v1'} alt={'ijepem'} width='100' height='100' />
+                        International Journal of Environmental Pollution and Environmental Modelling (IJEPEM), <a target='_blank' href='https://dergipark.org.tr/en/pub/ijepem'>ijepem.com</a>
                       </li>
                       <li>
-                        International Journal of Environmental Pollution and Environmental Modelling (IJEPEM), <a target='_blank' href='https://dergipark.org.tr/en/pub/ijepem'>ijepem.com</a>
+                        <img className='mr-3 mt-3' src={'https://api.iseser.com/doc/sponsor/jieas.png'} alt={'jieas'} width='100' height='100' />
+                        Journal of International Environmental Application &amp; Science (JIEAS), <a target='_blank' href='https://dergipark.org.tr/en/pub/jieas'>jieas.com</a>
                       </li>
                     </ul>
                   </p>
@@ -96,7 +99,10 @@ const AboutPage = () => {
                   </p>
                   <p className='section__desc'>
                     <ul>
-                      <li>Ulusal Çevre Bilimleri Araştırma Dergisi (UCBAD), <a target='_blank' href='https://dergipark.org.tr/tr/pub/ucbad'>ucbad.com</a></li>
+                      <li>
+                        <img className='mr-3 mt-3' src={'https://api.iseser.com/doc/sponsor/ucbad.png'} alt={'ucbad'} width='100' height='100' />
+                        Ulusal Çevre Bilimleri Araştırma Dergisi (UCBAD), <a target='_blank' href='https://dergipark.org.tr/tr/pub/ucbad'>ucbad.com</a>
+                      </li>
                     </ul>
                   </p>
                 </div>
