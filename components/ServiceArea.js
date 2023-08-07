@@ -7,7 +7,7 @@ function ServiceArea() {
         <div className='col'>
           <p>As an organizing commitee, we are honored to invite you to attend the International Symposium for Environmental Science and Engineering Research 2023 which will be held on 18-21
             October
-            2023, Hibrit.
+            2023, hybrid.
             This event will be a useful for
             researchers, engineers, students, academics and anyone interested in environmental engineering and science. Through
             the conference, it will be possible to establish new partnerships, to share knowledge and experiences.
