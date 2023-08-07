@@ -6,21 +6,18 @@ import Footer from '../components/Footer'
 import Contact from '../components/Contact'
 import MixerAreaTwo from '../components/MixerAreaTwo'
 
-export default class extends React.Component {
+export default function ContactPage() {
 
-  render() {
+  return (
+    <Layout pageTitle='Contact | ISESER2023'>
+      <NavOne />
+      <PageHeader title='Contact' />
+      <Contact />
 
-    return (
-      <Layout pageTitle='Contact | ISESER2023'>
-        <NavOne />
-        <PageHeader title='Contact' />
-        <Contact />
+      <MixerAreaTwo />
 
-        <MixerAreaTwo />
-
-        <Footer />
-      </Layout>
-    )
-  }
+      <Footer />
+    </Layout>
+  )
 };
 

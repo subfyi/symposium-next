@@ -6,7 +6,7 @@ import SliderOne from '../components/SliderOne'
 import ServiceArea from '../components/ServiceArea'
 import CallToAction from '../components/CallToAction'
 
-const HomePage = () => {
+function HomePage() {
   return (
     <Layout pageTitle='ISESER2023 - International Symposium for Environmental Science and Engineering Research'>
       <NavOne />

@@ -9,7 +9,7 @@ import Image from 'next/image'
 import mehmetefendi from '../assets/sponsor/mehmetefendi.svg'
 import umt from '../assets/sponsor/umt.svg'
 
-const AboutPage = () => {
+export default function Sponsors() {
   return (
     <Layout pageTitle='Sponsors | ISESER2023'>
       <NavOne />
@@ -136,5 +136,3 @@ const AboutPage = () => {
     </Layout>
   )
 }
-
-export default AboutPage

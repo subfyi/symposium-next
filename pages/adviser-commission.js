@@ -5,7 +5,7 @@ import PageHeader from '../components/PageHeader'
 import MixerAreaTwo from '../components/MixerAreaTwo'
 import Footer from '../components/Footer'
 
-const AboutPage = () => {
+export default function AdviserCommission() {
   return (
     <Layout pageTitle='Advisory Board | ISESER2023'>
       <NavOne />
@@ -109,5 +109,3 @@ const AboutPage = () => {
     </Layout>
   )
 }
-
-export default AboutPage

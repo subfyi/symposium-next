@@ -5,7 +5,7 @@ import PageHeader from '../components/PageHeader'
 import MixerAreaTwo from '../components/MixerAreaTwo'
 import Footer from '../components/Footer'
 
-const AboutPage = () => {
+export default function ConferenceFee() {
   return (
     <Layout pageTitle='Symposium Fee | ISESER2023'>
       <NavOne />
@@ -25,7 +25,7 @@ const AboutPage = () => {
               <div className='about-heading'>
                 <div className='section-heading'>
 
-                  <p className="section__meta">Turkish participants</p>
+                  <p className='section__meta'>Turkish participants</p>
                   <div className='section__desc'>
                     <table className='table  table-striped tb-full'>
                       <tbody>
@@ -65,7 +65,7 @@ const AboutPage = () => {
 
                     </p>
                     <hr />
-                    <p className="section__meta">Foreign participants</p>
+                    <p className='section__meta'>Foreign participants</p>
 
                     <table className='table  table-striped tb-full'>
                       <tbody>
@@ -130,4 +130,3 @@ const AboutPage = () => {
   )
 }
 
-export default AboutPage

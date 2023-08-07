@@ -6,7 +6,7 @@ import MixerAreaTwo from '../components/MixerAreaTwo'
 import Footer from '../components/Footer'
 import ServiceArea from '../components/ServiceArea'
 
-const AboutPage = () => {
+export default function Invitation() {
   return (
     <Layout pageTitle='INVITATION | ISESER2023'>
       <NavOne />
@@ -91,5 +91,3 @@ const AboutPage = () => {
     </Layout>
   )
 }
-
-export default AboutPage

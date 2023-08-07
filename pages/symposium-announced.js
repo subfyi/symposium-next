@@ -5,7 +5,7 @@ import PageHeader from '../components/PageHeader'
 import Footer from '../components/Footer'
 import Link from 'next/link'
 
-const AboutPage = () => {
+export default function SymposiumAnnounced() {
   return (
     <Layout pageTitle='Announcement | ISESER2023'>
       <NavOne />
@@ -83,5 +83,3 @@ const AboutPage = () => {
     </Layout>
   )
 }
-
-export default AboutPage
