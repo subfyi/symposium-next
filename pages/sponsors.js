@@ -45,6 +45,12 @@ export default function Sponsors() {
                         </a>
                         Mizan Şekerleme, <a target='_blank' href='https://www.mizansekerleme.com/'>mizansekerleme.com</a>
                       </li>
+                      <li>
+                        <a target='_blank' href='https://www.americanlife.com.tr/konya'>
+                          <img className='mr-3 mt-3' src={'https://api.iseser.com/doc/sponsor/americanlife.png'} alt={'americanlife'} width='100' height='100' />
+                        </a>
+                        AmericanLIFE Konya , <a target='_blank' href='https://www.americanlife.com.tr/konya'>americanlife.com.tr</a>
+                      </li>
                     </ul>
                   </p>
                 </div>
