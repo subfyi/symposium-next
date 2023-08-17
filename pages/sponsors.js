@@ -9,6 +9,8 @@ import Image from 'next/image'
 import mehmetefendi from '../assets/sponsor/mehmetefendi.svg'
 import mizan from '../assets/sponsor/mizan.svg'
 import umt from '../assets/sponsor/umt.svg'
+import burotime from '../assets/sponsor/burotime.svg'
+import dergah from '../assets/sponsor/dergah.svg'
 
 export default function Sponsors() {
   return (
@@ -49,7 +51,13 @@ export default function Sponsors() {
                         <a target='_blank' href='https://www.americanlife.com.tr/konya'>
                           <img className='mr-3 mt-3' src={'https://api.iseser.com/doc/sponsor/americanlife.png'} alt={'americanlife'} width='100' height='120' />
                         </a>
-                        AmericanLIFE Konya , <a target='_blank' href='https://www.americanlife.com.tr/konya'>americanlife.com.tr</a>
+                        AmericanLIFE Konya, <a target='_blank' href='https://www.americanlife.com.tr/konya'>americanlife.com.tr</a>
+                      </li>
+                      <li>
+                        <a target='_blank' href='https://www.burotime.com/en/'>
+                          <Image className='mr-3' src={burotime} alt={'burotime'} width='100' height='100' />
+                        </a>
+                        Bürotime, <a target='_blank' href='https://www.burotime.com/en/'>burotime.com</a>
                       </li>
                     </ul>
                   </p>
@@ -139,7 +147,24 @@ export default function Sponsors() {
                 </div>
               </div>
             </div>
-
+            <div className='col-lg-12'>
+              <div className='about-heading'>
+                <div className='section-heading'>
+                  <p className='section__meta'>ACCOMMODATION SUPPORT
+                  </p>
+                  <p className='section__desc'>
+                    <ul>
+                      <li>
+                        <a target='_blank' href='https://www.dergahotel.com/index.html'>
+                          <Image className='mr-3' src={dergah} alt={'dergah'} width='100' height='100' />
+                        </a>
+                        Dergâh Hotel, <a target='_blank' href='https://www.dergahotel.com/index.html'>dergahotel.com</a>
+                      </li>
+                    </ul>
+                  </p>
+                </div>
+              </div>
+            </div>
 
           </div>
         </div>
