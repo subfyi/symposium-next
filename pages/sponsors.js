@@ -67,6 +67,24 @@ export default function Sponsors() {
             <div className='col-lg-12'>
               <div className='about-heading'>
                 <div className='section-heading'>
+                  <p className='section__meta'>ACCOMMODATION SUPPORT
+                  </p>
+                  <p className='section__desc'>
+                    <ul>
+                      <li>
+                        <a target='_blank' href='https://www.dergahotel.com/index.html'>
+                          <Image className='mr-3' src={dergah} alt={'dergah'} width='100' height='100' />
+                        </a>
+                        Dergâh Hotel, <a target='_blank' href='https://www.dergahotel.com/index.html'>dergahotel.com</a>
+                      </li>
+                    </ul>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className='col-lg-12'>
+              <div className='about-heading'>
+                <div className='section-heading'>
                   <p className='section__meta'>Collaborative Institutions
                   </p>
                   <p className='section__desc'>
@@ -141,24 +159,6 @@ export default function Sponsors() {
                           <img className='mr-3 mt-3' src={'https://api.iseser.com/doc/sponsor/ucbad.png'} alt={'ucbad'} width='100' height='100' />
                         </a>
                         Ulusal Çevre Bilimleri Araştırma Dergisi (UCBAD), <a target='_blank' href='https://dergipark.org.tr/tr/pub/ucbad'>ucbad.com</a>
-                      </li>
-                    </ul>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className='col-lg-12'>
-              <div className='about-heading'>
-                <div className='section-heading'>
-                  <p className='section__meta'>ACCOMMODATION SUPPORT
-                  </p>
-                  <p className='section__desc'>
-                    <ul>
-                      <li>
-                        <a target='_blank' href='https://www.dergahotel.com/index.html'>
-                          <Image className='mr-3' src={dergah} alt={'dergah'} width='100' height='100' />
-                        </a>
-                        Dergâh Hotel, <a target='_blank' href='https://www.dergahotel.com/index.html'>dergahotel.com</a>
                       </li>
                     </ul>
                   </p>
