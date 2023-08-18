@@ -108,6 +108,10 @@ export default function ScienceCommission() {
                         </td>
                       </tr>
                       <tr>
+                        <td className='tg-0pky'><b>Hasan Küçükkendirci</b>, Faculty Of Medicine, Necmettin Erbakan University, Konya, Türkiye
+                        </td>
+                      </tr>
+                      <tr>
                         <td className='tg-0pky'><b>Hisham M. Alidrisi</b>, King Abdulaziz University, Saudi Arabia
                         </td>
                       </tr>
