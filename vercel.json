@@ -4,44 +4,37 @@
     {
       "source": "/doc/:path*",
       "destination": "https://api.iseser.com/doc/:path*",
-      "permanent": true,
-      "statusCode": 301
+      "permanent": true
     },
     {
       "source": "/ucbad",
       "destination": "https://ucbad.com/",
-      "permanent": true,
-      "statusCode": 301
+      "permanent": true
     },
     {
       "source": "/ijepem",
       "destination": "https://ijepem.com/",
-      "permanent": true,
-      "statusCode": 301
+      "permanent": true
     },
     {
       "source": "/iletisim",
       "destination": "/contact",
-      "permanent": true,
-      "statusCode": 301
+      "permanent": true
     },
     {
       "source": "/cilt",
       "destination": "/documents-all",
-      "permanent": true,
-      "statusCode": 301
+      "permanent": true
     },
     {
       "source": "/ciltler",
       "destination": "/documents-all",
-      "permanent": true,
-      "statusCode": 301
+      "permanent": true
     },
     {
       "source": "/sayilar",
       "destination": "/documents-all",
-      "permanent": true,
-      "statusCode": 301
+      "permanent": true
     }
   ]
 }
