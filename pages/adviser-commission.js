@@ -29,7 +29,10 @@ export default function AdviserCommission() {
                   <p className='section__desc'>
                     <table className='tg'>
                       <tbody>
-
+                      <tr>
+                        <td className='tg-0pky'><b>Aelita MANI</b>, "Luarasi" University, Albania
+                        </td>
+                      </tr>
                       <tr>
                         <td className='tg-0pky'><b>Blerina Vrenozi</b>, Natural Science Faculty, Tirana University, Albania
                         </td>
@@ -37,6 +40,10 @@ export default function AdviserCommission() {
                       <tr>
                         <td className='tg-0pky'><b>Fatma Didem Tunçez</b>, Economics and Administrative Sciences Faculty,
                           KTO Karatay University, Konya, Türkiye
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className='tg-0pky'><b>Eralda NOÇKA (SHORE)</b>, Agricultural University of Tirana, Albania
                         </td>
                       </tr>
                       <tr>
