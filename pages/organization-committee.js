@@ -46,8 +46,7 @@ export default function OrganizationCommittee() {
                       </tr>
                       <tr>
                         <td className='tg-0lax'>
-                          <b>Fatma Kunt</b>, Engineering Faculty, Necmettin Erbakan
-                          University, Konya, Türkiye
+                          <b>Fatma Kunt</b>, Engineering Faculty, Necmettin Erbakan University, Konya, Türkiye
                         </td>
                       </tr>
                       </tbody>
@@ -113,6 +112,11 @@ export default function OrganizationCommittee() {
                       </tr>
                       <tr>
                         <td className='tg-0pky'>
+                          <b>Mehmet Yıldırım Gündüz</b>, Engineering Faculty, Necmettin Erbakan University, Konya, Türkiye
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className='tg-0pky'>
                           <b>Busenur Köpüklü</b>, Necmettin Erbakan University, Konya, Türkiye
                         </td>
                       </tr>
@@ -132,8 +136,6 @@ export default function OrganizationCommittee() {
                 </div>
               </div>
             </div>
-
-
           </div>
         </div>
       </section>

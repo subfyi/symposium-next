@@ -4,6 +4,7 @@ import NavOne from '../components/NavOne'
 import PageHeader from '../components/PageHeader'
 import Footer from '../components/Footer'
 import Link from 'next/link'
+import { Alert } from 'reactstrap'
 
 export default function SymposiumAnnounced() {
   return (
@@ -60,17 +61,19 @@ export default function SymposiumAnnounced() {
                 </div>
               </div>
             </div>
-
             <div className='col-lg-12'>
               <div className='about-heading'>
                 <div className='section-heading'>
-
                   <div className='section__desc'>
                     <div className='form-group'>
-
                       <hr />
                       <p>Important Dates were announced in link: <Link href='/important-dates'>https://iseser.com/important-dates</Link></p>
-
+                      <hr />
+                      <p>
+                        <Alert color={'info'}>
+                          The presentation will primarily be delivered in English, with a targeted duration of approximately 10-15 minutes, followed by a 5-minute question and answer session.
+                        </Alert>
+                      </p>
                     </div>
                   </div>
                 </div>

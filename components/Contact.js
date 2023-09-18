@@ -58,8 +58,8 @@ const Contact = () => {
                   <Alert color={'info'}>
                     The <a href={'https://www.dergahotel.com/dergah-hotel.html'}>Dergah Hotel</a>, one of the accommodation <Link href={'/sponsors'}>sponsor</Link>, will apply a 15% discount on the
                     official price when attending with the name "iseser".
-                  </Alert></p>
-
+                  </Alert>
+                </p>
               </div>
             </div>
           </div>
