@@ -89,6 +89,10 @@ export default function ScienceCommission() {
                         </td>
                       </tr>
                       <tr>
+                        <td className='tg-0pky'><b>Etleva Dobjani</b>, University Barleti, Tirana, Albania
+                        </td>
+                      </tr>
+                      <tr>
                         <td className='tg-0pky'><b>Fernardo Sa Neves Santos</b>, Instituto Politécnico Da Guarda University,
                           Portugal
                         </td>
@@ -145,7 +149,7 @@ export default function ScienceCommission() {
                         <td className='tg-0pky'><b>Juliana Jalaludin</b>, Universiti Putra Malaysia, Serdang, Malaysia</td>
                       </tr>
                       <tr>
-                        <td className='tg-0pky'><b>Laura Shumka</b>, Albanian University, Tirana, Albania</td>
+                        <td className='tg-0pky'><b>Laura Shumka</b>, University Barleti, Tirana, Albania</td>
                       </tr>
                       <tr>
                         <td className='tg-0pky'><b>Leah Moore</b>, Applied Science Faculty, Canberra University, Australia</td>
@@ -270,6 +274,10 @@ export default function ScienceCommission() {
                       </tr>
                       <tr>
                         <td className='tg-0pky'><b>Rüdiger Anlauf</b>, Applied Sciences, Osnabrueck University, Germany</td>
+                      </tr>
+                      <tr>
+                        <td className='tg-0pky'><b>Saimir Kristo</b>, University Barleti, Tirana, Albania
+                        </td>
                       </tr>
                       <tr>
                         <td className='tg-0pky'><b>

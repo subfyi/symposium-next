@@ -83,7 +83,7 @@ export default function OrganizationCommittee() {
                         </td>
                       </tr>
                       <tr>
-                        <td className='tg-0pky'><b>Laura Shumka</b>, Albanian University, Tirana, Albania</td>
+                        <td className='tg-0pky'><b>Laura Shumka</b>, University Barleti, Tirana, Albania</td>
                       </tr>
                       <tr>
                         <td className='tg-0pky'>

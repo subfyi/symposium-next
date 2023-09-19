@@ -96,12 +96,6 @@ export default function Sponsors() {
                         Necmettin Erbakan University, <a target='_blank' href='https://www.erbakan.edu.tr/en/'>erbakan.edu.tr</a>
                       </li>
                       <li>
-                        <a target='_blank' href='https://albanianuniversity.edu.al/en/home/'>
-                          <img className='mr-3 mt-3' src={'https://api.iseser.com/doc/sponsor/albanianuniversity.png'} alt={'albanianuniversity'} width='100' height='100' />
-                        </a>
-                        Albania Universty, <a target='_blank' href='https://albanianuniversity.edu.al/en/home/'>albanianuniversity.edu.al</a>
-                      </li>
-                      <li>
                         <a target='_blank' href='https://www.ktun.edu.tr/en/Universite/AnaSayfa'>
                           <img className='mr-3 mt-3' src={'https://api.iseser.com/doc/sponsor/ktun.png?v2'} alt={'ktun'} width='100' height='100' />
                         </a>
@@ -118,6 +112,12 @@ export default function Sponsors() {
                           <Image className='mr-3 mt-3' src={umt} alt={'umt'} width='100' height='100' />
                         </a>
                         UMT (Universiti Malaysia Terengganu), <a target='_blank' href='https://www.umt.edu.my/'>umt.edu.my</a>
+                      </li>
+                      <li>
+                        <a target='_blank' href='https://umb.edu.al/en/'>
+                          <img className='mr-3 mt-3' src={'https://api.iseser.com/doc/sponsor/uniba.png'} alt={'umb'} width='320' height='100' />
+                        </a>
+                        University Barleti, <a target='_blank' href='https://umb.edu.al/en/'>umb.edu.al</a>
                       </li>
                     </ul>
                   </p>
