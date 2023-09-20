@@ -71,7 +71,7 @@ export default function SymposiumAnnounced() {
                       <hr />
                       <p>
                         <Alert color={'info'}>
-                          The presentation will primarily be delivered in English, with a targeted duration of approximately 10-15 minutes, followed by a 5-minute question and answer session.
+                          The presentation will primarily be delivered in English, with a targeted duration of approximately 8-10 minutes, followed by a 5-minute question and answer session.
                         </Alert>
                       </p>
                     </div>
