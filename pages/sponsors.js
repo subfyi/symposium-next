@@ -36,8 +36,8 @@ export default function Sponsors() {
                   <p className='section__desc'>
                     <ul>
                       <li>
-                        <a target='_blank' href='https://www.americanlife.com.tr/konya'>
-                          <img className='mr-3 mt-3' src={'https://api.iseser.com/doc/sponsor/meram.png'} alt={'meram'} width='100' height='120' />
+                        <a target='_blank' href='https://www.meram.bel.tr/'>
+                          <img className='mr-3 mt-3' src={'https://api.iseser.com/doc/sponsor/meram.png'} alt={'meram'} width='140' height='100' />
                         </a>
                         Meram Municipality, <a target='_blank' href='https://www.meram.bel.tr/'>meram.bel.tr</a>
                       </li>
