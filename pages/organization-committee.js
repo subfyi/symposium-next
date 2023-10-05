@@ -30,22 +30,22 @@ export default function OrganizationCommittee() {
                     <table className='tg'>
                       <tbody>
                       <tr>
-                        <td className='tg-0lax'>
+                        <td>
                           <b>Sukru Dursun</b>, Engineering and Natural Sciences Faculty, Konya Technical University, Konya, Türkiye
                         </td>
                       </tr>
                       <tr>
-                        <td className='tg-0pky'>
+                        <td>
                           <b>Noor Zaitun Yahaya</b>, Faculty of Ocean Engineering Technology and Informatics, University Malaysia Terengganu, Malaysia
                         </td>
                       </tr>
                       <tr>
-                        <td className='tg-0pky'>
+                        <td>
                           <b>Hüseyin Toros</b>,Engineering Faculty, Istanbul Technical University, Istanbul, Türkiye
                         </td>
                       </tr>
                       <tr>
-                        <td className='tg-0lax'>
+                        <td>
                           <b>Fatma Kunt</b>, Engineering Faculty, Necmettin Erbakan University, Konya, Türkiye
                         </td>
                       </tr>
@@ -63,70 +63,70 @@ export default function OrganizationCommittee() {
                     <table className='tg'>
                       <tbody>
                       <tr>
-                        <td className='tg-0lax'>
+                        <td>
                           <b>Çiğdem Çiftçi</b>, Faculty of Engineering and Architecture, Necmettin Erbakan University, Konya, Türkiye
                         </td>
                       </tr>
                       <tr>
-                        <td className='tg-0pky'>
+                        <td>
                           <b>Ertuğrul Esmeray</b>, Karabük University, Engineering Faculty, Karabuk, Türkiye
                         </td>
                       </tr>
                       <tr>
-                        <td className='tg-0lax'>
+                        <td>
                           <b>Flora Merko</b>, Aleksander Moisiu Durres University, Albania
                         </td>
                       </tr>
                       <tr>
-                        <td className='tg-0lax'>
+                        <td>
                           <b>Hysen Mankolli</b>, Editor of IJEES, Health and Environment Association, Illinois, USA
                         </td>
                       </tr>
                       <tr>
-                        <td className='tg-0pky'><b>Laura Shumka</b>, University Barleti, Tirana, Albania</td>
+                        <td><b>Laura Shumka</b>, University Barleti, Tirana, Albania</td>
                       </tr>
                       <tr>
-                        <td className='tg-0pky'>
+                        <td>
                           <b> Lyudmyla Symochko</b>, Uzhhorod National University, Uzhhorod, Ukraine
                         </td>
                       </tr>
                       <tr>
-                        <td className='tg-0pky'>
+                        <td>
                           <b>Nurul Asyraf bt Razali</b>, University Malaysia Terengganu, Malaysia
                         </td>
                       </tr>
                       <tr>
-                        <td className='tg-0pky'>
+                        <td>
                           <b>Samsuri Abdullah</b>, University Malaysia Terengganu, Malaysia
                         </td>
                       </tr>
                       <tr>
-                        <td className='tg-0lax'>
+                        <td>
                           <b>Şerife Yurdagül Kumcu</b>, Necmettin Erbakan University, Konya, Türkiye
                         </td>
                       </tr>
                       <tr>
-                        <td className='tg-0lax'>
+                        <td>
                           <b>Zeynep Cansu Ayturan</b>, Engineering and Natural Sciences Faculty, Konya Technical University, Konya, Türkiye
                         </td>
                       </tr>
                       <tr>
-                        <td className='tg-0pky'>
+                        <td>
                           <b>Mehmet Yıldırım Gündüz</b>, Engineering Faculty, Necmettin Erbakan University, Konya, Türkiye
                         </td>
                       </tr>
                       <tr>
-                        <td className='tg-0pky'>
+                        <td>
                           <b>Busenur Köpüklü</b>, Necmettin Erbakan University, Konya, Türkiye
                         </td>
                       </tr>
                       <tr>
-                        <td className='tg-0lax'>
+                        <td>
                           <b>Emre Dalkılıç</b>, Engineering and Natural Sciences Faculty, Konya Technical University, Konya, Türkiye
                         </td>
                       </tr>
                       <tr>
-                        <td className='tg-0lax'>
+                        <td>
                           <b>Yasin Akın Ayturan</b>, Engineering Faculty, KTO Karatay University, Konya, Türkiye
                         </td>
                       </tr>

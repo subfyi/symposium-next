@@ -30,74 +30,78 @@ export default function AdviserCommission() {
                     <table className='tg'>
                       <tbody>
                       <tr>
-                        <td className='tg-0pky'><b>Aelita MANI</b>, "Luarasi" University, Albania
+                        <td><b>Aelita MANI</b>, "Luarasi" University, Albania
                         </td>
                       </tr>
                       <tr>
-                        <td className='tg-0pky'><b>Blerina Vrenozi</b>, Natural Science Faculty, Tirana University, Albania
+                        <td><b>Blerina Vrenozi</b>, Natural Science Faculty, Tirana University, Albania
                         </td>
                       </tr>
                       <tr>
-                        <td className='tg-0pky'><b>Fatma Didem Tunçez</b>, Economics and Administrative Sciences Faculty,
+                        <td><b>Fatma Didem Tunçez</b>, Economics and Administrative Sciences Faculty,
                           KTO Karatay University, Konya, Türkiye
                         </td>
                       </tr>
                       <tr>
-                        <td className='tg-0pky'><b>Eralda NOÇKA (SHORE)</b>, Agricultural University of Tirana, Albania
+                        <td><b>Eralda NOÇKA (SHORE)</b>, Agricultural University of Tirana, Albania
                         </td>
                       </tr>
+
                       <tr>
-                        <td className='tg-0pky'><b>
+                        <td><b>Hüseyin Deveci</b> Vice Rector Konya Technical University, Konya, Türkiye</td>
+                      </tr>
+                      <tr>
+                        <td><b>
                           Mirela Alushllari</b>, Institute of Applied Nuclear Physics, University of Tirana, Tirana, Albania
                         </td>
                       </tr>
                       <tr>
-                        <td className='tg-0pky'><b>
+                        <td><b>
                           Mohamed Shahrir Mohamed Zahari</b>, University Malaysia Terengganu, Malaysia
                         </td>
                       </tr>
                       <tr>
-                        <td className='tg-0pky'><b>
+                        <td><b>
                           Noor Zaitun Zakaria</b>, University Malaysia Terengganu, Malaysia
                         </td>
                       </tr>
                       <tr>
-                        <td className='tg-0pky'><b>
+                        <td><b>
                           Noorlin Mohamed</b>, University Malaysia Terengganu, Malaysia
                         </td>
                       </tr>
                       <tr>
-                        <td className='tg-0pky'><b>
+                        <td><b>
                           Nurul Adyani Ghazali</b>, University Malaysia Terengganu, Malaysia
                         </td>
                       </tr>
                       <tr>
-                        <td className='tg-0pky'><b>
+                        <td><b>
                           Prithwiraj Jha</b>, Raiganj Surendranath College, University of Gour
                           Banga, India
                         </td>
                       </tr>
                       <tr>
-                        <td className='tg-0pky'><b>
+                        <td><b>
                           Razifah Mohd Razali</b>, University Malaysia Terengganu, Malaysia
                         </td>
                       </tr>
                       <tr>
-                        <td className='tg-0pky'><b>Sevda Ocak</b>, Engineering Faculty, Giresun University, Giresun, Türkiye
+                        <td><b>Sevda Ocak</b>, Engineering Faculty, Giresun University, Giresun, Türkiye
                         </td>
                       </tr>
                       <tr>
-                        <td className='tg-0pky'><b>Sezen Küçükçongar</b>, Engineering and Natural Sciences Faculty, Konya
+                        <td><b>Sezen Küçükçongar</b>, Engineering and Natural Sciences Faculty, Konya
                           Technical University, Konya, Türkiye
                         </td>
                       </tr>
                       <tr>
-                        <td className='tg-0pky'><b>
+                        <td><b>
                           Wan Nurdiyana Wan Mansur</b>, University Malaysia Terengganu, Malaysia
                         </td>
                       </tr>
                       <tr>
-                        <td className='tg-0pky'><b>
+                        <td><b>
                           Zehra Gök</b>, Vocational School, Selçuk University, Konya, Türkiye
                         </td>
                       </tr>

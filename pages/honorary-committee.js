@@ -31,6 +31,9 @@ export default function HonoraryCommittee() {
                         <td><b>Prof. Dr. Cem Zorlu</b>, Rector of the Necmettin Erbakan University, Konya, Türkiye</td>
                       </tr>
                       <tr>
+                        <td><b>Prof. Dr. Hüseyin Deveci</b> Vice Rector Konya Technical University, Konya, Türkiye</td>
+                      </tr>
+                      <tr>
                         <td><b>Prof. Dr. Semih Ekercin</b>, Dean of Engineering Faculty, Necmettin Erbakan University, Konya, Türkiye
                         </td>
                       </tr>
