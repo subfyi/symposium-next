@@ -934,32 +934,24 @@ a:hover {
     background-position: center center;
     background-size: cover;
     color: #fff;
-    height: 640px;
+    height: 840px;
     position: relative;
     z-index: 1;
     overflow: hidden;
 }
-.slider-area .single-slide-item:after {
-    content: "";
-    position: absolute;
-    display: block;
-    width: 452px;
-    height: 100%;
-    top: 0;
-    left: -50px;
-    z-index: -1;
-    background-color: #353538;
-    opacity: 40%;
-    -webkit-transform: skew(-12deg,0deg);
-    -moz-transform: skew(-12deg,0deg);
-    -ms-transform: skew(-12deg,0deg);
-    -o-transform: skew(-12deg,0deg);
-    transform: skew(-12deg,0deg);
-}
 .slider-area .slide-bg1 {
+    background-image: url("../slider/twitter.png");
+}
+@media (max-width:600px) {
+    .slider-area .slide-bg1 {
+        background-image: url("../slider/story.png");
+    }
+}
+
+.slider-area .slide-bg2 {
     background-image: url("../slider/indir.jpg");
 }
-.slider-area .slide-bg2 {
+.slider-area .slide-bg6 {
     background-image: url("../slider/nu.jpg");
 }
 .slider-area .slide-bg3 {
