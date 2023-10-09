@@ -29,7 +29,7 @@ export default function DocumentsAll() {
                   <p className='section__meta'><Link href='#'>2023 SYMPOSIUM</Link></p>
                   <div className='section__desc'>
                     <ul className='icon'>
-                      <li className='star'><a href='https://api.iseser.com/doc/2023/ISESER2023_BANNER.pdf?v4' target='_blank'><i className='fa  fa-file-pdf-o'></i> BANNER</a></li>
+                      <li className='star'><a href='https://api.iseser.com/doc/2023/ISESER2023_BANNER.pdf?v5' target='_blank'><i className='fa  fa-file-pdf-o'></i> BANNER</a></li>
                     </ul>
                   </div>
                 </div>

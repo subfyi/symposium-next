@@ -28,7 +28,7 @@ export default function Documents() {
                   <p className='section__desc'>
                     <ul className='icon'>
                       <li className='star'><a href='https://portal.iseser.com/'><i className='fa fa-external-link'></i> REGISTRATION</a></li>
-                      <li className='star'><a href='https://api.iseser.com/doc/2023/ISESER2023_BANNER.pdf?v4' target='_blank'><i className='fa  fa-file-pdf-o'></i> BANNER</a></li>
+                      <li className='star'><a href='https://api.iseser.com/doc/2023/ISESER2023_BANNER.pdf?v5' target='_blank'><i className='fa  fa-file-pdf-o'></i> BANNER</a></li>
                       {/*
                                              <li className="star"><a href="https://api.iseser.com/doc/2023/ISESER2023_BROCHURE.pdf?v1" target="_blank"><i className="fa  fa-file-pdf-o"></i> BROCHURE</a></li>
 

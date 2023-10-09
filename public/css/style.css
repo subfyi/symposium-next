@@ -940,17 +940,23 @@ a:hover {
     overflow: hidden;
 }
 .slider-area .slide-bg1 {
-    background-image: url("../slider/twitter.png");
+    background-image: url("../slider/banner1.png");
 }
+
+.slider-area .slide-bg2 {
+    background-image: url("../slider/banner2.png");
+}
+
 @media (max-width:600px) {
     .slider-area .slide-bg1 {
         background-image: url("../slider/story.png");
     }
+
+    .slider-area .slide-bg2 {
+        background-image: url("../slider/indir.jpg");
+    }
 }
 
-.slider-area .slide-bg2 {
-    background-image: url("../slider/indir.jpg");
-}
 .slider-area .slide-bg6 {
     background-image: url("../slider/nu.jpg");
 }
