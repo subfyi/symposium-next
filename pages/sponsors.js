@@ -48,6 +48,12 @@ export default function Sponsors() {
                         Kurukahveci Mehmet Efendi, <a target='_blank' href='https://www.mehmetefendi.com/eng'>mehmetefendi.com</a>
                       </li>
                       <li>
+                        <a target='_blank' href='https://neupress.org/'>
+                          <img className='mr-3 mt-3' src={'https://api.iseser.com/doc/sponsor/neu-press-dark.png'} alt={'neupress'} width='150' height='100' />
+                        </a>
+                        Neu Press, <a target='_blank' href='https://neupress.org/'>neupress.org</a>
+                      </li>
+                      <li>
                         <a target='_blank' href='https://www.mizansekerleme.com/'>
                           <Image className='mr-3' src={mizan} alt={'mizan'} width='100' height='100' />
                         </a>
