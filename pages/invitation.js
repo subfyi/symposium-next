@@ -75,7 +75,7 @@ export default function Invitation() {
                     </tr>
                     <tr>
                       <td className='tg-0lax'>
-                        <b>Ülkü Alver Şahin</b>, Istanbul University - Cerrahpaşa, Türkiye
+                        <b>Ülkü Alver Şahin</b>, Istanbul University - Cerrahpaşa, Environmental Engineering Department, Türkiye
                       </td>
                     </tr>
                     <tr>
