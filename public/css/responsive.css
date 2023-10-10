@@ -579,7 +579,7 @@
 ------------------------------*/
 @media (max-width:480px) {
     .slider-area .single-slide-item {
-        height: 750px;
+        height: 250px;
     }
     .slider-area .slider-heading .slider__title {
         font-size: 65px;
@@ -597,7 +597,7 @@
 ------------------------------*/
 @media (max-width:425px) {
     .slider-area .single-slide-item {
-        height: 650px;
+        height: 250px;
     }
     .slider-area .slider-heading .slider__title {
         font-size: 55px;

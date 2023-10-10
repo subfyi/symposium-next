@@ -18,20 +18,7 @@ function SliderOne() {
                   <div className='single-slide-item slide-bg1'>
                       <div className='slide-item-table'>
                           <div className='slide-item-tablecell'>
-                              <div className='container'>
-                                  <div className='row'>
-                                      <div className='col-md-7'>
-                                          <div className='slider-heading'>
-                                              <p className='slider__meta'>
-                                                  INTERNATIONAL SYMPOSIUM FOR
-                                              </p>  <p className='slider__meta'>
-                                              ENVIRONMENTAL SCIENCE AND
-                                          </p>  <p className='slider__meta'>
-                                              ENGINEERING RESEARCH 2023</p>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </div>
+
                           </div>
                       </div>
                   </div>
@@ -39,18 +26,7 @@ function SliderOne() {
                       <div className='slide-item-table'>
                           <div className='slide-item-tablecell'>
                               <div className='container'>
-                                  <div className='row'>
-                                      <div className='col-md-7'>
-                                          <div className='slider-heading'>
-                                              <p className='slider__meta'>
-                                                  INTERNATIONAL SYMPOSIUM FOR
-                                              </p>  <p className='slider__meta'>
-                                              ENVIRONMENTAL SCIENCE AND
-                                          </p>  <p className='slider__meta'>
-                                              ENGINEERING RESEARCH 2023</p>
-                                          </div>
-                                      </div>
-                                  </div>
+
                               </div>
                           </div>
                       </div>
@@ -96,6 +72,26 @@ function SliderOne() {
                       </div>
                   </div>
                   <div className='single-slide-item slide-bg5'>
+                      <div className='slide-item-table'>
+                          <div className='slide-item-tablecell'>
+                              <div className='container'>
+                                  <div className='row'>
+                                      <div className='col-md-7'>
+                                          <div className='slider-heading'>
+                                              <p className='slider__meta'>
+                                                  INTERNATIONAL SYMPOSIUM FOR
+                                              </p>  <p className='slider__meta'>
+                                              ENVIRONMENTAL SCIENCE AND
+                                          </p>  <p className='slider__meta'>
+                                              ENGINEERING RESEARCH 2023</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div className='single-slide-item slide-bg6'>
                       <div className='slide-item-table'>
                           <div className='slide-item-tablecell'>
                               <div className='container'>

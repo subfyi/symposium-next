@@ -932,29 +932,23 @@ a:hover {
 .slider-area .single-slide-item {
     background-color: #eee;
     background-position: center center;
-    background-size: cover;
+    background-size: contain;
     color: #fff;
-    height: 840px;
+    height: 740px;
     position: relative;
     z-index: 1;
     overflow: hidden;
+    background-repeat: no-repeat;
 }
+
+
+
 .slider-area .slide-bg1 {
     background-image: url("../slider/banner1.png");
 }
 
 .slider-area .slide-bg2 {
     background-image: url("../slider/banner2.png");
-}
-
-@media (max-width:600px) {
-    .slider-area .slide-bg1 {
-        background-image: url("../slider/story.png");
-    }
-
-    .slider-area .slide-bg2 {
-        background-image: url("../slider/indir.jpg");
-    }
 }
 
 .slider-area .slide-bg6 {
