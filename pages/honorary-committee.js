@@ -23,8 +23,6 @@ export default function HonoraryCommittee() {
             <div className='col-lg-12'>
               <div className='about-heading'>
                 <div className='section-heading'>
-
-                  <p className='section__desc'>
                     <table className='tg'>
                       <tbody>
                       <tr>
@@ -44,7 +42,6 @@ export default function HonoraryCommittee() {
                       </tr>
                       </tbody>
                     </table>
-                  </p>
                 </div>
               </div>
             </div>
