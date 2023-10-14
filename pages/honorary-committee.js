@@ -14,14 +14,14 @@ export default function HonoraryCommittee() {
         <div className='container'>
           <div className='row'>
             <div className='col-lg-12'>
-              <div className='about-heading'>
+              <div>
                 <div className='section-heading'>
                   <h2 className='section__title'>Honorary Committee</h2>
                 </div>
               </div>
             </div>
             <div className='col-lg-12'>
-              <div className='about-heading'>
+              <div>
                 <div className='section-heading'>
                     <table className='tg'>
                       <tbody>

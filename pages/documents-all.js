@@ -15,7 +15,7 @@ export default function DocumentsAll() {
         <div className='container'>
           <div className='row'>
             <div className='col-lg-12'>
-              <div className='about-heading'>
+              <div>
                 <div className='section-heading'>
                   <h2 className='section__title'>All ISESER Documents
                   </h2>
@@ -23,7 +23,7 @@ export default function DocumentsAll() {
               </div>
             </div>
             <div className='col-md-6 mt-3'>
-              <div className='about-heading'>
+              <div>
                 <div className='section-heading'>
 
                   <p className='section__meta'><Link href='#'>2023 SYMPOSIUM</Link></p>
@@ -40,7 +40,7 @@ export default function DocumentsAll() {
               </div>
             </div>
             <div className='col-md-6 mt-3'>
-              <div className='about-heading'>
+              <div>
                 <div className='section-heading'>
 
                   <p className='section__meta'><Link href='/year/2021'>2021 SYMPOSIUM</Link></p>
@@ -69,7 +69,7 @@ export default function DocumentsAll() {
               </div>
             </div>
             <div className='col-md-6 mt-3'>
-              <div className='about-heading'>
+              <div>
                 <div className='section-heading'>
 
                   <p className='section__meta'><Link href='/year/2020'>2020 SYMPOSIUM</Link></p>
@@ -98,7 +98,7 @@ export default function DocumentsAll() {
               </div>
             </div>
             <div className='col-md-6 mt-3'>
-              <div className='about-heading'>
+              <div>
                 <div className='section-heading'>
 
                   <p className='section__meta'>2019 SYMPOSIUM</p>
@@ -127,7 +127,7 @@ export default function DocumentsAll() {
               </div>
             </div>
             <div className='col-md-6 mt-3'>
-              <div className='about-heading'>
+              <div>
                 <div className='section-heading'>
 
                   <p className='section__meta'>2018 SYMPOSIUM</p>
@@ -152,7 +152,7 @@ export default function DocumentsAll() {
             </div>
 
             <div className='col-md-6 mt-3'>
-              <div className='about-heading'>
+              <div>
                 <div className='section-heading'>
 
                   <p className='section__meta'>2017 SYMPOSIUM</p>
@@ -170,7 +170,7 @@ export default function DocumentsAll() {
             </div>
 
             <div className='col-md-6 mt-3'>
-              <div className='about-heading'>
+              <div>
                 <div className='section-heading'>
                   <p className='section__meta'>2016 SYMPOSIUM</p>
                   <div className='section__desc'>

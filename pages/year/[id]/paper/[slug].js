@@ -1,10 +1,10 @@
 import React from 'react'
+import SimpleReactValidator from 'simple-react-validator'
+import api from '../../../../api'
 import Layout from '../../../../components/Layout'
 import NavOne from '../../../../components/NavOne'
 import PageHeaderEvent from '../../../../components/PageHeaderEvent'
 import Footer from '../../../../components/Footer'
-import SimpleReactValidator from 'simple-react-validator'
-import api from '../../../../api'
 
 export default class YearList extends React.Component {
   state = {}
@@ -54,10 +54,12 @@ export default class YearList extends React.Component {
                     <div className='blog-inner-content'>
                       <div className='inner-causes-box'>
                         <span className=''><a href='#'>Author(s):{' '}</a></span>
-                        {datas.authors.map((author, index) =>
-                          <span className=''>{author.first_name} {author.last_name}<sup>{index + 1}</sup>,{' '}
-                                                        </span>
-                        )}
+                        {datas.authors.map((author, index) => (
+                          <span key={index} className='text-capitalize'>
+                                  {author.first_name} {author.last_name}
+                            {index < datas.authors.length - 1 && (
+                              <span><sup>{index + 1}</sup>,{' '}</span>)}</span>
+                        ))}
                         <br />
                         <ul className='small'>
                           {datas.authors.map((author, index) =>
@@ -74,8 +76,8 @@ export default class YearList extends React.Component {
                       <div className='news-tags m-0 pt-2 pr-3'>
                         <div className='news-tag-item-left'>
                                     <span className='news-meta-tags'>
-                                        <span className='news-meta-title'>Keywords:</span>
-                                      {(datas.pap_keyword || '').split('|').map(a => <a className={"mb-1"}>{a}</a>)}
+                                        <span className='news-meta-title'>Keyword(s):</span>
+                                      {(datas.pap_keyword || '').split('|').map(a => <a className={'mb-1'}>{a}</a>)}
                                     </span>
                         </div>
                       </div>

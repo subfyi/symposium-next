@@ -6,6 +6,57 @@ import Announcement from '../components/Announcement'
 import Footer from '../components/Footer'
 
 export default function AboutPage() {
+  const topics = [
+    "Air Pollution",
+    "Air Quality",
+    "Analysis of toxic materials",
+    "Art Design",
+    "Artificial Intelligence",
+    "Biomass, Agricultural Residues",
+    "Biotechnology",
+    "Climate Change",
+    "Drinking Water Treatment",
+    "Earthquake Environmental Effects",
+    "Ecology",
+    "Energy Management",
+    "Environmental Applications",
+    "Environmental Chemistry",
+    "Environmental Education",
+    "Environmental Engineering",
+    "Environmental Health",
+    "Environmental Landscape",
+    "Environmental Management",
+    "Environmental Microbiology",
+    "Environmental Modeling",
+    "Environmental Modeling and Software",
+    "Environmental Pollution",
+    "Environmental Protection Topics included experimental, analytical, industrial studies",
+    "Fuzzy Logic",
+    "Fuzzy Logic in Environmental Sciences",
+    "Gas Removal and Disposal",
+    "Geographical Information",
+    "Hazardous Emissions, Incineration",
+    "Heavy Metal Pollution",
+    "Hydrological Recycling",
+    "Microbiology",
+    "Municipal and Industrial Solid Wastes and Waste Disposal, Management",
+    "Natural Source and Sustainability",
+    "Noise Pollution and Control",
+    "Pasture and Environment",
+    "Pesticide Analysis",
+    "Renewable Energy",
+    "Renewable Energy Sources",
+    "Soil Pollution",
+    "Solid Waste Management",
+    "Sustainability",
+    "Surface and Groundwater",
+    "Waste Recovery and Recycle",
+    "Waste Water Pollution",
+    "Waste Water Treatment",
+    "Water Pollution"
+  ]
+
+
   return (
     <Layout pageTitle='Topics | ISESER2023'>
       <NavOne />
@@ -14,53 +65,22 @@ export default function AboutPage() {
         <div className='container'>
           <div className='row'>
             <div className='col-lg-12'>
-              <div className='about-heading'>
-                <div className='section-heading'>
-                  <h2 className='section__title'>Topics
-                  </h2>
-                </div>
+              <div className='section-heading'>
+                <h2 className='section__title'>Topics
+                </h2>
               </div>
             </div>
             <div className='col-lg-12'>
-              <div className='about-heading'>
-                <div className='section-heading'>
-                  <div className='section__desc'>
-                    <p>The contents of articles and posters may include, but are not limited to, the
-                      following topics.</p>
-                    <ul>
-                      <li>Air Pollution</li>
-                      <li>Anaysis of toxic materials</li>
-                      <li>Art Design</li>
-                      <li>Artificial Intelligence</li>
-                      <li>Biotechnology</li>
-                      <li>Ecology</li>
-                      <li>Energy Management</li>
-                      <li>Environmental Applications</li>
-                      <li>Environmental Health</li>
-                      <li>Environmental Landscape</li>
-                      <li>Environmental Modeling</li>
-                      <li>Environmental chemistry</li>
-                      <li>Environmental Engineering</li>
-                      <li>Environmental Management</li>
-                      <li>Environmental Economics</li>
-                      <li>Fuzzy Logic</li>
-                      <li>Geographical Information</li>
-                      <li>Heavy metal pollution</li>
-                      <li>Microbiology</li>
-                      <li>Natural Source and Sustainability</li>
-                      <li>Pasture and Environment</li>
-                      <li>Renewable Energy</li>
-                      <li>Surface and Groundwater</li>
-                      <li>Pestiside Analysis</li>
-                      <li>Soil Pollution</li>
-                      <li>Solid Waste Management</li>
-                      <li>Sustainability</li>
-                      <li>Water Pollution</li>
-                      <li>Waste Water Pollution</li>
-                      <li>Waste Recovery and Recycle</li>
-                    </ul>
-                    <p>and related topics...</p>
-                  </div>
+              <div className='section-heading'>
+                <div className='section__desc'>
+                  <p>The contents of articles and posters may include, but are not limited to, the
+                    following topics.</p>
+
+                  {topics.map((topic, index) => (
+                    <li key={index}>{topic}</li>
+                  ))}
+
+                  <p>and suitable topics are also included regarding the efficient environmental management and use of air, water and land resources...</p>
                 </div>
               </div>
             </div>

@@ -14,15 +14,12 @@ export default function ConferenceFee() {
         <div className='container'>
           <div className='row'>
             <div className='col-lg-12'>
-              <div className='about-heading'>
                 <div className='section-heading'>
                   <h2 className='section__title'>Symposium Fee
                   </h2>
-                </div>
               </div>
             </div>
             <div className='col-lg-12'>
-              <div className='about-heading'>
                 <div className='section-heading'>
 
                   <p className='section__meta'>Turkish participants</p>
@@ -95,10 +92,8 @@ export default function ConferenceFee() {
                     </table>
                   </div>
                 </div>
-              </div>
             </div>
             <div className='col-lg-12'>
-              <div className='about-heading'>
                 <div className='section-heading'>
                   <div className='section__desc'>
                     <p>Please send the required fee to IBAN address given below and please don't forget to fill the
@@ -119,7 +114,6 @@ export default function ConferenceFee() {
                   </div>
                 </div>
               </div>
-            </div>
 
           </div>
         </div>

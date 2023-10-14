@@ -21,7 +21,7 @@ export default function Sponsors() {
         <div className='container'>
           <div className='row'>
             <div className='col-lg-12'>
-              <div className='about-heading'>
+              <div>
                 <div className='section-heading'>
                   <h2 className='section__title'>Sponsors
                   </h2>
@@ -29,7 +29,7 @@ export default function Sponsors() {
               </div>
             </div>
             <div className='col-lg-12'>
-              <div className='about-heading'>
+              <div>
                 <div className='section-heading'>
                   <p className='section__meta'>Supporter
                   </p>
@@ -77,7 +77,7 @@ export default function Sponsors() {
               </div>
             </div>
             <div className='col-lg-12'>
-              <div className='about-heading'>
+              <div>
                 <div className='section-heading'>
                   <p className='section__meta'>ACCOMMODATION SUPPORT
                   </p>
@@ -95,7 +95,7 @@ export default function Sponsors() {
               </div>
             </div>
             <div className='col-lg-12'>
-              <div className='about-heading'>
+              <div>
                 <div className='section-heading'>
                   <p className='section__meta'>Collaborative Institutions
                   </p>
@@ -137,7 +137,7 @@ export default function Sponsors() {
               </div>
             </div>
             <div className='col-lg-12'>
-              <div className='about-heading'>
+              <div>
                 <div className='section-heading'>
                   <p className='section__meta'>JOURNAL SPONSORS (EN)</p>
                   <p className='section__desc'>
@@ -160,7 +160,7 @@ export default function Sponsors() {
               </div>
             </div>
             <div className='col-lg-12'>
-              <div className='about-heading'>
+              <div>
                 <div className='section-heading'>
                   <p className='section__meta'>JOURNAL SPONSORS (TR)
                   </p>

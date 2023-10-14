@@ -77,14 +77,17 @@ export default class YearList extends React.Component {
                         {orals.data.map((row, i) => <>
                           <tr key={row.id} className={this.props.trstyle && this.props.trstyle(row)}>
                             <td><b>O{i + 1}</b></td>
-                            <td><a href={'/year/' + year + '/paper/' + (row.id)}> {row.en_title}</a></td>
+                            <td><a className={'text-uppercase'} href={'/year/' + year + '/paper/' + (row.id)}> {row.en_title}</a></td>
                           </tr>
                           <tr>
-                            <td colSpan='2'>
-                              {row.authors
-                                .map(a => a.first_name + ' ' + a.last_name)
-                                .join(', ')
-                              }</td>
+                            <td colSpan='2' className={'text-capitalize'}>
+                              {row.authors.map((author, index) => (
+                                <span key={index} className='text-capitalize'>
+                                  {author.first_name} {author.last_name}
+                                  {index < row.authors.length - 1 && (
+                                    <span><sup>{index + 1}</sup>,{' '}</span>)}</span>
+                              ))}
+                            </td>
                           </tr>
                         </>)}
                         </tbody>
@@ -122,14 +125,17 @@ export default class YearList extends React.Component {
                       {posters.data.map((row, i) => <>
                         <tr key={row.id} className={this.props.trstyle && this.props.trstyle(row)}>
                           <td><b>P{i + 1}</b></td>
-                          <td><a href={'/year/' + year + '/paper/' + (row.id)}> {row.en_title}</a></td>
+                          <td><a className={'text-uppercase'} href={'/year/' + year + '/paper/' + (row.id)}> {row.en_title}</a></td>
                         </tr>
                         <tr>
                           <td colSpan='2'>
-                            {row.authors
-                              .map(a => a.first_name + ' ' + a.last_name)
-                              .join(', ')
-                            }</td>
+                            {row.authors.map((author, index) => (
+                              <span key={index} className='text-capitalize'>
+                                  {author.first_name} {author.last_name}
+                                {index < row.authors.length - 1 && (
+                                  <span><sup>{index + 1}</sup>,{' '}</span>)}</span>
+                            ))}
+                          </td>
                         </tr>
                       </>)}
                       </tbody>

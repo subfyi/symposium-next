@@ -13,9 +13,7 @@ export default function ContactPage() {
       <NavOne />
       <PageHeader title='Contact' />
       <Contact />
-
       <Announcement />
-
       <Footer />
     </Layout>
   )

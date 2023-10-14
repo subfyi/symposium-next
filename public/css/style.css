@@ -1144,7 +1144,7 @@ a:hover {
 }
 .skill-area .skills .skill span:last-of-type {
     float: right;
-    font-family: "Playfair Display", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 .skill-area .skills .skill .progress_bg {
     background-color: #ffffff;
@@ -1825,7 +1825,7 @@ a:hover {
     font-size: 170px;
     height: 50px;
     line-height: 110px;
-    font-family: "Playfair Display", sans-serif ;
+    font-family: "Poppins", sans-serif;
     margin-bottom: 40px;
     margin-left: -7px;
 }
@@ -2523,7 +2523,7 @@ a:hover {
     color: #50bac3;
     font-weight: 600;
     font-size: 22px;
-    font-family: "Playfair Display", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 .sidebar-shared .side-widget .author-box .author__detail .author__title {
     font-size: 18px;
@@ -2726,7 +2726,7 @@ a:hover {
 .upcoming-event-area .blog-content-wrap .blog-content .blog-item .blog-img .blog__tag .date__num-text {
     font-size: 40px;
     line-height: 35px;
-    font-family: "Playfair Display", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 .upcoming-event-area .blog-content-wrap .blog-content .blog-item .blog-img .blog__tag .date__mon-text {
     font-size: 12px;
@@ -2839,7 +2839,7 @@ a:hover {
 .event-detail-area .blog-content .blog-item .blog-img .blog__tag .date__num-text {
     font-size: 40px;
     line-height: 35px;
-    font-family: "Playfair Display", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 .event-detail-area .blog-content .blog-item .blog-img .blog__tag .date__mon-text {
     font-size: 12px;
@@ -3022,18 +3022,19 @@ a:hover {
     font-size: 20px;
     font-weight: 600;
     margin-right: 6px;
-    font-family: "Playfair Display", sans-serif;
+    font-family: "Poppins", sans-serif;
+    vertical-align: middle;
     color: #424242;
 }
 .news-detail-area .blog-content-wrap .blog-content .blog-item .blog-inner-content-2 .news-tag-item-left a {
-    font-size: 12px;
-    text-transform: uppercase;
+    font-size: 10px;
+    text-transform: capitalize;
     background: #c07600;
     color: #fff;
     font-weight: 600;
     letter-spacing: 1px;
     line-height: 35px;
-    padding: 0 20px 0 25px;
+    padding: 0 10px 0 10px;
     position: relative;
     z-index: 1;
     display: inline-block;
@@ -3591,7 +3592,7 @@ a:hover {
     font-size: 36px;
     color: #50bac3;
     font-weight: 800;
-    font-family: "Playfair Display", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 .package-area .package-price-wrap .package-item .package-top .package__price li .year__text {
     font-size: 12px;
@@ -4077,7 +4078,7 @@ a:hover {
    contact-area
  =============================*/
 .contact-area {
-    padding-top: 120px;
+    padding-top: 20px;
     padding-bottom: 120px;
 }
 .contact-area .section__desc {
@@ -4361,7 +4362,7 @@ a:hover {
     padding-left: 80px;
     color: #fff;
     font-size: 50px;
-    font-family: "Playfair Display", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 800;
 }
 .donate-area2 .donate-content-wrap .donate-item .form-shared form .yellow-form span {
@@ -4370,7 +4371,7 @@ a:hover {
     left: 30px;
     color: #fff;
     font-size: 70px;
-    font-family: "Playfair Display", sans-serif;
+    font-family: "Poppins", sans-serif;
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
     -ms-transform: translateY(-50%);

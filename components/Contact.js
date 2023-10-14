@@ -8,15 +8,12 @@ const Contact = () => {
       <div className='container'>
         <div className='row'>
           <div className='col-lg-12'>
-            <div className='about-heading'>
               <div className='section-heading'>
                 <h2 className='section__title'>CONTACT</h2>
-              </div>
             </div>
           </div>
           <div className='col-lg-8'>
             <div className='section-heading'>
-
               <p className='section__meta'>Conference Venue</p>
               <div className='section__desc'>
                 ISESER2023 which will be held on 18-21 October 2023,
@@ -54,12 +51,10 @@ const Contact = () => {
                   <li>Yasin Akın Ayturan (whatsapp): <a href='tel:+905365954591'>+905548675660</a></li>
                 </ul>
                 <hr />
-                <p>
                   <Alert color={'info'}>
                     The <a href={'https://www.dergahotel.com/dergah-hotel.html'}>Dergah Hotel</a>, one of the accommodation <Link href={'/sponsors'}>sponsor</Link>, will apply a 15% discount on the
                     official price when attending with the name "iseser".
                   </Alert>
-                </p>
               </div>
             </div>
           </div>

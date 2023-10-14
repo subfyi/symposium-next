@@ -14,7 +14,7 @@ export default function OrganizationCommittee() {
         <div className='container'>
           <div className='row'>
             <div className='col-lg-12'>
-              <div className='about-heading'>
+              <div>
                 <div className='section-heading'>
                   <h2 className='section__title'>Organization Committee
                   </h2>
@@ -22,7 +22,7 @@ export default function OrganizationCommittee() {
               </div>
             </div>
             <div className='col-lg-12'>
-              <div className='about-heading'>
+              <div>
                 <div className='section-heading'>
 
                   <p className='section__meta'>SYMPOSIUM COORDINATOR</p>
@@ -56,7 +56,7 @@ export default function OrganizationCommittee() {
               </div>
             </div>
             <div className='col-lg-12'>
-              <div className='about-heading'>
+              <div>
                 <div className='section-heading'>
                   <p className='section__meta'>ORGANIZATION COMMITTEE</p>
                   <p className='section__desc'>

@@ -15,11 +15,9 @@ export default function Invitation() {
         <div className='container'>
           <div className='row'>
             <div className='col-lg-12'>
-              <div className='about-heading'>
                 <div className='section-heading'>
                   <h2 className='section__title'>INVITATION
                   </h2>
-                </div>
               </div>
             </div>
             <section className={' text-justify'}>
@@ -34,52 +32,52 @@ export default function Invitation() {
                   <table className='tg'>
                     <tbody>
                     <tr>
-                      <td className='tg-0lax'>
+                      <td>
                         <b>Cezar Kongoli</b>, National Oceanic & Atmospheric Administration, Maryland University, USA
                       </td>
                     </tr>
                     <tr>
-                      <td className='tg-0lax'>
+                      <td>
                         <b>Hysen Mankolli</b>, Editor of IJEES, Health and Environment Association, Illinois, USA
                       </td>
                     </tr>
                     <tr>
-                      <td className='tg-0lax'>
+                      <td>
                         <b>Lyudmyla Symochko</b>, Uzhhorod National University, Ukraine
                       </td>
                     </tr>
                     <tr>
-                      <td className='tg-0lax'>
+                      <td>
                         <b>Massimo Zucchettı</b>, Dipartimento Di Energetica, Torino Polytechnic University, Italy
                       </td>
                     </tr>
                     <tr>
-                      <td className='tg-0lax'>
+                      <td>
                         <b>Mohd Zamri Bin Ibrahim</b>, University Malaysia Terengganu, Malaysia
                       </td>
                     </tr>
                     <tr>
-                      <td className='tg-0lax'>
+                      <td>
                         <b>Noor Zaitun Zakaria</b>, University Malaysia Terengganu, Malaysia
                       </td>
                     </tr>
                     <tr>
-                      <td className='tg-0lax'>
+                      <td>
                         <b>Shahabuddin Memon</b>, Sindh University, National Centre of Excellence, Jamshoro, Pakistan
                       </td>
                     </tr>
                     <tr>
-                      <td className='tg-0lax'>
+                      <td>
                         <b>Suzana (Kuci) Golemi</b>, University of Shkodra “Luigj Gurakuqi”, Albania
                       </td>
                     </tr>
                     <tr>
-                      <td className='tg-0lax'>
+                      <td>
                         <b>Ülkü Alver Şahin</b>, Istanbul University - Cerrahpaşa, Environmental Engineering Department, Türkiye
                       </td>
                     </tr>
                     <tr>
-                      <td className='tg-0lax'>
+                      <td>
                         <b>Zoran Sapuric</b>, American University, Macedonia
                       </td>
                     </tr>

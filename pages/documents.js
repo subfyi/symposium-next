@@ -14,7 +14,7 @@ export default function Documents() {
         <div className='container'>
           <div className='row'>
             <div className='col-lg-12'>
-              <div className='about-heading'>
+              <div>
                 <div className='section-heading'>
                   <h2 className='section__title'>Documents for 2023
                   </h2>
@@ -22,7 +22,7 @@ export default function Documents() {
               </div>
             </div>
             <div className='col-lg-12'>
-              <div className='about-heading'>
+              <div>
                 <div className='section-heading'>
 
                   <p className='section__desc'>

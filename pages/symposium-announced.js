@@ -15,7 +15,7 @@ export default function SymposiumAnnounced() {
         <div className='container'>
           <div className='row'>
             <div className='col-lg-12'>
-              <div className='about-heading'>
+              <div className=''>
                 <div className='section-heading'>
                   <h2 className='section__title'>Announcement</h2>
                 </div>
@@ -23,7 +23,7 @@ export default function SymposiumAnnounced() {
             </div>
 
             <div className='col-lg-12'>
-              <div className='about-heading'>
+              <div className=''>
                 <div className='section-heading'>
 
                   <div className='section__desc'>
@@ -35,7 +35,7 @@ export default function SymposiumAnnounced() {
 
 
             <div className='col-lg-12'>
-              <div className='about-heading'>
+              <div className=''>
                 <div className='section-heading'><p className='section__meta'>Full paper submission</p>
 
                   <div className='section__desc'>
@@ -62,7 +62,7 @@ export default function SymposiumAnnounced() {
               </div>
             </div>
             <div className='col-lg-12'>
-              <div className='about-heading'>
+              <div className=''>
                 <div className='section-heading'>
                   <div className='section__desc'>
                     <div className='form-group'>
