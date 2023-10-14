@@ -1,4 +1,4 @@
-import Document, { Html, Head, Main, NextScript } from 'next/document'
+import Document, { Head, Html, Main, NextScript } from 'next/document'
 import React from 'react'
 
 export default class extends Document {
@@ -9,15 +9,15 @@ export default class extends Document {
 
   render() {
     return (
-      <Html lang="en">
-          <Head>
-          <meta httpEquiv="x-ua-compatible" content="ie=edge" />
-          
+      <Html lang='en'>
+        <Head>
+          <meta httpEquiv='x-ua-compatible' content='ie=edge' />
+
 
         </Head>
         <body>
-          <Main />
-          <NextScript />
+        <Main />
+        <NextScript />
         </body>
       </Html>
     )

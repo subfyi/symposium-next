@@ -8,8 +8,8 @@ const Contact = () => {
       <div className='container'>
         <div className='row'>
           <div className='col-lg-12'>
-              <div className='section-heading'>
-                <h2 className='section__title'>CONTACT</h2>
+            <div className='section-heading'>
+              <h2 className='section__title'>CONTACT</h2>
             </div>
           </div>
           <div className='col-lg-8'>
@@ -51,10 +51,10 @@ const Contact = () => {
                   <li>Yasin Akın Ayturan (whatsapp): <a href='tel:+905365954591'>+905548675660</a></li>
                 </ul>
                 <hr />
-                  <Alert color={'info'}>
-                    The <a href={'https://www.dergahotel.com/dergah-hotel.html'}>Dergah Hotel</a>, one of the accommodation <Link href={'/sponsors'}>sponsor</Link>, will apply a 15% discount on the
-                    official price when attending with the name "iseser".
-                  </Alert>
+                <Alert color={'info'}>
+                  The <a href={'https://www.dergahotel.com/dergah-hotel.html'}>Dergah Hotel</a>, one of the accommodation <Link href={'/sponsors'}>sponsor</Link>, will apply a 15% discount on the
+                  official price when attending with the name "iseser".
+                </Alert>
               </div>
             </div>
           </div>

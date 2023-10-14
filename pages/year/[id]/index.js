@@ -42,7 +42,7 @@ export default class YearList extends React.Component {
           <div className='container'>
             <div className='row'>
               <div className='col-lg-12'>
-                <div className='about-heading'>
+                <div>
                   <div className='section-heading'>
                     <h2 className='section__title'>ISESER{year} SYMPOSIUM WEB VERSION (ONLINE VIEW)
                     </h2>
@@ -50,7 +50,7 @@ export default class YearList extends React.Component {
                 </div>
               </div>
               <div className='col-lg-12'>
-                <div className='about-heading'>
+                <div>
                   <div className='section-heading'>
                     <h3> Oral Presentations</h3>
                     <hr />
@@ -58,7 +58,7 @@ export default class YearList extends React.Component {
                 </div>
               </div>
               <div className='col-lg-12'>
-                <div className='about-heading'>
+                <div>
                   <div className='section-heading'>
                     <div className='section__desc'>
                       <table className='tg'>
@@ -98,7 +98,7 @@ export default class YearList extends React.Component {
               </div>
 
               <div className='col-lg-12'>
-                <div className='about-heading'>
+                <div>
                   <div className='section-heading'>
                     <p><br /></p>
                     <h3> Poster Presentations</h3>
@@ -108,7 +108,7 @@ export default class YearList extends React.Component {
               </div>
 
               <div className='col-lg-12'>
-                <div className='about-heading'>
+                <div>
                   <div className='section-heading'>
                     <table className=' tg section__desc'>
                       <thead>

@@ -23,25 +23,25 @@ export default function HonoraryCommittee() {
             <div className='col-lg-12'>
               <div>
                 <div className='section-heading'>
-                    <table className='tg'>
-                      <tbody>
-                      <tr>
-                        <td><b>Prof. Dr. Cem Zorlu</b>, Rector of the Necmettin Erbakan University, Konya, Türkiye</td>
-                      </tr>
-                      <tr>
-                        <td><b>Prof. Dr. Hüseyin Deveci</b> Vice Rector Konya Technical University, Konya, Türkiye</td>
-                      </tr>
-                      <tr>
-                        <td><b>Prof. Dr. Semih Ekercin</b>, Dean of Engineering Faculty, Necmettin Erbakan University, Konya, Türkiye
-                        </td>
-                      </tr>
-                      <tr>
-                        <td><b>Prof. Ts. Dr. Che Mohd Ruzaidi Bin Ghazali</b>, Dean Faculty of Ocean Engineering
-                          Technology, University Malaysia Terengganu, Terengganu, MALAYSIA
-                        </td>
-                      </tr>
-                      </tbody>
-                    </table>
+                  <table className='tg'>
+                    <tbody>
+                    <tr>
+                      <td><b>Prof. Dr. Cem Zorlu</b>, Rector of the Necmettin Erbakan University, Konya, Türkiye</td>
+                    </tr>
+                    <tr>
+                      <td><b>Prof. Dr. Hüseyin Deveci</b> Vice Rector Konya Technical University, Konya, Türkiye</td>
+                    </tr>
+                    <tr>
+                      <td><b>Prof. Dr. Semih Ekercin</b>, Dean of Engineering Faculty, Necmettin Erbakan University, Konya, Türkiye
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><b>Prof. Ts. Dr. Che Mohd Ruzaidi Bin Ghazali</b>, Dean Faculty of Ocean Engineering
+                        Technology, University Malaysia Terengganu, Terengganu, MALAYSIA
+                      </td>
+                    </tr>
+                    </tbody>
+                  </table>
                 </div>
               </div>
             </div>

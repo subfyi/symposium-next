@@ -1,23 +1,23 @@
-import React from 'react';
-import Link from 'next/link';
+import React from 'react'
+import Link from 'next/link'
 
 const PageHeader = (props) => {
-    return (
-        <section className="breadcrumb-area">
-            <div className="container">
-                <div className="row">
-                    <div className="col-lg-12">
-                        <div className="breadcrumb-content">
-                            <ul className="breadcrumb__list">
-                                <li className="active__list-item"><Link href="/">Home</Link></li>
-                                <li>{ props.title }</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+  return (
+    <section className='breadcrumb-area'>
+      <div className='container'>
+        <div className='row'>
+          <div className='col-lg-12'>
+            <div className='breadcrumb-content'>
+              <ul className='breadcrumb__list'>
+                <li className='active__list-item'><Link href='/'>Home</Link></li>
+                <li>{props.title}</li>
+              </ul>
             </div>
-        </section>
-    );
-};
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}
 
-export default PageHeader;
+export default PageHeader

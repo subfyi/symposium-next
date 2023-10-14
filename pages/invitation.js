@@ -15,9 +15,9 @@ export default function Invitation() {
         <div className='container'>
           <div className='row'>
             <div className='col-lg-12'>
-                <div className='section-heading'>
-                  <h2 className='section__title'>INVITATION
-                  </h2>
+              <div className='section-heading'>
+                <h2 className='section__title'>INVITATION
+                </h2>
               </div>
             </div>
             <section className={' text-justify'}>
