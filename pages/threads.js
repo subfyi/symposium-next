@@ -22,6 +22,8 @@ export default function AboutPage() {
     'Environmental Applications',
     'Environmental Chemistry',
     'Environmental Education',
+    'Environmental Ethics',
+    'Environmental Economics',
     'Environmental Engineering',
     'Environmental Health',
     'Environmental Landscape',
