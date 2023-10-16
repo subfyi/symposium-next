@@ -70,7 +70,7 @@ export default function SymposiumAnnounced() {
                       <p><Link href='/important-dates'>Important Dates</Link> were announced. </p>
                       <hr />
                       <Alert color={'success'}>
-                        Webinar links for online presentations are announced in the <Link href='/important-dates'>documents</Link> section.
+                        Webinar links for online presentations are announced in the <Link href='/documents'>documents</Link> section.
                       </Alert>
                       <hr />
                       <p>
