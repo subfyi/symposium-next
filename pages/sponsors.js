@@ -109,7 +109,7 @@ export default function Sponsors() {
                       </li>
                       <li>
                         <a target='_blank' href='https://www.ktun.edu.tr/en/Universite/AnaSayfa'>
-                          <img className='mr-3 mt-3' src={'https://api.iseser.com/doc/sponsor/ktun.png?v2'} alt={'ktun'} width='100' height='100' />
+                          <img className='mr-3 mt-3' src={'https://api.iseser.com/doc/sponsor/ktun.png'} alt={'ktun'} width='100' height='100' />
                         </a>
                         Konya Technical University, <a target='_blank' href='https://www.ktun.edu.tr/en/Universite/AnaSayfa'>ktun.edu.tr</a>
                       </li>
@@ -144,7 +144,7 @@ export default function Sponsors() {
                     <ul>
                       <li>
                         <a target='_blank' href='https://dergipark.org.tr/en/pub/ijepem'>
-                          <img className='mr-3 mt-3' src={'https://api.iseser.com/doc/sponsor/ijepem.png?v1'} alt={'ijepem'} width='100' height='100' />
+                          <img className='mr-3 mt-3' src={'https://api.iseser.com/doc/sponsor/ijepem.png?e8'} alt={'ijepem'} width='100' height='100' />
                         </a>
                         International Journal of Environmental Pollution and Environmental Modelling (IJEPEM), <a target='_blank' href='https://dergipark.org.tr/en/pub/ijepem'>ijepem.com</a>
                       </li>
