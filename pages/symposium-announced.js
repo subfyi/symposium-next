@@ -67,7 +67,11 @@ export default function SymposiumAnnounced() {
                   <div className='section__desc'>
                     <div className='form-group'>
                       <hr />
-                      <p>Important Dates were announced in link: <Link href='/important-dates'>https://iseser.com/important-dates</Link></p>
+                      <p><Link href='/important-dates'>Important Dates</Link> were announced. </p>
+                      <hr />
+                      <Alert color={'success'}>
+                        Webinar links for online presentations are announced in the <Link href='/important-dates'>documents</Link> section.
+                      </Alert>
                       <hr />
                       <p>
                         <Alert color={'info'}>

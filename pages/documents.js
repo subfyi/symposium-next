@@ -29,20 +29,22 @@ export default function Documents() {
                     <ul className='icon'>
                       <li className='star'><a href='https://portal.iseser.com/'><i className='fa fa-external-link'></i> REGISTRATION</a></li>
                       <li className='star'><a href='https://api.iseser.com/doc/2023/ISESER2023_BANNER.pdf?e8' target='_blank'><i className='fa  fa-file-pdf-o'></i> BANNER</a></li>
-                      <li className='star'><a href='https://api.iseser.com/doc/2023/ISESER2023-PROGRAM-PRELIMINARY.pdf?e8' target='_blank' rel='noopener noreferrer'><i
-                        className='fa  fa-file-pdf-o'></i> PRELIMINARY PROGRAM</a></li>
+                      <li className='star'><a href='https://api.iseser.com/doc/2023/ISESER2023-PROGRAM-PRELIMINARY.pdf?e8' target='_blank' rel='noopener noreferrer'><i className='fa  fa-file-pdf-o'></i> PRELIMINARY PROGRAM</a></li>
+                      <li className='star'><a href='https://api.iseser.com/doc/2023/webinar_link.pdf?e8' target='_blank' rel='noopener noreferrer'><i className='fa  fa-file-pdf-o'></i> WEBINAR LINK</a></li>
                       <li className='star'><a href='../year/2023'><i className='fa fa-file-code-o'></i> WEB VERSION (ONLINE VIEW)</a></li>
                       {/*
-                                             <li className="star"><a href="https://api.iseser.com/doc/2023/ISESER2023_BROCHURE.pdf?e8" target="_blank"><i className="fa  fa-file-pdf-o"></i> BROCHURE</a></li>
-
-                                                <li className='star'><a href='../doc/2023/ISESER2023-FINAL-PROGRAM.pdf?e8'
-                                                                     target='_blank' rel='noopener noreferrer'><i
-                                              className='fa  fa-file-pdf-o'></i> FINAL PROGRAM </a></li>
-                                                <li className="star"><a href="https://api.iseser.com/doc/2023/ISESER2023-ABSTRACT-BOOK.pdf?e8" target="_blank" rel="noopener noreferrer"><i className="fa  fa-file-pdf-o"></i> ABSTRACT BOOK </a></li>
-                                                <li className="star"><a href="https://api.iseser.com/doc/2023/ISESER2023-PROCEEDING-BOOK.pdf?e8" target="_blank" rel="noopener noreferrer"><i className="fa  fa-file-pdf-o"></i> PROCEEDING BOOK</a></li>
-
-                                            */}
+                        <li className="star"><a href="https://api.iseser.com/doc/2023/ISESER2023_BROCHURE.pdf?e8" target="_blank"><i className="fa  fa-file-pdf-o"></i> BROCHURE</a></li>
+                        <li className='star'><a href='../doc/2023/ISESER2023-FINAL-PROGRAM.pdf?e8'  target='_blank' rel='noopener noreferrer'><i  className='fa  fa-file-pdf-o'></i> FINAL PROGRAM </a></li>
+                        <li className="star"><a href="https://api.iseser.com/doc/2023/ISESER2023-ABSTRACT-BOOK.pdf?e8" target="_blank" rel="noopener noreferrer"><i className="fa  fa-file-pdf-o"></i> ABSTRACT BOOK </a></li>
+                        <li className="star"><a href="https://api.iseser.com/doc/2023/ISESER2023-PROCEEDING-BOOK.pdf?e8" target="_blank" rel="noopener noreferrer"><i className="fa  fa-file-pdf-o"></i> PROCEEDING BOOK</a></li>
+                       */}
                     </ul>
+                    <hr />
+
+                    <li className='star'><a href='https://api.iseser.com/doc/2023/webinar_guide.pdf' target='_blank'><i className='fa  fa-file-pdf-o'></i> WEBINAR GUIDE (PDF)</a></li>
+                    <li className='star'><a href='https://api.iseser.com/doc/2023/webinar_guide_tr.pdf' target='_blank'><i className='fa  fa-file-pdf-o'></i> WEBINAR GUIDE (TR - PDF)</a></li>
+                    <li className='star'><a href='https://api.iseser.com/doc/2023/webinar_guide.mp4' target='_blank'><i className='fa  fa-file-video-o'></i> WEBINAR GUIDE (TR - VIDEO)</a></li>
+
                     <hr />
                     <ul>
                       <li className='star'><a href='https://api.iseser.com/doc/2023/ISESER2023_Abstract_Template.docx' target='_blank'><i
