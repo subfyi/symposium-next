@@ -635,12 +635,6 @@
         <loc>https://api.iseser.com/doc/2020/ISESER2020-FINAL-PROGRAM.pdf</loc>
     </url>
     <url>
-        <loc>https://api.iseser.com/doc/2020/ISESER2020-ABSTRACT-BOOK.pdf</loc>
-    </url>
-    <url>
-        <loc>https://api.iseser.com/doc/2020/ISESER2020-PROCEEDING-BOOK.pdf</loc>
-    </url>
-    <url>
         <loc>https://api.iseser.com/doc/2021/ISESER2021_BANNER.pdf</loc>
     </url>
     <url>
@@ -665,9 +659,12 @@
         <loc>https://api.iseser.com/doc/2021/ISESER2021_POSTER-PREPARATION.pptm</loc>
     </url>
     <url>
-        <loc>https://api.iseser.com/doc/2021/ISESER2021-PROCEEDING-BOOK.pdf</loc>
+        <loc>https://api.iseser.com/doc/2023/ISESER2023_BANNER.pdf</loc>
     </url>
     <url>
-        <loc>https://api.iseser.com/doc/2021/ISESER2021-ABSTRACT-BOOK.pdf</loc>
+        <loc>https://api.iseser.com/doc/2023/ISESER2023-FINAL-PROGRAM.pdf</loc>
+    </url>
+    <url>
+        <loc>https://api.iseser.com/doc/2023/webinar_link.pdf</loc>
     </url>
 </urlset>
