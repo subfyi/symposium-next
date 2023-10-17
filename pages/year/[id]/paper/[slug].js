@@ -94,7 +94,7 @@ export default class YearList extends React.Component {
                         <div className='author-box recent-donate-item'>
                           <a className='reply__btn btn btn-dark'
                              target='_blank'
-                             href={'https://iseser.com/doc/' + year + '/ISESER' + year + '-PROCEEDING-BOOK.pdf#page=' + (+(datas.paper_page || '').split('-')[0] + splitPpage[year])}>
+                             href={'https://api.iseser.com/doc/' + year + '/ISESER' + year + '-PROCEEDING-BOOK.pdf#page=' + (+(datas.paper_page || '').split('-')[0] + splitPpage[year])}>
                             <i className='fa  fa-file-pdf-o'></i> Proceeding Book Page</a>
                         </div>
                         <div><b>Page: </b>
@@ -122,7 +122,7 @@ export default class YearList extends React.Component {
                       <div className='author-box recent-donate-item'>
                         <a className='reply__btn btn btn-dark'
                            target='_blank'
-                           href={'https://iseser.com/doc/' + year + '/ISESER' + year + '-ABSTRACT-BOOK.pdf#page=' + (+(datas.paper_abst_page || '').split('-')[0] + splitApage[year])}>
+                           href={'https://api.iseser.com/doc/' + year + '/ISESER' + year + '-ABSTRACT-BOOK.pdf#page=' + (+(datas.paper_abst_page || '').split('-')[0] + splitApage[year])}>
                           <i className='fa  fa-file-pdf-o'></i> Abstract Book Page</a>
                       </div>
                     }
