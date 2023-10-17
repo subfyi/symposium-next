@@ -30,11 +30,9 @@ export default function DocumentsAll() {
                   <div className='section__desc'>
                     <ul className='icon'>
                       <li className='star'><a href='https://api.iseser.com/doc/2023/ISESER2023_BANNER.pdf?e10' target='_blank'><i className='fa  fa-file-pdf-o'></i> BANNER</a></li>
-                      <li className='star'><a href='https://api.iseser.com/doc/2023/ISESER2023-PROGRAM-PRELIMINARY.pdf?e10' target='_blank' rel='noopener noreferrer'><i
-                        className='fa  fa-file-pdf-o'></i> PRELIMINARY PROGRAM</a></li>
-                      <li className='star'>
-                        <a href='../year/2023'><i className='fa fa-file-code-o'></i> WEB VERSION (ONLINE VIEW)</a>
-                      </li>
+                      <li className='star'><a href='https://api.iseser.com/doc/2023/ISESER2023-FINAL-PROGRAM.pdf?e10' target='_blank' rel='noopener noreferrer'><i className='fa  fa-file-pdf-o'></i> FINAL PROGRAM</a></li>
+                      <li className='star'><a href='https://api.iseser.com/doc/2023/webinar_link.pdf?e10' target='_blank' rel='noopener noreferrer'><i className='fa  fa-file-pdf-o'></i> WEBINAR LINK</a></li>
+                      <li className='star'><a href='../year/2023'><i className='fa fa-file-code-o'></i> WEB VERSION (ONLINE VIEW)</a></li>
                     </ul>
                   </div>
                 </div>

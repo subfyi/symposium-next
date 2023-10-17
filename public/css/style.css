@@ -930,7 +930,7 @@ a:hover {
     z-index: 1;
 }
 .slider-area .single-slide-item {
-    background-color: #eee;
+    background-color: #fff;
     background-position: center center;
     background-size: contain;
     color: #fff;
@@ -941,12 +941,10 @@ a:hover {
     background-repeat: no-repeat;
 }
 
-
-
 .slider-area .slide-bg1 {
-    background-image: url("../slider/banner1.png");
+    background-color: #b6dde7 !important;
+    background-image: url("../slider/banner3.png");
 }
-
 .slider-area .slide-bg2 {
     background-image: url("../slider/banner2.png");
 }
