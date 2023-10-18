@@ -1,15 +1,9 @@
+'use client';
 
 import PageHeader from "@/components/PageHeader";
 import Link from "next/link";
 import {Alert} from "reactstrap";
 
-const metaTitle = 'Announcement'
-export const metadata = {
-    title: metaTitle + ' | ISESER2023',
-    openGraph: {
-        title: metaTitle + ' | ISESER2023'
-    }
-}
 export default function Page() {
     return <>
         <PageHeader title='Announcement'/>
