@@ -1,5 +1,5 @@
 
-import PageHeader from '@/components/PageHeader'
+import { PageHeader } from '@/layout/Breadcrumb'
 import Link from 'next/link'
 
 const metaTitle = 'Announcement'

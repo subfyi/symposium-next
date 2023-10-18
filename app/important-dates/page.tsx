@@ -1,6 +1,6 @@
 'use client';
 
-import PageHeader from "@/components/PageHeader";
+import { PageHeader } from '@/layout/Breadcrumb'
 import Announcement from "@/components/Announcement";
 import Layout from "@/layout/Layout";
 

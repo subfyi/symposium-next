@@ -1,4 +1,4 @@
-import PageHeader from '@/components/PageHeader'
+import { PageHeader } from '@/layout/Breadcrumb'
 import Announcement from '@/components/Announcement'
 
 const metaTitle = 'Advisory Board'

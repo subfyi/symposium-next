@@ -1,6 +1,6 @@
 
-import PageHeader from "@/components/PageHeader";
 import Announcement from "@/components/Announcement";
+import { PageHeader } from '@/layout/Breadcrumb'
 
 const metaTitle = 'Honorary Committee'
 export const metadata = {
