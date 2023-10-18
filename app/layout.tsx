@@ -30,9 +30,9 @@ export default function RootLayout({ children }: {
       <meta charSet='UTF-8' />
       <meta name='viewport' content='width=device-width, initial-scale=1.0' />
       <meta httpEquiv='X-UA-Compatible' content='ie=edge' />
-      <link rel='icon' href='https://iseser.com/favicon.ico' />
+      <link rel='icon' href='/favicon.ico' />
     </head>
-    <body className={poppins.className + ' loaded'}>
+    <body className={poppins.className}>
     <Layout>
       {children}
     </Layout>

@@ -1,3 +1,4 @@
+// @ts-ignore
 import { AnnouncedPageClient } from "@/app/symposium-announced/client";
 
 
