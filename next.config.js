@@ -1,8 +1,17 @@
-const withOptimizedImages = require('next-optimized-images')
-module.exports = withOptimizedImages({
-  env: {
-    ENDPOINT: 'https://api.iseser.com',
-    DOMAIN: 'https://iseser.com'
-  },
-  trailingSlash: true
-})
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+    experimental: {
+        serverActions: true
+    },
+    env: {
+        ENDPOINT: 'https://api.iseser.com',
+        DOMAIN: 'https://iseser.com'
+    },
+    trailingSlash: true,
+    typescript: {
+        ignoreBuildErrors: true,
+    }
+};
+
+module.exports = nextConfig;
+

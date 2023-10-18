@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import Link from 'next/link'
+import Image from "next/image";
+import Logo from '../assets/images/v6_telifsiz-300x72.png';
 
 class NavOne extends Component {
   constructor() {
@@ -83,10 +85,10 @@ class NavOne extends Component {
             <div className='container'>
               <div className='row ostion-top-wrap'>
                 <div className='col-lg-5 col-sm-5 site-branding'>
-                  <div className='logo-action d-flex align-items-center'>
+                  <div className='logo-action d-flex align-items-center justify-content-between'>
                     <div className='ostion-logo'>
                       <Link href='/'>
-                        <img src='/images/v6_telifsiz-300x72.png' alt='Oxpitan' title='Oxpitan' />
+                        <Image src={Logo} alt='Oxpitan' title='Oxpitan' />
                       </Link>
                     </div>
                     <div className='header-btn ml-auto'>
@@ -164,7 +166,7 @@ class NavOne extends Component {
                 </li>
                 <li className='sidenav__item'><Link href='/conference-fee'>Symposium Fee</Link>
                 </li>
-                <li className='sidenav__item'><Link href='/contact'>contact</Link></li>
+                <li className='sidenav__item'><Link href='/components/Contact'>contact</Link></li>
               </ul>
               <ul className='side-social'>
 
