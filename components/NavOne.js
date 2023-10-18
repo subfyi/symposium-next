@@ -104,7 +104,7 @@ class NavOne extends Component {
                       <div className='navigation-top'>
                         <nav className='main-navigation'>
                           <ul>
-                            <li className='active'><Link href='/'>Home</Link>
+                            <li><Link href='/'>Home</Link>
                             </li>
                             <li><a href='#'>Comittiees</a>
                               <ul className='dropdown-menu-item'>
