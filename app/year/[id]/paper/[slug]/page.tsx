@@ -25,6 +25,5 @@ export default async function Page(
 
     var [datas] = await Promise.all([api('/api/submission/' + params?.slug)])
 
-
     return <PaperPageClient datas={datas} year={params?.id}/>;
 }
