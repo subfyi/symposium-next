@@ -102,7 +102,7 @@ export default function Page() {
                         <div>
                             <div className='section-heading'>
 
-                                <p className='section__meta'>2019 SYMPOSIUM</p>
+                                <p className='section__meta'><Link href='/year/2019'>2019 SYMPOSIUM</Link></p>
                                 <div className='section__desc'>
                                     <ul className='icon'>
                                         <li className='star'>
@@ -119,6 +119,10 @@ export default function Page() {
                                         <li className='star'>
                                             <a href='https://api.iseser.com/doc/2019/ISESER2019-PROCEEDING-BOOK.pdf?e140' target='_blank' rel='noopener noreferrer'><i className='fa  fa-file-pdf-o'></i> PROCEEDING BOOK
                                             </a></li>
+
+                                        <li className='star'>
+                                            <a href='../year/2019'><i className='fa fa-file-code-o'></i> ABSTRACTS ONLINE VIEW</a>
+                                        </li>
                                         <li className='star'>
                                             <a href='https://photos.app.goo.gl/H5feZQmP2oVDWyHSA' target='_blank' rel='noopener noreferrer'><i className='fa fa-external-link' aria-hidden='true'></i> PHOTOS </a>
                                         </li>
@@ -131,7 +135,7 @@ export default function Page() {
                         <div>
                             <div className='section-heading'>
 
-                                <p className='section__meta'>2018 SYMPOSIUM</p>
+                                <p className='section__meta'><Link href='/year/2018'>2018 SYMPOSIUM</Link></p>
                                 <div className='section__desc'>
                                     <ul className='icon'>
                                         <li className='star'>
@@ -145,6 +149,9 @@ export default function Page() {
                                         </li>
                                         <li className='star'>
                                             <a href='https://api.iseser.com/doc/2018/ISESER2018-ABSTRACT-BOOK.pdf' target='_blank'><i className='fa  fa-file-pdf-o'></i> ABSTRACT BOOK</a>
+                                        </li>
+                                        <li className='star'>
+                                            <a href='../year/2018'><i className='fa fa-file-code-o'></i> ABSTRACTS ONLINE VIEW</a>
                                         </li>
                                     </ul>
                                 </div>
