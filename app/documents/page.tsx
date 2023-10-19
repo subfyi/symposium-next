@@ -30,7 +30,6 @@ export default function Page() {
                   <li><a href='https://portal.iseser.com/'><i className='fa fa-external-link'></i> REGISTRATION</a></li>
                   <li><a href='https://api.iseser.com/doc/2023/ISESER2023_BANNER.pdf?e14' target='_blank'><i className='fa  fa-file-pdf-o'></i> BANNER</a></li>
                   <li><a href='https://api.iseser.com/doc/2023/ISESER2023-FINAL-PROGRAM.pdf?e14' target='_blank' rel='noopener noreferrer'><i className='fa  fa-file-pdf-o'></i> FINAL PROGRAM</a></li>
-                  <li><a href='https://api.iseser.com/doc/2023/webinar_link.pdf?e14' target='_blank' rel='noopener noreferrer'><i className='fa  fa-file-pdf-o'></i> WEBINAR LINK</a></li>
                   <li><a href='../year/2023'><i className='fa fa-file-code-o'></i> ABSTRACTS ONLINE VIEW</a></li>
                   {/*
                         <li className="star"><a href="https://api.iseser.com/doc/2023/ISESER2023-ABSTRACT-BOOK.pdf?e14" target="_blank" rel="noopener noreferrer"><i className="fa  fa-file-pdf-o"></i> ABSTRACT BOOK </a></li>
@@ -45,12 +44,6 @@ export default function Page() {
                 <ul>
                   <li><a href='https://url.sub.fyi/iseser2023a' target='_blank'><i className='fa  fa-link'></i> Hall A </a>(19-20 October 2023)</li>
                   <li><a href='https://url.sub.fyi/iseser2023b' target='_blank'><i className='fa  fa-link'></i> Hall B</a> (19-20 October 2023)</li>
-                </ul>
-                <hr />
-                <ul>
-                  <li><a href='https://api.iseser.com/doc/2023/webinar_guide.pdf' target='_blank'><i className='fa  fa-file-pdf-o'></i> WEBINAR GUIDE (PDF)</a></li>
-                  <li><a href='https://api.iseser.com/doc/2023/webinar_guide_tr.pdf' target='_blank'><i className='fa  fa-file-pdf-o'></i> WEBINAR GUIDE (TR - PDF)</a></li>
-                  <li><a href='https://api.iseser.com/doc/2023/webinar_guide.mp4' target='_blank'><i className='fa  fa-file-video-o'></i> WEBINAR GUIDE (TR - VIDEO)</a></li>
                 </ul>
                 <hr />
                 <ul>
