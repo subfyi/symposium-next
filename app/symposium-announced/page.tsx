@@ -26,7 +26,7 @@ export default function Page() {
             <div className=''>
               <div className='section-heading'>
 
-                <div className='section__desc'>
+                <div className='section__desc pb-1'>
                   <h1>Welcome to ISESER2023.</h1>
                 </div>
               </div>
@@ -37,15 +37,13 @@ export default function Page() {
           <div className='col-lg-12'>
 
             <p>
-              <b>Online Connection Links</b><br />
-              <b> Hall A (19 October 2023)</b><br />
-              <a href={'https://event.webinarjam.com/register/1455/wywr9b413'}> https://event.webinarjam.com/register/1455/wywr9b413</a>(14:30-18:00)<br />
-
-              Hall B (19-20 October 2023))<br />
-              <a href={'https://url.sub.fyi/iseser2023b'}> https://url.sub.fyi/iseser2023b</a><br />
-              Hall A (20 October 2023)<br />
-              <a href={'https://url.sub.fyi/iseser2023a'}> https://url.sub.fyi/iseser2023a</a><br />
+              <b>Online Connection Links</b>
             </p>
+            <ul>
+              <li><a href='https://event.webinarjam.com/register/1455/wywr9b413' target='_blank'><i className='fa  fa-link'></i> Hall A </a>(19 October 2023) - (14:30-18:00)</li>
+              <li><a href='https://url.sub.fyi/iseser2023b' target='_blank'><i className='fa  fa-link'></i> Hall B</a> (19-20 October 2023)</li>
+              <li><a href='https://url.sub.fyi/iseser2023a' target='_blank'><i className='fa  fa-link'></i> Hall A </a>(20 October 2023)</li>
+            </ul>
             <hr />
             <div className=''>
               <div className='section-heading'><p className='section__meta'>Full paper submission</p>
