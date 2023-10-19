@@ -28,7 +28,7 @@ export default function Page() {
                         <div>
                             <div className='section-heading'>
 
-                                <p className='section__meta'><Link href='#'>2023 SYMPOSIUM</Link></p>
+                                <p className='section__meta'><Link href='/year/2023'>2023 SYMPOSIUM</Link></p>
                                 <div className='section__desc'>
                                     <ul className='icon'>
                                         <li className='star'><a href='https://api.iseser.com/doc/2023/ISESER2023_BANNER.pdf?e14' target='_blank'><i className='fa  fa-file-pdf-o'></i> BANNER</a></li>
@@ -163,7 +163,7 @@ export default function Page() {
                         <div>
                             <div className='section-heading'>
 
-                                <p className='section__meta'>2017 SYMPOSIUM</p>
+                                <p className='section__meta'>2017 SYMPOSIUM (UCMOS)</p>
                                 <div className='section__desc'>
                                     <ul className='icon'>
                                         <li className='star'><a href='https://api.iseser.com/doc/2017/2nd-UCMOS.jpg' target='_blank'><i className='fa fa-file-image-o' aria-hidden='true'></i> BANNER</a></li>
@@ -180,7 +180,7 @@ export default function Page() {
                     <div className='col-md-6 mt-3'>
                         <div>
                             <div className='section-heading'>
-                                <p className='section__meta'>2016 SYMPOSIUM</p>
+                                <p className='section__meta'>2016 SYMPOSIUM (UCMOS)</p>
                                 <div className='section__desc'>
                                     <ul className='icon'>
                                         <li className='star'><a href='https://api.iseser.com/doc/2016/afis4.jpg' target='_blank'><i className='fa fa-file-image-o' aria-hidden='true'></i> BANNER </a></li>
