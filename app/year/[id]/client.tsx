@@ -47,18 +47,18 @@ export default function YearPageClient({ orals, posters, year }: any) {
                     </tr>
                     </thead>
                     <tbody>
-                    {orals.data.map((row, i) => <>
-                      <tr key={row.id}>
+                    {orals.data.map((datas, i) => <>
+                      <tr key={datas.id}>
                         <td><b>O{i + 1}</b></td>
-                        <td><a className={'text-uppercase'} href={'/year/' + year + '/paper/' + (row.id)}> {row.en_title}</a></td>
+                        <td><a className={'text-uppercase'} href={'/year/' + year + '/paper/' + (datas.id)}> {datas.en_title}</a></td>
                       </tr>
                       <tr>
-                        <td colSpan='2' className={'text-capitalize'}>
-                          {row.authors.map((author, index) => (
+                        <td colSpan={2} className={'text-capitalize'}>
+                          {datas.authors.map((author, index) => (
                             <span key={index} className='text-capitalize'>
-                                  {author.first_name} {author.last_name}
-                              {index < row.authors.length - 1 && (
-                                <span><sup>{index + 1}</sup>,{' '}</span>)}</span>
+                                  {author.first_name} {author.last_name}<sup>{index + 1}</sup>
+                              {index < datas.authors.length - 1 && (
+                                <span>,{' '}</span>)}</span>
                           ))}
                         </td>
                       </tr>
@@ -95,18 +95,18 @@ export default function YearPageClient({ orals, posters, year }: any) {
                   </tr>
                   </thead>
                   <tbody>
-                  {posters.data.map((row, i) => <>
-                    <tr key={row.id}>
+                  {posters.data.map((datas, i) => <>
+                    <tr key={datas.id}>
                       <td><b>P{i + 1}</b></td>
-                      <td><a className={'text-uppercase'} href={'/year/' + year + '/paper/' + (row.id)}> {row.en_title}</a></td>
+                      <td><a className={'text-uppercase'} href={'/year/' + year + '/paper/' + (datas.id)}> {datas.en_title}</a></td>
                     </tr>
                     <tr>
-                      <td colSpan='2'>
-                        {row.authors.map((author, index) => (
+                      <td colSpan={2}>
+                        {datas.authors.map((author, index) => (
                           <span key={index} className='text-capitalize'>
-                                  {author.first_name} {author.last_name}
-                            {index < row.authors.length - 1 && (
-                              <span><sup>{index + 1}</sup>,{' '}</span>)}</span>
+                                  {author.first_name} {author.last_name}<sup>{index + 1}</sup>
+                            {index < datas.authors.length - 1 && (
+                              <span>,{' '}</span>)}</span>
                         ))}
                       </td>
                     </tr>

@@ -29,14 +29,14 @@ export default function PaperPageClient({ datas, year }: any) {
                     <span className=''><a href='#'>Author(s):{' '}</a></span>
                     {datas.authors.map((author, index) => (
                       <span key={index} className='text-capitalize'>
-                                  {author.first_name} {author.last_name}
+                                  {author.first_name} {author.last_name}<sup>{index + 1}</sup>
                         {index < datas.authors.length - 1 && (
-                          <span><sup>{index + 1}</sup>,{' '}</span>)}</span>
+                          <span>,{' '}</span>)}</span>
                     ))}
                     <br />
                     <ul className='small'>
                       {datas.authors.map((author, index) =>
-                        <li><sup>{index + 1}.</sup> {author.adress} ,
+                        <li><sup>{index + 1}.</sup> {author.adress}
                         </li>
                       )}
                     </ul>
