@@ -1,4 +1,3 @@
-
 import { PageHeader } from '@/layout/Breadcrumb'
 import Link from 'next/link'
 
@@ -28,14 +27,26 @@ export default function Page() {
               <div className='section-heading'>
 
                 <div className='section__desc'>
-                  Welcome to ISESER2023.
+                  <h1>Welcome to ISESER2023.</h1>
                 </div>
               </div>
             </div>
           </div>
-
+          <hr />
 
           <div className='col-lg-12'>
+
+            <p>
+              <b>Online Connection Links</b><br />
+              <b> Hall A (19 October 2023)</b><br />
+              <a href={'https://event.webinarjam.com/register/1455/wywr9b413'}> https://event.webinarjam.com/register/1455/wywr9b413</a>(14:30-18:00)<br />
+
+              Hall B (19-20 October 2023))<br />
+              <a href={'https://url.sub.fyi/iseser2023b'}> https://url.sub.fyi/iseser2023b</a><br />
+              Hall A (20 October 2023)<br />
+              <a href={'https://url.sub.fyi/iseser2023a'}> https://url.sub.fyi/iseser2023a</a><br />
+            </p>
+            <hr />
             <div className=''>
               <div className='section-heading'><p className='section__meta'>Full paper submission</p>
 
