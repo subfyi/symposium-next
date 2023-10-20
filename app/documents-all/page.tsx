@@ -25,7 +25,7 @@ export default function Page() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-6 mt-3'>
+                    <div className='col-md-6'>
                         <div>
                             <div className='section-heading'>
 
@@ -40,7 +40,7 @@ export default function Page() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-6 mt-3'>
+                    <div className='col-md-6'>
                         <div>
                             <div className='section-heading'>
 
@@ -58,7 +58,7 @@ export default function Page() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-6 mt-3'>
+                    <div className='col-md-6'>
                         <div>
                             <div className='section-heading'>
 
@@ -87,7 +87,7 @@ export default function Page() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-6 mt-3'>
+                    <div className='col-md-6'>
                         <div>
                             <div className='section-heading'>
 
@@ -120,7 +120,7 @@ export default function Page() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-6 mt-3'>
+                    <div className='col-md-6'>
                         <div>
                             <div className='section-heading'>
 
@@ -147,8 +147,11 @@ export default function Page() {
                             </div>
                         </div>
                     </div>
+                </div>
+                <hr />
+                <div className='row'>
 
-                    <div className='col-md-6 mt-3'>
+                    <div className='col-md-6'>
                         <div>
                             <div className='section-heading'>
 
@@ -157,8 +160,7 @@ export default function Page() {
                                     <ul className='icon'>
                                         <li className='star'><a href='https://api.iseser.com/doc/2017/2nd-UCMOS.jpg' target='_blank'><i className='fa fa-file-image-o' aria-hidden='true'></i> BANNER</a></li>
                                         <li className='star'><a href='https://api.iseser.com/doc/2017/Duyuru-Konya1-5.pdf' target='_blank'><i className='fa  fa-file-pdf-o'></i> ANNOUNCEMENT</a></li>
-                                        <li className='star'><a href='https://api.iseser.com/doc/2017/UCMOS_KONGRE_PROGRAMI.pdf' target='_blank'><i className='fa fa-file-pdf-o' aria-hidden='true'></i> FINAL
-                                            PROGRAM</a></li>
+                                        <li className='star'><a href='https://api.iseser.com/doc/2017/UCMOS_KONGRE_PROGRAMI.pdf' target='_blank'><i className='fa fa-file-pdf-o' aria-hidden='true'></i> FINAL PROGRAM</a></li>
                                         <li className='star'><a href='https://api.iseser.com/doc/2017/ISESER2017-PROCEEDING-BOOK.pdf' target='_blank'><i className='fa  fa-file-pdf-o'></i> PROCEEDING BOOK</a></li>
                                     </ul>
                                 </div>
@@ -166,7 +168,7 @@ export default function Page() {
                         </div>
                     </div>
 
-                    <div className='col-md-6 mt-3'>
+                    <div className='col-md-6'>
                         <div>
                             <div className='section-heading'>
                                 <p className='section__meta'>2016 SYMPOSIUM (UCMOS)</p>
@@ -174,10 +176,7 @@ export default function Page() {
                                     <ul className='icon'>
                                         <li className='star'><a href='https://api.iseser.com/doc/2016/afis4.jpg' target='_blank'><i className='fa fa-file-image-o' aria-hidden='true'></i> BANNER </a></li>
                                         <li className='star'><a href='https://api.iseser.com/doc/2016/Duyuru-Konya.pdf' target='_blank'><i className='fa  fa-file-pdf-o'></i> ANNOUNCEMENT</a></li>
-                                        <li className='star'><a href='https://api.iseser.com/doc/2016/poster-programi-son.pdf' target='_blank'><i className='fa fa-file-pdf-o' aria-hidden='true'></i> POSTER
-                                            PRESENTATION PROGRAM</a></li>
-                                        <li className='star'><a href='https://api.iseser.com/doc/2016/sozlu-sunum-programi-son.pdf' target='_blank'><i className='fa fa-file-pdf-o' aria-hidden='true'></i> ORAL
-                                            PRESENTATION PROGRAM </a></li>
+                                        <li className='star'><a href='https://api.iseser.com/doc/2016/UCMOS_KONGRE_PROGRAMI.pdf' target='_blank'><i className='fa fa-file-pdf-o' aria-hidden='true'></i> FINAL PROGRAM</a></li>
                                         <li className='star'><a href='https://api.iseser.com/doc/2016/ISESER2016-PROCEEDING-BOOK.pdf' target='_blank'><i className='fa fa-file-pdf-o'></i> PROCEEDING BOOK</a></li>
                                     </ul>
                                 </div>
