@@ -39,14 +39,6 @@ export default function Page() {
                 </ul>
                 <hr />
 
-                <p>
-                  <b>Online Connection Links</b>
-                </p>
-                <ul>
-                  <li><a href='https://url.sub.fyi/iseser2023a' target='_blank'><i className='fa  fa-link'></i> Hall A </a>(19-20 October 2023)</li>
-                  <li><a href='https://url.sub.fyi/iseser2023b' target='_blank'><i className='fa  fa-link'></i> Hall B</a> (19-20 October 2023)</li>
-                </ul>
-                <hr />
                 <ul>
                   <li><a href='https://api.iseser.com/doc/2023/ISESER2023_Abstract_Template.docx' target='_blank'><i
                     className='fa fa-file-word-o'></i> Abstract Template</a>

@@ -36,13 +36,6 @@ export default function Page() {
                                         <li className='star'><a href='https://api.iseser.com/doc/2023/ISESER2023-FINAL-PROGRAM.pdf?e16' target='_blank' rel='noopener noreferrer'><i className='fa  fa-file-pdf-o'></i> FINAL PROGRAM</a></li>
                                         <li className='star'><a href='../year/2023'><i className='fa fa-file-code-o'></i> ABSTRACTS ONLINE VIEW</a></li>
                                     </ul>
-                                    <p>
-                                        <b>Online Connection Links</b>
-                                    </p>
-                                    <ul>
-                                        <li><a href='https://url.sub.fyi/iseser2023a' target='_blank'><i className='fa  fa-link'></i> Hall A </a>(19-20 October 2023)</li>
-                                        <li><a href='https://url.sub.fyi/iseser2023b' target='_blank'><i className='fa  fa-link'></i> Hall B</a> (19-20 October 2023)</li>
-                                    </ul>
                                 </div>
                             </div>
                         </div>

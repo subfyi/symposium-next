@@ -37,14 +37,6 @@ export default function Page() {
 
           <div className='col-lg-12'>
 
-            <p>
-              <b>Online Connection Links</b>
-            </p>
-            <ul>
-              <li><a href='https://url.sub.fyi/iseser2023a' target='_blank'><i className='fa  fa-link'></i> Hall A </a>(19-20 October 2023)</li>
-              <li><a href='https://url.sub.fyi/iseser2023b' target='_blank'><i className='fa  fa-link'></i> Hall B</a> (19-20 October 2023)</li>
-            </ul>
-            <hr />
             <div className=''>
               <div className='section-heading'><p className='section__meta'>Full paper submission</p>
 
