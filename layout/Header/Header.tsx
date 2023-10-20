@@ -80,6 +80,16 @@ export default function Header() {
                         <i className='fa fa-facebook'></i>
                       </a>
                     </li>
+                    <li>
+                      <a target='_blank' href='https://www.youtube.com/@iseser'>
+                        <i className='fa fa-youtube'></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a target='_blank' href='https://www.instagram.com/iseser2023'>
+                        <i className='fa fa-instagram'></i>
+                      </a>
+                    </li>
                   </ul>
                 </div>
               </div>
