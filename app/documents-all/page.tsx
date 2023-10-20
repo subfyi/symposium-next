@@ -3,7 +3,7 @@ import { PageHeader } from '@/layout/Breadcrumb'
 import Link from "next/link";
 import Announcement from "@/components/Announcement";
 
-const metaTitle = 'All ISESER Documents'
+const metaTitle = 'ISESER Documents Archives'
 export const metadata = {
     title: metaTitle + ' | ISESER2023',
     openGraph: {
@@ -12,14 +12,14 @@ export const metadata = {
 }
 export default function Page() {
     return <>
-        <PageHeader title='All ISESER Documents'/>
+        <PageHeader title='ISESER Documents Archives'/>
         <section className='about-area'>
             <div className='container'>
                 <div className='row'>
                     <div className='col-lg-12'>
                         <div>
                             <div className='section-heading'>
-                                <h2 className='section__title'>All ISESER Documents
+                                <h2 className='section__title'>ISESER Documents Archives
                                 </h2>
                             </div>
                         </div>
@@ -28,14 +28,13 @@ export default function Page() {
                         <div>
                             <div className='section-heading'>
 
-                                <p className='section__meta'><Link href='/year/2023'>2023 SYMPOSIUM</Link></p>
+                                <p className='section__meta'><Link href='/year/2023'>2023 SYMPOSIUM (ISESER)</Link></p>
                                 <div className='section__desc'>
                                     <ul className='icon'>
                                         <li className='star'><a href='https://api.iseser.com/doc/2023/ISESER2023_BANNER.pdf?e14' target='_blank'><i className='fa  fa-file-pdf-o'></i> BANNER</a></li>
                                         <li className='star'><a href='https://api.iseser.com/doc/2023/ISESER2023-FINAL-PROGRAM.pdf?e14' target='_blank' rel='noopener noreferrer'><i className='fa  fa-file-pdf-o'></i> FINAL PROGRAM</a></li>
                                         <li className='star'><a href='../year/2023'><i className='fa fa-file-code-o'></i> ABSTRACTS ONLINE VIEW</a></li>
                                     </ul>
-
                                     <p>
                                         <b>Online Connection Links</b>
                                     </p>
@@ -51,7 +50,7 @@ export default function Page() {
                         <div>
                             <div className='section-heading'>
 
-                                <p className='section__meta'><Link href='/year/2021'>2021 SYMPOSIUM</Link></p>
+                                <p className='section__meta'><Link href='/year/2021'>2021 SYMPOSIUM (ISESER)</Link></p>
                                 <div className='section__desc'>
                                     <ul className='icon'>
                                         <li className='star'>
@@ -80,7 +79,7 @@ export default function Page() {
                         <div>
                             <div className='section-heading'>
 
-                                <p className='section__meta'><Link href='/year/2020'>2020 SYMPOSIUM</Link></p>
+                                <p className='section__meta'><Link href='/year/2020'>2020 SYMPOSIUM (ISESER)</Link></p>
                                 <div className='section__desc'>
                                     <ul className='icon'>
                                         <li className='star'>
@@ -109,7 +108,7 @@ export default function Page() {
                         <div>
                             <div className='section-heading'>
 
-                                <p className='section__meta'><Link href='/year/2019'>2019 SYMPOSIUM</Link></p>
+                                <p className='section__meta'><Link href='/year/2019'>2019 SYMPOSIUM (ISESER)</Link></p>
                                 <div className='section__desc'>
                                     <ul className='icon'>
                                         <li className='star'>
@@ -142,7 +141,7 @@ export default function Page() {
                         <div>
                             <div className='section-heading'>
 
-                                <p className='section__meta'><Link href='/year/2018'>2018 SYMPOSIUM</Link></p>
+                                <p className='section__meta'><Link href='/year/2018'>2018 SYMPOSIUM (ISESER)</Link></p>
                                 <div className='section__desc'>
                                     <ul className='icon'>
                                         <li className='star'>

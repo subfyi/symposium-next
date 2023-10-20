@@ -10,12 +10,12 @@ export default function Announcement() {
         <div className='row align-middle align-content-center text-center'>
           <div className='col-lg-6'>
             <div className='section-heading mixer-heading'>
-              <Link href='/symposium-announced' className='theme-btn'>2023 Announcement</Link>
+              <Link href='/documents-all' className='theme-btn'> Documents Archives</Link>
             </div>
           </div>
           <div className='col-lg-6'>
             <div className='section-heading mixer-heading'>
-              <Link href='/documents-all' className='theme-btn'>Documents All</Link>
+              <Link href='/symposium-announced' className='theme-btn'>2023 Announcement</Link>
             </div>
           </div>
         </div>
