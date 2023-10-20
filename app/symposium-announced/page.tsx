@@ -1,5 +1,6 @@
 import { PageHeader } from '@/layout/Breadcrumb'
 import Link from 'next/link'
+import Enlightenment from '@/components/Enlightenment'
 
 const metaTitle = 'Announcement'
 export const metadata = {
@@ -93,6 +94,7 @@ export default function Page() {
         </div>
       </div>
     </section>
+    <Enlightenment />
   </>
 }
 

@@ -73,7 +73,6 @@ export default function Header() {
                     <li className='action__text'>
                       <Link href='/documents-all'>Archives</Link>
                     </li>
-
                     <UserLogin />
                     <li>
                       <a target='_blank' href='https://www.facebook.com/iseser/'>
@@ -289,10 +288,10 @@ function UserLogin() {
 
   return <>
     <li className='action__text'>
-      <a href='https://portal.iseser.com/login' target={"_blank"} >Login</a>
+      <a href='https://portal.iseser.com/login' target={'_blank'}>Login</a>
     </li>
     <li className='action__text'>
-      <a href='https://portal.iseser.com/register' target={"_blank"} >register</a>
+      <a href='https://portal.iseser.com/register' target={'_blank'}>register</a>
     </li>
   </>
 }
