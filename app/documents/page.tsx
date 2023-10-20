@@ -1,5 +1,6 @@
 import { PageHeader, PageHeaderEvent } from '@/layout/Breadcrumb'
 import Announcement from '@/components/Announcement'
+import Enlightenment from '@/components/Enlightenment'
 
 const metaTitle = 'Documents'
 export const metadata = {
@@ -28,12 +29,12 @@ export default function Page() {
 
                 <ul className='icon'>
                   <li><a href='https://portal.iseser.com/'><i className='fa fa-external-link'></i> REGISTRATION</a></li>
-                  <li><a href='https://api.iseser.com/doc/2023/ISESER2023_BANNER.pdf?e14' target='_blank'><i className='fa  fa-file-pdf-o'></i> BANNER</a></li>
-                  <li><a href='https://api.iseser.com/doc/2023/ISESER2023-FINAL-PROGRAM.pdf?e14' target='_blank' rel='noopener noreferrer'><i className='fa  fa-file-pdf-o'></i> FINAL PROGRAM</a></li>
+                  <li><a href='https://api.iseser.com/doc/2023/ISESER2023_BANNER.pdf?e15' target='_blank'><i className='fa  fa-file-pdf-o'></i> BANNER</a></li>
+                  <li><a href='https://api.iseser.com/doc/2023/ISESER2023-FINAL-PROGRAM.pdf?e15' target='_blank' rel='noopener noreferrer'><i className='fa  fa-file-pdf-o'></i> FINAL PROGRAM</a></li>
                   <li><a href='../year/2023'><i className='fa fa-file-code-o'></i> ABSTRACTS ONLINE VIEW</a></li>
                   {/*
-                        <li className="star"><a href="https://api.iseser.com/doc/2023/ISESER2023-ABSTRACT-BOOK.pdf?e14" target="_blank" rel="noopener noreferrer"><i className="fa  fa-file-pdf-o"></i> ABSTRACT BOOK </a></li>
-                        <li className="star"><a href="https://api.iseser.com/doc/2023/ISESER2023-PROCEEDING-BOOK.pdf?e14" target="_blank" rel="noopener noreferrer"><i className="fa  fa-file-pdf-o"></i> PROCEEDING BOOK</a></li>
+                        <li className="star"><a href="https://api.iseser.com/doc/2023/ISESER2023-ABSTRACT-BOOK.pdf?e15" target="_blank" rel="noopener noreferrer"><i className="fa  fa-file-pdf-o"></i> ABSTRACT BOOK </a></li>
+                        <li className="star"><a href="https://api.iseser.com/doc/2023/ISESER2023-PROCEEDING-BOOK.pdf?e15" target="_blank" rel="noopener noreferrer"><i className="fa  fa-file-pdf-o"></i> PROCEEDING BOOK</a></li>
                        */}
                 </ul>
                 <hr />
@@ -65,15 +66,7 @@ export default function Page() {
         </div>
       </div>
     </section>
-    <div className={"container"}>
-      <div className={"row"}>
-        <div className={"col-lg-12 small"}><small>
-            Enlightenment: The symposium reserves the right to record and share the posters and oral presentations that are presented.
-            Individuals and institutions that provide the presentation will be considered to have acknowledged and accepted this circumstance.
-        </small>
-        </div>
-      </div>
-    </div>
+    <Enlightenment />
     <Announcement />
   </>
 }
