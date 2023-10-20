@@ -24,8 +24,8 @@ export default async function Page(
 ) {
 
   var [orals, posters] = await Promise.all([
-    api('/api/submission?e16=&page=1&itemPerPage=-1&sort=id&desc=false&orals=1&year=' + params?.id),
-    api('/api/submission?e16=&page=1&itemPerPage=-1&sort=id&desc=false&posters=1&year=' + params?.id)
+    api('/api/submission?e17=&page=1&itemPerPage=-1&sort=id&desc=false&orals=1&year=' + params?.id),
+    api('/api/submission?e17=&page=1&itemPerPage=-1&sort=id&desc=false&posters=1&year=' + params?.id)
   ])
 
   return <YearPageClient orals={orals} posters={posters} year={params?.id} />

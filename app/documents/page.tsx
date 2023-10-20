@@ -29,12 +29,12 @@ export default function Page() {
 
                 <ul className='icon'>
                   <li><a href='https://portal.iseser.com/'><i className='fa fa-external-link'></i> REGISTRATION</a></li>
-                  <li><a href='https://api.iseser.com/doc/2023/ISESER2023_BANNER.pdf?e16' target='_blank'><i className='fa  fa-file-pdf-o'></i> BANNER</a></li>
-                  <li><a href='https://api.iseser.com/doc/2023/ISESER2023-FINAL-PROGRAM.pdf?e16' target='_blank' rel='noopener noreferrer'><i className='fa  fa-file-pdf-o'></i> FINAL PROGRAM</a></li>
+                  <li><a href='https://api.iseser.com/doc/2023/ISESER2023_BANNER.pdf?e17' target='_blank'><i className='fa  fa-file-pdf-o'></i> BANNER</a></li>
+                  <li><a href='https://api.iseser.com/doc/2023/ISESER2023-FINAL-PROGRAM.pdf?e17' target='_blank' rel='noopener noreferrer'><i className='fa  fa-file-pdf-o'></i> FINAL PROGRAM</a></li>
                   <li><a href='../year/2023'><i className='fa fa-file-code-o'></i> ABSTRACTS ONLINE VIEW</a></li>
                   {/*
-                        <li className="star"><a href="https://api.iseser.com/doc/2023/ISESER2023-ABSTRACT-BOOK.pdf?e16" target="_blank" rel="noopener noreferrer"><i className="fa  fa-file-pdf-o"></i> ABSTRACT BOOK </a></li>
-                        <li className="star"><a href="https://api.iseser.com/doc/2023/ISESER2023-PROCEEDING-BOOK.pdf?e16" target="_blank" rel="noopener noreferrer"><i className="fa  fa-file-pdf-o"></i> PROCEEDING BOOK</a></li>
+                        <li className="star"><a href="https://api.iseser.com/doc/2023/ISESER2023-ABSTRACT-BOOK.pdf?e17" target="_blank" rel="noopener noreferrer"><i className="fa  fa-file-pdf-o"></i> ABSTRACT BOOK </a></li>
+                        <li className="star"><a href="https://api.iseser.com/doc/2023/ISESER2023-PROCEEDING-BOOK.pdf?e17" target="_blank" rel="noopener noreferrer"><i className="fa  fa-file-pdf-o"></i> PROCEEDING BOOK</a></li>
                        */}
                 </ul>
                 <hr />
