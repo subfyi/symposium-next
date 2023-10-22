@@ -18,6 +18,9 @@ export const metadata = {
     siteName: 'ISESER2023',
     locale: 'en-US',
     type: 'website'
+  },
+  verification: {
+    yandex: 'f53bd192ca8c76d5'
   }
 }
 

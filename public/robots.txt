@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://iseser.com/sitemap.xml
