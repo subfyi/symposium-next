@@ -11,51 +11,51 @@ export async function GET(request, { params }) {
 
   if (year === 'document' && +page === 1) {
     return getServerSideSitemap([
-      { url: apipoint + 'doc/2023/ISESER2023_BANNER.pdf' },
-      { url: apipoint + 'doc/2023/ISESER2023-FINAL-PROGRAM.pdf' },
-      { url: apipoint + 'doc/2021/ISESER2021_BANNER.pdf' },
-      { url: apipoint + 'doc/2021/ISESER2021_BROCHURE.pdf' },
-      { url: apipoint + 'doc/2021/ISESER2021-FINAL-PROGRAM.pdf' },
-      { url: apipoint + 'doc/2021/ISESER2021-ABSTRACT-BOOK.pdf' },
-      { url: apipoint + 'doc/2021/ISESER2021-PROCEEDING-BOOK.pdf' },
-      { url: apipoint + 'doc/2020/ISESER2020_BANNER.pdf' },
-      { url: apipoint + 'doc/2020/ISESER2020_BROCHURE.pdf' },
-      { url: apipoint + 'doc/2020/ISESER2020-FINAL-PROGRAM.pdf' },
-      { url: apipoint + 'doc/2020/ISESER2020-ABSTRACT-BOOK.pdf' },
-      { url: apipoint + 'doc/2020/ISESER2020-PROCEEDING-BOOK.pdf' },
-      { url: apipoint + 'doc/2019/ISESER2019_BANNER.pdf' },
-      { url: apipoint + 'doc/2019/ISESER2019-BROCHURE.pdf' },
-      { url: apipoint + 'doc/2019/ISESER2019-FINAL-PROGRAM.pdf' },
-      { url: apipoint + 'doc/2019/ISESER2019-ABSTRACT-BOOK.pdf' },
-      { url: apipoint + 'doc/2019/ISESER2019-PROCEEDING-BOOK.pdf' },
-      { url: apipoint + 'doc/2018/ISESER2018-banner.png' },
-      { url: apipoint + 'doc/2018/ISESER2018_Brochure.pdf' },
-      { url: apipoint + 'doc/2018/ISESER2018-FINAL-PROGRAM.pdf' },
-      { url: apipoint + 'doc/2018/ISESER2018-ABSTRACT-BOOK.pdf' },
-      { url: apipoint + 'doc/2017/2nd-UCMOS.jpg' },
-      { url: apipoint + 'doc/2017/Duyuru-Konya1-5.pdf' },
-      { url: apipoint + 'doc/2017/UCMOS_KONGRE_PROGRAMI.pdf' },
-      { url: apipoint + 'doc/2017/ISESER2017-PROCEEDING-BOOK.pdf' },
-      { url: apipoint + 'doc/2016/afis4.jpg' },
-      { url: apipoint + 'doc/2016/Duyuru-Konya.pdf' },
-      { url: apipoint + 'doc/2016/ISESER2016-PROCEEDING-BOOK.pdf' },
-      { url: apipoint + 'doc/2016/UCMOS_KONGRE_PROGRAMI.pdf' },
+      { loc: apipoint + 'doc/2023/ISESER2023_BANNER.pdf' },
+      { loc: apipoint + 'doc/2023/ISESER2023-FINAL-PROGRAM.pdf' },
+      { loc: apipoint + 'doc/2021/ISESER2021_BANNER.pdf' },
+      { loc: apipoint + 'doc/2021/ISESER2021_BROCHURE.pdf' },
+      { loc: apipoint + 'doc/2021/ISESER2021-FINAL-PROGRAM.pdf' },
+      { loc: apipoint + 'doc/2021/ISESER2021-ABSTRACT-BOOK.pdf' },
+      { loc: apipoint + 'doc/2021/ISESER2021-PROCEEDING-BOOK.pdf' },
+      { loc: apipoint + 'doc/2020/ISESER2020_BANNER.pdf' },
+      { loc: apipoint + 'doc/2020/ISESER2020_BROCHURE.pdf' },
+      { loc: apipoint + 'doc/2020/ISESER2020-FINAL-PROGRAM.pdf' },
+      { loc: apipoint + 'doc/2020/ISESER2020-ABSTRACT-BOOK.pdf' },
+      { loc: apipoint + 'doc/2020/ISESER2020-PROCEEDING-BOOK.pdf' },
+      { loc: apipoint + 'doc/2019/ISESER2019_BANNER.pdf' },
+      { loc: apipoint + 'doc/2019/ISESER2019-BROCHURE.pdf' },
+      { loc: apipoint + 'doc/2019/ISESER2019-FINAL-PROGRAM.pdf' },
+      { loc: apipoint + 'doc/2019/ISESER2019-ABSTRACT-BOOK.pdf' },
+      { loc: apipoint + 'doc/2019/ISESER2019-PROCEEDING-BOOK.pdf' },
+      { loc: apipoint + 'doc/2018/ISESER2018-banner.png' },
+      { loc: apipoint + 'doc/2018/ISESER2018_Brochure.pdf' },
+      { loc: apipoint + 'doc/2018/ISESER2018-FINAL-PROGRAM.pdf' },
+      { loc: apipoint + 'doc/2018/ISESER2018-ABSTRACT-BOOK.pdf' },
+      { loc: apipoint + 'doc/2017/2nd-UCMOS.jpg' },
+      { loc: apipoint + 'doc/2017/Duyuru-Konya1-5.pdf' },
+      { loc: apipoint + 'doc/2017/UCMOS_KONGRE_PROGRAMI.pdf' },
+      { loc: apipoint + 'doc/2017/ISESER2017-PROCEEDING-BOOK.pdf' },
+      { loc: apipoint + 'doc/2016/afis4.jpg' },
+      { loc: apipoint + 'doc/2016/Duyuru-Konya.pdf' },
+      { loc: apipoint + 'doc/2016/ISESER2016-PROCEEDING-BOOK.pdf' },
+      { loc: apipoint + 'doc/2016/UCMOS_KONGRE_PROGRAMI.pdf' },
     ])
   }
 
   if (year === 'global' && +page === 1) {
     return getServerSideSitemap([
-      { url: endpoint },
-      { url: endpoint + 'adviser-commission/' },
-      { url: endpoint + 'conference-fee/' },
-      { url: endpoint + 'contact/' },
-      { url: endpoint + 'documents/' },
-      { url: endpoint + 'documents-all/' },
-      { url: endpoint + 'honorary-committee' },
-      { url: endpoint + 'science-commission' },
-      { url: endpoint + 'sponsors' },
-      { url: endpoint + 'threads' },
-      { url: endpoint + 'symposium-announced' },
+      { loc: endpoint },
+      { loc: endpoint + 'adviser-commission/' },
+      { loc: endpoint + 'conference-fee/' },
+      { loc: endpoint + 'contact/' },
+      { loc: endpoint + 'documents/' },
+      { loc: endpoint + 'documents-all/' },
+      { loc: endpoint + 'honorary-committee' },
+      { loc: endpoint + 'science-commission' },
+      { loc: endpoint + 'sponsors' },
+      { loc: endpoint + 'threads' },
+      { loc: endpoint + 'symposium-announced' },
     ])
   }
 
@@ -66,9 +66,9 @@ export async function GET(request, { params }) {
     notFound()
 
   return getServerSideSitemap([
-      { url: `${endpoint}year/${year}/` },
-      ...data.data.map(a => ({ url: `${endpoint}/year/${year}/paper/${a.id}/` })),
-      ...data2.data.map(a => ({ url: `${endpoint}/year/${year}/paper/${a.id}/` }))
+      { loc: `${endpoint}year/${year}/` },
+      ...data.data.map(a => ({ loc: `${endpoint}/year/${year}/paper/${a.id}/` })),
+      ...data2.data.map(a => ({ loc: `${endpoint}/year/${year}/paper/${a.id}/` }))
     ]
   )
 }
