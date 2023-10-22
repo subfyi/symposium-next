@@ -2,7 +2,7 @@ import { getServerSideSitemap } from 'next-sitemap'
 import api from '../../../../../api'
 import { notFound } from 'next/navigation'
 
-const endpoint = 'https://iseser.com/'
+const endpoint = 'https://iseser.com'
 const apipoint = 'https://api.iseser.com/'
 
 export async function GET(request, { params }) {
@@ -45,17 +45,17 @@ export async function GET(request, { params }) {
 
   if (year === 'global' && +page === 1) {
     return getServerSideSitemap([
-      { loc: endpoint },
-      { loc: endpoint + 'adviser-commission/' },
-      { loc: endpoint + 'conference-fee/' },
-      { loc: endpoint + 'contact/' },
-      { loc: endpoint + 'documents/' },
-      { loc: endpoint + 'documents-all/' },
-      { loc: endpoint + 'honorary-committee' },
-      { loc: endpoint + 'science-commission' },
-      { loc: endpoint + 'sponsors' },
-      { loc: endpoint + 'threads' },
-      { loc: endpoint + 'symposium-announced' },
+      { loc: endpoint + '/' },
+      { loc: endpoint + '/adviser-commission/' },
+      { loc: endpoint + '/conference-fee/' },
+      { loc: endpoint + '/contact/' },
+      { loc: endpoint + '/documents/' },
+      { loc: endpoint + '/documents-all/' },
+      { loc: endpoint + '/honorary-committee' },
+      { loc: endpoint + '/science-commission' },
+      { loc: endpoint + '/sponsors' },
+      { loc: endpoint + '/threads' },
+      { loc: endpoint + '/symposium-announced' },
     ])
   }
 
