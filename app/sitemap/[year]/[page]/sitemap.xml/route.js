@@ -66,7 +66,7 @@ export async function GET(request, { params }) {
     notFound()
 
   return getServerSideSitemap([
-      { loc: `${endpoint}year/${year}/` },
+      { loc: `${endpoint}/year/${year}/` },
       ...data.data.map(a => ({ loc: `${endpoint}/year/${year}/paper/${a.id}/` })),
       ...data2.data.map(a => ({ loc: `${endpoint}/year/${year}/paper/${a.id}/` }))
     ]
