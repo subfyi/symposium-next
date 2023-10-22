@@ -28,6 +28,7 @@
     "react-router-dom": "^6.16.0",
     "reactstrap": "^9.2.0",
     "remixicon": "^3.5.0",
+    "swiper": "^5.3.8",
     "typescript": "5.2.2"
   },
   "devDependencies": {
