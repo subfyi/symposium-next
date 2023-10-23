@@ -59,8 +59,8 @@ export async function GET(request, { params }) {
     ])
   }
 
-  const data = await api(`/api/submission?e18=&page=1&itemPerPage=-1&sort=id&desc=false&orals=1&year=${year}`)
-  const data2 = await api(`/api/submission?e18=&page=1&itemPerPage=-1&sort=id&desc=false&posters=1&year=${year}`)
+  const data = await api(`/api/submission?e19=&page=1&itemPerPage=-1&sort=id&desc=false&orals=1&year=${year}`)
+  const data2 = await api(`/api/submission?e19=&page=1&itemPerPage=-1&sort=id&desc=false&posters=1&year=${year}`)
 
   if (data.data.length === 0 && data2.data.length === 0)
     notFound()

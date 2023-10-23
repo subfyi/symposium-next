@@ -1,5 +1,6 @@
 import api from '@/api'
 import YearPageClient from '@/app/year/[id]/client'
+import { random } from 'nanoid'
 
 export function generateMetadata(
   { params, searchParams }:
@@ -10,10 +11,15 @@ export function generateMetadata(
 ) {
 
   return {
-    title: 'ISESER' + params.id + ' ABSTRACTS ONLINE VIEW'
-
+    title: 'ISESER' + params.id + ' ABSTRACTS ONLINE VIEW',
+    openGraph: {
+      title: 'ISESER' + params.id + ' ABSTRACTS ONLINE VIEW'
+    }
   }
 }
+
+const randomTimeString = `${Date.now()}_${Math.random().toString(36).substring(2)}`;
+
 
 export default async function Page(
   { params, searchParams }:
@@ -24,8 +30,8 @@ export default async function Page(
 ) {
 
   var [orals, posters] = await Promise.all([
-    api('/api/submission?e18=&page=1&itemPerPage=-1&sort=id&desc=false&orals=1&year=' + params?.id),
-    api('/api/submission?e18=&page=1&itemPerPage=-1&sort=id&desc=false&posters=1&year=' + params?.id)
+    api('/api/submission?e'+ randomTimeString +'=&page=1&itemPerPage=-1&sort=id&desc=false&orals=1&year=' + params?.id),
+    api('/api/submission?e'+ randomTimeString +'=&page=1&itemPerPage=-1&sort=id&desc=false&posters=1&year=' + params?.id)
   ])
 
   return <YearPageClient orals={orals} posters={posters} year={params?.id} />
