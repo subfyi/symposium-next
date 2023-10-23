@@ -1,5 +1,6 @@
 import api from '@/api'
 import PaperPageClient from '@/app/year/[id]/paper/[slug]/client'
+import { randomTimeString } from '@/components/randomTimeString'
 
 export async function generateMetadata(
   { params, searchParams }:
@@ -17,8 +18,6 @@ export async function generateMetadata(
     }
   }
 }
-
-const randomTimeString = `${Date.now()}_${Math.random().toString(36).substring(2)}`
 
 export default async function Page(
   { params, searchParams }:

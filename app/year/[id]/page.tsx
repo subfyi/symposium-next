@@ -1,6 +1,7 @@
 import api from '@/api'
 import YearPageClient from '@/app/year/[id]/client'
 import { random } from 'nanoid'
+import { randomTimeString } from '@/components/randomTimeString'
 
 export function generateMetadata(
   { params, searchParams }:
@@ -17,8 +18,6 @@ export function generateMetadata(
     }
   }
 }
-
-const randomTimeString = `${Date.now()}_${Math.random().toString(36).substring(2)}`;
 
 
 export default async function Page(

@@ -1,6 +1,7 @@
 import { PageHeader, PageHeaderEvent } from '@/layout/Breadcrumb'
 import Announcement from '@/components/Announcement'
 import Enlightenment from '@/components/Enlightenment'
+import { randomTimeString } from '@/components/randomTimeString'
 
 const metaTitle = 'Documents'
 export const metadata = {
@@ -29,11 +30,11 @@ export default function Page() {
 
                 <ul className='icon'>
                   <li><a href='https://portal.iseser.com/'><i className='fa fa-external-link'></i> REGISTRATION</a></li>
-                  <li><a href='https://api.iseser.com/doc/2023/ISESER2023_BANNER.pdf?e19' target='_blank'><i className='fa  fa-file-pdf-o'></i> BANNER</a></li>
-                  <li><a href='https://api.iseser.com/doc/2023/ISESER2023-FINAL-PROGRAM.pdf?e19' target='_blank' rel='noopener noreferrer'><i className='fa  fa-file-pdf-o'></i> FINAL PROGRAM</a></li>
+                  <li><a href={'https://api.iseser.com/doc/2023/ISESER2023_BANNER.pdf?e' + randomTimeString} target='_blank'><i className='fa  fa-file-pdf-o'></i> BANNER</a></li>
+                  <li><a href={'https://api.iseser.com/doc/2023/ISESER2023-FINAL-PROGRAM.pdf?e' + randomTimeString} target='_blank' rel='noopener noreferrer'><i className='fa  fa-file-pdf-o'></i> FINAL PROGRAM</a></li>
                   <li><a href='../year/2023'><i className='fa fa-file-code-o'></i> ABSTRACTS ONLINE VIEW</a></li>
                   {/*
-                        <li className="star"><a href="https://api.iseser.com/doc/2023/ISESER2023-PROCEEDING-BOOK.pdf?e19" target="_blank" rel="noopener noreferrer"><i className="fa  fa-file-pdf-o"></i> PROCEEDING BOOK</a></li>
+                        <li className="star"><a href={'https://api.iseser.com/doc/2023/ISESER2023-PROCEEDING-BOOK.pdf?e' + randomTimeString} target="_blank" rel="noopener noreferrer"><i className="fa  fa-file-pdf-o"></i> PROCEEDING BOOK</a></li>
                        */}
                 </ul>
                 <hr />
