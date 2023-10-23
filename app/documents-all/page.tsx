@@ -32,8 +32,8 @@ export default function Page() {
                                 <p className='section__meta'><Link href='/year/2023'>2023 SYMPOSIUM (ISESER)</Link></p>
                                 <div className='section__desc'>
                                     <ul className='icon'>
-                                        <li className='star'><a href='https://api.iseser.com/doc/2023/ISESER2023_BANNER.pdf?e17' target='_blank'><i className='fa  fa-file-pdf-o'></i> BANNER</a></li>
-                                        <li className='star'><a href='https://api.iseser.com/doc/2023/ISESER2023-FINAL-PROGRAM.pdf?e17' target='_blank' rel='noopener noreferrer'><i className='fa  fa-file-pdf-o'></i> FINAL PROGRAM</a></li>
+                                        <li className='star'><a href='https://api.iseser.com/doc/2023/ISESER2023_BANNER.pdf?e18' target='_blank'><i className='fa  fa-file-pdf-o'></i> BANNER</a></li>
+                                        <li className='star'><a href='https://api.iseser.com/doc/2023/ISESER2023-FINAL-PROGRAM.pdf?e18' target='_blank' rel='noopener noreferrer'><i className='fa  fa-file-pdf-o'></i> FINAL PROGRAM</a></li>
                                         <li className='star'><a href='../year/2023'><i className='fa fa-file-code-o'></i> ABSTRACTS ONLINE VIEW</a></li>
                                     </ul>
                                 </div>
