@@ -8,6 +8,12 @@
 @import 'css/responsive.css';
 @import 'swiper/css/swiper.css';
 
+.dashed {
+  border-bottom: 1px dashed #ddd;
+  border-color: #f60 !important;
+  width: fit-content;
+  padding-right: 5px;
+}
 
 
 .video-responsive {
@@ -35,17 +41,17 @@
   }
 }
 
-.btn-primary{
+.btn-primary {
   background-color: rgba(229, 78, 22, 100%) !important;
   border-color: rgba(229, 78, 22, 100%) !important;
 }
 
-.btn-outline-primary{
+.btn-outline-primary {
   color: rgba(229, 78, 22, 100%) !important;
   border-color: rgba(229, 78, 22, 100%) !important;
 }
 
-.btn:hover{
+.btn:hover {
   background-color: rgba(229, 78, 22, 100%) !important;
   color: #fff !important;
   border-color: rgba(229, 78, 22, 100%) !important;
