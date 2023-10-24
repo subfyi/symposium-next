@@ -39,6 +39,8 @@ export default function Page() {
               </div>
             </div>
           </div>
+        </div>
+        <div className='row'>
           <div className='col-md-6'>
             <div>
               <div className='section-heading'>
@@ -81,6 +83,8 @@ export default function Page() {
               </div>
             </div>
           </div>
+        </div>
+        <div className='row'>
           <div className='col-md-6'>
             <div className='section-heading'>
               <p className='section__meta'><Link href='/year/2019'>2019 SYMPOSIUM (ISESER)</Link></p>
