@@ -51,8 +51,8 @@ export default function Page() {
                     <li><a href='https://api.iseser.com/doc/2021/ISESER2021_BROCHURE.pdf' target='_blank'><i className='fa  fa-file-pdf-o'></i> BROCHURE</a></li>
                     <li><a href='https://api.iseser.com/doc/2021/ISESER2021-FINAL-PROGRAM.pdf' target='_blank' rel='noopener noreferrer'><i className='fa  fa-file-pdf-o'></i> FINAL PROGRAM </a></li>
                     <li><a href='https://api.iseser.com/doc/2021/ISESER2021-ABSTRACT-BOOK.pdf' target='_blank' rel='noopener noreferrer'><i className='fa  fa-file-pdf-o'></i> ABSTRACT BOOK </a></li>
-                    <li><a href='https://api.iseser.com/doc/2021/ISESER2021-PROCEEDING-BOOK.pdf' target='_blank' rel='noopener noreferrer'><i className='fa  fa-file-pdf-o'></i> PROCEEDING BOOK</a></li>
                     <li><a href='../year/2021'><i className='fa fa-file-code-o'></i> ABSTRACTS ONLINE VIEW</a></li>
+                    <li><a href='https://api.iseser.com/doc/2021/ISESER2021-PROCEEDING-BOOK.pdf' target='_blank' rel='noopener noreferrer'><i className='fa  fa-file-pdf-o'></i> PROCEEDING BOOK</a></li>
                   </ul>
                   <ul>
                     <li><a href='https://photos.app.goo.gl/TzfgvEuH1uUVtzLQ8' target='_blank' rel='noopener noreferrer'><i className='fa fa-external-link' aria-hidden='true'></i> PHOTOS </a></li>
@@ -72,8 +72,8 @@ export default function Page() {
                     <li><a href='https://api.iseser.com/doc/2020/ISESER2020_BROCHURE.pdf' target='_blank' rel='noopener noreferrer'><i className='fa  fa-file-pdf-o'></i> BROCHURE</a></li>
                     <li><a href='https://api.iseser.com/doc/2020/ISESER2020-FINAL-PROGRAM.pdf' target='_blank' rel='noopener noreferrer'><i className='fa  fa-file-pdf-o'></i> FINAL PROGRAM </a></li>
                     <li><a href='https://api.iseser.com/doc/2020/ISESER2020-ABSTRACT-BOOK.pdf' target='_blank' rel='noopener noreferrer'><i className='fa  fa-file-pdf-o'></i> ABSTRACT BOOK </a></li>
-                    <li><a href='https://api.iseser.com/doc/2020/ISESER2020-PROCEEDING-BOOK.pdf' target='_blank' rel='noopener noreferrer'><i className='fa  fa-file-pdf-o'></i> PROCEEDING BOOK</a></li>
                     <li><a href='../year/2020'><i className='fa fa-file-code-o'></i> ABSTRACTS ONLINE VIEW</a></li>
+                    <li><a href='https://api.iseser.com/doc/2020/ISESER2020-PROCEEDING-BOOK.pdf' target='_blank' rel='noopener noreferrer'><i className='fa  fa-file-pdf-o'></i> PROCEEDING BOOK</a></li>
                   </ul>
                   <ul>
                     <li><a href='https://photos.app.goo.gl/Mt7cq676fq97wAvt7' target='_blank' rel='noopener noreferrer'><i className='fa fa-external-link' aria-hidden='true'></i> PHOTOS </a></li>
@@ -94,8 +94,8 @@ export default function Page() {
                   <li><a href='https://api.iseser.com/doc/2019/ISESER2019_BROCHURE.pdf' target='_blank' rel='noopener noreferrer'><i className='fa  fa-file-pdf-o'></i> BROCHURE</a></li>
                   <li><a href='https://api.iseser.com/doc/2019/ISESER2019-FINAL-PROGRAM.pdf' target='_blank' rel='noopener noreferrer'><i className='fa  fa-file-pdf-o'></i> FINAL PROGRAM </a></li>
                   <li><a href='https://api.iseser.com/doc/2019/ISESER2019-ABSTRACT-BOOK.pdf' target='_blank' rel='noopener noreferrer'><i className='fa  fa-file-pdf-o'></i> ABSTRACT BOOK </a></li>
-                  <li><a href='https://api.iseser.com/doc/2019/ISESER2019-PROCEEDING-BOOK.pdf' target='_blank' rel='noopener noreferrer'><i className='fa  fa-file-pdf-o'></i> PROCEEDING BOOK</a></li>
                   <li><a href='../year/2019'><i className='fa fa-file-code-o'></i> ABSTRACTS ONLINE VIEW</a></li>
+                  <li><a href='https://api.iseser.com/doc/2019/ISESER2019-PROCEEDING-BOOK.pdf' target='_blank' rel='noopener noreferrer'><i className='fa  fa-file-pdf-o'></i> PROCEEDING BOOK</a></li>
                 </ul>
                 <ul>
                   <li><a href='https://photos.app.goo.gl/H5feZQmP2oVDWyHSA' target='_blank' rel='noopener noreferrer'><i className='fa fa-external-link' aria-hidden='true'></i> PHOTOS </a></li>
