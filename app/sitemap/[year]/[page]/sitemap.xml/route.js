@@ -39,7 +39,7 @@ export async function GET(request, { params }) {
       { loc: apipoint + 'doc/2016/afis4.jpg' },
       { loc: apipoint + 'doc/2016/Duyuru-Konya.pdf' },
       { loc: apipoint + 'doc/2016/ISESER2016-PROCEEDING-BOOK.pdf' },
-      { loc: apipoint + 'doc/2016/UCMOS_KONGRE_PROGRAMI.pdf' },
+      { loc: apipoint + 'doc/2016/UCMOS_KONGRE_PROGRAMI.pdf' }
     ])
   }
 
@@ -55,7 +55,7 @@ export async function GET(request, { params }) {
       { loc: endpoint + '/science-commission' },
       { loc: endpoint + '/sponsors' },
       { loc: endpoint + '/threads' },
-      { loc: endpoint + '/symposium-announced' },
+      { loc: endpoint + '/symposium-announced' }
     ])
   }
 

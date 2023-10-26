@@ -59,7 +59,7 @@ export default function Header() {
                   <ul className='d-flex align-items-center'>
                     <li>
                       <a href='mailto:iseser@iseser.com'>
-                        <i className='fa fa-envelope'></i> iseser@iseser.com
+                        <i className='fab fa-envelope'></i> iseser@iseser.com
                       </a>
                     </li>
                   </ul>
@@ -76,17 +76,17 @@ export default function Header() {
                     <UserLogin />
                     <li>
                       <a target='_blank' href='https://www.facebook.com/iseser/'>
-                        <i className='fa fa-facebook'></i>
+                        <i className='fab fa-facebook'></i>
                       </a>
                     </li>
                     <li>
                       <a target='_blank' href='https://www.youtube.com/@iseser'>
-                        <i className='fa fa-youtube'></i>
+                        <i className='fab fa-youtube'></i>
                       </a>
                     </li>
                     <li>
                       <a target='_blank' href='https://www.instagram.com/iseser2023'>
-                        <i className='fa fa-instagram'></i>
+                        <i className='fab fa-instagram'></i>
                       </a>
                     </li>
                   </ul>
@@ -170,7 +170,7 @@ export default function Header() {
                   </div>
                 </div>
                 <div className='mobile-menu-toggle'>
-                  <i className='fa fa-bars'></i>
+                  <i className='fab fa-bars'></i>
                 </div>
               </div>
             </div>
@@ -244,7 +244,7 @@ export default function Header() {
             </li>
             <li>
               <a target='_blank' href='https://www.facebook.com/iseser/'>
-                <i className='fa fa-facebook'></i>
+                <i className='fab fa-facebook'></i>
               </a>
             </li>
           </ul>

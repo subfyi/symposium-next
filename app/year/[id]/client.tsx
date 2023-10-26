@@ -2,6 +2,7 @@
 
 import Announcement from '@/components/Announcement'
 import { PageHeaderEvent } from '@/layout/Breadcrumb'
+import Link from 'next/link'
 
 export default function YearPageClient({ orals, posters, year }: any) {
   return <>
@@ -50,7 +51,7 @@ export default function YearPageClient({ orals, posters, year }: any) {
                     {orals.data.map((datas, i) => <>
                       <tr key={datas.id}>
                         <td><b>O{i + 1}</b></td>
-                        <td><a className={'text-uppercase'} href={'/year/' + year + '/paper/' + (datas.id)}> {datas.en_title}</a></td>
+                        <td><Link className={'text-uppercase'} href={'/year/' + year + '/paper/' + (datas.id)}> {datas.en_title}</Link></td>
                       </tr>
                       <tr>
                         <td colSpan={2} className={'text-capitalize'}>
@@ -98,7 +99,7 @@ export default function YearPageClient({ orals, posters, year }: any) {
                   {posters.data.map((datas, i) => <>
                     <tr key={datas.id}>
                       <td><b>P{i + 1}</b></td>
-                      <td><a className={'text-uppercase'} href={'/year/' + year + '/paper/' + (datas.id)}> {datas.en_title}</a></td>
+                      <td><Link className={'text-uppercase'} href={'/year/' + year + '/paper/' + (datas.id)}> {datas.en_title}</Link></td>
                     </tr>
                     <tr>
                       <td colSpan={2}>

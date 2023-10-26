@@ -1,12 +1,11 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
-@import 'css/font-awesome.css';
 @import 'css/animate.min.css';
-@import 'css/fontello.css';
 @import 'plugins/accordion.css';
 @import 'plugins/glightbox.min.css';
 @import 'css/style.css';
 @import 'css/responsive.css';
 @import 'swiper/css/swiper.css';
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
 
 .dashed {
   border-bottom: 1px dotted #ddd;
@@ -15,6 +14,9 @@
   padding-right: 5px;
 }
 
+.icon li{
+  word-break: keep-all;
+}
 
 .video-responsive {
   overflow: hidden;
