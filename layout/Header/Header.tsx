@@ -170,7 +170,7 @@ export default function Header() {
                   </div>
                 </div>
                 <div className='mobile-menu-toggle'>
-                  <i className='fab fa-bars'></i>
+                  <i className="fa-solid fa-bars"></i>
                 </div>
               </div>
             </div>
@@ -233,24 +233,16 @@ export default function Header() {
             </li>
           </ul>
           <ul className='side-social'>
-            <li className='action__text'>
-              <Link href='/documents-all'>Archives</Link>
-            </li>
-            <li className='action__text'>
+            <li className='action__text me-3'>
               <a href='https://portal.iseser.com/auth/login'>login</a>
             </li>
             <li className='action__text'>
               <a href='https://portal.iseser.com/auth/registration'>register</a>
             </li>
-            <li>
-              <a target='_blank' href='https://www.facebook.com/iseser/'>
-                <i className='fab fa-facebook'></i>
-              </a>
-            </li>
           </ul>
-          <div className='side-btn'>
-            <Link className='theme-btn' href='/documents'>
-              Documents
+          <div className='side-btn mb-3'>
+            <Link className='theme-btn' href='/documents-all'>
+              Archives
             </Link>
           </div>
         </div>
