@@ -80,7 +80,7 @@ export default function Header() {
                       </a>
                     </li>
                     <li>
-                      <a target='_blank' href='https://www.youtube.com/@iseser'>
+                      <a target='_blank' href='https://www.youtube.com/@iseser/playlists'>
                         <i className="fa-brands fa-square-youtube"></i>
                       </a>
                     </li>
