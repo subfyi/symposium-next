@@ -33,7 +33,7 @@ export default function Page() {
                   <li><Link href='../year/2023'><i className='fa-regular fa-file-code'></i> ABSTRACTS ONLINE VIEW</Link></li>
                 </ul>
                 <ul>
-                  <li><a href='https://photos.app.goo.gl/ftS6XjNtDY91a1rT7' target='_blank' rel='noopener noreferrer'><i className='fa fa-photo' aria-hidden='true'></i> PHOTOS </a></li>
+                  <li><a href='https://photos.app.goo.gl/ftS6XjNtDY91a1rT7' target='_blank' rel='noopener noreferrer'><i className='fa-regular fa-file-image' aria-hidden='true'></i> PHOTOS </a></li>
                   <li><a href='https://www.youtube.com/playlist?list=PLcT5bWlEGP-2fKrCEWPUJ4vDa7Rd0e4n1' target='_blank' rel='noopener noreferrer'><i className='fa-regular fa-file-video' aria-hidden='true'></i> VIDEOS </a></li>
                 </ul>
               </div>
@@ -55,7 +55,7 @@ export default function Page() {
                     <li><a href='https://api.iseser.com/doc/2021/ISESER2021-PROCEEDING-BOOK.pdf' target='_blank' rel='noopener noreferrer'><i className='fa-regular fa-file-pdf'></i> PROCEEDING BOOK</a></li>
                   </ul>
                   <ul>
-                    <li><a href='https://photos.app.goo.gl/TzfgvEuH1uUVtzLQ8' target='_blank' rel='noopener noreferrer'><i className='fa fa-external-link' aria-hidden='true'></i> PHOTOS </a></li>
+                    <li><a href='https://photos.app.goo.gl/TzfgvEuH1uUVtzLQ8' target='_blank' rel='noopener noreferrer'><i className='fa-regular fa-file-image' aria-hidden='true'></i> PHOTOS </a></li>
                     <li><a href='https://www.youtube.com/playlist?list=PLcT5bWlEGP-2aj8W_R1lqzQYYDZW3W8Bs' target='_blank' rel='noopener noreferrer'><i className='fa-regular fa-file-video' aria-hidden='true'></i> VIDEOS </a></li>
                   </ul>
                 </div>
@@ -76,7 +76,7 @@ export default function Page() {
                     <li><a href='https://api.iseser.com/doc/2020/ISESER2020-PROCEEDING-BOOK.pdf' target='_blank' rel='noopener noreferrer'><i className='fa-regular fa-file-pdf'></i> PROCEEDING BOOK</a></li>
                   </ul>
                   <ul>
-                    <li><a href='https://photos.app.goo.gl/Mt7cq676fq97wAvt7' target='_blank' rel='noopener noreferrer'><i className='fa fa-external-link' aria-hidden='true'></i> PHOTOS </a></li>
+                    <li><a href='https://photos.app.goo.gl/Mt7cq676fq97wAvt7' target='_blank' rel='noopener noreferrer'><i className='fa-regular fa-file-image' aria-hidden='true'></i> PHOTOS </a></li>
                     <li><a href='https://www.youtube.com/playlist?list=PLcT5bWlEGP-1MCb7MnCW_ppwGCLF_cz3w' target='_blank' rel='noopener noreferrer'><i className='fa-regular fa-file-video' aria-hidden='true'></i> VIDEOS </a></li>
                   </ul>
                 </div>
@@ -98,7 +98,7 @@ export default function Page() {
                   <li><a href='https://api.iseser.com/doc/2019/ISESER2019-PROCEEDING-BOOK.pdf' target='_blank' rel='noopener noreferrer'><i className='fa-regular fa-file-pdf'></i> PROCEEDING BOOK</a></li>
                 </ul>
                 <ul>
-                  <li><a href='https://photos.app.goo.gl/H5feZQmP2oVDWyHSA' target='_blank' rel='noopener noreferrer'><i className='fa fa-external-link' aria-hidden='true'></i> PHOTOS </a></li>
+                  <li><a href='https://photos.app.goo.gl/H5feZQmP2oVDWyHSA' target='_blank' rel='noopener noreferrer'><i className='fa-regular fa-file-image' aria-hidden='true'></i> PHOTOS </a></li>
                 </ul>
               </div>
             </div>
@@ -115,7 +115,7 @@ export default function Page() {
                   <li><Link href='../year/2018'><i className='fa-regular fa-file-code'></i> ABSTRACTS ONLINE VIEW</Link></li>
                 </ul>
                 <ul>
-                  <li><a href='https://photos.app.goo.gl/ZZ49LfL7T8Y74A2TA' target='_blank' rel='noopener noreferrer'><i className='fa fa-external-link' aria-hidden='true'></i> PHOTOS </a></li>
+                  <li><a href='https://photos.app.goo.gl/ZZ49LfL7T8Y74A2TA' target='_blank' rel='noopener noreferrer'><i className='fa-regular fa-file-image' aria-hidden='true'></i> PHOTOS </a></li>
                 </ul>
               </div>
             </div>
