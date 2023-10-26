@@ -18,7 +18,7 @@ export default function YearPageClient({ orals, posters, year }: any) {
           <div className='col-lg-12'>
             <div>
               <div className='section-heading'>
-                <h2 className='section__title'>ISESER{year} SYMPOSIUM  ABSTRACTS ONLINE VERSION
+                <h2 className='section__title'>ISESER{year} SYMPOSIUM ABSTRACTS ONLINE VERSION
                 </h2>
               </div>
             </div>
@@ -51,7 +51,7 @@ export default function YearPageClient({ orals, posters, year }: any) {
                     {orals.data.map((datas, i) => <>
                       <tr key={datas.id}>
                         <td><b>O{i + 1}</b></td>
-                        <td><Link className={'text-uppercase'} href={'/year/' + year + '/paper/' + (datas.id)}> {datas.en_title}</Link></td>
+                        <td><Link className={'text-uppercase'} href={'/year/' + year + '/paper/' + (datas.id)}> {datas.en_title.toUpperCase()}</Link></td>
                       </tr>
                       <tr>
                         <td colSpan={2} className={'text-capitalize'}>

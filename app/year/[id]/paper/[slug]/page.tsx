@@ -12,9 +12,9 @@ export async function generateMetadata(
 
   const datas = await api('/api/submission/' + params.slug)
   return {
-    title: datas.en_title + ' | ISESER' + params.id,
+    title: datas.en_title.toUpperCase() + ' | ISESER' + params.id,
     openGraph: {
-      title: datas.en_title + ' | ISESER' + params.id
+      title: datas.en_title.toUpperCase() + ' | ISESER' + params.id
     }
   }
 }

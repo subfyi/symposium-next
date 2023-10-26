@@ -12,9 +12,9 @@ export function generateMetadata(
 ) {
 
   return {
-    title: 'ISESER' + params.id + ' ABSTRACTS ONLINE VIEW',
+    title: 'ISESER' + params.id.toUpperCase() + ' ABSTRACTS ONLINE VIEW',
     openGraph: {
-      title: 'ISESER' + params.id + ' ABSTRACTS ONLINE VIEW'
+      title: 'ISESER' + params.id.toUpperCase() + ' ABSTRACTS ONLINE VIEW'
     }
   }
 }

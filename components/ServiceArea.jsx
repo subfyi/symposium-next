@@ -2,11 +2,12 @@
 
 import React from 'react'
 
-function ServiceArea() {
+function ServiceArea({ none }) {
   return (
     <div className='container'>
       <div className='row service-wrap'>
         <div className='col'>
+          {!none && <h1 className={'h4'}>International Symposium for Environmental Science and Engineering Research (ISESER)</h1>}
           <p>As an organizing commitee, we are honored to invite you to attend the International Symposium for Environmental Science and Engineering Research 2023 which will be held on 18-21
             October
             2023, hybrid.
