@@ -364,7 +364,7 @@ a:hover {
     text-transform: capitalize;
 }
 .header-area .header-top-action .top-action-content .info-box ul.top-action-list li {
-    margin-right: 24px;
+    margin-right: 10px;
 }
 .header-area .header-top-action .top-action-content .info-box ul.top-action-list li a:hover,
 .header-area .header-top-action .top-action-content .info-box ul.top-action-list li a i:hover {

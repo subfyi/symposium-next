@@ -59,7 +59,7 @@ export default function Header() {
                   <ul className='d-flex align-items-center'>
                     <li>
                       <a href='mailto:iseser@iseser.com'>
-                        <i className='fab fa-envelope'></i> iseser@iseser.com
+                        <i className="fa-regular fa-envelope"></i> iseser@iseser.com
                       </a>
                     </li>
                   </ul>
@@ -76,17 +76,17 @@ export default function Header() {
                     <UserLogin />
                     <li>
                       <a target='_blank' href='https://www.facebook.com/iseser/'>
-                        <i className='fab fa-facebook'></i>
+                        <i className="fa-brands fa-square-facebook"></i>
                       </a>
                     </li>
                     <li>
                       <a target='_blank' href='https://www.youtube.com/@iseser'>
-                        <i className='fab fa-youtube'></i>
+                        <i className="fa-brands fa-square-youtube"></i>
                       </a>
                     </li>
                     <li>
                       <a target='_blank' href='https://www.instagram.com/iseser2023'>
-                        <i className='fab fa-instagram'></i>
+                        <i className="fa-brands fa-square-instagram"></i>
                       </a>
                     </li>
                   </ul>
