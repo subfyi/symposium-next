@@ -108,7 +108,7 @@ export default function Page() {
               <p className='section__meta'><Link href='/year/2018'>2018 SYMPOSIUM (ISESER)</Link></p>
               <div className='section__desc'>
                 <ul className='icon dashed'>
-                  <li><a href='https://api.iseser.com/doc/2018/ISESER2018-banner.png' target='_blank'><i className='fa-regular fa-file-image' aria-hidden='true'></i> BANNER</a></li>
+                  <li><a href='https://api.iseser.com/doc/2018/ISESER2018_BANNER.pdf' target='_blank'><i className='fa-regular fa-file-pdf' aria-hidden='true'></i> BANNER</a></li>
                   <li><a href='https://api.iseser.com/doc/2018/ISESER2018_Brochure.pdf' target='_blank'><i className='fa-regular fa-file-pdf'></i> BROCHURE</a></li>
                   <li><a href='https://api.iseser.com/doc/2018/ISESER2018-FINAL-PROGRAM.pdf' target='_blank'><i className='fa-regular fa-file-pdf'></i> FINAL PROGRAM</a></li>
                   <li><a href='https://api.iseser.com/doc/2018/ISESER2018-ABSTRACT-BOOK.pdf' target='_blank'><i className='fa-regular fa-file-pdf'></i> ABSTRACT BOOK</a></li>
