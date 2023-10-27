@@ -1,8 +1,6 @@
 import { PageHeader } from '@/layout/Breadcrumb'
 import Announcement from '@/components/Announcement'
 import Enlightenment from '@/components/Enlightenment'
-import { randomTimeString } from '@/components/randomTimeString'
-import Link from 'next/link'
 import { Document2023 } from '@/app/documents-all/page'
 
 const metaTitle = 'Documents'
@@ -29,12 +27,15 @@ export default function Page() {
           <div className='col-lg-12'>
             <div>
               <div className='section-heading'>
+                <ul className='icon'>
+                  <li><a href='https://portal.iseser.com/'><i className='fa fa-external-link'></i> REGISTRATION</a></li>
+                </ul>
                 <Document2023 />
                 <hr />
                 <ul>
                   <li><a href='https://api.iseser.com/doc/2023/ISESER2023_Abstract_Template.docx' target='_blank'><i className='fa-regular fa-file-word'></i> Abstract Template</a>
                   </li>
-                  <li><a href='https://api.iseser.com/doc/2023/ISESER2023_Full_Paper_Template.docx' target='_blank'><i class='fa-regular fa-file-word'></i> Full Paper Template</a>
+                  <li><a href='https://api.iseser.com/doc/2023/ISESER2023_Full_Paper_Template.docx' target='_blank'><i className='fa-regular fa-file-word'></i> Full Paper Template</a>
                   </li>
                   <li><a href='https://api.iseser.com/doc/2023/ISESER2023_POSTER-PREPARATION.pptm' target='_blank'><i className='fa-regular fa-file-powerpoint'></i> Poster Template</a></li>
                   <li><br /></li>
