@@ -32,7 +32,6 @@ function Document2021() {
       <li><a href='https://api.iseser.com/doc/2021/ISESER2021_BANNER.pdf' target='_blank'><i className='fa-regular fa-file-pdf'></i> BANNER</a></li>
       <li><a href='https://api.iseser.com/doc/2021/ISESER2021_BROCHURE.pdf' target='_blank'><i className='fa-regular fa-file-pdf'></i> BROCHURE</a></li>
       <li><a href='https://api.iseser.com/doc/2021/ISESER2021-FINAL-PROGRAM.pdf' target='_blank' rel='noopener noreferrer'><i className='fa-regular fa-file-pdf'></i> FINAL PROGRAM </a></li>
-      <li><a href='https://api.iseser.com/doc/2021/ISESER2021-ABSTRACT-BOOK.pdf' target='_blank' rel='noopener noreferrer'><i className='fa-regular fa-file-pdf'></i> ABSTRACT BOOK </a></li>
       <li><Link href='../year/2021'><i className='fa-regular fa-file-code'></i> ABSTRACTS ONLINE VIEW</Link></li>
       <li><a href='https://api.iseser.com/doc/2021/ISESER2021-PROCEEDING-BOOK.pdf' target='_blank' rel='noopener noreferrer'><i className='fa-regular fa-file-pdf'></i> PROCEEDING BOOK</a></li>
     </ul>
@@ -49,7 +48,6 @@ function Document2020() {
       <li><a href='https://api.iseser.com/doc/2020/ISESER2020_BANNER.pdf' target='_blank' rel='noopener noreferrer'><i className='fa-regular fa-file-pdf'></i> BANNER</a></li>
       <li><a href='https://api.iseser.com/doc/2020/ISESER2020_BROCHURE.pdf' target='_blank' rel='noopener noreferrer'><i className='fa-regular fa-file-pdf'></i> BROCHURE</a></li>
       <li><a href='https://api.iseser.com/doc/2020/ISESER2020-FINAL-PROGRAM.pdf' target='_blank' rel='noopener noreferrer'><i className='fa-regular fa-file-pdf'></i> FINAL PROGRAM </a></li>
-      <li><a href='https://api.iseser.com/doc/2020/ISESER2020-ABSTRACT-BOOK.pdf' target='_blank' rel='noopener noreferrer'><i className='fa-regular fa-file-pdf'></i> ABSTRACT BOOK </a></li>
       <li><Link href='../year/2020'><i className='fa-regular fa-file-code'></i> ABSTRACTS ONLINE VIEW</Link></li>
       <li><a href='https://api.iseser.com/doc/2020/ISESER2020-PROCEEDING-BOOK.pdf' target='_blank' rel='noopener noreferrer'><i className='fa-regular fa-file-pdf'></i> PROCEEDING BOOK</a></li>
     </ul>
@@ -66,7 +64,6 @@ function Document2019() {
       <li><a href='https://api.iseser.com/doc/2019/ISESER2019_BANNER.pdf' target='_blank' rel='noopener noreferrer'><i className='fa-regular fa-file-pdf'></i> BANNER</a></li>
       <li><a href='https://api.iseser.com/doc/2019/ISESER2019_BROCHURE.pdf' target='_blank' rel='noopener noreferrer'><i className='fa-regular fa-file-pdf'></i> BROCHURE</a></li>
       <li><a href='https://api.iseser.com/doc/2019/ISESER2019-FINAL-PROGRAM.pdf' target='_blank' rel='noopener noreferrer'><i className='fa-regular fa-file-pdf'></i> FINAL PROGRAM </a></li>
-      <li><a href='https://api.iseser.com/doc/2019/ISESER2019-ABSTRACT-BOOK.pdf' target='_blank' rel='noopener noreferrer'><i className='fa-regular fa-file-pdf'></i> ABSTRACT BOOK </a></li>
       <li><Link href='../year/2019'><i className='fa-regular fa-file-code'></i> ABSTRACTS ONLINE VIEW</Link></li>
       <li><a href='https://api.iseser.com/doc/2019/ISESER2019-PROCEEDING-BOOK.pdf' target='_blank' rel='noopener noreferrer'><i className='fa-regular fa-file-pdf'></i> PROCEEDING BOOK</a></li>
     </ul>
@@ -82,8 +79,8 @@ function Document2018() {
       <li><a href='https://api.iseser.com/doc/2018/ISESER2018_BANNER.pdf' target='_blank'><i className='fa-regular fa-file-pdf' aria-hidden='true'></i> BANNER</a></li>
       <li><a href='https://api.iseser.com/doc/2018/ISESER2018_Brochure.pdf' target='_blank'><i className='fa-regular fa-file-pdf'></i> BROCHURE</a></li>
       <li><a href='https://api.iseser.com/doc/2018/ISESER2018-FINAL-PROGRAM.pdf' target='_blank'><i className='fa-regular fa-file-pdf'></i> FINAL PROGRAM</a></li>
-      <li><a href='https://api.iseser.com/doc/2018/ISESER2018-ABSTRACT-BOOK.pdf' target='_blank'><i className='fa-regular fa-file-pdf'></i> ABSTRACT BOOK</a></li>
       <li><Link href='../year/2018'><i className='fa-regular fa-file-code'></i> ABSTRACTS ONLINE VIEW</Link></li>
+      <li><a href='https://api.iseser.com/doc/2018/ISESER2018-ABSTRACT-BOOK.pdf' target='_blank'><i className='fa-regular fa-file-pdf'></i> ABSTRACT BOOK</a></li>
     </ul>
     <ul>
       <li><a href='https://photos.app.goo.gl/ZZ49LfL7T8Y74A2TA' target='_blank' rel='noopener noreferrer'><i className='fa-regular fa-file-image' aria-hidden='true'></i> PHOTOS </a></li>
