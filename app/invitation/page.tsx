@@ -2,16 +2,18 @@ import { PageHeader } from '@/layout/Breadcrumb'
 import ServiceArea from '@/components/ServiceArea'
 import Announcement from '@/components/Announcement'
 
-const metaTitle = 'INVITATION'
+const metaTitle = 'Invitation'
 export const metadata = {
   title: metaTitle + ' | ISESER2023',
+  description:  metaTitle + ' | ISESER2023',
   openGraph: {
-    title: metaTitle + ' | ISESER2023'
+    title: metaTitle + ' | ISESER2023',
+    description:  metaTitle + ' | ISESER2023',
   }
 }
 export default function Page() {
   return <>
-    <PageHeader title='INVITATION' />
+    <PageHeader title={metaTitle} />
     <section className='about-area'>
       <div className='container'>
         <div className='row'>

@@ -4,8 +4,10 @@ import Announcement from '@/components/Announcement'
 const metaTitle = 'Advisory Board'
 export const metadata = {
   title: metaTitle + ' | ISESER2023',
+  description: metaTitle + ' | ISESER2023',
   openGraph: {
-    title: metaTitle + ' | ISESER2023'
+    title: metaTitle + ' | ISESER2023',
+    description: metaTitle + ' | ISESER2023'
   }
 }
 

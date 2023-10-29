@@ -5,13 +5,15 @@ import Enlightenment from '@/components/Enlightenment'
 const metaTitle = 'Announcement'
 export const metadata = {
   title: metaTitle + ' | ISESER2023',
+  description: metaTitle + ' | ISESER2023',
   openGraph: {
-    title: metaTitle + ' | ISESER2023'
+    title: metaTitle + ' | ISESER2023',
+    description: metaTitle + ' | ISESER2023'
   }
 }
 export default function Page() {
   return <>
-    <PageHeader title='Announcement' />
+    <PageHeader title={metaTitle} />
     <section className='about-area'>
       <div className='container'>
         <div className='row'>

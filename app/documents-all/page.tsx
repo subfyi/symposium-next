@@ -7,8 +7,10 @@ import { randomTimeString } from '@/components/randomTimeString'
 const metaTitle = 'ISESER Documents Archives'
 export const metadata = {
   title: metaTitle,
+  description: metaTitle,
   openGraph: {
-    title: metaTitle
+    title: metaTitle,
+    description: metaTitle
   }
 }
 
@@ -37,7 +39,7 @@ function DocumentWithYearOld({ year, onlyAbsctract }: any) {
 
 export default function Page() {
   return <>
-    <PageHeader title='ISESER Documents Archives' />
+    <PageHeader title={metaTitle} />
     <section className='about-area'>
       <div className='container'>
         <div className='row'>

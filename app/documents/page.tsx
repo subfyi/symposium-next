@@ -1,18 +1,20 @@
 import { PageHeader } from '@/layout/Breadcrumb'
 import Announcement from '@/components/Announcement'
 import Enlightenment from '@/components/Enlightenment'
-import { Document2023, DocumentWithYear } from '@/app/documents-all/page'
+import { DocumentWithYear } from '@/app/documents-all/page'
 
 const metaTitle = 'Documents'
 export const metadata = {
   title: metaTitle + ' | ISESER2023',
+  description: metaTitle + ' | ISESER2023',
   openGraph: {
-    title: metaTitle + ' | ISESER2023'
+    title: metaTitle + ' | ISESER2023',
+    description: metaTitle + ' | ISESER2023'
   }
 }
 export default function Page() {
   return <>
-    <PageHeader title='Documents' />
+    <PageHeader title={metaTitle} />
     <section className='about-area'>
       <div className='container'>
         <div className='row'>
