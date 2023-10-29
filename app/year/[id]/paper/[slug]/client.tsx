@@ -88,7 +88,7 @@ export default function PaperPageClient({ datas, year }: any) {
                 </>
               }
 
-              {datas.paper_abst_page && <div className='side-widget'>
+              {(year === '2018' && datas.paper_abst_page) && <div className='side-widget'>
                 <h5 className='widget__title'>Abstract Book:
                 </h5>
                 {datas.paper_abst_page &&
