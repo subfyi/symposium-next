@@ -15,8 +15,8 @@ export const metadata = {
 export function DocumentWithYear({ year }: any) {
   return <>
     <ul className='icon dashed'>
-      <li><a href={'https://api.iseser.com/doc/' + year + '/ISESER' + year + '_BANNER.pdf?e' + randomTimeString} target='_blank'><i className='fa-regular fa-file-pdf'></i> BANNER</a></li>
-      <li><a href={'https://api.iseser.com/doc/' + year + '/ISESER' + year + '_FINAL-PROGRAM.pdf?e' + randomTimeString} target='_blank' rel='noopener noreferrer'><i className='fa-regular fa-file-pdf'></i> FINAL PROGRAM</a></li>
+      <li><a href={'https://api.iseser.com/doc/' + year + '/ISESER' + year + '-BANNER.pdf?e' + randomTimeString} target='_blank'><i className='fa-regular fa-file-pdf'></i> BANNER</a></li>
+      <li><a href={'https://api.iseser.com/doc/' + year + '/ISESER' + year + '-FINAL-PROGRAM.pdf?e' + randomTimeString} target='_blank' rel='noopener noreferrer'><i className='fa-regular fa-file-pdf'></i> FINAL PROGRAM</a></li>
       <li><Link href={'../year/' + year}><i className='fa-regular fa-file-code'></i> ABSTRACTS ONLINE VIEW</Link></li>
     </ul>
   </>
