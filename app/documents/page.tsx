@@ -6,10 +6,10 @@ import { DocumentWithYear } from '@/app/documents-all/page'
 const metaTitle = 'Documents'
 export const metadata = {
   title: metaTitle + ' | ISESER2023',
-  description: metaTitle + ' | ISESER2023',
+  description: metaTitle + '  - International Symposium for Environmental Science and Engineering Research 2023',
   openGraph: {
     title: metaTitle + ' | ISESER2023',
-    description: metaTitle + ' | ISESER2023'
+    description: metaTitle + '  - International Symposium for Environmental Science and Engineering Research 2023',
   }
 }
 export default function Page() {

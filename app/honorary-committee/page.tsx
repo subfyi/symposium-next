@@ -4,10 +4,10 @@ import Announcement from '@/components/Announcement'
 const metaTitle = 'Honorary Committee'
 export const metadata = {
   title: metaTitle + ' | ISESER2023',
-  description: metaTitle + ' | ISESER2023',
+  description: metaTitle + '  - International Symposium for Environmental Science and Engineering Research 2023',
   openGraph: {
     title: metaTitle + ' | ISESER2023',
-    description: metaTitle + ' | ISESER2023'
+    description: metaTitle + '  - International Symposium for Environmental Science and Engineering Research 2023',
   }
 }
 export default function Page() {
