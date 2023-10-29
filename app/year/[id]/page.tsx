@@ -13,8 +13,10 @@ export function generateMetadata(
 
   return {
     title: 'ISESER' + params.id.toUpperCase() + ' ABSTRACTS ONLINE VIEW',
+    description: 'ISESER' + params.id.toUpperCase() + ' Symposium Abstracts Online Version" is a digital repository that features a compilation of abstracts related to the ISESER' + params.id.toUpperCase() + ' Symposium.',
     openGraph: {
-      title: 'ISESER' + params.id.toUpperCase() + ' ABSTRACTS ONLINE VIEW'
+      title: 'ISESER' + params.id.toUpperCase() + ' ABSTRACTS ONLINE VIEW',
+      description: 'ISESER' + params.id.toUpperCase() + ' Symposium Abstracts Online Version" is a digital repository that features a compilation of abstracts related to the ISESER' + params.id.toUpperCase() + ' Symposium.',
     }
   }
 }
