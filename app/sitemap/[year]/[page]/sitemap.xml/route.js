@@ -12,17 +12,17 @@ export async function GET(request, { params }) {
 
   if (year === 'document' && +page === 1) {
     return getServerSideSitemap([
-      { loc: apipoint + 'doc/2023/ISESER2023_BANNER.pdf' },
+      { loc: apipoint + 'doc/2023/ISESER2023-BANNER.pdf' },
       { loc: apipoint + 'doc/2023/ISESER2023-FINAL-PROGRAM.pdf' },
-      { loc: apipoint + 'doc/2021/ISESER2021_BANNER.pdf' },
-      { loc: apipoint + 'doc/2021/ISESER2021_BROCHURE.pdf' },
+      { loc: apipoint + 'doc/2021/ISESER2021-BANNER.pdf' },
+      { loc: apipoint + 'doc/2021/ISESER2021-BROCHURE.pdf' },
       { loc: apipoint + 'doc/2021/ISESER2021-FINAL-PROGRAM.pdf' },
       { loc: apipoint + 'doc/2021/ISESER2021-PROCEEDING-BOOK.pdf' },
-      { loc: apipoint + 'doc/2020/ISESER2020_BANNER.pdf' },
-      { loc: apipoint + 'doc/2020/ISESER2020_BROCHURE.pdf' },
+      { loc: apipoint + 'doc/2020/ISESER2020-BANNER.pdf' },
+      { loc: apipoint + 'doc/2020/ISESER2020-BROCHURE.pdf' },
       { loc: apipoint + 'doc/2020/ISESER2020-FINAL-PROGRAM.pdf' },
       { loc: apipoint + 'doc/2020/ISESER2020-PROCEEDING-BOOK.pdf' },
-      { loc: apipoint + 'doc/2019/ISESER2019_BANNER.pdf' },
+      { loc: apipoint + 'doc/2019/ISESER2019-BANNER.pdf' },
       { loc: apipoint + 'doc/2019/ISESER2019-BROCHURE.pdf' },
       { loc: apipoint + 'doc/2019/ISESER2019-FINAL-PROGRAM.pdf' },
       { loc: apipoint + 'doc/2019/ISESER2019-PROCEEDING-BOOK.pdf' },
