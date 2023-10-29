@@ -1,6 +1,5 @@
 import api from '@/api'
 import YearPageClient from '@/app/year/[id]/client'
-import { random } from 'nanoid'
 import { randomTimeString } from '@/components/randomTimeString'
 
 export function generateMetadata(
@@ -12,11 +11,11 @@ export function generateMetadata(
 ) {
 
   return {
-    title: 'ISESER' + params.id.toUpperCase() + ' ABSTRACTS ONLINE VIEW',
-    description: 'ISESER' + params.id.toUpperCase() + ' Symposium Abstracts Online Version',
+    title: 'ISESER' + params.id.toUpperCase() + ' ABSTRACTS ONLINE VERSION',
+    description: 'ISESER' + params.id.toUpperCase() + ' Abstracts Online Version - International Symposium for Environmental Science and Engineering Research',
     openGraph: {
-      title: 'ISESER' + params.id.toUpperCase() + ' ABSTRACTS ONLINE VIEW',
-      description: 'ISESER' + params.id.toUpperCase() + ' Symposium Abstracts Online Version',
+      title: 'ISESER' + params.id.toUpperCase() + ' ABSTRACTS ONLINE VERSION',
+      description: 'ISESER' + params.id.toUpperCase() + ' Abstracts Online Version - International Symposium for Environmental Science and Engineering Research'
     }
   }
 }
@@ -31,8 +30,8 @@ export default async function Page(
 ) {
 
   var [orals, posters] = await Promise.all([
-    api('/api/submission?e'+ randomTimeString +'=&page=1&itemPerPage=-1&sort=id&desc=false&orals=1&year=' + params?.id),
-    api('/api/submission?e'+ randomTimeString +'=&page=1&itemPerPage=-1&sort=id&desc=false&posters=1&year=' + params?.id)
+    api('/api/submission?e' + randomTimeString + '=&page=1&itemPerPage=-1&sort=id&desc=false&orals=1&year=' + params?.id),
+    api('/api/submission?e' + randomTimeString + '=&page=1&itemPerPage=-1&sort=id&desc=false&posters=1&year=' + params?.id)
   ])
 
   return <YearPageClient orals={orals} posters={posters} year={params?.id} />

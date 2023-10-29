@@ -18,7 +18,7 @@ export default function YearPageClient({ orals, posters, year }: any) {
           <div className='col-lg-12'>
             <div>
               <div className='section-heading'>
-                <h2 className='section__title'>ISESER{year} SYMPOSIUM ABSTRACTS ONLINE VERSION
+                <h2 className='section__title'>ISESER{year} ABSTRACTS ONLINE VERSION
                 </h2>
               </div>
             </div>
