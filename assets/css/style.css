@@ -927,6 +927,17 @@ a:hover {
     position: relative;
     z-index: 1;
 }
+
+.slider-area-bgimage{
+    background-position: center center;
+    background-size: contain;
+    color: #fff;
+    height: 740px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
 .slider-area .single-slide-item {
     background-color: #fff;
     background-position: center center;
@@ -941,23 +952,6 @@ a:hover {
 
 .slider-area .slide-bg1 {
     background-color: #b6dde7 !important;
-    background-image: url("../slider/banner3.png");
-}
-.slider-area .slide-bg2 {
-    background-image: url("../slider/banner2.png");
-}
-
-.slider-area .slide-bg6 {
-    background-image: url("../slider/nu.jpg");
-}
-.slider-area .slide-bg3 {
-    background-image: url("../slider/1491_s.jpg");
-}
-.slider-area .slide-bg4 {
-    background-image: url("../slider/konya1.jpg");
-}
-.slider-area .slide-bg5 {
-    background-image: url("../slider/fotograf_22.jpg");
 }
 .slider-area .slide-item-table {
     display: table;
