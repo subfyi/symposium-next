@@ -21,7 +21,7 @@ export default function PaperPageClient({ datas, year }: any) {
               <hr />
             </h3>
           </div>
-          <div className='col-lg-8'>
+          <div className='col-lg-7'>
             <div className='blog-content'>
               <div className='blog-item'>
                 <div className='blog-inner-content'>
@@ -58,7 +58,8 @@ export default function PaperPageClient({ datas, year }: any) {
               </div>
             </div>
           </div>
-          <div className='col-lg-4'>
+
+          <div className='col-lg-5'>
             <div className='sidebar-shared'>
               {datas.paper_page &&
                 <>
@@ -70,8 +71,12 @@ export default function PaperPageClient({ datas, year }: any) {
                          href={'https://api.iseser.com/doc/' + year + '/ISESER' + year + '-PROCEEDING-BOOK.pdf#page=' + (+(datas.paper_page || '').split('-')[0] + splitPpage[year])}>
                         <i className='fa  fa-file-pdf-o'></i> Proceeding Book Page</a>
                     </div>
-                    <div><b>Page: </b>
-                      <span>{datas.paper_page}{datas.paper_page_end && '-' + datas.paper_page_end}</span></div>
+
+
+                    <div>
+                      <b>Page: </b>
+                      <span>{datas.paper_page}{datas.paper_page_end && '-' + datas.paper_page_end}</span>
+                    </div>
 
                     {splitPISBN[year] && <div><b>ISBN: </b>
                       <span>{splitPISBN[year]}</span></div>}
@@ -89,40 +94,72 @@ export default function PaperPageClient({ datas, year }: any) {
               }
 
               {(year === '2018' && datas.paper_abst_page) && <div className='side-widget'>
-                <h5 className='widget__title'>Abstract Book:
+                <h5 className='widget__title'>Abstract:
                 </h5>
-                {datas.paper_abst_page &&
-                  <div className='author-box recent-donate-item'>
-                    <a className='reply__btn btn btn-dark'
+                {datas.pap_num &&
+                  <div className='author-box recent-donate-item d-flex justify-content-between'>
+                    <a className='reply__btn btn btn-danger w-100'
                        target='_blank'
-                       href={'https://api.iseser.com/doc/' + year + '/ISESER' + year + '-ABSTRACT-BOOK.pdf#page=' + (+(datas.paper_abst_page || '').split('-')[0] + splitApage[year])}>
-                      <i className='fa  fa-file-pdf-o'></i> Abstract Book Page</a>
+                       href={'https://api.iseser.com/doc/' + year + '/book/' + (datas.parampre && datas.parampre.id === 97 ? 'O' : 'P') + datas.pap_num + '.pdf'}>
+                      <i className='fa  fa-file-pdf-o'></i> Abstract Part</a>
+
+                    <a className='reply__btn btn btn-warning w-100 ms-2'
+                       target='_blank'
+                       href={'https://api.iseser.com/doc/' + year + '/book/COVER_AND_CONTENTS.pdf'}>
+                      <i className='fa  fa-file-pdf-o'></i> Cover & Content</a>
                   </div>
                 }
+
+
+                {datas.paper_abst_page &&
+                  <div className='author-box recent-donate-item'>
+                    <a className='reply__btn btn btn-dark w-100'
+                       target='_blank'
+                       href={'https://api.iseser.com/doc/' + year + '/ISESER' + year + '-ABSTRACT-BOOK.pdf#page=' + (+(datas.paper_abst_page || '').split('-')[0] + splitApage[year])}>
+                      <i className='fa  fa-file-pdf-o'></i> Abstract Book</a>
+                  </div>
+                }
+
                 {datas.paper_abst_page && <div><b>Page: </b>
                   <span>{datas.paper_abst_page}</span></div>}
+
                 {splitAISBN[year] && <div><b>ISBN: </b>
                   <span>{splitAISBN[year]}</span></div>}
+
+
               </div>}
 
 
               <div className='side-widget'>
-                <h4 className='widget__title'>Presentation Topic</h4>
-                <div className='author-box recent-donate-item'>
-                  {(datas.topic && datas.topic.value)}
-                </div>
-              </div>
-              <div className='side-widget'>
-                <h4 className='widget__title'>Presentation Type</h4>
-                <div className='author-box recent-donate-item'>
-                  {(datas.parampre && datas.parampre.value)}
-                </div>
+                <h4 className='widget__title'>Presentation: </h4>
+
+                {datas.topic && <div>
+                  <b>Topic: </b>
+                  <span>{datas.topic.value}</span>
+                </div>}
+
+                {datas.parampre && <div>
+                  <b>Type: </b>
+                  <span>{datas.parampre.value}</span>
+                </div>}
+
               </div>
 
               <div className='side-widget'>
-                <h4 className='widget__title'>Symposium Venue</h4>
-                <div className='author-box recent-donate-item'>
-                  {splitPlace[year]}
+                <h4 className='widget__title'>Symposium </h4>
+                <div>
+                  <b>Year: </b>
+                  <span>{year}</span>
+                </div>
+
+                <div>
+                  <b>Month: </b>
+                  <span>{smonths[year]}</span>
+                </div>
+
+                <div>
+                  <b>Venue: </b>
+                  <span>{splitPlace[year]}</span>
                 </div>
               </div>
             </div>

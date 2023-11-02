@@ -2999,7 +2999,7 @@ a:hover {
     border-bottom: 2px solid #f2f0ec;
     margin-top: 50px;
     padding-top: 45px;
-    padding-bottom: 45px;
+    padding-bottom: 5px;
 }
 .news-detail-area .blog-content-wrap .blog-content .blog-item .blog-inner-content-2 .news-tags,
 .news-detail-area .blog-content-wrap .blog-content .blog-item .blog-inner-content-2 .news-tag-item-right .news-share {
