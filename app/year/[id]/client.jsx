@@ -4,7 +4,7 @@ import Announcement from '@/components/Announcement'
 import { PageHeaderEvent } from '@/layout/Breadcrumb'
 import Link from 'next/link'
 
-export default function YearPageClient({ orals, posters, year }: any) {
+export default function YearPageClient({ orals, posters, year }) {
   return <>
     <PageHeaderEvent
       title={'All Symposium'}

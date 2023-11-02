@@ -66,7 +66,9 @@ export async function GET(request, { params }) {
   return getServerSideSitemap([
       { loc: `${endpoint}/year/${year}/` },
       ...data.data.map(a => ({ loc: `${endpoint}/year/${year}/paper/${a.id}/` })),
-      ...data2.data.map(a => ({ loc: `${endpoint}/year/${year}/paper/${a.id}/` }))
+      ...data2.data.map(a => ({ loc: `${endpoint}/year/${year}/paper/${a.id}/` })),
+      ...data.data.map((a, index) => ({ loc: `${apipoint}doc/${year}/book/O${index + 1}.pdf` })),
+      ...data2.data.map((a, index) => ({ loc: `${apipoint}doc/${year}/book/P${index + 1}.pdf` }))
     ]
   )
 }

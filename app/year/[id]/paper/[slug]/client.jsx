@@ -2,7 +2,7 @@
 
 import { PageHeaderEvent } from '@/layout/Breadcrumb'
 
-export default function PaperPageClient({ datas, year }: any) {
+export default function PaperPageClient({ datas, year }) {
   return <>
     <PageHeaderEvent
       title={'All Symposium'}
@@ -72,7 +72,6 @@ export default function PaperPageClient({ datas, year }: any) {
                         <i className='fa  fa-file-pdf-o'></i> Proceeding Book Page</a>
                     </div>
 
-
                     <div>
                       <b>Page: </b>
                       <span>{datas.paper_page}{datas.paper_page_end && '-' + datas.paper_page_end}</span>
@@ -105,7 +104,7 @@ export default function PaperPageClient({ datas, year }: any) {
                       <i className='fa  fa-file-pdf-o'></i> Abstract Book</a>
                   </div>
                 }
-                {datas.pap_num &&<>
+                {datas.pap_num && <>
                   <div className='mb-2'>
                     <a className='reply__btn btn btn-danger w-100'
                        target='_blank'
@@ -119,20 +118,17 @@ export default function PaperPageClient({ datas, year }: any) {
                       <i className='fa  fa-file-pdf-o'></i> Cover & Content</a>
                     <a className='reply__btn btn btn-info w-100 ms-2'
                        target='_blank'
-                       href={'https://api.iseser.com/doc/' + year + '/ISESER' + year + '-FINAL-PROGRAM.pdf'} >
+                       href={'https://api.iseser.com/doc/' + year + '/ISESER' + year + '-FINAL-PROGRAM.pdf'}>
                       <i className='fa  fa-file-pdf-o'></i> Final Program</a>
-                  </div></>
+                  </div>
+                </>
                 }
-
-
-
 
                 {datas.paper_abst_page && <div><b>Page: </b>
                   <span>{datas.paper_abst_page}</span></div>}
 
                 {splitAISBN[year] && <div><b>ISBN: </b>
                   <span>{splitAISBN[year]}</span></div>}
-
 
               </div>}
 
