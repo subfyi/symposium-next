@@ -5,11 +5,11 @@ const endpoint = 'https://iseser.com/'
 
 export async function GET(request) {
 
-  var year = years.map(a => `${endpoint}sitemap-${a}-1.xml`)
+  var year = years.map(a => `${endpoint}sitemap/${a}/1/sitemap.xml`)
 
   return getServerSideSitemapIndex([
-    `${endpoint}sitemap-global-1.xml`,
-    `${endpoint}sitemap-document-1.xml`,
+    `${endpoint}sitemap/global/1/sitemap.xml`,
+    `${endpoint}sitemap/document/1/sitemap.xml`,
     ...year
   ])
 }

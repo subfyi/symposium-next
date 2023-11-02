@@ -4,7 +4,8 @@
 @import 'plugins/glightbox.min.css';
 @import 'css/style.css';
 @import 'css/responsive.css';
-@import 'swiper/css/swiper.css';
+@import '../node_modules/swiper/swiper.scss';
+@import '../node_modules/swiper/swiper-bundle.min.css';
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 
 .dashed {
