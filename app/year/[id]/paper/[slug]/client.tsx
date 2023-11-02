@@ -179,7 +179,7 @@ export default function PaperPageClient({ datas, year }: any) {
                       .map(a => a.last_name + ', ' + a.first_name.split(' ').map(a => a[0]).join('. ') + '.')
                       .join(' & ')
                     }. ({year}, {smonths[year]}). {datas.en_title}. International Symposium for Environmental Science and Engineering Research (ISESER{year}),
-                    pp. {datas.pap_num}{datas.pap_num && '-' + datas.pap_num}, {splitPlace[year]}.
+                    pp. {datas.pap_num}, {splitPlace[year]}.
                   </div>
                 </div>
               </div>
