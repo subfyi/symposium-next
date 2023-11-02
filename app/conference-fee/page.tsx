@@ -1,7 +1,7 @@
 import Announcement from '@/components/Announcement'
 import { PageHeader } from '@/layout/Breadcrumb'
 
-const metaTitle = 'Honorary Committee'
+const metaTitle = 'Symposium Fee'
 export const metadata = {
   title: metaTitle + ' | ISESER2023',
   description: metaTitle + '  - International Symposium for Environmental Science and Engineering Research 2023',

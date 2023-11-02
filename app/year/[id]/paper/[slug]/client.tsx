@@ -166,6 +166,26 @@ export default function PaperPageClient({ datas, year }: any) {
 
 
           </div>
+
+          {datas.pap_num &&
+            <div className='col-lg-12'>
+              <hr />
+              <div className='sidebar-shared'>
+                <div className='side-widget'>
+                  <h4 className='widget__title'>Cite This Paper (Format: APA)
+                  </h4>
+                  <div className='side-cats'>
+                    {datas.authors
+                      .map(a => a.last_name + ', ' + a.first_name.split(' ').map(a => a[0]).join('. ') + '.')
+                      .join(' & ')
+                    }. ({year}, {smonths[year]}). {datas.en_title}. International Symposium for Environmental Science and Engineering Research (ISESER{year}),
+                    pp. {datas.pap_num}{datas.pap_num && '-' + datas.pap_num}, {splitPlace[year]}.
+                  </div>
+                </div>
+              </div>
+            </div>
+          }
+
           {datas.paper_page &&
             <div className='col-lg-12'>
               <hr />
@@ -202,7 +222,7 @@ var smonths = {
 var splitApage = {
   '2016': 'NULL',
   '2017': 'NULL',
-  '2018': 11,
+  '2018': 12,
   '2019': 15,
   '2020': 10,
   '2021': 9,
