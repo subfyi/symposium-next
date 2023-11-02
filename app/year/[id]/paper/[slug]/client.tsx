@@ -96,20 +96,6 @@ export default function PaperPageClient({ datas, year }: any) {
               {(year === '2018' && datas.paper_abst_page) && <div className='side-widget'>
                 <h5 className='widget__title'>Abstract:
                 </h5>
-                {datas.pap_num &&
-                  <div className='author-box recent-donate-item d-flex justify-content-between'>
-                    <a className='reply__btn btn btn-danger w-100'
-                       target='_blank'
-                       href={'https://api.iseser.com/doc/' + year + '/book/' + (datas.parampre && datas.parampre.id === 97 ? 'O' : 'P') + datas.pap_num + '.pdf'}>
-                      <i className='fa  fa-file-pdf-o'></i> Abstract Part</a>
-
-                    <a className='reply__btn btn btn-warning w-100 ms-2'
-                       target='_blank'
-                       href={'https://api.iseser.com/doc/' + year + '/book/COVER_AND_CONTENTS.pdf'}>
-                      <i className='fa  fa-file-pdf-o'></i> Cover & Content</a>
-                  </div>
-                }
-
 
                 {datas.paper_abst_page &&
                   <div className='author-box recent-donate-item'>
@@ -119,6 +105,27 @@ export default function PaperPageClient({ datas, year }: any) {
                       <i className='fa  fa-file-pdf-o'></i> Abstract Book</a>
                   </div>
                 }
+                {datas.pap_num &&<>
+                  <div className='mb-2'>
+                    <a className='reply__btn btn btn-danger w-100'
+                       target='_blank'
+                       href={'https://api.iseser.com/doc/' + year + '/book/' + (datas.parampre && datas.parampre.id === 97 ? 'O' : 'P') + datas.pap_num + '.pdf'}>
+                      <i className='fa  fa-file-pdf-o'></i> Abstract Part</a>
+                  </div>
+                  <div className='author-box recent-donate-item ps-0 ms-0 d-flex justify-content-between'>
+                    <a className='reply__btn btn btn-warning w-100 '
+                       target='_blank'
+                       href={'https://api.iseser.com/doc/' + year + '/book/COVER_AND_CONTENTS.pdf'}>
+                      <i className='fa  fa-file-pdf-o'></i> Cover & Content</a>
+                    <a className='reply__btn btn btn-info w-100 ms-2'
+                       target='_blank'
+                       href={'https://api.iseser.com/doc/' + year + '/ISESER' + year + '-FINAL-PROGRAM.pdf'} >
+                      <i className='fa  fa-file-pdf-o'></i> Final Program</a>
+                  </div></>
+                }
+
+
+
 
                 {datas.paper_abst_page && <div><b>Page: </b>
                   <span>{datas.paper_abst_page}</span></div>}
