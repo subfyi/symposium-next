@@ -13,10 +13,10 @@ export async function generateMetadata(
   const datas = await api('/api/submission/' + params.slug)
   return {
     title: datas.en_title.toUpperCase() + ' | ISESER' + params.id,
-    description: 'This is an abstract of an article titled "' + datas.en_title.toUpperCase() + '"',
+    description: datas.en_title.toUpperCase() + ' - Abstract of an article titled',
     openGraph: {
       title: datas.en_title.toUpperCase() + ' | ISESER' + params.id,
-      description: 'This is an abstract of an article titled "' + datas.en_title.toUpperCase() + '"'
+      description: datas.en_title.toUpperCase() + ' - Abstract of an article titled'
     }
   }
 }
