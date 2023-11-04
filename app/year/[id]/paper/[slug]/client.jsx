@@ -1,6 +1,6 @@
 'use client'
 
-import { PageHeaderEvent } from '@/layout/Breadcrumb'
+import { PageHeaderEvent } from '../../../../../layout/Breadcrumb'
 
 export default function PaperPageClient({ datas, year }) {
   return <>
@@ -61,7 +61,7 @@ export default function PaperPageClient({ datas, year }) {
 
           <div className='col-lg-5'>
             <div className='sidebar-shared'>
-                {datas.paper_page &&
+              {datas.paper_page &&
                 <>
                   {datas.paper_page >= 0 ? <div className='side-widget'>
                     <h4 className='widget__title'>Proceeding Book</h4>
@@ -232,7 +232,18 @@ export default function PaperPageClient({ datas, year }) {
   </>
 }
 
-var smonths = {
+
+export const sMonthDig = {
+  '2016': '5',
+  '2017': '5',
+  '2018': '5',
+  '2019': '5',
+  '2020': '7',
+  '2021': '6',
+  '2023': '10'
+}
+
+export const smonths = {
   '2016': 'May',
   '2017': 'May',
   '2018': 'May',
@@ -241,7 +252,7 @@ var smonths = {
   '2021': 'June',
   '2023': 'October'
 }
-var splitApage = {
+export const splitApage = {
   '2016': 'NULL',
   '2017': 'NULL',
   '2018': 12,
@@ -250,7 +261,7 @@ var splitApage = {
   '2021': 9,
   '2023': 'NULL'
 }
-var splitAISBN = {
+export const splitAISBN = {
   '2016': 'NULL',
   '2017': 'NULL',
   '2018': '978-605-83522-1-6',
@@ -259,7 +270,7 @@ var splitAISBN = {
   '2021': '',
   '2023': 'NULL'
 }
-var splitPpage = {
+export const splitPpage = {
   '2016': 9,
   '2017': 9,
   '2018': 'NULL',
@@ -268,7 +279,7 @@ var splitPpage = {
   '2021': 9,
   '2023': 'NULL'
 }
-var splitPISBN = {
+export const splitPISBN = {
   '2016': '978-605-83522-0-9',
   '2017': '978-605-88368-4-6',
   '2018': 'NULL',
@@ -277,7 +288,7 @@ var splitPISBN = {
   '2021': '978-605-83522-3-0',
   '2023': 'NULL'
 }
-var splitPlace = {
+export const splitPlace = {
   '2016': 'Konya, Türkiye',
   '2017': 'Konya, Türkiye',
   '2018': 'Konya, Türkiye',
