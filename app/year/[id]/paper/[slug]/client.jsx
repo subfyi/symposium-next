@@ -61,16 +61,36 @@ export default function PaperPageClient({ datas, year }) {
 
           <div className='col-lg-5'>
             <div className='sidebar-shared'>
-              {datas.paper_page &&
+                {datas.paper_page &&
                 <>
                   {datas.paper_page >= 0 ? <div className='side-widget'>
-                    <h4 className='widget__title'>Published Paper</h4>
+                    <h4 className='widget__title'>Proceeding Book</h4>
                     <div className='author-box recent-donate-item'>
-                      <a className='reply__btn btn btn-dark'
+                      <a className='reply__btn btn btn-dark w-100'
                          target='_blank'
                          href={'https://api.iseser.com/doc/' + year + '/ISESER' + year + '-PROCEEDING-BOOK.pdf#page=' + (+(datas.paper_page || '').split('-')[0] + splitPpage[year])}>
                         <i className='fa  fa-file-pdf-o'></i> Proceeding Book Page</a>
                     </div>
+
+                    {datas.pap_num && <>
+                      <div className='mb-2'>
+                        <a className='reply__btn btn btn-danger w-100'
+                           target='_blank'
+                           href={'https://api.iseser.com/doc/' + year + '/book/' + (datas.parampre && datas.parampre.id === 97 ? 'O' : 'P') + datas.pap_num + '.pdf'}>
+                          <i className='fa  fa-file-pdf-o'></i> Proceeding Part</a>
+                      </div>
+                      <div className='author-box recent-donate-item ps-0 ms-0 d-flex justify-content-between'>
+                        <a className='reply__btn btn btn-warning w-100 '
+                           target='_blank'
+                           href={'https://api.iseser.com/doc/' + year + '/book/COVER_AND_CONTENTS.pdf'}>
+                          <i className='fa  fa-file-pdf-o'></i> Cover & Content</a>
+                        <a className='reply__btn btn btn-info w-100 ms-2'
+                           target='_blank'
+                           href={'https://api.iseser.com/doc/' + year + '/ISESER' + year + '-FINAL-PROGRAM.pdf'}>
+                          <i className='fa  fa-file-pdf-o'></i> Final Program</a>
+                      </div>
+                    </>
+                    }
 
                     <div>
                       <b>Page: </b>
@@ -93,8 +113,7 @@ export default function PaperPageClient({ datas, year }) {
               }
 
               {(year === '2018' && datas.paper_abst_page) && <div className='side-widget'>
-                <h5 className='widget__title'>Abstract:
-                </h5>
+                <h5 className='widget__title'>Abstract:</h5>
 
                 {datas.paper_abst_page &&
                   <div className='author-box recent-donate-item'>
@@ -170,7 +189,7 @@ export default function PaperPageClient({ datas, year }) {
 
           </div>
 
-          {datas.pap_num &&
+          {(year === '2018' && datas.paper_abst_page) && datas.pap_num &&
             <div className='col-lg-12'>
               <hr />
               <div className='sidebar-shared'>
@@ -244,7 +263,7 @@ var splitPpage = {
   '2016': 9,
   '2017': 9,
   '2018': 'NULL',
-  '2019': 15,
+  '2019': 21,
   '2020': 10,
   '2021': 9,
   '2023': 'NULL'
