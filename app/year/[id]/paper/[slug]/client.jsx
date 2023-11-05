@@ -190,8 +190,7 @@ export default function PaperPageClient({ datas, year }) {
           </div>
 
           {(year === '2018' && datas.paper_abst_page) && datas.pap_num &&
-            <div className='col-lg-12'>
-              <hr />
+            <div className='col-lg-12 mt-2'>
               <div className='sidebar-shared'>
                 <div className='side-widget'>
                   <h4 className='widget__title'>Cite This Paper (Format: APA)
@@ -209,8 +208,7 @@ export default function PaperPageClient({ datas, year }) {
           }
 
           {datas.paper_page &&
-            <div className='col-lg-12'>
-              <hr />
+            <div className='col-lg-12 mt-2'>
               <div className='sidebar-shared'>
                 <div className='side-widget'>
                   <h4 className='widget__title'>Cite This Paper (Format: APA)
