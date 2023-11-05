@@ -76,7 +76,7 @@ export default function PaperPageClient({ datas, year }) {
                       <div className='mb-2'>
                         <a className='reply__btn btn btn-danger w-100'
                            target='_blank'
-                           href={'https://api.iseser.com/doc/' + year + '/book/' + (datas.parampre && datas.parampre.id === 97 ? 'O' : 'P') + datas.pap_num + '.pdf'}>
+                           href={'https://api.iseser.com/doc/' + year + '/book/' + (datas.parampre && (datas.parampre.id === 97 ? 'O' :  datas.parampre.id === 463 ? 'O' : 'P')) + datas.pap_num + '.pdf'}>
                           <i className='fa  fa-file-pdf-o'></i> Proceeding Part</a>
                       </div>
                       <div className='author-box recent-donate-item ps-0 ms-0 d-flex justify-content-between'>
