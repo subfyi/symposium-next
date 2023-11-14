@@ -10,10 +10,14 @@ const poppins = Poppins({
 
 export const metadata = {
   title: 'ISESER2023 - International Symposium for Environmental Science and Engineering Research',
-  description: 'The purpose of the symposium is to give information about the environmental sciences and engineering to participants. In this symposium all participants will take advantage about environmental topics with the help of foreign participants and several poster and oral presentations. Also, this symposium aims to provide connections for students and to provide opportunities for experts to share and discuss their experiences.',
+  description: 'The purpose of the symposium is to give information about the environmental sciences and engineering to participants. In this symposium all participants will take advantage about environmental topics with the help of foreign participants and several poster and oral presentations.',
+  robots: {
+    index: true,
+    follow: true,
+  },
   openGraph: {
     title: 'ISESER2023 - International Symposium for Environmental Science and Engineering Research',
-    description: 'The purpose of the symposium is to give information about the environmental sciences and engineering to participants. In this symposium all participants will take advantage about environmental topics with the help of foreign participants and several poster and oral presentations. Also, this symposium aims to provide connections for students and to provide opportunities for experts to share and discuss their experiences.',
+    description: 'The purpose of the symposium is to give information about the environmental sciences and engineering to participants. In this symposium all participants will take advantage about environmental topics with the help of foreign participants and several poster and oral presentations.',
     url: 'https://iseser.com/',
     siteName: 'ISESER2023',
     locale: 'en-US',
