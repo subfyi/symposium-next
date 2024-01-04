@@ -62,7 +62,7 @@ export default function Footer() {
                       <div className="row">
                           <div className="col-lg-12">
                               <div className="copyright-desc">
-                                  <p>© Copyright 2023 by <a target="_blank" href="https://sub.fyi/">Sub.fyi</a></p>
+                                  <p>© Copyright {new Date().getFullYear()} by <a target="_blank" href="https://sub.fyi/">Sub.fyi</a></p>
                               </div>
                           </div>
                       </div>
