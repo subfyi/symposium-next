@@ -25,11 +25,11 @@ export function DocumentWithYear({ year }: any) {
   </>
 }
 
-function DocumentWithYearOld({ year, onlyAbsctract }: any) {
+export function DocumentWithYearOld({ year, onlyAbsctract }: any) {
   return <>
     <ul className='icon dashed'>
       <li><a href={'https://api.iseser.com/doc/' + year + '/ISESER' + year + '-BANNER.pdf?e' + randomTimeString} target='_blank' rel='noopener noreferrer'><i className='fa-regular fa-file-pdf'></i> BANNER</a></li>
-      <li><a href={'https://api.iseser.com/doc/' + year + '/ISESER' + year + '-BROCHURE.pdf?e' + randomTimeString} target='_blank' rel='noopener noreferrer'><i className='fa-regular fa-file-pdf'></i> BROCHURE</a></li>
+      {year != 2023 && <li><a href={'https://api.iseser.com/doc/' + year + '/ISESER' + year + '-BROCHURE.pdf?e' + randomTimeString} target='_blank' rel='noopener noreferrer'><i className='fa-regular fa-file-pdf'></i> BROCHURE</a></li>}
       <li><a href={'https://api.iseser.com/doc/' + year + '/ISESER' + year + '-FINAL-PROGRAM.pdf?e' + randomTimeString} target='_blank' rel='noopener noreferrer'><i className='fa-regular fa-file-pdf'></i> FINAL PROGRAM </a></li>
       {!!onlyAbsctract && <li><a href='https://api.iseser.com/doc/2018/ISESER2018-ABSTRACT-BOOK.pdf' target='_blank'><i className='fa-regular fa-file-pdf'></i> ABSTRACT BOOK</a></li>}
       {!onlyAbsctract && <li><a href={'https://api.iseser.com/doc/' + year + '/ISESER' + year + '-PROCEEDING-BOOK.pdf?e' + randomTimeString} target='_blank' rel='noopener noreferrer'><i className='fa-regular fa-file-pdf'></i> PROCEEDING BOOK</a></li>}
@@ -54,7 +54,7 @@ export default function Page() {
             <div className='section-heading'>
               <p className='section__meta'><Link href='/year/2023'>2023 SYMPOSIUM (ISESER)</Link></p>
               <div className='section__desc'>
-                <DocumentWithYear year={2023} />
+                <DocumentWithYearOld year={2023} onlyAbsctract={false} />
                 <ul>
                   <li><a href='https://photos.app.goo.gl/ftS6XjNtDY91a1rT7' target='_blank' rel='noopener noreferrer'><i className='fa-regular fa-file-image' aria-hidden='true'></i> PHOTOS </a></li>
                   <li><a href='https://www.youtube.com/playlist?list=PLcT5bWlEGP-2fKrCEWPUJ4vDa7Rd0e4n1' target='_blank' rel='noopener noreferrer'><i className='fa-regular fa-file-video' aria-hidden='true'></i> VIDEOS </a></li>

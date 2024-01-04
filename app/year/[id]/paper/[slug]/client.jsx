@@ -265,7 +265,7 @@ export const splitAISBN = {
   '2018': '978-605-83522-1-6',
   '2019': 'NULL',
   '2020': '978-605-69996-1-1',
-  '2021': '',
+  '2021': 'NULL',
   '2023': 'NULL'
 }
 export const splitPpage = {
@@ -275,7 +275,7 @@ export const splitPpage = {
   '2019': 14,
   '2020': 10,
   '2021': 9,
-  '2023': 'NULL'
+  '2023': 12
 }
 export const splitPISBN = {
   '2016': '978-605-83522-0-9',
@@ -284,7 +284,7 @@ export const splitPISBN = {
   '2019': '978-605-184-173-1',
   '2020': '978-605-83522-2-3',
   '2021': '978-605-83522-3-0',
-  '2023': 'NULL'
+  '2023': '978-625-6802-87-2'
 }
 export const splitPlace = {
   '2016': 'Konya, Türkiye',
