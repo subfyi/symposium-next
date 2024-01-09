@@ -13,7 +13,7 @@ export async function generateMetadata({ params }) {
     description: datas.en_title.toUpperCase() + ' - Abstract of an article titled',
     other: {
       citation_title: datas.en_title.toUpperCase(),
-      citation_author: [authorsList],
+      citation_author: authorsList,
       citation_publication_date: year,
       citation_firstpage: datas.page_start,
       citation_lastpage: datas.page_end,
