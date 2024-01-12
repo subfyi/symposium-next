@@ -43,7 +43,7 @@ export async function GET(request, { params }) {
 
   if (year === 'global' && +page === 1) {
     return getServerSideSitemap([
-      { loc: endpoint + '/' },
+      { loc: endpoint },
       { loc: endpoint + '/adviser-commission/' },
       { loc: endpoint + '/conference-fee/' },
       { loc: endpoint + '/contact/' },
