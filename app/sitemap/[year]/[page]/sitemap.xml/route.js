@@ -49,11 +49,11 @@ export async function GET(request, { params }) {
       { loc: endpoint + '/contact/' },
       { loc: endpoint + '/documents/' },
       { loc: endpoint + '/documents-all/' },
-      { loc: endpoint + '/honorary-committee' },
-      { loc: endpoint + '/science-commission' },
-      { loc: endpoint + '/sponsors' },
-      { loc: endpoint + '/threads' },
-      { loc: endpoint + '/symposium-announced' }
+      { loc: endpoint + '/honorary-committee/' },
+      { loc: endpoint + '/science-commission/' },
+      { loc: endpoint + '/sponsors/' },
+      { loc: endpoint + '/threads/' },
+      { loc: endpoint + '/symposium-announced/' }
     ])
   }
 
