@@ -31,7 +31,7 @@ export default function Page() {
 
               <p className='section__meta'>Invited Speaker
               </p>
-              <p className='section__desc'>
+              <div className='section__desc'>
                 <table className='tg'>
                   <tbody>
                   <tr>
@@ -86,7 +86,7 @@ export default function Page() {
                   </tr>
                   </tbody>
                 </table>
-              </p>
+              </div>
             </div>
           </div>
         </div>

@@ -29,7 +29,7 @@ export default function Page() {
               <div className='section-heading'>
 
                 <p className='section__meta'>SYMPOSIUM COORDINATOR</p>
-                <p className='section__desc'>
+                <div className='section__desc'>
                   <table className='tg'>
                     <tbody>
                     <tr>
@@ -54,7 +54,7 @@ export default function Page() {
                     </tr>
                     </tbody>
                   </table>
-                </p>
+                </div>
               </div>
             </div>
           </div>
@@ -62,7 +62,7 @@ export default function Page() {
             <div>
               <div className='section-heading'>
                 <p className='section__meta'>ORGANIZATION COMMITTEE</p>
-                <p className='section__desc'>
+                <div className='section__desc'>
                   <table className='tg'>
                     <tbody>
                     <tr>
@@ -135,7 +135,7 @@ export default function Page() {
                     </tr>
                     </tbody>
                   </table>
-                </p>
+                </div>
               </div>
             </div>
           </div>

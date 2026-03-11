@@ -173,7 +173,7 @@ export default function PaperPageClient({ datas, year }) {
                     <br />
                     <ul className='small'>
                       {datas.authors.map((author, index) =>
-                        <li><sup>{index + 1}.</sup> {author.adress}
+                        <li key={author.id || `${author.first_name}-${author.last_name}-${index}`}><sup>{index + 1}.</sup> {author.adress}
                         </li>
                       )}
                     </ul>
@@ -187,7 +187,7 @@ export default function PaperPageClient({ datas, year }) {
                     <div className='news-tag-item-left'>
                                     <span className='news-meta-tags'>
                                         <span className='news-meta-title'>Keyword(s):</span>
-                                      {(datas.pap_keyword || '').split('|').map(a => <a className={'mb-1'}>{a}</a>)}
+                                      {(datas.pap_keyword || '').split('|').filter(Boolean).map((keyword, index) => <a key={`${keyword}-${index}`} className={'mb-1'}>{keyword}</a>)}
                                     </span>
                     </div>
                   </div>

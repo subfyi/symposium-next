@@ -3,6 +3,7 @@
 import Announcement from '@/components/Announcement'
 import { PageHeaderEvent } from '@/layout/Breadcrumb'
 import Link from 'next/link'
+import { Fragment } from 'react'
 
 export default function YearPageClient({ orals, posters, year }) {
   const oralRows = Array.isArray(orals?.data) ? orals.data : []
@@ -70,8 +71,8 @@ export default function YearPageClient({ orals, posters, year }) {
                     {!oralRows.length && <tr>
                       <td colSpan={2}>No oral presentations were found for this symposium year.</td>
                     </tr>}
-                    {oralRows.map((datas, i) => <>
-                      <tr key={datas.id || `oral-${i}`}>
+                    {oralRows.map((datas, i) => <Fragment key={datas.id || `oral-${i}`}>
+                      <tr>
                         <td><b>O{i + 1}</b></td>
                         <td><Link className={'text-uppercase'} href={'/year/' + year + '/paper/' + (datas.id)}> {(datas.en_title || datas.title || 'Untitled Paper').toUpperCase()}</Link></td>
                       </tr>
@@ -80,7 +81,7 @@ export default function YearPageClient({ orals, posters, year }) {
                           {renderAuthors(datas)}
                         </td>
                       </tr>
-                    </>)}
+                    </Fragment>)}
                     </tbody>
                   </table>
                 </div>
@@ -116,8 +117,8 @@ export default function YearPageClient({ orals, posters, year }) {
                   {!posterRows.length && <tr>
                     <td colSpan={2}>No poster presentations were found for this symposium year.</td>
                   </tr>}
-                  {posterRows.map((datas, i) => <>
-                    <tr key={datas.id || `poster-${i}`}>
+                  {posterRows.map((datas, i) => <Fragment key={datas.id || `poster-${i}`}>
+                    <tr>
                       <td><b>P{i + 1}</b></td>
                       <td><Link className={'text-uppercase'} href={'/year/' + year + '/paper/' + (datas.id)}> {(datas.en_title || datas.title || 'Untitled Paper').toUpperCase()}</Link></td>
                     </tr>
@@ -126,7 +127,7 @@ export default function YearPageClient({ orals, posters, year }) {
                         {renderAuthors(datas)}
                       </td>
                     </tr>
-                  </>)}
+                  </Fragment>)}
                   </tbody>
                 </table>
               </div>
