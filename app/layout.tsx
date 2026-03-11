@@ -2,6 +2,7 @@ import '../assets/style.scss'
 import Layout from '@/layout/Layout'
 import React from 'react'
 import { Poppins } from 'next/font/google'
+import type { Metadata } from 'next'
 
 import Favicon from '@/assets/favi/favicon.ico'
 import FaviconSVG from '@/assets/favi/favicon.svg'
@@ -22,15 +23,26 @@ import MsIcon144x144 from '@/assets/favi/ms-icon-144x144.png'
 
 import Script from 'next/script'
 
+const siteUrl = process.env.DOMAIN || 'https://iseser.com'
+const ogImage = '/doc/logo/yeni-kare-300x300.png'
+
 const poppins = Poppins({
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
   subsets: ['latin', 'latin-ext']
 })
 
-export const metadata = {
-  metadataBase: new URL(process.env.DOMAIN || 'https://iseser.com'),
+export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: 'ISESER2023 - International Symposium for Environmental Science and Engineering Research',
   description: 'The purpose of the symposium is to give information about the environmental sciences and engineering to participants. In this symposium all participants will take advantage about environmental topics with the help of foreign participants and several poster and oral presentations.',
+  alternates: {
+    canonical: '/'
+  },
+  authors: [{ name: 'ISESER Organizing Committee' }],
+  creator: 'ISESER Organizing Committee',
+  publisher: 'ISESER',
+  keywords: ['ISESER', 'environmental science', 'environmental engineering', 'symposium', 'conference', 'abstract book', 'poster presentations', 'oral presentations'],
+  category: 'Science',
   robots: {
     index: true,
     follow: true
@@ -41,7 +53,21 @@ export const metadata = {
     url: 'https://iseser.com/',
     siteName: 'ISESER2023',
     locale: 'en-US',
-    type: 'website'
+    type: 'website',
+    images: [
+      {
+        url: ogImage,
+        width: 300,
+        height: 300,
+        alt: 'ISESER Symposium'
+      }
+    ]
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'ISESER2023 - International Symposium for Environmental Science and Engineering Research',
+    description: 'International Symposium for Environmental Science and Engineering Research',
+    images: [ogImage]
   },
   verification: {
     yandex: 'f53bd192ca8c76d5'
@@ -84,6 +110,16 @@ export default function RootLayout({ children }: {
       {process.env.NODE_ENV === 'production' && <>
         <link rel='preconnect' href='https://www.googletagmanager.com' />
         <Script src='https://www.googletagmanager.com/gtag/js?id=G-QE48W95TB6' />
+        <Script id='organization-json-ld' type='application/ld+json'>
+          {JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'Organization',
+            name: 'International Symposium for Environmental Science and Engineering Research (ISESER)',
+            url: siteUrl,
+            logo: `${siteUrl}${ogImage}`,
+            sameAs: [siteUrl]
+          })}
+        </Script>
         <Script id='google-analytics'>
           {`
           window.dataLayer = window.dataLayer || [];

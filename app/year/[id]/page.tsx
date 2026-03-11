@@ -11,13 +11,33 @@ export async function generateMetadata(
 ) {
   return Promise.resolve(params).then((resolvedParams) => {
     const year = `${resolvedParams?.id || ''}`.toUpperCase()
+    const canonicalUrl = `/year/${year}/`
+    const description = 'ISESER' + year + ' Abstracts Online Version - International Symposium for Environmental Science and Engineering Research'
 
     return {
       title: 'ISESER' + year + ' ABSTRACTS ONLINE VERSION',
-      description: 'ISESER' + year + ' Abstracts Online Version - International Symposium for Environmental Science and Engineering Research',
+      description,
+      alternates: {
+        canonical: canonicalUrl
+      },
       openGraph: {
         title: 'ISESER' + year + ' ABSTRACTS ONLINE VERSION',
-        description: 'ISESER' + year + ' Abstracts Online Version - International Symposium for Environmental Science and Engineering Research'
+        description,
+        url: `https://iseser.com${canonicalUrl}`,
+        images: [
+          {
+            url: '/doc/logo/yeni-kare-300x300.png',
+            width: 300,
+            height: 300,
+            alt: `ISESER${year}`
+          }
+        ]
+      },
+      twitter: {
+        card: 'summary_large_image',
+        title: 'ISESER' + year + ' ABSTRACTS ONLINE VERSION',
+        description,
+        images: ['/doc/logo/yeni-kare-300x300.png']
       }
     }
   })

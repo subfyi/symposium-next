@@ -74,6 +74,7 @@ export async function generateMetadata({ params }) {
   const canonicalUrl = `https://iseser.com/year/${year}/paper/${resolvedParams.slug}/`
   const pdfUrl = getPdfUrl(datas, year)
   const publicationDate = getPublicationDate(year)
+  const ogImage = '/doc/logo/yeni-kare-300x300.png'
 
   return {
     title: uppercaseTitle + ' | ISESER' + year,
@@ -101,7 +102,21 @@ export async function generateMetadata({ params }) {
       type: 'article',
       url: canonicalUrl,
       publishedTime: publicationDate,
-      authors: authorsList
+      authors: authorsList,
+      images: [
+        {
+          url: ogImage,
+          width: 300,
+          height: 300,
+          alt: uppercaseTitle
+        }
+      ]
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: uppercaseTitle + ' | ISESER' + year,
+      description: uppercaseTitle + ' - Abstract of an article titled',
+      images: [ogImage]
     }
   }
 }
@@ -126,6 +141,7 @@ export default async function Page({ params }) {
     datePublished: publicationDate,
     url: canonicalUrl,
     sameAs: canonicalUrl,
+    mainEntityOfPage: canonicalUrl,
     author: datas.authors.map((author) => ({
       '@type': 'Person',
       name: `${author.first_name} ${author.last_name}`,
