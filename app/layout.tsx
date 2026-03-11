@@ -28,6 +28,7 @@ const poppins = Poppins({
 })
 
 export const metadata = {
+  metadataBase: new URL(process.env.DOMAIN || 'https://iseser.com'),
   title: 'ISESER2023 - International Symposium for Environmental Science and Engineering Research',
   description: 'The purpose of the symposium is to give information about the environmental sciences and engineering to participants. In this symposium all participants will take advantage about environmental topics with the help of foreign participants and several poster and oral presentations.',
   robots: {

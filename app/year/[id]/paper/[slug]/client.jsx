@@ -1,8 +1,151 @@
 'use client'
 
+import { useState } from 'react'
 import { PageHeaderEvent } from '../../../../../layout/Breadcrumb'
 
+function getPaperUrl(year, datas) {
+  return `https://iseser.com/year/${year}/paper/${datas.id}/`
+}
+
+function getPageRange(datas) {
+  if (datas.paper_page) {
+    return datas.paper_page_end ? `${datas.paper_page}-${datas.paper_page_end}` : `${datas.paper_page}`
+  }
+
+  if (datas.paper_abst_page) {
+    return `${datas.paper_abst_page}`
+  }
+
+  return null
+}
+
+function getShortInitials(name = '') {
+  return name.split(' ').filter(Boolean).map((part) => part[0]).join('. ')
+}
+
+function getAuthorApa(author) {
+  return `${author.last_name}, ${getShortInitials(author.first_name)}.`
+}
+
+function getAuthorAma(author) {
+  return `${author.last_name} ${author.first_name.split(' ').filter(Boolean).map((part) => part[0]).join('')}`
+}
+
+function getAuthorIeee(author) {
+  return `${getShortInitials(author.first_name)} ${author.last_name}`
+}
+
+function getAuthorFull(author) {
+  return `${author.first_name} ${author.last_name}`
+}
+
+function joinAuthors(authors, mapper, { two = ' & ', last = ', & ', manyFallback = ', ' } = {}) {
+  const items = authors.map(mapper)
+
+  if (items.length <= 1) {
+    return items[0] || ''
+  }
+
+  if (items.length === 2) {
+    return `${items[0]}${two}${items[1]}`
+  }
+
+  return `${items.slice(0, -1).join(manyFallback)}${last}${items[items.length - 1]}`
+}
+
+function joinAuthorsWithWord(authors, mapper, word) {
+  const items = authors.map(mapper)
+
+  if (items.length <= 1) {
+    return items[0] || ''
+  }
+
+  if (items.length === 2) {
+    return `${items[0]} ${word} ${items[1]}`
+  }
+
+  return `${items.slice(0, -1).join(', ')}, ${word} ${items[items.length - 1]}`
+}
+
+function getCitationRows(datas, year) {
+  const title = datas.en_title
+  const fullTitle = `International Symposium for Environmental Science and Engineering Research ${year} (ISESER${year})`
+  const shortTitle = `ISESER${year}`
+  const monthEn = smonths[year] || ''
+  const monthTr = smonthsTr[year] || monthEn
+  const pageRange = getPageRange(datas)
+  const issueDate = `01 ${monthTr} ${year}`
+  const url = getPaperUrl(year, datas)
+  const hasExternalPdf = Boolean(datas.paper_external)
+  const proceedingLabel = hasExternalPdf ? 'Published Paper' : 'Proceedings Paper'
+  const apaAuthors = joinAuthors(datas.authors, getAuthorApa)
+  const amaAuthors = joinAuthors(datas.authors, getAuthorAma, { two: ', ', last: ', ', manyFallback: ', ' })
+  const chicagoAuthors = joinAuthorsWithWord(datas.authors, getAuthorFull, 'and')
+  const ieeeAuthors = joinAuthorsWithWord(datas.authors, getAuthorIeee, 'and')
+  const vancouverAuthors = joinAuthors(datas.authors, getAuthorFull, { two: ', ', last: ', ', manyFallback: ', ' })
+  const isnadAuthors = joinAuthors(datas.authors, (author) => `${author.last_name}, ${author.first_name}`, { two: ' - ', last: ' - ', manyFallback: ' - ' })
+  const mlaAuthors = datas.authors.length > 2
+    ? `${getAuthorFull(datas.authors[0])}, et al.`
+    : joinAuthors(datas.authors, getAuthorFull, { two: ', and ', last: ', and ', manyFallback: ', ' })
+
+  return [
+    {
+      label: 'APA',
+      text: `${apaAuthors} (${year}, ${monthEn}). ${title}. ${fullTitle}, pp. ${pageRange || 'n.p.'}, ${splitPlace[year]}. ${url}`
+    },
+    {
+      label: 'AMA',
+      text: `1. ${amaAuthors}. ${title}. ${shortTitle}. ${year};${pageRange ? `pp.${pageRange}` : ''} ${url}`.replace(/\s+/g, ' ').trim()
+    },
+    {
+      label: 'Chicago',
+      text: `${chicagoAuthors}. ${year}. "${title}." ${fullTitle}. ${splitPlace[year]}. ${pageRange ? `${pageRange}. ` : ''}${url}`.replace(/\s+/g, ' ').trim()
+    },
+    {
+      label: 'EndNote',
+      text: `${amaAuthors} (${issueDate}) ${title}. ${fullTitle}. ${pageRange || 'n.p.'}. ${url}`
+    },
+    {
+      label: 'IEEE',
+      text: `[1] ${ieeeAuthors}, "${title}," ${shortTitle}, ${splitPlace[year]}, ${monthEn} ${year}, pp. ${pageRange || 'n.p.'}, [Online]. Available: ${url}`
+    },
+    {
+      label: 'ISNAD',
+      text: `${isnadAuthors}. "${title}". ${fullTitle} (${issueDate}): ${pageRange || 'n.p.'}. ${url}`
+    },
+    {
+      label: 'JAMA',
+      text: `1. ${amaAuthors}. ${title}. ${shortTitle}. ${year}:${pageRange || 'n.p.'}.`
+    },
+    {
+      label: 'MLA',
+      text: `${mlaAuthors}. "${title}." ${fullTitle}, ${monthEn} ${year}, pp. ${pageRange || 'n.p.'}, ${url}.`
+    },
+    {
+      label: 'Vancouver',
+      text: `1. ${vancouverAuthors}. ${title}. ${shortTitle} [Internet]. ${issueDate};${pageRange || 'n.p.'}. Available from: ${url}`
+    },
+    {
+      label: proceedingLabel,
+      text: hasExternalPdf ? `Full text PDF available at ${datas.paper_external}` : `Proceedings PDF available at ${url}`
+    }
+  ]
+}
+
 export default function PaperPageClient({ datas, year }) {
+  const [copiedLabel, setCopiedLabel] = useState(null)
+  const citationRows = getCitationRows(datas, year)
+
+  async function handleCopy(label, text) {
+    try {
+      await navigator.clipboard.writeText(text)
+      setCopiedLabel(label)
+      window.setTimeout(() => setCopiedLabel((current) => current === label ? null : current), 1500)
+    } catch (error) {
+      setCopiedLabel(null)
+    }
+  }
+
   return <>
     <PageHeaderEvent
       title={'All Symposium'}
@@ -189,36 +332,33 @@ export default function PaperPageClient({ datas, year }) {
 
           </div>
 
-          {(year === '2018' && datas.paper_abst_page) && datas.pap_num &&
+          {(datas.paper_page || datas.paper_abst_page || datas.paper_external) &&
             <div className='col-lg-12 mt-2'>
               <div className='sidebar-shared'>
                 <div className='side-widget'>
-                  <h4 className='widget__title'>Cite This Paper (Format: APA)
-                  </h4>
-                  <div className='side-cats'>
-                    {datas.authors
-                      .map(a => a.last_name + ', ' + a.first_name.split(' ').map(a => a[0]).join('. ') + '.')
-                      .join(' & ')
-                    }. ({year}, {smonths[year]}). {datas.en_title}. International Symposium for Environmental Science and Engineering Research (ISESER{year}),
-                    pp. {datas.pap_num}, {splitPlace[year]}.
-                  </div>
-                </div>
-              </div>
-            </div>
-          }
-
-          {datas.paper_page &&
-            <div className='col-lg-12 mt-2'>
-              <div className='sidebar-shared'>
-                <div className='side-widget'>
-                  <h4 className='widget__title'>Cite This Paper (Format: APA)
-                  </h4>
-                  <div className='side-cats'>
-                    {datas.authors
-                      .map(a => a.last_name + ', ' + a.first_name.split(' ').map(a => a[0]).join('. ') + '.')
-                      .join(' & ')
-                    }. ({year}, {smonths[year]}). {datas.en_title}. International Symposium for Environmental Science and Engineering Research {year} (ISESER{year}),
-                    pp. {datas.paper_page}{datas.paper_page_end && '-' + datas.paper_page_end}, {splitPlace[year]}.
+                  <h4 className='widget__title'>Cite This Paper</h4>
+                  <div className='table-responsive'>
+                    <table className='table table-striped mb-0'>
+                      <tbody>
+                      {citationRows.map((row) => (
+                        <tr key={row.label}>
+                          <td style={{ width: '110px', fontWeight: 700 }}>{row.label}</td>
+                          <td className='side-cats'>{row.text}</td>
+                          <td style={{ width: '70px' }}>
+                            <button
+                              type='button'
+                              className='btn btn-sm btn-light'
+                              aria-label={`${row.label} citation copy`}
+                              title='Copy'
+                              onClick={() => handleCopy(row.label, row.text)}
+                            >
+                              <i className={`fa ${copiedLabel === row.label ? 'fa-check' : 'fa-copy'}`}></i>
+                            </button>
+                          </td>
+                        </tr>
+                      ))}
+                      </tbody>
+                    </table>
                   </div>
                 </div>
               </div>
@@ -249,6 +389,15 @@ export const smonths = {
   '2020': 'July',
   '2021': 'June',
   '2023': 'October'
+}
+export const smonthsTr = {
+  '2016': 'Mayis',
+  '2017': 'Mayis',
+  '2018': 'Mayis',
+  '2019': 'Mayis',
+  '2020': 'Temmuz',
+  '2021': 'Haziran',
+  '2023': 'Ekim'
 }
 export const splitApage = {
   '2016': 'NULL',
