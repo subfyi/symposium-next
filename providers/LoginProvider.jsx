@@ -51,7 +51,8 @@ export function useLogin() {
 }
 
 function LoginModal({ onDone }) {
-  const [api] = useAuth()
+  const auth = useAuth() || []
+  const [api] = auth
 
   const [username, setUsername] = useState('')
   const [password, setPassword] = useState('')
@@ -178,7 +179,8 @@ function RegisterModal({ onDone }) {
   const [error, setError] = useState()
   const [loading, setLoading] = useState(false)
   const [url, setUrl] = useState()
-  const [, login] = useAuth()
+  const auth = useAuth() || []
+  const [, login] = auth
   const [checked, setChecked] = useReducer(a => !a, false)
 
   const onLogin = useCallback(async function(e) {
@@ -458,7 +460,8 @@ function ResetModal({ onDone }) {
   const [error, setError] = useState()
   const [loading, setLoading] = useState(false)
   const [url, setUrl] = useState()
-  const [, login] = useAuth()
+  const auth = useAuth() || []
+  const [, login] = auth
   const [finalUrl, setFinalUrl] = useState()
 
   const onLogin = useCallback(async function(e) {

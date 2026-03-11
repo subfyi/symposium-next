@@ -5,6 +5,25 @@ import { PageHeaderEvent } from '@/layout/Breadcrumb'
 import Link from 'next/link'
 
 export default function YearPageClient({ orals, posters, year }) {
+  const oralRows = Array.isArray(orals?.data) ? orals.data : []
+  const posterRows = Array.isArray(posters?.data) ? posters.data : []
+
+  function renderAuthors(datas) {
+    const authors = Array.isArray(datas?.authors) ? datas.authors : []
+
+    if (!authors.length) {
+      return <span>Author information is not available.</span>
+    }
+
+    return authors.map((author, index) => (
+      <span key={index} className='text-capitalize'>
+        {author.first_name} {author.last_name}<sup>{index + 1}</sup>
+        {index < authors.length - 1 && (
+          <span>,{' '}</span>)}
+      </span>
+    ))
+  }
+
   return <>
     <PageHeaderEvent
       title={'All Symposium'}
@@ -48,19 +67,17 @@ export default function YearPageClient({ orals, posters, year }) {
                     </tr>
                     </thead>
                     <tbody>
-                    {orals.data.map((datas, i) => <>
-                      <tr key={datas.id}>
+                    {!oralRows.length && <tr>
+                      <td colSpan={2}>No oral presentations were found for this symposium year.</td>
+                    </tr>}
+                    {oralRows.map((datas, i) => <>
+                      <tr key={datas.id || `oral-${i}`}>
                         <td><b>O{i + 1}</b></td>
-                        <td><Link className={'text-uppercase'} href={'/year/' + year + '/paper/' + (datas.id)}> {datas.en_title.toUpperCase()}</Link></td>
+                        <td><Link className={'text-uppercase'} href={'/year/' + year + '/paper/' + (datas.id)}> {(datas.en_title || datas.title || 'Untitled Paper').toUpperCase()}</Link></td>
                       </tr>
                       <tr>
                         <td colSpan={2} className={'text-capitalize'}>
-                          {datas.authors.map((author, index) => (
-                            <span key={index} className='text-capitalize'>
-                                  {author.first_name} {author.last_name}<sup>{index + 1}</sup>
-                              {index < datas.authors.length - 1 && (
-                                <span>,{' '}</span>)}</span>
-                          ))}
+                          {renderAuthors(datas)}
                         </td>
                       </tr>
                     </>)}
@@ -96,19 +113,17 @@ export default function YearPageClient({ orals, posters, year }) {
                   </tr>
                   </thead>
                   <tbody>
-                  {posters.data.map((datas, i) => <>
-                    <tr key={datas.id}>
+                  {!posterRows.length && <tr>
+                    <td colSpan={2}>No poster presentations were found for this symposium year.</td>
+                  </tr>}
+                  {posterRows.map((datas, i) => <>
+                    <tr key={datas.id || `poster-${i}`}>
                       <td><b>P{i + 1}</b></td>
-                      <td><Link className={'text-uppercase'} href={'/year/' + year + '/paper/' + (datas.id)}> {datas.en_title}</Link></td>
+                      <td><Link className={'text-uppercase'} href={'/year/' + year + '/paper/' + (datas.id)}> {(datas.en_title || datas.title || 'Untitled Paper').toUpperCase()}</Link></td>
                     </tr>
                     <tr>
                       <td colSpan={2}>
-                        {datas.authors.map((author, index) => (
-                          <span key={index} className='text-capitalize'>
-                                  {author.first_name} {author.last_name}<sup>{index + 1}</sup>
-                            {index < datas.authors.length - 1 && (
-                              <span>,{' '}</span>)}</span>
-                        ))}
+                        {renderAuthors(datas)}
                       </td>
                     </tr>
                   </>)}

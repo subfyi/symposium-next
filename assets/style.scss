@@ -1,12 +1,10 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 @import 'css/animate.min.css';
 @import 'plugins/accordion.css';
-@import 'plugins/glightbox.min.css';
 @import 'css/style.css';
 @import 'css/responsive.css';
-@import '../node_modules/swiper/swiper.scss';
 @import '../node_modules/swiper/swiper-bundle.min.css';
-@import "~@fortawesome/fontawesome-free/css/all.min.css";
+@import '@fortawesome/fontawesome-free/css/all.min.css';
 
 .dashed {
   border-bottom: 1px dotted #ddd;

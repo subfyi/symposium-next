@@ -7,8 +7,7 @@ const endpoint = 'https://iseser.com'
 const apipoint = 'https://api.iseser.com/'
 
 export async function GET(request, { params }) {
-
-  const { year, page } = params
+  const { year, page } = await Promise.resolve(params)
 
   if (year === 'document' && +page === 1) {
     return getServerSideSitemap([

@@ -2,7 +2,8 @@ import { useCallback } from 'react';
 import { UploadProvider, useAuth } from "react-admin-base";
 
 export default function UploadConfig({ children }) {
-    const [ api, isLoggedIn ] = useAuth();
+    const auth = useAuth() || [];
+    const [ api, isLoggedIn ] = auth;
     const axios = (isLoggedIn ? api.tokenized : api.free);
 
     const uploader = useCallback(async function(name, blob, contentType, signal, progress) {
@@ -35,4 +36,3 @@ export default function UploadConfig({ children }) {
         { children }
     </UploadProvider>
 }
-

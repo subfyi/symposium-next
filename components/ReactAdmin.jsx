@@ -1,5 +1,6 @@
 'use client'
 
+import { useEffect, useState } from 'react'
 import { App, AuthProvider } from 'react-admin-base'
 import LoginProvider from '@/providers/LoginProvider'
 import { UserProvider } from '@/providers/UserProvider'
@@ -17,6 +18,16 @@ const languages = {
 }
 
 export default function ReactAdminApp({ children }) {
+  const [mounted, setMounted] = useState(false)
+
+  useEffect(() => {
+    setMounted(true)
+  }, [])
+
+  if (!mounted) {
+    return children
+  }
+
   return <App id='iseser' endpoint={process.env.ENDPOINT} name='ISESER'>
     <IntlProvider locale='en' messages={languages.en.messages}>
       <AuthProvider tokenEndpoint='/oauth/token' client_id='2' client_secret='JjPIsb7TNCf7ysEfs0JDhl5XXBgIVh6dMRLMCrb9'>

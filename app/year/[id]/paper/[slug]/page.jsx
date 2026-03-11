@@ -58,23 +58,31 @@ function getPageRange(datas) {
   return datas.paper_page_end ? `${datas.paper_page}-${datas.paper_page_end}` : `${datas.paper_page}`
 }
 
-export async function generateMetadata({ params }) {
-  const year = params?.id
+function getDisplayTitle(datas, fallback = 'Untitled Paper') {
+  const title = datas?.en_title || datas?.title || fallback
+  return `${title}`
+}
 
-  const datas = await api('/api/submission/' + params.slug)
+export async function generateMetadata({ params }) {
+  const resolvedParams = await Promise.resolve(params)
+  const year = resolvedParams?.id
+
+  const datas = await api('/api/submission/' + resolvedParams.slug)
+  const displayTitle = getDisplayTitle(datas)
+  const uppercaseTitle = displayTitle.toUpperCase()
   const authorsList = datas.authors.map(author => `${author.first_name} ${author.last_name}`)
-  const canonicalUrl = `https://iseser.com/year/${year}/paper/${params.slug}/`
+  const canonicalUrl = `https://iseser.com/year/${year}/paper/${resolvedParams.slug}/`
   const pdfUrl = getPdfUrl(datas, year)
   const publicationDate = getPublicationDate(year)
 
   return {
-    title: datas.en_title.toUpperCase() + ' | ISESER' + year,
-    description: datas.en_title.toUpperCase() + ' - Abstract of an article titled',
+    title: uppercaseTitle + ' | ISESER' + year,
+    description: uppercaseTitle + ' - Abstract of an article titled',
     alternates: {
       canonical: canonicalUrl
     },
     other: {
-      citation_title: datas.en_title.toUpperCase(),
+      citation_title: uppercaseTitle,
       citation_author: authorsList,
       citation_publication_date: publicationDate,
       citation_online_date: publicationDate,
@@ -88,8 +96,8 @@ export async function generateMetadata({ params }) {
       citation_isbn: proceedingIsbn[year] || undefined
     },
     openGraph: {
-      title: datas.en_title.toUpperCase() + ' | ISESER' + year,
-      description: datas.en_title.toUpperCase() + ' - Abstract of an article titled',
+      title: uppercaseTitle + ' | ISESER' + year,
+      description: uppercaseTitle + ' - Abstract of an article titled',
       type: 'article',
       url: canonicalUrl,
       publishedTime: publicationDate,
@@ -99,18 +107,20 @@ export async function generateMetadata({ params }) {
 }
 
 export default async function Page({ params }) {
+  const resolvedParams = await Promise.resolve(params)
 
-  var [datas] = await Promise.all([api('/api/submission/' + params?.slug + '?e' + randomTimeString)])
-  const year = params?.id
-  const canonicalUrl = `https://iseser.com/year/${year}/paper/${params.slug}/`
+  var [datas] = await Promise.all([api('/api/submission/' + resolvedParams?.slug + '?e' + randomTimeString)])
+  const year = resolvedParams?.id
+  const displayTitle = getDisplayTitle(datas)
+  const canonicalUrl = `https://iseser.com/year/${year}/paper/${resolvedParams.slug}/`
   const pdfUrl = getPdfUrl(datas, year)
   const pageRange = getPageRange(datas)
   const publicationDate = getPublicationDate(year)
   const structuredData = {
     '@context': 'https://schema.org',
     '@type': 'ScholarlyArticle',
-    headline: datas.en_title,
-    name: datas.en_title,
+    headline: displayTitle,
+    name: displayTitle,
     description: datas.en_abstract,
     inLanguage: 'en',
     datePublished: publicationDate,
@@ -148,7 +158,7 @@ export default async function Page({ params }) {
 
   return <>
     <Script
-      id={`scholarly-article-${params.slug}`}
+      id={`scholarly-article-${resolvedParams.slug}`}
       type='application/ld+json'
       dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
     />

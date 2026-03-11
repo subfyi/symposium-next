@@ -254,11 +254,11 @@ export default function Header() {
 
 function UserLogin() {
   const user = useUser()
-
-  const [api] = useAuth()
+  const auth = useAuth() || []
+  const [api] = auth
   const logout = useCallback(function(e: Event) {
     e.preventDefault()
-    api.logout()
+    api?.logout?.()
   }, [api])
 
   const _login = useLogin()
