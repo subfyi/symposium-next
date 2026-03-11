@@ -76,8 +76,6 @@ function getCitationRows(datas, year) {
   const pageRange = getPageRange(datas)
   const issueDate = `01 ${monthTr} ${year}`
   const url = getPaperUrl(year, datas)
-  const hasExternalPdf = Boolean(datas.paper_external)
-  const proceedingLabel = hasExternalPdf ? 'Published Paper' : 'Proceedings Paper'
   const apaAuthors = joinAuthors(datas.authors, getAuthorApa)
   const amaAuthors = joinAuthors(datas.authors, getAuthorAma, { two: ', ', last: ', ', manyFallback: ', ' })
   const chicagoAuthors = joinAuthorsWithWord(datas.authors, getAuthorFull, 'and')
@@ -124,10 +122,6 @@ function getCitationRows(datas, year) {
     {
       label: 'Vancouver',
       text: `1. ${vancouverAuthors}. ${title}. ${shortTitle} [Internet]. ${issueDate};${pageRange || 'n.p.'}. Available from: ${url}`
-    },
-    {
-      label: proceedingLabel,
-      text: hasExternalPdf ? `Full text PDF available at ${datas.paper_external}` : `Proceedings PDF available at ${url}`
     }
   ]
 }
